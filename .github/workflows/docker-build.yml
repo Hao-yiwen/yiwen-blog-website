@@ -32,6 +32,19 @@ jobs:
     - name: Build Project
       run: npm run build
 
+    - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        # Upload entire repository
+        path: './build'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+
     # - name: Login to Docker Hub
     #   run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
@@ -46,13 +59,3 @@ jobs:
     #     github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用 GitHub Token 授权
     #     publish_dir: ./build  # 指定要部署的静态文件目录
     #     publish_branch: gh-pages  # 指定要发布的分支
-    - name: Setup Pages
-        uses: actions/configure-pages@v3
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        # Upload entire repository
-        path: './build'
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
