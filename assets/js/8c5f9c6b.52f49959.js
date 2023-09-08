@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[573],{9687:e=>{e.exports=JSON.parse('{"title":"Java","slug":"/category/java","permalink":"/docs/category/java","navigation":{"previous":{"title":"\u4ecb\u7ecd","permalink":"/docs/backend/intro"},"next":{"title":"java\u5f00\u53d1","permalink":"/docs/backend/java/java_intro"}}}')}}]);

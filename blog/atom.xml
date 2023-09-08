@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>yiwen Blog</title>
+    <updated>2023-09-08T21:25:54.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>yiwen Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[介绍]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/intro</id>
+        <link href="https://your-docusaurus-test-site.com/blog/intro"/>
+        <updated>2023-09-08T21:25:54.000Z</updated>
+    </entry>
+</feed>
