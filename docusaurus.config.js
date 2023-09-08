@@ -9,7 +9,7 @@ const config = {
   title: 'yiwen',
   favicon: 'img/logo.svg',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/yiwen-blog-website/',
   organizationName: 'yiwen',
   projectName: 'docusaurus',
   onBrokenLinks: 'throw',
