@@ -32,11 +32,17 @@ jobs:
     - name: Build Project
       run: npm run build
 
-    - name: Login to Docker Hub
-      run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+    # - name: Login to Docker Hub
+    #   run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
-    - name: Build Docker Image
-      run: docker build --platform linux/amd64 -t ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest .
+    # - name: Build Docker Image
+    #   run: docker build --platform linux/amd64 -t ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest .
 
-    - name: Push to Docker Hub
-      run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+    # - name: Push to Docker Hub
+    #   run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub Token 授权
+        publish_dir: ./build  # 指定要部署的静态文件目录
+        publish_branch: master  # 指定要发布的分支
