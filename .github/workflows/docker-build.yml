@@ -3,7 +3,7 @@ name: Docker Build and Push
 on:
   push:
     branches:
-      - master  # Or the branch name you want
+      - release  # Or the branch name you want
 
 jobs:
   build:
