@@ -43,6 +43,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub Token 授权
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用 GitHub Token 授权
         publish_dir: ./build  # 指定要部署的静态文件目录
         publish_branch: gh-pages  # 指定要发布的分支
