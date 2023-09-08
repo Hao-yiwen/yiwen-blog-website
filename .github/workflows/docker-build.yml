@@ -31,7 +31,7 @@ jobs:
 
     - name: Build Project
       run: npm run build
-      
+
     - name: Login to Docker Hub
       run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
 
@@ -40,3 +40,18 @@ jobs:
 
     - name: Push to Docker Hub
       run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+
+    - name: Setup SSH Keys
+      run: |
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > id_rsa
+        chmod 600 id_rsa
+        ssh-add id_rsa
+
+    - name: Deploy to Server via SSH
+    run: |
+      ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }} << 'ENDSSH'
+        docker pull ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+        docker stop yiwen-blog-website
+        docker rm yiwen-blog-website
+        docker run -d -p 8080:80 --name yiwen-blog-website ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+      ENDSSH
