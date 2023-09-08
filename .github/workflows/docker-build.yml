@@ -40,9 +40,19 @@ jobs:
 
     # - name: Push to Docker Hub
     #   run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    # - name: Deploy to GitHub Pages
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用 GitHub Token 授权
+    #     publish_dir: ./build  # 指定要部署的静态文件目录
+    #     publish_branch: gh-pages  # 指定要发布的分支
+    - name: Setup Pages
+        uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用 GitHub Token 授权
-        publish_dir: ./build  # 指定要部署的静态文件目录
-        publish_branch: gh-pages  # 指定要发布的分支
+        # Upload entire repository
+        path: './build'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
