@@ -50,7 +50,8 @@
         ]
     },
     "lint-staged": {
-        "*.{js,json,md,ts}": "prettier --write"
+        "*.{js,json,md,ts}": "prettier --write",
+        "src/**/*.css": "npm run lint:css"
     },
     "engines": {
         "node": ">=16.14"
