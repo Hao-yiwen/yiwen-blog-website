@@ -1,0 +1,47 @@
+---
+sidebar_position: 1
+---
+
+# background-position
+
+background-position 是 CSS 中用于设置背景图片位置的属性。它决定了背景图像开始的位置，使你可以精确地控制背景图像在元素中的放置。
+
+## 使用规范
+
+```css
+background-position: value1 value2;
+```
+
+## 参数解释
+
+这里的 value1 和 value2 可以是以下几种值：
+
+1. 关键词: 如 top, right, bottom, left, center。例如，background-position: top right; 会将背景图像放置在元素的右上角。
+
+2. 百分比: 例如，background-position: 50% 25%; 会将背景图像的中心放置在容器的 50% 位置水平和 25% 位置垂直。
+
+3. 长度: 可以使用像素 (px)、em、rem 等单位。例如，background-position: 20px 10px; 将背景图像从左上角移动 20px 到右边，10px 向下。
+
+## 代码示例
+
+```css
+/* 使用关键词 */
+div {
+  background-position: top center;
+}
+
+/* 使用百分比 */
+div {
+  background-position: 25% 50%;
+}
+
+/* 使用长度单位 */
+div {
+  background-position: 10px 5px;
+}
+
+/* 如果只提供一个值，第二个值默认为 center */
+div {
+  background-position: right; /* 等同于: background-position: right center; */
+}
+```

@@ -1,8 +1,8 @@
 {
-  "label": "React",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "React框架"
-  }
+    "label": "React",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "React框架"
+    }
 }
