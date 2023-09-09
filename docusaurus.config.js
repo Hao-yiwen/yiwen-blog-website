@@ -48,7 +48,7 @@ const config = {
             navbar: {
                 title: 'yiwen',
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: "yiwen's blog",
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -81,10 +81,6 @@ const config = {
                         position: 'right',
                     },
                 ],
-            },
-            footer: {
-                style: 'dark',
-                copyright: `Copyright © ${new Date().getFullYear()} yiwen web, Inc.`,
             },
             prism: {
                 theme: lightCodeTheme,
