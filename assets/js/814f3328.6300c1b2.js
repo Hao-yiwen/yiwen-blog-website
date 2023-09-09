@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"GitHub \u81ea\u52a8\u5316\u90e8\u7f72\uff1a\u4ece0\u52301","permalink":"/yiwen-blog-website/blog/intro"}]}')}}]);
