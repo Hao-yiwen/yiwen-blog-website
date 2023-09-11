@@ -6,7 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
 function Homepage() {
-    const { siteConfig } = useDocusaurusContext();
     return (
         <header className={styles.pageContainer}>
             <div className={styles.pageCenter}>
