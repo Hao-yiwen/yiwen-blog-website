@@ -5,26 +5,96 @@
  */
 
 /* You can override the default Infima variables here. */
+@import "./taro/custom.css";
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #306cce;
+  --ifm-color-primary-darker: #2d66c3;
+  --ifm-color-primary-darkest: #2554a0;
+  --ifm-color-primary-light: #538ce9;
+  --ifm-color-primary-lighter: #72a1ed;
+  --ifm-color-primary-lightest: #9abcf2;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+  --ifm-line-height-base: 2;
+
+  /* --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1rem;
+  --ifm-h5-font-size: 0.875rem;
+  --ifm-h6-font-size: 0.85rem; */
+
+  --ifm-font-size-base: 14px;
+  --ifm-h1-font-size: 30px;
+  --ifm-h2-font-size: 24px;
+  --ifm-h3-font-size: 18px;
+  --ifm-h4-font-size: 16px;
+  --ifm-h5-font-size: 14px;
+  --ifm-h6-font-size: 12px;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+.markdown > h1,
+.markdown h1:first-child {
+  --ifm-h1-font-size: 30px;
+}
+.markdown > h2 {
+  --ifm-h2-font-size: 24px;
+}
+.markdown > h3 {
+  --ifm-h3-font-size: 18px;
+}
+.markdown > h4 {
+  --ifm-h4-font-size: 16px;
+}
+.markdown > h5 {
+  --ifm-h5-font-size: 14px;
+}
+.markdown > h6 {
+  --ifm-h6-font-size: 12px;
+}
+
+.blog-wrapper
+  .blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-BlogPostItem-styles-module {
+  font-size: var(--ifm-h2-font-size);
+}
+
+code {
+  margin: 0 0.2em;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+pre code {
+  margin: 0;
+}
+
+.table-of-contents {
+  line-height: 1.5;
+}
+
+[data-theme="dark"] {
+  --docusaurus-highlighted-code-line-bg: rgba(66, 66, 66, 0.35);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.expandButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-ExpandButton-styles-module {
+    width: 10px;
+    height: 20px;
+}
+
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
