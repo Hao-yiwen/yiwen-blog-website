@@ -53,3 +53,19 @@ sidebar_position: 1
 依赖冲突和版本管理是复杂的问题，具体情况可能因npm的版本和配置以及`package.json`或`package-lock.json/yarn.lock`的具体内容而有所不同。
 
 总体而言，如果`xtaro`和你的项目都明确要求了特定版本的`taro`，并且这两个版本是不兼容的，那么两个版本都会被安装。否则，`npm`会尝试优化并可能只安装一个共同兼容的版本。
+
+## 请勿滥用post-install
+
+在 npm（或 yarn）中，postinstall 是一个在库安装后自动运行的脚本。如果一个库（或包）在其 package.json 文件中定义了一个 postinstall 脚本，当您通过 npm（或 yarn）安装这个库时，该脚本将自动执行。
+
+:::danger
+使用 postinstall 脚本应当谨慎，因为它们有潜在的安全风险。确保你完全信任你所安装的包，以及它们的 postinstall 脚本。
+
+如果你是库的维护者，不要在 postinstall 脚本中执行可能对用户不明确或意外的操作。
+
+对于全局安装的包，postinstall 脚本将以全局范围内运行，这可能需要更高的系统权限。
+
+有时网络或权限问题可能会导致 postinstall 脚本失败，这也会导致整个安装过程失败。
+
+在某些情况下，用户可能使用 --ignore-scripts 标志来禁用 postinstall 脚本，以避免其执行。
+:::
