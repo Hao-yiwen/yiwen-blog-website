@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Docusaurus 添加 giscus
@@ -17,7 +17,8 @@ sidebar_position: 1
 1. 公共仓库
 2. 开启`discussions`
 3. 下载`giscus app`
-   :::
+
+:::
 
 ## 封装 Comment
 
