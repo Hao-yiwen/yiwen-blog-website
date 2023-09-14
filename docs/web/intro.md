@@ -17,3 +17,5 @@ sidebar_position: 1
 [es6标准入门第三版](../../static/pdf/es6_3.pdf)
 
 [typescrip学习教程](../../static/pdf/typescript_study.pdf)
+
+## qa

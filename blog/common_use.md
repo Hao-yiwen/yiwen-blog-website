@@ -9,7 +9,9 @@ sidebar_position: 4
 1. 设置镜像源
 
 ```bash
-npm: npm config set registry https://registry.npm.taobao.org
+淘宝: npm config set registry https://registry.npm.taobao.org
+
+npm官方: npm config set registry https://registry.npmjs.org/
 
 yarn: yarn config set registry https://registry.npm.taobao.org
 
