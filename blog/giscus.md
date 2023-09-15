@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Docusaurus 添加 giscus
+# Docusaurus 添加评论
 
 ## 前置条件
 
