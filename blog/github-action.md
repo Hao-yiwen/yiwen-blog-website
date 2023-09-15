@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # GitHub 自动化部署：从0到1
 
 本指南旨在引导您使用 GitHub Actions 和 GitHub Pages，高效地为前端项目实现自动化部署。自动化部署不仅可以提高开发效率，还能确保代码质量。

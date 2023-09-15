@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # 常用git命令及解释
 
 ## package-lock.json应不应该上传到代码仓库
