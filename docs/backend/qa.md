@@ -20,10 +20,16 @@ sidebar_position: 4
 
 如果你的项目不是一个 Spring Cloud 项目或者不需要这些特殊的早期配置，通常使用 application.yml 或 application.properties 就足够了。
 
-# 问题2
+## 问题2
 
 **swagger文档url**
 
 ```url
 http://localhost:63050/media/swagger-ui.html
 ```
+
+## Transactional注解使用指南
+
+Transactional注解内部通过代理对象实现，所以事务只能用在代理对象中，如果在实现中直接调用会导致事务不生效的情况，此时需要转换为代理对象。
+
+![Alt text](../../static/img/transactional.png)
