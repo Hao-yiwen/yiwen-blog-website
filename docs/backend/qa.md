@@ -28,8 +28,34 @@ sidebar_position: 4
 http://localhost:63050/media/swagger-ui.html
 ```
 
-## Transactional注解使用指南
+## 问题3
+
+**Transactional注解使用指南**
 
 Transactional注解内部通过代理对象实现，所以事务只能用在代理对象中，如果在实现中直接调用会导致事务不生效的情况，此时需要转换为代理对象。
 
 ![Alt text](../../static/img/transactional.png)
+
+## 问题4
+
+**MaxUploadSizeExceededException问题**
+
+```yml
+spring:
+    servlet:
+        multipart:
+            max-file-size: 100MB
+            max-request-size: 100MB
+```
+
+# 问题5
+
+什么情况下spring事务会失效？
+
+1. 在方法中捕获事务异常没有抛出去
+2. 在非事务方法中调用事务
+3. 事务内部方法调用事务方法
+4. @Transactional标记分方法为private方法
+5. 抛出的异常与指定的异常不匹配
+6. 数据库表不支持事务
+7. 事务传播行为导致事务失效

@@ -18,77 +18,32 @@ FTP 协议：FTP（文件传输协议）也支持断点续传，通常通过 RES
 
 元数据记录：通过记录已经成功下载或上传的数据块的信息，可以在程序或系统重启后，准确地从上次成功的地方继续。
 
-## 项目选型
+# QA
 
-分块上传下载。
+## 问题1
 
-```java
-//    分块下载
-    @Test
-    public void testChunk() throws Exception {
-        File sourceFile = new File("/Users/yw.hao/Desktop/2.mov");
-//        分块文件存储路径
-        String chunkFilePath = "/Users/yw.hao/Desktop/chunk/";
-//        分开文件大小
-        int chunkSize = 1024 * 1024 * 1;
-//        分开文件个数
-        int chunkNum = (int) Math.ceil(sourceFile.length() * 1.0 / chunkSize);
-        RandomAccessFile r = new RandomAccessFile(sourceFile, "r");
-//        缓冲区
-        byte[] bytes = new byte[1024];
-        for (int i = 0; i < chunkNum; i++) {
-            File chunkFile = new File(chunkFilePath + i);
-            RandomAccessFile raf_r = new RandomAccessFile(chunkFile, "rw");
-            int len = -1;
-            while ((len = r.read(bytes)) != -1) {
-                raf_r.write(bytes, 0, len);
-                if (chunkFile.length() >= chunkSize) {
-                    break;
-                }
-            }
-            raf_r.close();
-        }
-        r.close();
-    }
+**断点续传如何实现？**
 
-    //    分块合并
-    @Test
-    public void testMerge() throws IOException {
-        //        分块文件存储路径
-        String chunkFilePath = "/Users/yw.hao/Desktop/chunk/";
-        File chunkFolder = new File(chunkFilePath);
-        File sourceFile = new File("/Users/yw.hao/Desktop/2.mov");
-        File mergeFile = new File("/Users/yw.hao/Desktop/3.mov");
-        File[] files = chunkFolder.listFiles();
-        List<File> fileList = Arrays.asList(files);
+我们基于分块模式的实现断点续传的需求，昂文件上传一部分断网后前边已经上传的不再上传。
 
-        Collections.sort(fileList, new Comparator<File>() {
-            @Override
-            public int compare(File o1, File o2) {
-                return Integer.parseInt(o1.getName()) - Integer.parseInt(o2.getName());
-            }
-        });
-//        向合并文件写的流
-        RandomAccessFile raf_rw = new RandomAccessFile(mergeFile, "rw");
-        byte[] bytes = new byte[1024];
+1. 前端对文件分块
+2. 前端使用多线程一块一块上传，上传前给服务端发个消息校验该分块是否上传，如果已经上传则不再上传
+3. 等所有分块上传完毕，服务端合并所有分块,校验分块完整性。
+   :::note
+   因为分块全部上传到了服务器，服务器将所有分块投顺序进行合井，就是写每个分块文件内客按顺序依次写入一个文件中。使用字节流去读写文件。
+   :::
+4. 前端给服务传了—个md5值，服务端合并文件后计算合井后文件的md5是否和前端传的一样，如果一样则说文件完整，如果不一样说明可能由于网络丢包号致文件不完整，这时上传失败需要重新上传。
 
-//        便利分块文件，合并
-        for (File file : fileList) {
-            RandomAccessFile raf_r = new RandomAccessFile(file, "r");
-            int len = -1;
-            while ((len = raf_r.read(bytes)) != -1) {
-                raf_rw.write(bytes, 0, len);
-            }
-            raf_r.close();
-        }
-        raf_rw.close();
-//        合并文件完成
-        FileInputStream fileInputStream_merge = new FileInputStream(mergeFile);
-        FileInputStream fileInputStream_source = new FileInputStream(sourceFile);
-        String md5_merge = DigestUtils.md5Hex(fileInputStream_merge);
-        String md5_source = DigestUtils.md5Hex(fileInputStream_source);
-        if (md5_merge.equals(md5_source)) {
-            System.out.println("文件合并完成");
-        }
-    }
-```
+## 问题2
+
+**分块文件清理问题？**
+
+上传一个文件进行分块上传，上传一半不传了，之前上传到minio的分块文件要清理吗？怎么做的？
+
+1. 在数据库中有一张文件表记录minio中存储的文件信息。
+2. 文件开始上传时会写入文件表，状态为上传中，上传完成会更新状态为上传完成。
+3. 当一个文件传了一半不再上传了说明该文件没有上传完成，会有定时任务去查询文件表中的记录，如果文件未上传完成则前除minio中没有上传成功的文件目录。
+
+## 示例代码
+
+[分开上传示例代码](https://github.com/Hao-yiwen/xuecheng-plus-project/blob/master/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java)
