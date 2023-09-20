@@ -22,3 +22,25 @@ docker:
   "registry-mirrors": ["https://your-mirror.com"]
 }
 ```
+
+2. 常用brew命令
+
+```bash
+// 包信息
+brew info nginx
+// 重启服务
+brew services restart nginx
+// 服务信息
+brew services info nginx
+```
+
+3. mac修改hosts
+
+```bash
+// 编辑hosts
+sudo vim /etc/hosts
+// 添加网址
+127.0.0.1    example.com
+// 刷新 DNS 缓存
+sudo dscacheutil -flushcache
+```
