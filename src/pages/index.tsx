@@ -11,7 +11,7 @@ function Homepage() {
             <div className={styles.pageCenter}>
                 <div className={styles.pageFont}>Lemo, I want to fly.</div>
                 <Link to="/docs/web/intro" className={styles.link}>
-                    点击开始
+                    天大寒 硕冰坚
                 </Link>
             </div>
         </header>
