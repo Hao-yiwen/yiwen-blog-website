@@ -1,3 +1,7 @@
+---
+title: nginx配置
+---
+
 # nginx配置
 
 ## root和alias区别

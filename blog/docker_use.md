@@ -1,3 +1,7 @@
+---
+title: ARM架构centos9Stream安装
+---
+
 # ARM架构centos9Stream安装
 
 :::info
