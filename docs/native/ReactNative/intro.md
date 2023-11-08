@@ -16,7 +16,7 @@ sidebar_position: 1
 
 [ReactNative issues](https://github.com/facebook/react-native/issues/)
 
-## QA
+## workFlow
 
 目前 RN 脚手架统一使用 ReactNative, cli 包在 ReactNative 核心仓库中，但是是由社区维护。
 
