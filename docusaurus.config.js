@@ -110,6 +110,7 @@ const config = {
                     'sql',
                     'objectivec',
                     'cpp',
+                    'ruby',
                 ],
             },
         }),
