@@ -1,3 +1,7 @@
+---
+title: oh-my-zsh代码提示和补全
+---
+
 # oh-my-zsh代码提示和补全
 
 ## 安装oh-my-zsh

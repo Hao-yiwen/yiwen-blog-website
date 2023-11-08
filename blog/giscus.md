@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Docusaurus 添加评论
 
 ## 前置条件

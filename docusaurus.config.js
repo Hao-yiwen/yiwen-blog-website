@@ -33,6 +33,7 @@ const config = {
                     showReadingTime: true,
                     editUrl:
                         'https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/',
+                    blogSidebarCount: 'ALL',
                 },
                 theme: {
                     customCss: [require.resolve('./src/css/custom.css')],
