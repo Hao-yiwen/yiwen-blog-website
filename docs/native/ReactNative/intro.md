@@ -18,6 +18,8 @@ sidebar_position: 1
 
 ## 一些常用的RN库
 
+[代码示例](https://github.com/Hao-yiwen/reactNative-study): 代码示例，以下内容都可以在此找到示例。
+
 [lottie-react-native](https://github.com/lottie-react-native/lottie-react-native): lottie动画
 
 [react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel): 轮播图
@@ -36,7 +38,7 @@ sidebar_position: 1
 
 [简单存储](https://github.com/react-native-async-storage/async-storage):async-storage
 
-[路由](https://github.com/react-navigation/react-navigation: react-navigation
+[路由](https://github.com/react-navigation/react-navigation): react-navigation
 
 ## workFlow
 
