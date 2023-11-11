@@ -4,6 +4,42 @@ title: 常用git命令及解释
 
 # 常用git命令及解释
 
+## 向github添加ssh
+
+1. 生成 SSH 密钥对
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+2. 将 SSH 密钥添加到 SSH 代理
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+```
+
+3. 将 SSH 公钥添加到 GitHub 账户
+
+4. 测试 SSH 连接
+
+```bash
+ssh -T git@github.com
+```
+
+## 设置别名
+
+```bash
+// git status
+git config --global alias.st status
+
+// git pull
+git config --global alias.pl pull
+
+// git push
+git config --global alias.sh push
+```
+
 ## package-lock.json应不应该上传到代码仓库
 
 package-lock.json 文件应该上传到代码仓库。这个文件锁定了项目依赖的确切版本，这样当其他开发者或者 CI/CD 系统克隆并安装项目时，会得到与你完全相同的依赖版本。
