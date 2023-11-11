@@ -49,3 +49,18 @@ plugins=(git zsh-autosuggestions)
 ```bash
 source ~/.zshrc
 ```
+
+## 使用 zsh-syntax-highlighting
+
+[文档](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
+1. 下载
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+2. 打开~/.zshrc
+```bash
+plugins=( [plugins...] zsh-syntax-highlighting)
+```
