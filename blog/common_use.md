@@ -4,6 +4,11 @@ title: 常用命令
 
 # 常用命令
 
+## 终端代理
+```bash title="ss"
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+```
+
 ## 常用命令
 
 1. 设置镜像源
