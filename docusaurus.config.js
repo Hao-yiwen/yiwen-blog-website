@@ -86,6 +86,12 @@ const config = {
                         position: 'left',
                         label: 'Native开发',
                     },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'whelkSidebar',
+                        position: 'left',
+                        label: '抗痘',
+                    },
                     { to: '/blog', label: '博客', position: 'left' },
                     {
                         type: 'localeDropdown',
