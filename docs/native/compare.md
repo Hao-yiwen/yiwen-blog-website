@@ -45,3 +45,23 @@ Flutter的官方文档十分完善，从原理到底层实现，官方文档都�
 ### Flutter底层解析图
 
 <SVG />
+
+## 对比
+
+### 编译层面
+
+Flutter 的工作原理与 React Native 不同，因此不需要像 Metro 打包器或 Hermes JavaScript 引擎那样的组件。在 Flutter 中，Dart 代码会被 Dart 编译器直接编译成 ARM 代码或 x86/x64 代码，以便直接在不同平台的设备上运行。
+
+1. DartVM：
+   在开发过程中，Flutter 使用 DartVM 来提供热重载功能，这允许开发者在不重新启动应用的情况下，快速测试和构建 UI。
+   DartVM 支持 JIT（Just-In-Time）编译，这意味着它可以在开发过程中实时编译 Dart 代码，提高开发效率。
+
+2. AOT 编译：
+   当构建发布版本的应用时，Flutter 使用 AOT（Ahead-Of-Time）编译。Dart 代码会被编译成本地机器代码（ARM 或 x86/x64），这样在应用运行时就不再需要 DartVM。
+   AOT 编译提供了更好的性能和启动时间，因为代码是直接编译成机器码的。
+
+3. 渲染引擎：
+   Flutter 使用 Skia 作为其渲染引擎，所有的绘制都是由 Skia 完成的，这意味着 Flutter 可以在任何平台上提供一致的视觉体验。
+   由于 Flutter 不使用平台的原生组件，而是直接在画布上绘制 UI，这样就避免了对平台特定的 UI 框架的依赖。
+
+因此，Flutter 提供了一种不同的架构来构建和部署跨平台的移动应用。这种方法允许高性能和高定制性，而无需 JavaScript 的打包器或特定的执行引擎。Dart 的编译过程和 Flutter 的渲染机制使它能够在设备上提供接近原生性能的体验。
