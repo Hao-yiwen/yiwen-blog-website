@@ -1,19 +1,16 @@
 import React from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-
+import Start from './start';
 import styles from './index.module.css';
 
 function Homepage() {
     return (
         <header className={styles.pageContainer}>
-            <div className={styles.pageCenter}>
-                <div className={styles.pageFont}>Lemo, I want to fly.</div>
-                <Link to="/docs/web/intro" className={styles.link}>
-                    天大寒 硕冰坚
-                </Link>
-            </div>
+            <h1 className={styles.flyingText}>Lemo, I want to fly.</h1>
+            <Link to="/docs/web/intro" className={styles.startButton}>
+                <span>开始</span>
+                <Start width={55} height={55} style={{paddingTop: 5, marginLeft: -10}}/>
+            </Link>
         </header>
     );
 }
