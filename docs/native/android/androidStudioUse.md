@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 import android_proxy from "@site/static/img/android_proxy.png";
