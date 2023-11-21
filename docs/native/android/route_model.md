@@ -15,7 +15,7 @@ import android_proxy from "@site/static/img/android_proxy.png";
 3. `singleTask`（栈内复用模式）：系统会在任务栈中查找是否存在Activity的实例，如果存在就复用这个实例（会调用实例的onNewIntent()方法），并且会清除这个实例之上的所有Activity。如果不存在，系统会创建新的实例。 对应的Flag是`Intent.FLAG_ACTIVITY_CLEAR_TOP`或`Intent.FLAG_ACTIVITY_NEW_TASK`。
 4. `singleInstance`（单实例模式）：在一个新的任务栈中创建Activity实例，并且这个任务栈中只有这一个Activity。对应的Flag是`Intent.FLAG_ACTIVITY_NEW_TASK`和`Intent.FLAG_ACTIVITY_MULTIPLE_TASK。`
 
-这四种启动模式可以通过在AndroidManifest.xml文件中的<activity>标签的android:launchMode属性来设置。例如
+这四种启动模式可以通过在AndroidManifest.xml文件中的`<activity>`标签的android:launchMode属性来设置。例如
 
 ```xml
 <activity android:name=".MyActivity" android:launchMode="singleTop" />
