@@ -2,6 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Start from './start';
 import styles from './index.module.css';
+import { Redirect } from '@docusaurus/router';
 
 function Homepage() {
     return (
@@ -16,9 +17,5 @@ function Homepage() {
 }
 
 export default function Home(): JSX.Element {
-    return (
-        <div className={styles.container}>
-            <Homepage />
-        </div>
-    );
+    return <Redirect to="//docs/web/intro" />;
 }

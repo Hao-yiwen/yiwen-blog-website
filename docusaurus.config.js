@@ -55,6 +55,17 @@ const config = {
                 // When applying `zh` in language, please install `nodejieba` in your project.
             },
         ],
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                redirects: [
+                    {
+                        from: '/',
+                        to: '/yiwen-blog-website/docs/intro', // 将此路径更新为你的文档页面的路径
+                    },
+                ],
+            },
+        ],
     ],
 
     themeConfig:
