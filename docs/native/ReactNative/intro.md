@@ -40,6 +40,8 @@ sidebar_position: 1
 
 [路由](https://github.com/react-navigation/react-navigation): react-navigation
 
+[react-native-safe-area-context]:(https://github.com/th3rdwave/react-native-safe-area-context): rn中的安全距离
+
 ## workFlow
 
 目前 RN 脚手架统一使用 ReactNative, cli 包在 ReactNative 核心仓库中，但是是由社区维护。
