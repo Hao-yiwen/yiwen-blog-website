@@ -20,7 +20,7 @@ sidebar_position: 1
 
 [代码示例](https://github.com/Hao-yiwen/reactNative-study): 代码示例，以下内容都可以在此找到示例。
 
-[lottie-react-native](https://github.com/lottie-react-native/lottie-react-native): lottie动画
+[lottie-react-native](https://github.com/lottie-react-native/lottie-react-native): lottie动画，[lottie文件下载](https://lottiefiles.com/featured)
 
 [react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel): 轮播图
 
@@ -40,7 +40,9 @@ sidebar_position: 1
 
 [路由](https://github.com/react-navigation/react-navigation): react-navigation
 
-[react-native-safe-area-context]:(https://github.com/th3rdwave/react-native-safe-area-context): rn中的安全距离
+[react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context): rn中的安全距离
+
+[录音API](https://github.com/react-native-audio-toolkit/react-native-audio-toolkit)
 
 ## workFlow
 
