@@ -44,6 +44,10 @@ sidebar_position: 1
 
 [录音API](https://github.com/react-native-audio-toolkit/react-native-audio-toolkit)
 
+[react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient) 渐变色
+
+[react-native-modals](https://github.com/jacklam718/react-native-modals?tab=readme-ov-file) 弹窗
+
 ## workFlow
 
 目前 RN 脚手架统一使用 ReactNative, cli 包在 ReactNative 核心仓库中，但是是由社区维护。
