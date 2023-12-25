@@ -69,6 +69,22 @@ INNER JOIN departments ON employees.department_id = departments.id;
 SELECT employees.name, departments.department_name
 FROM employees
 LEFT OUTER JOIN departments ON employees.department_id = departments.id;
+
+# 筛选（Filtering）：使用WHERE子句筛选数据。
+
+SELECT * FROM Orders WHERE customerID = 123 AND amount > 100;
+
+# 聚合（Aggregation）：使用GROUP BY和聚合函数（如SUM、COUNT等）。
+
+SELECT customerID, COUNT(*) FROM Orders GROUP BY customerID;
+
+# 连接（Joining）：使用各种JOIN操作将数据与其他表连接。
+
+SELECT Orders.orderID, Customers.name FROM Orders INNER JOIN Customers ON Orders.customerID = Customers.customerID;
+
+# 限制结果数量（Limiting Results）：使用LIMIT限制返回的记录数。
+
+SELECT * FROM Orders LIMIT 10;
 ```
 
 - 关联查询
