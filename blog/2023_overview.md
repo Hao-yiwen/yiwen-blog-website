@@ -2,6 +2,10 @@ import pic from '@site/static/img/2023_overview.jpg'
 
 # 2023年度总结
 
+## 2023年度词汇
+
+君子慎独
+
 ## 2023年度图片
 
 <img src={pic} width={600} />
