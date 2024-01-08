@@ -4,7 +4,7 @@ import pic from '@site/static/img/2023_overview.jpg'
 
 ## 2023年度词汇
 
-君子慎独
+君子慎独、开源、自习室
 
 ## 2023年度图片
 
@@ -161,6 +161,7 @@ import pic from '@site/static/img/2023_overview.jpg'
 
 - 生活
     - 和呆子恋爱5年，需要有一个明确的未来
+    - 学习游泳
     
 - 其他
     - 和自己和解 
