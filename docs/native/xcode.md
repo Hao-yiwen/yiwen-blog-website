@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Xcode常见命令
 
 ## xcode-select
