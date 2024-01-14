@@ -1,9 +1,9 @@
-name: Docker Build and Push
+name: Docker Build and Push to Aliyun
 
 on:
   push:
-    branches:
-      - master  # 或您想要的分支名
+    tags:
+      - 'v*'  # 当推送符合 'v*' 格式的标签时触发
 
 jobs:
   build-and-push:
@@ -12,11 +12,18 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v2
 
-    - name: Login to Docker Hub
-      run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+    - name: Login to Aliyun Container Registry
+      run: |
+        echo "${{ secrets.ALIYUN_CONTAINER_REGISTRY_PASSWORD }}" | docker login --username ${{ secrets.ALIYUN_CONTAINER_REGISTRY_USERNAME }} --password-stdin registry.cn-shanghai.aliyuncs.com
+
+    - name: Extract Git Tag for Version
+      id: tag
+      run: echo "::set-output name=version::$(git describe --tags --abbrev=0)"
 
     - name: Build Docker Image
-      run: docker build --platform linux/amd64 -t ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest .
+      run: |
+        docker build --platform linux/amd64 -t registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }} .
 
-    - name: Push to Docker Hub
-      run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
+    - name: Push to Aliyun Container Registry
+      run: |
+        docker push registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }}
