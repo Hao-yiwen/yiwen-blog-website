@@ -1,48 +1,32 @@
-name: Docker Build and Push
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - master  # Or the branch name you want
+      - master  # 或您想要的分支名
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
-    
+
     - name: Setup Node.js environment
       uses: actions/setup-node@v2
       with:
-        node-version: '16'
-    
-    - name: Cache Node.js modules
-      uses: actions/cache@v2
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-          
+        node-version: '18'
+        cache: 'yarn'
+
     - name: Install Dependencies
-      run: npm install
+      run: yarn install --frozen-lockfile
 
     - name: Build Project
-      run: npm run build
+      run: yarn build
 
-    - name: Login to Docker Hub
-      run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
-
-    - name: Build Docker Image
-      run: docker build --platform linux/amd64 -t ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest .
-
-    - name: Push to Docker Hub
-      run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/yiwen-blog-website:latest
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用 GitHub Token 授权
-        publish_dir: ./build  # 指定要部署的静态文件目录
-        publish_branch: gh-pages  # 指定要发布的分支
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        publish_dir: ./build
+        publish_branch: gh-pages
