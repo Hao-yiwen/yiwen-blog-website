@@ -11,9 +11,9 @@ sidebar_position: 1
 
 ## 学习文档
 
-[head first java](../../static/pdf/head_first_java.pdf)
+[head first java](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/head_first_java.pdf)
 
-[clean code](../../static/pdf/clean_code.pdf)
+[clean code](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/clean_code.pdf)
 
 ## 学习视频
 
