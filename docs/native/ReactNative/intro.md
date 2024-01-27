@@ -52,6 +52,8 @@ sidebar_position: 1
 
 [react-native-toast-message](https://github.com/calintamas/react-native-toast-message) Toast组件
 
+[react-native-device-info](https://github.com/react-native-device-info/react-native-device-info) 获取设备信息
+
 ## workFlow
 
 目前 RN 脚手架统一使用 ReactNative, cli 包在 ReactNative 核心仓库中，但是是由社区维护。
