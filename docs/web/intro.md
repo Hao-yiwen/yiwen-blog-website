@@ -8,15 +8,15 @@ sidebar_position: 1
 
 ## 学习文档
 
-[javascript高级程序设计第四版](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/js_develop4.pdf)
+[javascript高级程序设计第四版](https://yiwen-oss.oss-cn-shanghai.aliyuncs.com/js_develop4.pdf)
 
-[Head First HTML与CSS](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/head-first-html_css.pdf)
+[Head First HTML与CSS](https://yiwen-oss.oss-cn-shanghai.aliyuncs.com/head-first-html_css.pdf)
 
-[CSS权威指南](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/css_3.pdf)
+[CSS权威指南](https://yiwen-oss.oss-cn-shanghai.aliyuncs.com/css_3.pdf)
 
-[es6标准入门第三版](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/es6_3.pdf)
+[es6标准入门第三版](https://yiwen-oss.oss-cn-shanghai.aliyuncs.com/es6_3.pdf)
 
-[typescrip学习教程](https://yiwen-self.oss-cn-shanghai.aliyuncs.com/typescript_study.pdf)
+[typescrip学习教程](https://yiwen-oss.oss-cn-shanghai.aliyuncs.com/typescript_study.pdf)
 
 [css资源集合](https://css.doyoe.com/)
 
