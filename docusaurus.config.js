@@ -88,6 +88,12 @@ const config = {
                     },
                     {
                         type: 'docSidebar',
+                        sidebarId: 'csSidebar',
+                        position: 'left',
+                        label: '计算机基础',
+                    },
+                    {
+                        type: 'docSidebar',
                         sidebarId: 'whelkSidebar',
                         position: 'left',
                         label: '抗痘',
