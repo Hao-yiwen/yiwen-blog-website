@@ -21,10 +21,11 @@ sidebar_position: 1
 [css资源集合](https://css.doyoe.com/)
 
 ## 一些好的Web解决方案和库
-- [bootstrap](https://getbootstrap.com/docs/5.3/forms/form-control/) bootstrap样式库
-- [elementui](https://element.eleme.cn/#/zh-CN) 不用多说
-- [antd](https://ant-design.antgroup.com/index-cn) 不用多说
-- [umi](https://umijs.org/) 一套后台管理系统搭建的解决方案
+
+-   [bootstrap](https://getbootstrap.com/docs/5.3/forms/form-control/) bootstrap样式库: [bootstrap接入指南](https://github.com/Hao-yiwen/web-study/tree/master/cra-demo)
+-   [elementui](https://element.eleme.cn/#/zh-CN) 不用多说
+-   [antd](https://ant-design.antgroup.com/index-cn) 不用多说
+-   [umi](https://umijs.org/) 一套后台管理系统搭建的解决方案
 
 ## qa
 
