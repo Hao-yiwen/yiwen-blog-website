@@ -20,9 +20,15 @@ sidebar_position: 1
 
 [css资源集合](https://css.doyoe.com/)
 
+## 一些好的Web解决方案和库
+- [bootstrap](https://getbootstrap.com/docs/5.3/forms/form-control/) bootstrap样式库
+- [elementui](https://element.eleme.cn/#/zh-CN) 不用多说
+- [antd](https://ant-design.antgroup.com/index-cn) 不用多说
+- [umi](https://umijs.org/) 一套后台管理系统搭建的解决方案
+
 ## qa
 
-## clsx作用
+### clsx作用
 
 :::note
 clsx 的名字可能是由 "class" 和 "extends" 的缩写或组合而来，用于表示这个库的主要用途：扩展和操作 CSS 类名。这个库作为更轻量级和更快速的 classnames 库替代品而生，用于在 JavaScript（特别是在 React 项目中）合并多个类名。
