@@ -123,6 +123,7 @@ const config = {
                     'objectivec',
                     'cpp',
                     'ruby',
+                    'kotlin',
                 ],
             },
         }),
