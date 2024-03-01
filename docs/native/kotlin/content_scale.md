@@ -1,4 +1,4 @@
-# ContentScale
+# Compose设置圆角
 
 ContentScale 是一个用于图片组件（如 Image）的属性，它指定了图片如何适应或填充其容器的尺寸。
 
