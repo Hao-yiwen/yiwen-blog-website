@@ -1,6 +1,10 @@
+import android_cycle from '@site/static/img/20240304_android_cycle.png'
+
 # Andoroid生命周期
 
 Android 应用的生命周期是指应用在其运行期间经历的一系列状态变化，这些状态由操作系统通过调用 Activity 生命周期回调方法来管理。理解这些生命周期回调方法对于开发一个表现良好和用户友好的 Android 应用至关重要。以下是 Android Activity 生命周期的关键组成部分，以及每个阶段的主要职责：
+
+<img src={android_cycle} width={400} />
 
 ## onCreate()：
 
@@ -31,6 +35,10 @@ Android 应用的生命周期是指应用在其运行期间经历的一系列状
 
 当当前 Activity 从停止状态重新启动进入运行状态时，此方法被调用。
 应用可以在此阶段重新初始化在 onStop() 中释放的资源。
+
+:::tip
+onRestart() 方法上的星号表示，每次状态在 Created 和 Started 之间转换时，系统都不会调用此方法。仅当调用 onStop() 并且随后重启 activity 时，系统才会调用此方法。
+:::
 
 ## onDestroy()：
 
