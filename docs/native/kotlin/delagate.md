@@ -37,6 +37,7 @@ Kotlin的类委托是一种设计模式的实现，它允许你将一个接口�
 
 ```kt
 interface Base {
+    val number: Int
     fun print()
 }
 
@@ -48,7 +49,11 @@ class Derived(b: Base) : Base by b
 
 fun main() {
     val b = BaseImpl(10)
-    Derived(b).print() // 输出10
+    // 将委托的对象传进来 然后复制该对象其他属性和方法
+    val b = classDelegate(10)
+    var x = Derived(b)
+    x.print()
+    println(x.number)
 }
 ```
 
