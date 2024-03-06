@@ -25,3 +25,7 @@ ssh -i ~/my-aws-key ec2-user@instance-ip
 [cloudflare解锁](https://www.moeelf.com/archives/304.html)
 
 [ec2链接](https://ap-northeast-1.console.aws.amazon.com/console/home?region=ap-northeast-1#)
+
+[vary](https://www.youtube.com/watch?v=SpxTFes1B8U&ab_channel=%E4%B8%8D%E8%89%AF%E6%9E%97)
+
+[vary文档](https://bulianglin.com/archives/nicename.html)
