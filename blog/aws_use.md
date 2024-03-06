@@ -17,3 +17,11 @@ vim ~/.ssh/authorized_keys
 # 本地登录
 ssh -i ~/my-aws-key ec2-user@instance-ip
 ```
+
+## 站点搭建推荐
+
+[站点搭建](https://www.youtube.com/watch?v=G38pR9nYYL8&ab_channel=%E6%99%93%E6%9F%92%E7%A7%91%E6%8A%80)
+
+[cloudflare解锁](https://www.moeelf.com/archives/304.html)
+
+[ec2链接](https://ap-northeast-1.console.aws.amazon.com/console/home?region=ap-northeast-1#)
