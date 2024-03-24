@@ -7,7 +7,7 @@ KSP (Kotlin Symbol Processing) 是 Google 开发的一套工具，专门用于�
 
 简而言之，如果你想要在 Kotlin 项目中使用注解处理器来生成代码或处理注解，就需要添加 ksp 的相关库来进行注解处理，这样做可以显著提高编译效率，并且只在编译时使用这些库，不会影响最终的运行时性能。
 
-```KT
+```kt
 plugins {
     kotlin("jvm") version "1.4.32"
     id("com.google.devtools.ksp") version "<ksp-version>"
@@ -18,3 +18,7 @@ dependencies {
     ksp("...")
 }
 ```
+
+:::danger
+KSP的使用要和kotlin版本对齐，否则会无法编译，并且有莫名其妙的报错原因。。。
+:::
