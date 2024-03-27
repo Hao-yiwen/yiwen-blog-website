@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # ReactNative开发
 
+# 官方示例demo
+
+[rn_test](https://github.com/facebook/react-native/blob/main/packages/rn-tester/js)
+
 ## 学习文档
 
 [ReactNative@0.71](https://reactnative.dev/docs/0.71/getting-started)
