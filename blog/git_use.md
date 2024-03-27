@@ -4,6 +4,16 @@ title: 常用git命令及解释
 
 # 常用git命令及解释
 
+## 常用git命令
+
+```bash
+# 丢弃所有未暂存的文件
+git checkout -- .
+
+# 丢弃所有暂存的文件
+git reset --hard
+```
+
 ## 向github添加ssh
 
 1. 生成 SSH 密钥对
