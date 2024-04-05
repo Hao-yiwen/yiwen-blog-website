@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[3237],{9754:(e,t,n)=>{n.r(t),n.d(t,{default:()=>s});var b=n(7294),i=n(6550);function s(){return b.createElement(i.l_,{to:"/yiwen-blog-website/docs/web/intro"})}}}]);
