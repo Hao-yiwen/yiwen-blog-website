@@ -1,4 +1,4 @@
-# Flow
+# Flow和StateFlow
 
 Kotlin Flows 是 Kotlin 为处理异步数据流（asynchronous stream）引入的一套 API。这些 API 是协程（coroutines）的一部分，专门用于处理时间上分散的一系列数据。Flows 允许你以非阻塞的方式工作，使得在多个线程之间传递数据变得简单且安全。
 
@@ -39,42 +39,63 @@ fun simple(): Flow<Int> = flow{
 }
 ```
 
-## 冷流和热流
+## Room使用collect来消费flow，然后转换为stateflow(热流)
 
-### 冷流（Cold Flow）
+### 使用collect来消费
+```kt
+// repogistory中的定义，room支持flow消费
+fun searchAllAirport(): Flow<List<Airport>>
 
--   被动的：冷流不会自己开始产生数据，除非有收集器开始收集它们（collect 方法被调用）。换句话说，数据的生产是由消费者驱动的。
--   按需生产：每次收集器开始收集时，冷流都会从头开始生成数据。这意味着每个收集器都会获得独立的数据序列。
--   例子：flow { emit(1) } 是一个简单的冷流示例，它只在有收集操作时产生数据。
 
-### 热流（Hot Flow）
+// viewModel中的消费
+/**
+* @description 解决数据库初始化问题
+* - 在3月份使用数据库的时候发现，初次进入页面无法初始化数据库，经过debugger发现，问题是之前的airportRegistory方法是Flow类型，而Flow类型是冷流，
+* 只有订阅了才会执行，所以在初次进入页面的时候，没有订阅，导致数据库没有初始化，所以现在我改成Suspend,问题解决了
+* - 还有一个问题就是uistate的问题，uistate需要委托创建而不是初始化，例如
+* val uiState by viewModel.uiState.collectAsState()
+* @date: 2024/4/5 01:00 AM
+*/
+viewModelScope.launch(Dispatchers.IO) {
+    var allAirport: List<Airport> = emptyList()
+    airportRepository.searchAllAirport().collect { value ->
+        {
+            allAirport = value
+        }
+    }
+    _uiState.update {
+        _uiState.value.copy(
+            allAirport = allAirport
+        )
+    }
+}
+```
 
--   主动的：热流开始产生数据的时刻不依赖于是否有收集器存在。它们可能在后台独立运行，与收集器的存在与否无关。
--   共享状态或事件：热流的数据由所有收集器共享。这意味着，一个热流的当前值是由最近发射的值表示的，当新的收集器开始收集时，它可能会错过之前发射的值。
--   例子：StateFlow 和 SharedFlow 是热流的例子。它们可以用来表示应用的状态或者是应用中发生的事件。
+### 使用standIn来消费，直接转换
 
-### 主要区别
+```kt
+val uiState: StateFlow<BusScheduleUiState> = offlineBusScheduleRepository.getSchedule().map {
+    BusScheduleUiState(it)
+}
+    .stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(TIMEOUT_MILLIS),
+        initialValue = BusScheduleUiState()
+    )
+```
 
--   启动方式：冷流的启动是被收集器触发的，而热流的启动通常是独立于收集器的。
--   数据共享：冷流为每个收集器独立产生数据序列，而热流的数据由所有收集器共享。
+stateIn会新建一个BusScheduleUiState 然后将flow转换成stateflow后再赋值。
 
-### 使用场景：
+#### stateIn前面的map作用
 
--   冷流：适用于数据流是按需生成并且对每个收集器都是独立的场景，如网络请求、数据库查询。
--   热流：适用于需要共享状态或事件的场景，如 UI 状态更新、实时消息。
+看下面示例：
 
-## StateFlow
+```kt
+data class UIState(val count: Int, val errorMessage: String? = null)
 
-StateFlow 是一种特殊的 Flow，用于表示随时间变化的状态。它具有以下特点：
-
--   始终保持当前状态值：StateFlow 保持一个当前的状态值，任何时候都可以访问。当你开始收集一个 StateFlow 时，它会立即发射当前的状态值，这使得它非常适合用于 UI 状态的管理。
--   状态更新：你可以更新 StateFlow 的状态，所有的观察者（收集器）都会接收到新的状态值。
--   热流特性：与其他热流一样，StateFlow 的生命周期独立于它的收集器。一旦 StateFlow 的值被更新，所有的活跃收集器都会接收到最新的值，即使这些值在收集器开始收集之前就已经发射了。
-
-## 为什么 Flow 是冷的？
-
-因为 Flow 的设计初衷是为了方便地在协程中表示异步数据流。通过将数据流的生成延迟到收集阶段，Flow 提供了更大的灵活性和控制，使其能够更容易地表达复杂的数据处理操作，同时保持轻量级和响应性。
-
-Flow 的这种冷流特性，使其适合于表示数据的动态变化，例如网络请求、数据库查询等操作，这些操作只有在实际需要数据时才会被触发和执行。
-
-尽管 Flow 是冷流，Kotlin 提供了将冷流转换为热流的机制，如 StateFlow 和 SharedFlow，这两种类型的流可以保持状态或者共享发射的数据给多个收集器，而不需要重新执行数据生成逻辑。
+val countFlow: Flow<Int> = flowOf(1, 2, 3) // 仅作为示例
+val uiStateFlow: Flow<UIState> = countFlow.map { count ->
+    UIState(count = count)
+}
+```
+如果原始数据是`Flow<Int>`类型，而你想要的结果是包含这些数据的UIState对象的流，那么通过转换，你会得到`Flow<UIState>`。
