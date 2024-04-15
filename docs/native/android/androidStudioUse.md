@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 import android_proxy from "@site/static/img/android_proxy.png";
 
 # Android studio使用
