@@ -14,7 +14,7 @@ rvm reinstall 2.7.2 --with-openssl-dir=/opt/homebrew/opt/openssl@1.1
 
 ## faq
 
-![RN底层图](../../static/img/ruby_error.png)
+![RN底层图](../../../static/img/ruby_error.png)
 
 解决办法：
 ```bash
