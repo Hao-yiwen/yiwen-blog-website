@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[3237],{9754:(e,t,n)=>{n.r(t),n.d(t,{default:()=>b});var i=n(7294),s=n(6550);function b(){return i.createElement(s.l_,{to:"/yiwen-blog-website/docs/native/android/intro"})}}}]);

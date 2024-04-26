@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[4073],{66645:e=>{e.exports=JSON.parse('{"title":"Android","slug":"/category/android","permalink":"/yiwen-blog-website/docs/category/android","navigation":{"next":{"title":"Compose","permalink":"/yiwen-blog-website/docs/category/compose"}}}')}}]);
