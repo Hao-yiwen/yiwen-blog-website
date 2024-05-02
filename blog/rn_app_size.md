@@ -17,6 +17,12 @@ import Size0725 from '@site/static/img/0725_size.png'
 
 <img src={Size0725} width={500}/>
 
-## 总结
+## 20240428
 
 此事已提issues，[issues链接](https://github.com/facebook/react-native/issues/44291#issuecomment-2079889795)
+
+## 20240428
+
+此事被rn团队成员恢复，android包体积并没有变大，在文件夹中体积变大原因是因为android后续格式无压缩，导致看清来体积较大。
+
+[issues解答](https://github.com/facebook/react-native/issues/44291#issuecomment-2084952099)
