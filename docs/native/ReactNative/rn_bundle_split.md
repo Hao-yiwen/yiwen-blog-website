@@ -18,7 +18,56 @@
 
 -   [0.73.6拆包](https://github.com/Hao-yiwen/reactNative-study/tree/master/splitRn_0736
 
-按照文档逻辑进行拆包，前期metro打包正常，但是在0.73.6+版本中遇到如下报错
+~~按照文档逻辑进行拆包，前期metro打包正常，但是在0.73.6+版本中遇到如下报错~~
+
+该问题已解决，在 0.73.0+中在预设的 metro 上面扩展就可以了。例如下面的 metro
+```js title="基于预设的 metro 配置的 metro"
+const { hasBuildInfo, writeBuildInfo, clean } = require("./build");
+
+function createModuleIdFactory() {
+  console.log('init common -------->');
+  const fileToIdMap = new Map();
+  let nextId = 0;
+  clean("./config/bundleCommonInfo.json");
+
+  // 如果是业务 模块请以 10000000 来自增命名
+  return (path) => {
+    let id = fileToIdMap.get(path);
+
+    if (typeof id !== "number") {
+      id = nextId++;
+      fileToIdMap.set(path, id);
+
+      !hasBuildInfo("./config/bundleCommonInfo.json", path) &&
+        writeBuildInfo(
+          "./config/bundleCommonInfo.json",
+          path,
+          fileToIdMap.get(path)
+        );
+    }
+
+    return id;
+  };
+}
+
+const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+
+/**
+ * Metro configuration
+ * https://facebook.github.io/metro/docs/configuration
+ *
+ * @type {import('metro-config').MetroConfig}
+ */
+const config = {
+  serializer: {
+    createModuleIdFactory: createModuleIdFactory, // 给 bundle 一个id 避免冲突 cli 源码中这个id 是从1 开始 自增的
+  },
+};
+
+module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+```
+
+----
 
 ```
 FATAL EXCEPTION: mqt_js (Ask Gemini)
