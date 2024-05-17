@@ -1,0 +1,29 @@
+name: Docker Build and Push to Aliyun
+
+on:
+  push:
+    tags:
+      - 'v*'  # 当推送符合 'v*' 格式的标签时触发
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Login to Aliyun Container Registry
+      run: |
+        echo "${{ secrets.ALIYUN_CONTAINER_REGISTRY_PASSWORD }}" | docker login --username ${{ secrets.ALIYUN_CONTAINER_REGISTRY_USERNAME }} --password-stdin registry.cn-shanghai.aliyuncs.com
+
+    - name: Extract Git Tag for Version
+      id: tag
+      run: echo "::set-output name=version::$(git describe --tags --abbrev=0)"
+
+    - name: Build Docker Image
+      run: |
+        docker build --platform linux/amd64 -t registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }} .
+
+    - name: Push to Aliyun Container Registry
+      run: |
+        docker push registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }}

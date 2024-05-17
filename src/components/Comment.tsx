@@ -7,7 +7,6 @@ export const Comment = () => {
             <Giscus
                 id="comments"
                 // highlight-warn-start
-                // 这部分填写你自己的
                 repo="Hao-yiwen/yiwen-blog-website"
                 repoId="R_kgDOKCp9Gw"
                 category="Announcements"

@@ -21,3 +21,4 @@ title: ARM架构centos9Stream安装
 
 1. 镜像自带`gedit`,但是为了使用便利性，建议安装`zsh`和`oh-my-zsh`,以及`zsh-autosuggestions`和`zsh-syntax-highlighting`
 2. 必备:`docker`和`git`
+

@@ -1,14 +1,26 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 # Android开发
+
+## 推荐使用的android库
+
+- [sriracha字体](https://fonts.google.com/?query=sriracha)
+
+- [Retrofit请求库](https://github.com/square/retrofit)
+
+- [Coil远程图片加载库](https://github.com/coil-kt/coil)
 
 ## 文档
 
 [视频教程](https://www.bilibili.com/video/BV19U4y1R7zV/?p=15&spm_id_from=pageDriver&vd_source=e2ad92335ca8373f02f0c6b05e039a53)
 
 [文档](https://developer.android.com/docs?hl=zh-cn)
+
+## 学习路线
+
+[学习路线图](https://www.processon.com/view/link/62427cb2e0b34d0730e20e00)
 
 ## Kotlin
 

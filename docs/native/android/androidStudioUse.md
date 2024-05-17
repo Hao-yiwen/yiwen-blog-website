@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 import android_proxy from "@site/static/img/android_proxy.png";
 
 # Android studio使用
@@ -15,3 +11,7 @@ import android_proxy from "@site/static/img/android_proxy.png";
 3. 使用魔法配置代理
 
 <img src={android_proxy} width={600} />
+
+## 常用快捷键
+
+- [control+h](https://github.com/react-native-oh-library): 显示类引用图，梳理大型项目以来有作用

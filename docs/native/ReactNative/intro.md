@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # ReactNative开发
 
+# 官方示例demo
+
+[rn_test](https://github.com/facebook/react-native/blob/main/packages/rn-tester/js)
+
 ## 学习文档
 
 [ReactNative@0.71](https://reactnative.dev/docs/0.71/getting-started)
@@ -20,7 +24,7 @@ sidebar_position: 1
 
 [代码示例](https://github.com/Hao-yiwen/reactNative-study): 代码示例，以下内容都可以在此找到示例。
 
-[lottie-react-native](https://github.com/lottie-react-native/lottie-react-native): lottie动画
+[lottie-react-native](https://github.com/lottie-react-native/lottie-react-native): lottie动画，[lottie文件下载](https://lottiefiles.com/featured)
 
 [react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel): 轮播图
 
@@ -39,6 +43,20 @@ sidebar_position: 1
 [简单存储](https://github.com/react-native-async-storage/async-storage):async-storage
 
 [路由](https://github.com/react-navigation/react-navigation): react-navigation
+
+[react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context): rn中的安全距离
+
+[录音API](https://github.com/react-native-audio-toolkit/react-native-audio-toolkit)
+
+[react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient) 渐变色
+
+[react-native-modals](https://github.com/jacklam718/react-native-modals?tab=readme-ov-file) 弹窗
+
+[Native Base组件库](https://docs.nativebase.io/radio) 组件库 有Radio组件
+
+[react-native-toast-message](https://github.com/calintamas/react-native-toast-message) Toast组件
+
+[react-native-device-info](https://github.com/react-native-device-info/react-native-device-info) 获取设备信息
 
 ## workFlow
 

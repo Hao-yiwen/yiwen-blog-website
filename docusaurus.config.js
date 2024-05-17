@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'yiwen',
-    favicon: 'img/logo.svg',
+    favicon: 'img/logo.png',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/yiwen-blog-website/',
     organizationName: 'yiwen',
@@ -62,12 +62,18 @@ const config = {
         ({
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'yiwen',
+                title: 'Yiwen',
                 logo: {
                     alt: "yiwen's blog",
-                    src: 'img/logo.svg',
+                    src: 'img/logo.png',
                 },
                 items: [
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'nativeSidebar',
+                        position: 'left',
+                        label: 'Native开发',
+                    },
                     {
                         type: 'docSidebar',
                         sidebarId: 'webSidebar',
@@ -82,9 +88,9 @@ const config = {
                     },
                     {
                         type: 'docSidebar',
-                        sidebarId: 'nativeSidebar',
+                        sidebarId: 'csSidebar',
                         position: 'left',
-                        label: 'Native开发',
+                        label: '计算机基础',
                     },
                     {
                         type: 'docSidebar',
@@ -117,6 +123,7 @@ const config = {
                     'objectivec',
                     'cpp',
                     'ruby',
+                    'kotlin',
                 ],
             },
         }),
