@@ -17,7 +17,7 @@ target_link_libraries(native-lib ${log-lib})
 2. 编写 C++ 代码
    在 app/src/main 目录下创建一个 cpp 文件夹，并在其中创建 native-lib.cpp 文件，内容如下：
 
-```c++
+```cpp
 #include <jni.h>
 #include <string>
 
@@ -86,8 +86,8 @@ return env->NewStringUTF(hello.c_str());
 #include <string>
 ```
 
--   #include <jni.h>: 引入 JNI（Java Native Interface）头文件，提供与 Java 交互的功能。
--   #include <string>: 引入标准库中的字符串类，用于处理 C++ 字符串。
+-   #include `<jni.h>`: 引入 JNI（Java Native Interface）头文件，提供与 Java 交互的功能。
+-   #include `<string>`: 引入标准库中的字符串类，用于处理 C++ 字符串。
 
 2. 声明 C 函数调用约定
 
