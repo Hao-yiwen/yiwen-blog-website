@@ -8,6 +8,12 @@ sidebar_position: 1
 
 Objective-C（OC），作为一种基于 C 的编程语言，继承了 C 语言的基本类型，并引入了一些自己的特定类型。
 
+## 文档
+
+-   [24天学习oc](https://www.binpress.com/learn-objective-c-24-days/)
+
+-   [oc参考文档](https://www.tutorialspoint.com/objective_c/objective_c_structures.htm)
+
 ## 数据类型
 
 ### 基础数据类型（从 C 继承）
