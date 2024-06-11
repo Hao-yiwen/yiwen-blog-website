@@ -5,6 +5,7 @@ sidebar_position: 2
 # UIkit基本示例
 
 ```swift
+// 纯代码实现形式
 import UIKit
 
 class ViewController: UIViewController {
