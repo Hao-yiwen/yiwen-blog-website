@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 import ios_main1 from "@site/static/img/ios_main1.png";
 import ios_main2 from "@site/static/img/ios_main2.png";
 import ios_main3 from "@site/static/img/ios_main3.png";
@@ -9,7 +5,10 @@ import ios_main4 from "@site/static/img/ios_main4.png";
 
 # ios项目集成ReactNative项目
 
-## 参考文档
+# ~~该文档已废弃~~
+[新文档](./ios_integative_rn.md)
+
+## ~~参考文档~~
 
 [Integration with Ios swift's Apps](https://reactnative.dev/docs/integration-with-existing-apps)
 
