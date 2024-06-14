@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # IOS打包
 
 ## IOS打出包的类型
