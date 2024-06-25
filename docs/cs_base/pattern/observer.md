@@ -16,3 +16,89 @@
 2.	观察者 (Observer)：定义一个更新接口，以便在主题状态发生变化时得到通知。
 3.	具体主题 (Concrete Subject)：实现主题接口，维护其状态，当状态发生变化时通知所有观察者。
 4.	具体观察者 (Concrete Observer)：实现观察者接口，以便在得到通知时更新自身状态。
+
+## 示例代码
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+// 主题接口
+interface Subject {
+    void registerObserver(Observer o);
+    void removeObserver(Observer o);
+    void notifyObservers();
+}
+
+// 具体主题类
+class ConcreteSubject implements Subject {
+    private List<Observer> observers;
+    private int state;
+
+    public ConcreteSubject() {
+        this.observers = new ArrayList<>();
+    }
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+        notifyObservers();
+    }
+
+    @Override
+    public void registerObserver(Observer o) {
+        observers.add(o);
+    }
+
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.update();
+        }
+    }
+}
+
+// 观察者接口
+interface Observer {
+    void update();
+}
+
+// 具体观察者类
+class ConcreteObserver implements Observer {
+    private ConcreteSubject subject;
+
+    public ConcreteObserver(ConcreteSubject subject) {
+        this.subject = subject;
+        this.subject.registerObserver(this);
+    }
+
+    @Override
+    public void update() {
+        System.out.println("Observer notified. State is: " + subject.getState());
+    }
+}
+
+// 客户端代码
+public class ObserverPatternDemo {
+    public static void main(String[] args) {
+        ConcreteSubject subject = new ConcreteSubject();
+
+        new ConcreteObserver(subject);
+        new ConcreteObserver(subject);
+
+        System.out.println("First state change: 15");
+        subject.setState(15);
+
+        System.out.println("Second state change: 10");
+        subject.setState(10);
+    }
+}
+```
