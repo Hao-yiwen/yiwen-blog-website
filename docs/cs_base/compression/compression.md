@@ -78,3 +78,7 @@ rm -f "$gzip_file" "$zstd_file" "$seven_zip_file"
 ```
 
 ![png](../../../static/img/compression.png)
+
+## 总结
+
+gzip压缩比低，zstd提供了较高的压缩比和极快的解压时间，7z的压缩比会比zstd高。
