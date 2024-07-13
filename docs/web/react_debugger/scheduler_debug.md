@@ -1,0 +1,7 @@
+# scheduler解析
+
+在页面初始化的时候会调用unstable_scheduleCallback调度一次performSyncWorkOnRoot来初始化渲染工作。
+
+![alt unstable_scheduleCallback](unstable_scheduleCallback.png)
+
+然后会调用renderRootSync来渲染整个根页面。
