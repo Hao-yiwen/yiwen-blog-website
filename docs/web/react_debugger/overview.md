@@ -6,7 +6,13 @@ react是一个web框架，主要是声明式语法减少开发者成本，使用
 
 ## 工作流程
 
-react通过babel插件来将jsx转化为React.createElement语法，简化开发者开发成本。然后在scheduler中的使用时间切片做到的优先级任务调度，该任务调度直到任务队列中没有任务才会执行完毕。该任务调度会调度reconciler来维护一颗虚拟dom树。该树是由fiber节点使用链表构成的，fiber在react16推出。该虚拟dom树是当前页面状态的真实写照。然后根据diff算法最小化更新真实dom节点。在提交阶段，会真实出发dom更新和触发各个时期的声明周期函数和hooks。然后在事件响应的时候，在raect-dom库中有事件监听事件，所有事件都会被标准化并以合成事件的形式处理。事件处理函数会根据事件的优先级被调度执行。然后调用flushsync函数来在微任务中更新虚拟dom节点，然后反馈到真实dom中，然后在提交阶段最小更新dom。
+react通过babel插件来将jsx转化为React.createElement语法，简化开发者开发成本。然后调用ensureRootIsScheduled函数来处理根任务，因为是初始化操作，所以都是同步任务。然后交给scheduler调度器使用时间切片做到的优先级任务调度。该任务调度会调度reconciler来维护一颗虚拟dom树。该树是由fiber节点使用链表构成的，fiber在react16推出。该虚拟dom树是当前页面状态的真实写照。然后根据diff算法最小化更新真实dom节点。在提交阶段，会真实出发dom更新和触发各个时期的声明周期函数和hooks。然后在事件响应的时候，在raect-dom库中有事件监听事件，所有事件都会被标准化并以合成事件的形式处理。事件处理函数会根据事件的优先级被调度执行。然后调用flushsync函数来在微任务中更新虚拟dom节点，然后反馈到真实dom中，然后在提交阶段最小更新dom。(初始化提交的lanes是正常优先级)
+
+在事件处理的时候如果是同步执行，那么是不调用schedular来分配时间片的。
+
+![sync_render](sync_render.png)
+
+![sync_commit](sync_commit.png)
 
 ## 为什么说时间切片是基于fiber节点做到的？
 
@@ -253,6 +259,43 @@ function performUnitOfWork(unitOfWork: Fiber): void {
 从这里可以简单看到，实际上diff算法是直接修改传递给他对对象的参数，然后completeUnitOfWork根据修改后的fiber节点来创建dom。。。虽然在开发中直接修改对象参数不太好。但是react就是这样做的～～～这也是侧面证明了js的灵活性吧。。～～～～
 
 当然从这里也可以看到fiber变化是没有规律的，所以在react并不对外直接开发fiber节点和依赖fiber节点干任何事情。而fiber节点只是内部用的～～还有就是使用react devtools调试时候用的。
+
+## lane和scheduler中的优先级调度关系？
+
+首先在事件调度的时候会根据事件优先级设置lanes，然后lanes设置完毕后会调用ensureRootIsScheduled函数。该函数用来处理根任务的任务队列。然后该函数会获取当前最高优先级的lanes，然后根据俄lanes分配优先级。
+
+```js
+let schedulerPriorityLevel;
+switch (lanesToEventPriority(nextLanes)) {
+    case DiscreteEventPriority:
+        schedulerPriorityLevel = ImmediateSchedulerPriority;
+        break;
+    case ContinuousEventPriority:
+        schedulerPriorityLevel = UserBlockingSchedulerPriority;
+        break;
+    case DefaultEventPriority:
+        schedulerPriorityLevel = NormalSchedulerPriority;
+        break;
+    case IdleEventPriority:
+        schedulerPriorityLevel = IdleSchedulerPriority;
+        break;
+    default:
+        schedulerPriorityLevel = NormalSchedulerPriority;
+        break;
+}
+newCallbackNode = scheduleCallback(
+    schedulerPriorityLevel,
+    performConcurrentWorkOnRoot.bind(null, root)
+);
+```
+
+然后schedular根据穿过来的优先级来创造时间切片来处理该任务。
+
+然后调用`performUnitOfWork`中的beginwork函数来进行diff计算，然后将事件对应的fiber节点扩散到需要更新的fibers。
+
+然后在渲染这段找到所有需要更新的fibers创建真实dom。
+
+在提交阶段根据lanes，找到要提交的lanes来进行提交。并执行附带的副作用函数。一次事件处理就这样完成了。
 
 ## 该事件根据事件的优先级，进行事件响应，代码怎么实现的？
 
