@@ -1,8 +1,12 @@
-## react-reconciler协调器调用堆栈
+## react运行堆栈
 
 一次从试图创建到真实dom创建的过程。
 
 ![reconciler_stack](reconciler_stack.png)
+
+## ensureRootIsScheduled
+
+任务总调度的地方。只要用时间切片还是不切片，一切看任务优先级。页面初始化的时候优先级是normal优先级，优先级是3。走时间切片渲染。
 
 ## performConcurrentWorkOnRoot
 
