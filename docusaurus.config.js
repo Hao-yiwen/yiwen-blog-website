@@ -76,6 +76,12 @@ const config = {
                     },
                     {
                         type: 'docSidebar',
+                        sidebarId: 'aiSidebar',
+                        position: 'left',
+                        label: '人工智能',
+                    },
+                    {
+                        type: 'docSidebar',
                         sidebarId: 'webSidebar',
                         position: 'left',
                         label: 'Web开发',
