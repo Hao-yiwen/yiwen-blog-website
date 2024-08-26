@@ -20,15 +20,15 @@ sidebar_position: 1
 
 [ReactNative issues](https://github.com/facebook/react-native/issues/)
 
-## 一些常用的RN库
-
-### 三个react native最重要的库
+## 三个react native最重要的库
 
 [reactnavigation](https://reactnavigation.org/docs/getting-started)
 
 [react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/docs/)
 
 [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started)
+
+## 一些常用的RN库
 
 [代码示例](https://github.com/Hao-yiwen/reactNative-study): 代码示例，以下内容都可以在此找到示例。
 
