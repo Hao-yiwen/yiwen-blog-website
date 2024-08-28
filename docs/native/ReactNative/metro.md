@@ -6,6 +6,8 @@ Metro 是 React Native 的 JavaScript bundler，它负责将 JavaScript 代码�
 
 [metro配置](https://metrobundler.dev/docs/configuration#resolver-options)
 
+[metro详解](https://metaatem.cn/react/react-native_bundle%E5%88%B0bundle%E7%94%9F%E6%88%90%E5%88%B0%E5%BA%95%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88.html#%E4%B8%80%E3%80%81%E5%89%8D%E8%A8%80)
+
 ## 主要组成部分
 
 1. Resolver（模块解析器）：
@@ -32,3 +34,9 @@ Metro 是 React Native 的 JavaScript bundler，它负责将 JavaScript 代码�
 
 -   负责将模块代码序列化成一个 bundle 文件。
 -   支持自定义序列化逻辑以优化输出文件。
+
+## babel插件自定义
+
+在有些时候需要自己写babel插件来做一些代码层面的转化，在这个时候需要对babel.parse有了解，否则就无法写插件了。
+
+下面网站可以在线把一个文件转化为ast: https://astexplorer.net/#/KJ8AjD6maa
