@@ -71,3 +71,30 @@ curl https://www.google.com
 ```
 
 ## 魔法使用完毕
+
+## docker中使用代理
+
+docker hub在国内使用的时候会有几率出现链接超时问题，这时需要给docker设置代理来解决这个问题。
+
+```bash
+Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+```
+
+### 解决方案
+
+https://stackoverflow.com/questions/48056365/error-get-https-registry-1-docker-io-v2-net-http-request-canceled-while-b
+
+https://docs.docker.com/engine/daemon/proxy/
+
+从两者来看需要手动设置代理
+
+```bash
+[Service]
+Environment="HTTP_PROXY=http://127.0.0.1:7890"
+Environment="HTTPS_PROXY=http://127.0.0.1:7890"
+```
+
+```bash
+sudo systemctl daemon-reload                            
+sudo systemctl restart docker
+```
