@@ -6,4 +6,8 @@
 
 ## 学习
 
-机器学习： https://www.coursera.org/learn/machine-learning/lecture/FthLz/cost-function-intuition
+机器学习： https://www.coursera.org/learn/machine-learning/lecture/jKBHE/
+
+## 代码示例
+
+https://github.com/Hao-yiwen/2022-Machine-Learning-Specializatio
