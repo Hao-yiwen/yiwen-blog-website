@@ -20,6 +20,10 @@ sidebar_position: 1
 
 [ReactNative issues](https://github.com/facebook/react-native/issues/)
 
+## 一套集成了expo的官方推荐开发模版（可以极大提高开发效率）
+
+[ignite模版](https://github.com/infinitered/ignite)
+
 ## 三个react native最重要的库
 
 [reactnavigation](https://reactnavigation.org/docs/getting-started)
