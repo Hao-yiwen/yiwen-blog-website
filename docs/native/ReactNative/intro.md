@@ -4,13 +4,20 @@ sidebar_position: 1
 
 # ReactNative开发
 
-# 官方示例demo
+## 发展历史
+
+截至20241029，rn已经推出了稳定的新架构版本了，而此时rn的开发也完全和之前的开发逻辑不相同了。
+
+- react native只维护rn的核心逻辑以及架构逻辑，但是在实际的业务开发中无法只使用rn库来进行app开发，需要大量依赖社区维护的库，所以rn团队觉得rn只是一个库，而不是一个开发框架，如果要进行app开发，那么推荐使用expo框架进行。
+- 新架构在076已经默认使用，所以后续的开发要使用新架构开发。经过简单测试新架构+hbc的性能要远好于旧架构，并且react19的若干特性也会慢慢的在新架构实现。批处理已经实现了。
+
+## 官方示例demo
 
 [rn_test](https://github.com/facebook/react-native/blob/main/packages/rn-tester/js)
 
 ## 学习文档
 
-[ReactNative@0.71](https://reactnative.dev/docs/0.71/getting-started)
+[ReactNative](https://reactnative.dev/docs/getting-started)
 
 ## ReactNative库查询
 
