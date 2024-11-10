@@ -70,15 +70,15 @@ const config = {
                 items: [
                     {
                         type: 'docSidebar',
-                        sidebarId: 'nativeSidebar',
-                        position: 'left',
-                        label: 'Native开发',
-                    },
-                    {
-                        type: 'docSidebar',
                         sidebarId: 'aiSidebar',
                         position: 'left',
                         label: '人工智能',
+                    },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'nativeSidebar',
+                        position: 'left',
+                        label: 'Native开发',
                     },
                     {
                         type: 'docSidebar',
