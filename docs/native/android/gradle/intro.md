@@ -13,6 +13,12 @@ Gradle 是一个开源的自动化构建工具，它能够为各种编程语言�
 
 5. 灵活的构建脚本：使用 Groovy 或 Kotlin 编写的 DSL 让构建脚本更加灵活和强大，支持编程式的构建逻辑，以及对现有任务的扩展和自定义。
 
+## gradle升级
+
+```bash
+./gradlew wrapper --gradle-version=7.6.1
+```
+
 ## 使用场景
 1. Java 和 Android 开发：Gradle 是 Android 官方推荐的构建工具，深度集成到 Android Studio 中。它为 Java 和 Kotlin 应用程序提供了先进的构建和包管理能力。
 
