@@ -88,12 +88,14 @@ https://docs.docker.com/engine/daemon/proxy/
 
 从两者来看需要手动设置代理
 
+1. 创建或者编辑`/etc/systemd/system/docker.service.d/http-proxy.conf`
 ```bash
 [Service]
 Environment="HTTP_PROXY=http://127.0.0.1:7890"
 Environment="HTTPS_PROXY=http://127.0.0.1:7890"
 ```
 
+2. 重启
 ```bash
 sudo systemctl daemon-reload                            
 sudo systemctl restart docker
