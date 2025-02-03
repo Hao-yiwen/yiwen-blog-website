@@ -1,5 +1,5 @@
 import sigmoid_pic from '@site/static/img/sigmoid_pic.png'
-import tanh_pic from '@site/static/img/tanh_pic.jpg'
+import tanh_pic from '@site/static/img/tanh_pic.png'
 
 # 梯度消失和爆炸问题
 
