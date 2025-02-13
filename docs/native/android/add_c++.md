@@ -106,7 +106,7 @@ Java_com_example_myapplication_MainActivity_stringFromJNI(
     jobject /* this */) {
 ```
 
--   Java*com_example_myapplication_MainActivity_stringFromJNI: 这是 JNI 函数的标准命名约定。格式为 Java*<包名>_<类名>_<方法名>，其中包名和类名中的点号替换为下划线。
+-   Java*com_example_myapplication_MainActivity_stringFromJNI: 这是 JNI 函数的标准命名约定。格式为 `Java*<包名>_<类名>_<方法名>`，其中包名和类名中的点号替换为下划线。
 -   JNIEnv\* env: 指向 JNI 环境的指针，用于与 JVM 交互。
 -   jobject /_ this _/: 调用该本地方法的 Java 对象的引用。注释中的 this 表示这是一个未使用的参数。
 
