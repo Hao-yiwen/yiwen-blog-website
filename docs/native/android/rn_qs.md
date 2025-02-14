@@ -12,3 +12,7 @@ Error:Execution failed for task ':app:recordFilesBeforeBundleCommandDebug'.
 ```
 ./gradlew --stop
 ```
+
+**如果以上命令还是不生效则尝试如下方案**
+
+- 从终端启动 Android Studio：在终端中运行 open -a "Android Studio"，这样启动的 Android Studio 会继承终端的环境变量。
