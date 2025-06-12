@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([[3237],{69754:(e,t,i)=>{i.r(t),i.d(t,{default:()=>b});var n=i(67294),s=i(16550);function b(){return n.createElement(s.l_,{to:"/yiwen-blog-website/docs/ai/intro"})}}}]);
