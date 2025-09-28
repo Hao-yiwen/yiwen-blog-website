@@ -1,4 +1,4 @@
-# 📘 概念文档：θ 与负对数似然 (NLL)
+# 概念文档：θ 与负对数似然 (NLL)
 
 ## 1. θ（模型参数）
 - **定义**：θ 表示模型的所有可调参数。  
@@ -11,17 +11,17 @@
 ## 2. 似然 (Likelihood)
 - 表示在参数 θ 下，整个数据集出现的概率。  
 - 公式：  
-  \[
-  L(\theta) = \prod_{i=1}^N P_\theta(y_i|x_i)
-  \]
+$$
+L(\theta) = \prod_{i=1}^N P_\theta(y_i|x_i)
+$$
 
 ---
 
 ## 3. 对数似然 (Log-likelihood)
 - 对似然取对数，方便计算和求导：  
-  \[
-  \log L(\theta) = \sum_{i=1}^N \log P_\theta(y_i|x_i)
-  \]
+$$
+\log L(\theta) = \sum_{i=1}^N \log P_\theta(y_i|x_i)
+$$
 - **好处**：  
   1. 把乘法变加法，更稳定  
   2. 避免数值下溢  
@@ -31,9 +31,9 @@
 
 ## 4. 负对数似然 (Negative Log-likelihood, NLL)
 - 在机器学习里常用作损失函数：  
-  \[
-  \text{NLL}(\theta) = - \sum_{i=1}^N \log P_\theta(y_i|x_i)
-  \]
+$$
+\text{NLL}(\theta) = - \sum_{i=1}^N \log P_\theta(y_i|x_i)
+$$
 - **直觉**：  
   - 如果模型对真实标签给出高概率 → NLL 小  
   - 如果模型对真实标签给出低概率 → NLL 大  
