@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkyiwen_blog_website=globalThis.webpackChunkyiwen_blog_website||[]).push([[64753],{46526:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/yiwen-blog-website/blog/page/4","page":4,"postsPerPage":10,"totalPages":4,"totalCount":31,"previousPage":"/yiwen-blog-website/blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
