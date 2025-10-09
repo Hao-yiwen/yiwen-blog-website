@@ -1,13 +1,16 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+async function createConfig() {
+const math = (await import('remark-math')).default;
+const katex = (await import('rehype-katex')).default;
+
+return {
     title: 'yiwen',
     favicon: 'img/logo.png',
     url: 'https://your-docusaurus-test-site.com',
@@ -15,7 +18,10 @@ const config = {
     organizationName: 'yiwen',
     projectName: 'docusaurus',
     onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
+    markdown: {
+        format: 'mdx',
+        mermaid: false,
+    },
     i18n: {
         defaultLocale: 'zh',
         locales: ['en', 'zh'],
@@ -61,6 +67,16 @@ const config = {
                 // When applying `zh` in language, please install `nodejieba` in your project.
             },
         ],
+    ],
+
+    stylesheets: [
+        {
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css',
+            type: 'text/css',
+            integrity:
+                'sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC',
+            crossorigin: 'anonymous',
+        },
     ],
 
     themeConfig:
@@ -140,5 +156,6 @@ const config = {
             },
         }),
 };
+}
 
-module.exports = config;
+module.exports = createConfig();
