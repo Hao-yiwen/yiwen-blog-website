@@ -38,6 +38,7 @@ return {
                         'https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/',
                     remarkPlugins: [math],
                     rehypePlugins: [katex],
+                    sidebarCollapsed: false,
                 },
                 blog: {
                     showReadingTime: true,
