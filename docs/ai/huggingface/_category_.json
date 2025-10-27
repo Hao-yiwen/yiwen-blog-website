@@ -1,7 +1,8 @@
 {
-    "label": "python",
+    "label": "Hugging Face",
     "position": 4,
     "link": {
         "type": "generated-index"
-    }
+    },
+    "collapsed": false
 }
