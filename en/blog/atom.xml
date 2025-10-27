@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog</id>
     <title>yiwen Blog</title>
-    <updated>2025-10-27T16:46:27.000Z</updated>
+    <updated>2025-10-27T16:50:47.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog"/>
     <subtitle>yiwen Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[2023年度总结]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2023_overview</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2023_overview"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[2023年度词汇]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2023年度词汇">2023年度词汇<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2023_overview#2023%E5%B9%B4%E5%BA%A6%E8%AF%8D%E6%B1%87" class="hash-link" aria-label="Direct link to 2023年度词汇" title="Direct link to 2023年度词汇" translate="no">​</a></h2>
 <p>君子慎独、开源、自习室</p>
@@ -289,7 +289,7 @@
         <title type="html"><![CDATA[源码查看翻译插件]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_0712</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_0712"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[今天在写代码和研究的时候发现，貌似想要提升快一些确实要看源码，如果不看源码，而是嘴上谈一谈，那么确实提升太慢了。]]></summary>
         <content type="html"><![CDATA[<p>今天在写代码和研究的时候发现，貌似想要提升快一些确实要看源码，如果不看源码，而是嘴上谈一谈，那么确实提升太慢了。</p>
 <p>现在主流开源框架和语言都有详细的注释，所以在看代码的时候遇到问题多读读注释就好了。</p>
@@ -313,7 +313,7 @@
         <title type="html"><![CDATA[2024平淡生活中的刺]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_blog</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_blog"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[20240325]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20240325">20240325<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_blog#20240325" class="hash-link" aria-label="Direct link to 20240325" title="Direct link to 20240325" translate="no">​</a></h2>
 <p>经过一个多月的时间，终于看完了compose基础知识篇章，大概从布局到viewModel,再从internet到Room以及work，大概对compose开发有了一个初步的了解，但是脑海还是一片糊涂，并没有将android知识连成片。</p>
@@ -398,7 +398,7 @@
         <title type="html"><![CDATA[2024年度总结]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_overview</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_overview"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[2024年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。]]></summary>
         <content type="html"><![CDATA[<p>2024年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。</p>
 <p>2024年初，我继续完善2023年未完成的工作，目标是成为一名真正的全栈开发者。从2023年7月开始，我探索了Spring Cloud家族，但在JavaScript、移动端开发和跨平台开发方面仍存在很大不足。我不清楚React Native和Flutter的本质区别，以及这些区别对原生开发的影响。由于对这些技术的了解不够深入，我一直处于探索和混乱的阶段，尽管各个环节看似紧密相连，但在实际操作中却显得零散，难以形成完整的体系。</p>
@@ -428,7 +428,7 @@
         <title type="html"><![CDATA[2024展望]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_preview</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_preview"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[年度感悟]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="年度感悟">年度感悟<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_preview#%E5%B9%B4%E5%BA%A6%E6%84%9F%E6%82%9F" class="hash-link" aria-label="Direct link to 年度感悟" title="Direct link to 年度感悟" translate="no">​</a></h2>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="目标">目标<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_preview#%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="Direct link to 目标" title="Direct link to 目标" translate="no">​</a></h2>
@@ -477,7 +477,7 @@
         <title type="html"><![CDATA[2024龙年春节有感]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_spring_frial</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_spring_frial"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[老家]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="老家">老家<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2024_spring_frial#%E8%80%81%E5%AE%B6" class="hash-link" aria-label="Direct link to 老家" title="Direct link to 老家" translate="no">​</a></h2>
 <img src="https://your-docusaurus-test-site.com/yiwen-blog-website/en/assets/images/tree-bc5171b837ae29a8c2c2df129f274841.jpeg" width="300">
@@ -501,7 +501,7 @@
         <title type="html"><![CDATA[2025 blog]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2025_blog</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2025_blog"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[20250103]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20250103">20250103<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2025_blog#20250103" class="hash-link" aria-label="Direct link to 20250103" title="Direct link to 20250103" translate="no">​</a></h2>
 <p>2025年第一个感想，在开发app的时候最好不要使用React Native开发，这个东西性能有时候会查到让你惊讶。而且因为单线程的设计，导致你在有些时候都没有办法优化。</p>
@@ -591,7 +591,7 @@
         <title type="html"><![CDATA[关于Android和ios开发的思考]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/andorid_ios</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/andorid_ios"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[我最近开始学习 Android 开发，并发现其生态系统似乎更加友好。例如，在学习 Swift 时，我使用了 Storyboard 布局，但发现它仅支持拖拽式布局，而且不提供纯代码开发的预览功能，如果使用纯代码方式开发，导致每次都需要编译运行才能预览效果。另外，由于许多项目仍使用 Objective-C 编写，我不得不同时学习 Objective-C 和 Swift，这两种语言在语法和风格上差异很大。而后来 Swift UI 的推出，又带来了全新的编程方式。相比之下，Android 开发更加省心。尤其是 Kotlin 的引入，与 Java 的差异不大，且在社区中得到了良好的接受。这一点上，Kotlin 显著优于 Swift，因为它避免了同时使用两种语言的情况。而在 iOS 开发中，Objective-C 似乎仍将长期存在。]]></summary>
         <content type="html"><![CDATA[<p>我最近开始学习 <code>Android</code> 开发，并发现其生态系统似乎更加友好。例如，在学习 <code>Swift</code> 时，我使用了 <code>Storyboard</code> 布局，但发现它仅支持拖拽式布局，而且不提供纯代码开发的预览功能，如果使用纯代码方式开发，导致每次都需要编译运行才能预览效果。另外，由于许多项目仍使用 <code>Objective-C</code> 编写，我不得不同时学习 <code>Objective-C</code> 和 <code>Swift</code>，这两种语言在语法和风格上差异很大。而后来 <code>Swift UI</code> 的推出，又带来了全新的编程方式。相比之下，Android 开发更加省心。尤其是 <code>Kotlin</code> 的引入，与 <code>Java</code> 的差异不大，且在社区中得到了良好的接受。这一点上，<code>Kotlin</code> 显著优于 <code>Swift</code>，因为它避免了同时使用两种语言的情况。而在 <code>iOS</code> 开发中，<code>Objective-C</code> 似乎仍将长期存在。</p>
 <p>最为关键的是，因为我之前又<code>Java</code>后端开发经验，所以入手<code>Android</code>开发还算顺畅，并且如果长期从事<code>Android</code>开发则又可以加深我对<code>Java</code>的理解，从而提升后端开发能力，所以<code>Android YES!!!</code></p>]]></content>
@@ -600,7 +600,7 @@
         <title type="html"><![CDATA[aws中ec2登录]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/aws_use</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/aws_use"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[今天因为需要购买了一台ec2服务器，但是在登录实例的时候发现始终无法登录，后面对登录进行了研究，ec2不同于国内的ecs等服务器，ec2的登录只能使用密钥对登录，而如果在创建实例的时候没有设置密钥对，那么则需要自己在服务器中设置，而不是控制面板。以下是详细流程:]]></summary>
         <content type="html"><![CDATA[<p>今天因为需要购买了一台ec2服务器，但是在登录实例的时候发现始终无法登录，后面对登录进行了研究，ec2不同于国内的ecs等服务器，ec2的登录只能使用密钥对登录，而如果在创建实例的时候没有设置密钥对，那么则需要自己在服务器中设置，而不是控制面板。以下是详细流程:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># 本地创建密钥对</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ssh-keygen </span><span class="token parameter variable" style="color:#36acaa">-t</span><span class="token plain"> rsa </span><span class="token parameter variable" style="color:#36acaa">-b</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2048</span><span class="token plain"> </span><span class="token parameter variable" style="color:#36acaa">-f</span><span class="token plain"> ~/my-aws-key</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 获取公钥内容</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">cat</span><span class="token plain"> ~/my-aws-key.pub</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 将公钥添加到 EC2 实例</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">vim</span><span class="token plain"> ~/.ssh/authorized_keys</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 添加公钥内容</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 本地登录</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">ssh</span><span class="token plain"> </span><span class="token parameter variable" style="color:#36acaa">-i</span><span class="token plain"> ~/my-aws-key ec2-user@instance-ip</span><br></span></code></pre></div></div>
@@ -615,7 +615,7 @@
         <title type="html"><![CDATA[charles使用]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/charles</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/charles"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[今天在开发android，在开发过程中在思考一个问题，如果是从0开始，并没有完善的基建，那么如何知晓接口返回的情况那，于是打算重新熟悉charles进行抓包]]></summary>
         <content type="html"><![CDATA[<p>今天在开发android，在开发过程中在思考一个问题，如果是从0开始，并没有完善的基建，那么如何知晓接口返回的情况那，于是打算重新熟悉charles进行抓包</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="安装charles">安装charles<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/charles#%E5%AE%89%E8%A3%85charles" class="hash-link" aria-label="Direct link to 安装charles" title="Direct link to 安装charles" translate="no">​</a></h2>
@@ -648,7 +648,7 @@
         <title type="html"><![CDATA[openai 代理]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/cloudflare</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/cloudflare"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[问题]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="问题">问题<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/cloudflare#%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 问题" title="Direct link to 问题" translate="no">​</a></h2>
 <p>最近在开发的时候遇到一个难题，就是墙的问题，有一个场景就是我把请求发送到 openai 的时候会被墙了，然后这个时候无需要使用魔法解决，但是魔法也不是万能的，也经常会被墙，所以这个时候如果有一个问题定的解决方案是非常好的，而自己维护的无论是代理还是魔法，必然在可靠性和性能侧有一些问题，那么如何解决这个问题那？</p>
@@ -664,7 +664,7 @@
         <title type="html"><![CDATA[常用命令]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/common_use</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/common_use"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[终端代理]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="终端代理">终端代理<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/common_use#%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86" class="hash-link" aria-label="Direct link to 终端代理" title="Direct link to 终端代理" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_OeMC">ss</div><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token builtin class-name">export</span><span class="token plain"> </span><span class="token assign-left variable" style="color:#36acaa">http_proxy</span><span class="token operator" style="color:#393A34">=</span><span class="token plain">http://127.0.0.1:1087</span><span class="token punctuation" style="color:#393A34">;</span><span class="token builtin class-name">export</span><span class="token plain"> </span><span class="token assign-left variable" style="color:#36acaa">https_proxy</span><span class="token operator" style="color:#393A34">=</span><span class="token plain">http://127.0.0.1:1087</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
@@ -686,7 +686,7 @@
         <title type="html"><![CDATA[Copilot]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/copilot</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/copilot"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[介绍]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="介绍">介绍<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/copilot#%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to 介绍" title="Direct link to 介绍" translate="no">​</a></h2>
 <p>开发提效终极工具。</p>
@@ -701,7 +701,7 @@
         <title type="html"><![CDATA[docker镜像仓库迁移]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_migrate</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_migrate"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[前置条件]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前置条件">前置条件<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_migrate#%E5%89%8D%E7%BD%AE%E6%9D%A1%E4%BB%B6" class="hash-link" aria-label="Direct link to 前置条件" title="Direct link to 前置条件" translate="no">​</a></h2>
 <p><a href="https://cr.console.aliyun.com/cn-shanghai/instance/repositories" target="_blank" rel="noopener noreferrer">阿里云容器仓库</a></p>
@@ -717,7 +717,7 @@
         <title type="html"><![CDATA[ARM架构centos9Stream安装]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_use</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_use"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[20230923是非常有意义的一天，因为这一天我终于知道原来mac也可以VMare Fusion有个人免费版本。]]></summary>
         <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>20230923是非常有意义的一天，因为这一天我终于知道原来mac也可以<code>VMare Fusion</code>有个人免费版本。</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="安装vmare-fusion-player">安装VMare Fusion player<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/docker_use#%E5%AE%89%E8%A3%85vmare-fusion-player" class="hash-link" aria-label="Direct link to 安装VMare Fusion player" title="Direct link to 安装VMare Fusion player" translate="no">​</a></h2>
@@ -735,7 +735,7 @@
         <title type="html"><![CDATA[git管理工具fork]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/fork</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/fork"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[周六加班的时候同事有推荐使用fork进行代码管理，因为fork用起来不卡，而且有git cherry-picker功能。今天尝试了一下，确实还行。]]></summary>
         <content type="html"><![CDATA[<p>周六加班的时候同事有推荐使用fork进行代码管理，因为fork用起来不卡，而且有<code>git cherry-picker</code>功能。今天尝试了一下，确实还行。</p>
 <p>百度网盘有破解版本。</p>]]></content>
@@ -744,7 +744,7 @@
         <title type="html"><![CDATA[Docusaurus 添加评论]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/giscus</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/giscus"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[前置条件]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前置条件">前置条件<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/giscus#%E5%89%8D%E7%BD%AE%E6%9D%A1%E4%BB%B6" class="hash-link" aria-label="Direct link to 前置条件" title="Direct link to 前置条件" translate="no">​</a></h2>
 <ol>
@@ -779,7 +779,7 @@
         <title type="html"><![CDATA[git rebase]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[问题]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="问题">问题<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git#%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 问题" title="Direct link to 问题" translate="no">​</a></h2>
 <p>在最近的开发过程中碰到一个问题，每次拉取master分支开发完成后，会有其他人已经合并到master分支，这个时候我往往是通过merge来做，但是merge导致每次提交都会多出一条提交记录，在问题追溯的时候总是不太好。所以我想着如何解决这个问题</p>
@@ -836,7 +836,7 @@
         <title type="html"><![CDATA[git cherry-pick作用和使用]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_cherry_pick</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_cherry_pick"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[cherry-pick 允许你选择一个或多个提交从其他分支拷贝到当前分支。它在以下场景中非常有用：]]></summary>
         <content type="html"><![CDATA[<p>cherry-pick 允许你选择一个或多个提交从其他分支拷贝到当前分支。它在以下场景中非常有用：</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="作用">作用<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_cherry_pick#%E4%BD%9C%E7%94%A8" class="hash-link" aria-label="Direct link to 作用" title="Direct link to 作用" translate="no">​</a></h2>
@@ -851,7 +851,7 @@
         <title type="html"><![CDATA[常用git命令及解释]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_use</id>
         <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_use"/>
-        <updated>2025-10-27T16:46:27.000Z</updated>
+        <updated>2025-10-27T16:50:47.000Z</updated>
         <summary type="html"><![CDATA[常用git命令]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="常用git命令">常用git命令<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_use#%E5%B8%B8%E7%94%A8git%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="Direct link to 常用git命令" title="Direct link to 常用git命令" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># 丢弃所有未暂存的文件</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">git</span><span class="token plain"> checkout -- </span><span class="token builtin class-name">.</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 丢弃所有暂存的文件</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">git</span><span class="token plain"> reset </span><span class="token parameter variable" style="color:#36acaa">--hard</span><br></span></code></pre></div></div>
