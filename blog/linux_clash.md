@@ -1,5 +1,6 @@
 ---
 title: Centos代理
+date: 2023-11-23
 ---
 
 # Centos代理

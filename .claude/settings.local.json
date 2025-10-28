@@ -6,9 +6,18 @@
       "WebFetch(domain:docusaurus.io)",
       "Bash(yarn docusaurus clear:*)",
       "Bash(npx docusaurus-mdx-checker:*)",
-      "Bash(yarn build)"
+      "Bash(yarn build)",
+      "Bash(for file in blog/*.md)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(head:*)",
+      "Bash(done)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []
+  },
+  "sandbox": {
+    "autoAllowBashIfSandboxed": true,
+    "enabled": true
   }
 }

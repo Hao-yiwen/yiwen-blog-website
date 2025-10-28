@@ -1,3 +1,8 @@
+---
+title: RN调试问题
+date: 2024-04-02
+---
+
 # RN调试问题
 
 在经过0.72.x和0.73.0版本后，在2024年4.1日在(RN0.73.6)[https://github.com/facebook/react-native/tree/v0.73.6]尝试使用新型调试工具或者hermes debugger时已经能够流畅运行了。

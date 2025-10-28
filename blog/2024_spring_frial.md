@@ -1,3 +1,8 @@
+---
+title: 2024龙年春节有感
+date: 2024-02-10
+---
+
 import tree from '@site/static/img/tree.jpeg'
 import festfrial_1 from '@site/static/img/2024_festfrial_1.jpeg'
 import festfrial_2 from '@site/static/img/2024_festfrial_2.jpeg'

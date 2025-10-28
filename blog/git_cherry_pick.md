@@ -1,3 +1,8 @@
+---
+title: git cherry-pick作用和使用
+date: 2024-04-25
+---
+
 # git cherry-pick作用和使用
 
 cherry-pick 允许你选择一个或多个提交从其他分支拷贝到当前分支。它在以下场景中非常有用：

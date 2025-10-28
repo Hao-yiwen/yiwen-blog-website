@@ -1,3 +1,8 @@
+---
+title: rn app大小
+date: 2024-04-27
+---
+
 import Size0740 from '@site/static/img/0740_size.png'
 import Size0725 from '@site/static/img/0725_size.png'
 

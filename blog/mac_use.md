@@ -1,5 +1,6 @@
 ---
 title: oh-my-zsh代码提示和补全
+date: 2023-09-12
 ---
 
 # oh-my-zsh代码提示和补全

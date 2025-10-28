@@ -1,3 +1,8 @@
+---
+title: 2023年度总结
+date: 2023-12-30
+---
+
 import pic from '@site/static/img/2023_overview.jpg'
 
 # 2023年度总结

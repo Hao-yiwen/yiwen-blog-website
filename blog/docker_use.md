@@ -1,5 +1,6 @@
 ---
 title: ARM架构centos9Stream安装
+date: 2023-09-25
 ---
 
 # ARM架构centos9Stream安装
