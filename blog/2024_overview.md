@@ -1,3 +1,8 @@
+---
+title: 2024年度总结
+date: 2024-12-31
+---
+
 import my_car from '@site/static/img/my_car.png'
 import dai_car from '@site/static/img/dai_car.jpg'
 

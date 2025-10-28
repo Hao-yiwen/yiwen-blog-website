@@ -1,3 +1,8 @@
+---
+title: Medium
+date: 2024-04-12
+---
+
 import rn_old from '@site/static/img/rn_old.webp'
 import rn_new from '@site/static/img/rn_new.webp'
 
