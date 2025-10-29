@@ -11,7 +11,8 @@
       "Bash(do echo \"=== $file ===\")",
       "Bash(head:*)",
       "Bash(done)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "Read(//Users/haoyiwen/.claude/**)"
     ],
     "deny": [],
     "ask": []

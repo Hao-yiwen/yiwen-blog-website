@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电商管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        /* 头部样式 */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .header-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        /* 主体布局 */
+        .main-content {
+            display: flex;
+        }
+
+        /* 侧边栏 */
+        .sidebar {
+            width: 250px;
+            background: #f8f9fa;
+            padding: 20px 0;
+            border-right: 1px solid #e9ecef;
+        }
+
+        .menu-item {
+            padding: 15px 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #495057;
+            font-weight: 500;
+        }
+
+        .menu-item:hover {
+            background: #e9ecef;
+            color: #667eea;
+        }
+
+        .menu-item.active {
+            background: #667eea;
+            color: white;
+            border-left: 4px solid #764ba2;
+        }
+
+        .menu-icon {
+            font-size: 18px;
+        }
+
+        /* 内容区域 */
+        .content {
+            flex: 1;
+            padding: 30px 40px;
+        }
+
+        /* 统计卡片 */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .stat-card:nth-child(2) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .stat-card:nth-child(3) {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .stat-card:nth-child(4) {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-change {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        /* 内容面板 */
+        .content-panel {
+            display: none;
+        }
+
+        .content-panel.active {
+            display: block;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* 表格样式 */
+        .table-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            color: #6c757d;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        /* 按钮样式 */
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-warning {
+            background: #ffc107;
+            color: #212529;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+
+        /* 状态标签 */
+        .badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-danger {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        /* 模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #212529;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #495057;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        /* 搜索框 */
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 40px 12px 15px;
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        /* 图表容器 */
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #e9ecef;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <h1>🛒 电商管理系统</h1>
+            <div class="header-info">
+                <div class="user-info">
+                    <div class="avatar">管</div>
+                    <div>
+                        <div style="font-size: 14px;">管理员</div>
+                        <div style="font-size: 12px; opacity: 0.8;">admin@ecommerce.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <!-- 侧边栏 -->
+            <div class="sidebar">
+                <div class="menu-item active" onclick="switchTab('dashboard')">
+                    <span class="menu-icon">📊</span>
+                    <span>数据概览</span>
+                </div>
+                <div class="menu-item" onclick="switchTab('products')">
+                    <span class="menu-icon">📦</span>
+                    <span>商品管理</span>
+                </div>
+                <div class="menu-item" onclick="switchTab('orders')">
+                    <span class="menu-icon">🛍️</span>
+                    <span>订单管理</span>
+                </div>
+                <div class="menu-item" onclick="switchTab('users')">
+                    <span class="menu-icon">👥</span>
+                    <span>用户管理</span>
+                </div>
+                <div class="menu-item" onclick="switchTab('categories')">
+                    <span class="menu-icon">📑</span>
+                    <span>分类管理</span>
+                </div>
+                <div class="menu-item" onclick="switchTab('settings')">
+                    <span class="menu-icon">⚙️</span>
+                    <span>系统设置</span>
+                </div>
+            </div>
+
+            <!-- 内容区域 -->
+            <div class="content">
+                <!-- 数据概览 -->
+                <div id="dashboard" class="content-panel active">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">今日销售额</div>
+                            <div class="stat-value">¥128,456</div>
+                            <div class="stat-change">📈 较昨日 +12.5%</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">今日订单</div>
+                            <div class="stat-value">1,234</div>
+                            <div class="stat-change">📈 较昨日 +8.3%</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">商品总数</div>
+                            <div class="stat-value">5,678</div>
+                            <div class="stat-change">📊 在售 4,521</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">用户总数</div>
+                            <div class="stat-value">89,012</div>
+                            <div class="stat-change">📈 较上月 +15.2%</div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <h3 style="margin-bottom: 15px; color: #212529;">近7日销售趋势</h3>
+                        <div style="height: 200px; display: flex; align-items: flex-end; gap: 10px;">
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 60%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 75%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 90%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 85%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 100%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 95%; border-radius: 5px;"></div>
+                            <div style="flex: 1; background: linear-gradient(to top, #667eea, #764ba2); height: 80%; border-radius: 5px;"></div>
+                        </div>
+                        <div style="display: flex; justify-content: space-around; margin-top: 10px; color: #6c757d; font-size: 12px;">
+                            <span>周一</span><span>周二</span><span>周三</span><span>周四</span><span>周五</span><span>周六</span><span>周日</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 商品管理 -->
+                <div id="products" class="content-panel">
+                    <div class="section-title">
+                        <span>商品管理</span>
+                        <button class="btn btn-primary" onclick="openModal('productModal')">➕ 添加商品</button>
+                    </div>
+
+                    <div class="search-box">
+                        <input type="text" placeholder="搜索商品名称、ID..." id="productSearch" onkeyup="searchTable('productSearch', 'productTable')">
+                        <span class="search-icon">🔍</span>
+                    </div>
+
+                    <div class="table-container">
+                        <table id="productTable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>商品名称</th>
+                                    <th>分类</th>
+                                    <th>价格</th>
+                                    <th>库存</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>P001</td>
+                                    <td>iPhone 15 Pro Max</td>
+                                    <td>手机数码</td>
+                                    <td>¥9,999</td>
+                                    <td>156</td>
+                                    <td><span class="badge badge-success">在售</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>P002</td>
+                                    <td>MacBook Pro 16</td>
+                                    <td>电脑办公</td>
+                                    <td>¥19,999</td>
+                                    <td>89</td>
+                                    <td><span class="badge badge-success">在售</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>P003</td>
+                                    <td>AirPods Pro</td>
+                                    <td>音频设备</td>
+                                    <td>¥1,899</td>
+                                    <td>234</td>
+                                    <td><span class="badge badge-success">在售</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>P004</td>
+                                    <td>iPad Air</td>
+                                    <td>平板电脑</td>
+                                    <td>¥4,599</td>
+                                    <td>12</td>
+                                    <td><span class="badge badge-warning">库存不足</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>P005</td>
+                                    <td>Apple Watch Series 9</td>
+                                    <td>智能穿戴</td>
+                                    <td>¥3,199</td>
+                                    <td>178</td>
+                                    <td><span class="badge badge-success">在售</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 订单管理 -->
+                <div id="orders" class="content-panel">
+                    <div class="section-title">
+                        <span>订单管理</span>
+                    </div>
+
+                    <div class="search-box">
+                        <input type="text" placeholder="搜索订单号、用户..." id="orderSearch" onkeyup="searchTable('orderSearch', 'orderTable')">
+                        <span class="search-icon">🔍</span>
+                    </div>
+
+                    <div class="table-container">
+                        <table id="orderTable">
+                            <thead>
+                                <tr>
+                                    <th>订单号</th>
+                                    <th>用户</th>
+                                    <th>商品</th>
+                                    <th>金额</th>
+                                    <th>状态</th>
+                                    <th>下单时间</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ORD20250001</td>
+                                    <td>张三</td>
+                                    <td>iPhone 15 Pro Max</td>
+                                    <td>¥9,999</td>
+                                    <td><span class="badge badge-success">已完成</span></td>
+                                    <td>2025-10-29 10:23</td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">查看</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ORD20250002</td>
+                                    <td>李四</td>
+                                    <td>MacBook Pro 16</td>
+                                    <td>¥19,999</td>
+                                    <td><span class="badge badge-info">配送中</span></td>
+                                    <td>2025-10-29 09:15</td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">查看</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ORD20250003</td>
+                                    <td>王五</td>
+                                    <td>AirPods Pro</td>
+                                    <td>¥1,899</td>
+                                    <td><span class="badge badge-warning">待发货</span></td>
+                                    <td>2025-10-29 08:45</td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">查看</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ORD20250004</td>
+                                    <td>赵六</td>
+                                    <td>iPad Air</td>
+                                    <td>¥4,599</td>
+                                    <td><span class="badge badge-danger">已取消</span></td>
+                                    <td>2025-10-28 15:30</td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">查看</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ORD20250005</td>
+                                    <td>钱七</td>
+                                    <td>Apple Watch Series 9</td>
+                                    <td>¥3,199</td>
+                                    <td><span class="badge badge-success">已完成</span></td>
+                                    <td>2025-10-28 14:20</td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">查看</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 用户管理 -->
+                <div id="users" class="content-panel">
+                    <div class="section-title">
+                        <span>用户管理</span>
+                        <button class="btn btn-primary" onclick="openModal('userModal')">➕ 添加用户</button>
+                    </div>
+
+                    <div class="search-box">
+                        <input type="text" placeholder="搜索用户名、邮箱..." id="userSearch" onkeyup="searchTable('userSearch', 'userTable')">
+                        <span class="search-icon">🔍</span>
+                    </div>
+
+                    <div class="table-container">
+                        <table id="userTable">
+                            <thead>
+                                <tr>
+                                    <th>用户ID</th>
+                                    <th>用户名</th>
+                                    <th>邮箱</th>
+                                    <th>手机号</th>
+                                    <th>注册时间</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>U001</td>
+                                    <td>张三</td>
+                                    <td>zhangsan@email.com</td>
+                                    <td>138****1234</td>
+                                    <td>2024-01-15</td>
+                                    <td><span class="badge badge-success">正常</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-warning btn-sm">禁用</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>U002</td>
+                                    <td>李四</td>
+                                    <td>lisi@email.com</td>
+                                    <td>139****5678</td>
+                                    <td>2024-02-20</td>
+                                    <td><span class="badge badge-success">正常</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-warning btn-sm">禁用</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>U003</td>
+                                    <td>王五</td>
+                                    <td>wangwu@email.com</td>
+                                    <td>137****9012</td>
+                                    <td>2024-03-10</td>
+                                    <td><span class="badge badge-danger">禁用</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-success btn-sm">启用</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 分类管理 -->
+                <div id="categories" class="content-panel">
+                    <div class="section-title">
+                        <span>分类管理</span>
+                        <button class="btn btn-primary" onclick="openModal('categoryModal')">➕ 添加分类</button>
+                    </div>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>分类ID</th>
+                                    <th>分类名称</th>
+                                    <th>商品数量</th>
+                                    <th>排序</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>C001</td>
+                                    <td>手机数码</td>
+                                    <td>1,234</td>
+                                    <td>1</td>
+                                    <td><span class="badge badge-success">启用</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>C002</td>
+                                    <td>电脑办公</td>
+                                    <td>856</td>
+                                    <td>2</td>
+                                    <td><span class="badge badge-success">启用</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>C003</td>
+                                    <td>音频设备</td>
+                                    <td>432</td>
+                                    <td>3</td>
+                                    <td><span class="badge badge-success">启用</span></td>
+                                    <td>
+                                        <button class="btn btn-success btn-sm">编辑</button>
+                                        <button class="btn btn-danger btn-sm">删除</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 系统设置 -->
+                <div id="settings" class="content-panel">
+                    <div class="section-title">
+                        <span>系统设置</span>
+                    </div>
+
+                    <div class="chart-container">
+                        <h3 style="margin-bottom: 20px; color: #212529;">基本设置</h3>
+                        <div class="form-group">
+                            <label>网站名称</label>
+                            <input type="text" value="电商管理系统" />
+                        </div>
+                        <div class="form-group">
+                            <label>网站描述</label>
+                            <textarea rows="3">这是一个功能完整的电商管理系统</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>联系邮箱</label>
+                            <input type="email" value="admin@ecommerce.com" />
+                        </div>
+                        <div class="form-group">
+                            <label>客服电话</label>
+                            <input type="tel" value="400-888-8888" />
+                        </div>
+                        <button class="btn btn-primary">保存设置</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加商品模态框 -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">添加商品</div>
+            <div class="form-group">
+                <label>商品名称</label>
+                <input type="text" placeholder="请输入商品名称" />
+            </div>
+            <div class="form-group">
+                <label>商品分类</label>
+                <select>
+                    <option>手机数码</option>
+                    <option>电脑办公</option>
+                    <option>音频设备</option>
+                    <option>智能穿戴</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>商品价格</label>
+                <input type="number" placeholder="请输入价格" />
+            </div>
+            <div class="form-group">
+                <label>库存数量</label>
+                <input type="number" placeholder="请输入库存" />
+            </div>
+            <div class="form-group">
+                <label>商品描述</label>
+                <textarea rows="3" placeholder="请输入商品描述"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onclick="closeModal('productModal')">取消</button>
+                <button class="btn btn-primary" onclick="closeModal('productModal')">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加用户模态框 -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">添加用户</div>
+            <div class="form-group">
+                <label>用户名</label>
+                <input type="text" placeholder="请输入用户名" />
+            </div>
+            <div class="form-group">
+                <label>邮箱</label>
+                <input type="email" placeholder="请输入邮箱" />
+            </div>
+            <div class="form-group">
+                <label>手机号</label>
+                <input type="tel" placeholder="请输入手机号" />
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" placeholder="请输入密码" />
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onclick="closeModal('userModal')">取消</button>
+                <button class="btn btn-primary" onclick="closeModal('userModal')">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加分类模态框 -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">添加分类</div>
+            <div class="form-group">
+                <label>分类名称</label>
+                <input type="text" placeholder="请输入分类名称" />
+            </div>
+            <div class="form-group">
+                <label>排序</label>
+                <input type="number" placeholder="请输入排序序号" />
+            </div>
+            <div class="form-group">
+                <label>描述</label>
+                <textarea rows="3" placeholder="请输入分类描述"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" onclick="closeModal('categoryModal')">取消</button>
+                <button class="btn btn-primary" onclick="closeModal('categoryModal')">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 切换标签页
+        function switchTab(tabName) {
+            // 隐藏所有内容面板
+            const panels = document.querySelectorAll('.content-panel');
+            panels.forEach(panel => panel.classList.remove('active'));
+
+            // 显示选中的面板
+            document.getElementById(tabName).classList.add('active');
+
+            // 更新菜单项样式
+            const menuItems = document.querySelectorAll('.menu-item');
+            menuItems.forEach(item => item.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+        }
+
+        // 打开模态框
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+        }
+
+        // 关闭模态框
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        // 点击模态框背景关闭
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.classList.remove('active');
+            }
+        }
+
+        // 搜索表格
+        function searchTable(inputId, tableId) {
+            const input = document.getElementById(inputId);
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById(tableId);
+            const tr = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < tr.length; i++) {
+                let txtValue = tr[i].textContent || tr[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = '';
+                } else {
+                    tr[i].style.display = 'none';
+                }
+            }
+        }
+
+        // 模拟数据加载动画
+        window.addEventListener('load', function() {
+            console.log('电商管理系统已加载完成！');
+        });
+    </script>
+</body>
+</html>
