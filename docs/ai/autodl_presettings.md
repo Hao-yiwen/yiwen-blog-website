@@ -18,3 +18,16 @@ pip config set global.trusted-host mirrors.ustc.edu.cn
     - cuda 13.0/torch 2.8.0 ✅
     - cuda 12.4/torch 2.6.0 ✅
     - cuda 11.8/torch 2.0.0 ✅
+
+# HF预设
+```bash
+pip install -U huggingface_hub hf_transfer
+export HF_HUB_ENABLE_HF_TRANSFER=1    # 打开多连接/并行管线
+# 可选：限制并行数，默认已挺猛
+export HF_HUB_NUM_THREADS=16
+export HF_ENDPOINT='https://hf-mirror.com'
+huggingface-cli download moonshotai/Kimi-Linear-48B-A3B-Instruct \
+  --include "model*.safetensors" "config.json" "tokenizer*" \
+  --local-dir ./kimi-48b --local-dir-use-symlinks False \
+  --max-workers 16 --resume-download
+```
