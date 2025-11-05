@@ -38,4 +38,4 @@
 
 ## 代码
 
-https://github.com/Hao-yiwen/deeplearning/blob/master/pytorch/week3/practise_3_mlp.ipynb
+https://github.com/Hao-yiwen/deeplearning/blob/master/pytorch_2025/month_11/chapter_2/practise_7_mlp-scratch.ipynb

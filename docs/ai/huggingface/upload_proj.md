@@ -1,6 +1,6 @@
 # Hugging Face 模型上传完整教程（Git方式）
 
-## 🔐 第一步：登录认证
+## 第一步：登录认证
 
 ```bash
 # 1. 安装 huggingface-cli（如果还没安装）
@@ -25,7 +25,7 @@ huggingface-cli login
 
 ---
 
-## 🏗️ 第二步：创建远程仓库
+## 第二步：创建远程仓库
 
 ```bash
 # 在 HF 上创建新仓库
@@ -37,7 +37,7 @@ huggingface-cli repo create MiniMind-New --type model
 
 ---
 
-## 📦 第三步：本地初始化 Git 仓库
+## 第三步：本地初始化 Git 仓库
 
 ```bash
 # 1. 进入你的模型文件夹
@@ -68,7 +68,7 @@ cat .gitattributes
 
 ---
 
-## 🔗 第四步：关联远程仓库
+## 第四步：关联远程仓库
 
 ```bash
 # 添加 HF 远程仓库（注意替换用户名和仓库名）
@@ -83,7 +83,7 @@ git remote -v
 
 ---
 
-## 📤 第五步：提交并推送
+## 第五步：提交并推送
 
 ```bash
 # 1. 添加所有文件
@@ -105,7 +105,7 @@ git push -u origin main
 # 你会看到 LFS 上传进度
 ```
 
-## ⚠️ 常见问题
+## 常见问题
 
 ### 1. Git LFS 未安装
 
