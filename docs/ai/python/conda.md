@@ -1,4 +1,4 @@
-# 🐍 Conda 常用命令（简化版）
+# Conda 常用命令（简化版）
 
 ## 安装 Conda
 ```bash
