@@ -1,3 +1,11 @@
+---
+title: 准确率和召回率
+sidebar_label: 准确率和召回率
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # 准确率和召回率
 
 ## 1. 准确率（Accuracy）  

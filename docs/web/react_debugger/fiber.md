@@ -1,3 +1,11 @@
+---
+title: fiber
+sidebar_label: fiber
+date: 2024-07-14
+last_update:
+  date: 2024-07-14
+---
+
 # fiber
 
 ## 为什么页面中无法直接打印虚拟树？

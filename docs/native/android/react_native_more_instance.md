@@ -1,3 +1,11 @@
+---
+title: Android实现rn多实例
+sidebar_label: Android实现rn多实例
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android实现rn多实例
 
 最近想实现一下RN多实例，但是在实践的过程中一直有下面的报错,也就是在reactnative instance创建过程中一直有报错。

@@ -1,3 +1,11 @@
+---
+title: 计算图
+sidebar_label: 计算图
+date: 2025-01-13
+last_update:
+  date: 2025-01-13
+---
+
 # 计算图
 
 计算图(Computational Graph)是一个有向无环图(DAG)，用于表示计算过程中各个操作和数据之间的依赖关系。在深度学习中，它特别重要，因为：

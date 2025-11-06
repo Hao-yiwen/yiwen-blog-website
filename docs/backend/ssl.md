@@ -1,3 +1,11 @@
+---
+title: nginx配置ssl证书
+sidebar_label: nginx配置ssl证书
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # nginx配置ssl证书
 
 ## 生成CSR

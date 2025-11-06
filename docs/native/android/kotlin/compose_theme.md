@@ -1,3 +1,11 @@
+---
+title: Android中的主题颜色定义
+sidebar_label: Android中的主题颜色定义
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android中的主题颜色定义
 
 ## 文档

@@ -1,3 +1,11 @@
+---
+title: 使用vscode调试rn
+sidebar_label: 使用vscode调试rn
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import vscode_image from "@site/static/img/vscode_image.png";
 
 # 使用vscode调试rn

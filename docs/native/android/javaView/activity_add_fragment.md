@@ -1,3 +1,11 @@
+---
+title: Activity添加Fragment
+sidebar_label: Activity添加Fragment
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Activity添加Fragment
 
 今天在JavaView中添加添加ToolsBar,然后发现如果不进行封装，每一个页面度需要添加ToolsBar,所以写了一个Fragment来封装ToolsBar,也记录一下Activity添加Fragment.

@@ -1,3 +1,11 @@
+---
+title: 常见RN问题
+sidebar_label: 常见RN问题
+date: 2024-06-25
+last_update:
+  date: 2024-07-23
+---
+
 import web_render from "@site/static/img/web_render.png";
 
 # 常见RN问题

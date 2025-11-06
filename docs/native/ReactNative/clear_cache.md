@@ -1,3 +1,11 @@
+---
+title: RN缓存清理
+sidebar_label: RN缓存清理
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # RN缓存清理
 
 ```bash

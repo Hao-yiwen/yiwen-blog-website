@@ -1,3 +1,11 @@
+---
+title: NativeModules在Android侧的调用逻辑
+sidebar_label: NativeModules在Android侧的调用逻辑
+date: 2024-07-12
+last_update:
+  date: 2024-10-29
+---
+
 # NativeModules在Android侧的调用逻辑
 
 :::danger

@@ -1,3 +1,11 @@
+---
+title: ios项目集成ReactNative项目
+sidebar_label: ios项目集成ReactNative项目
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import ios_main1 from "@site/static/img/ios_main1.png";
 import ios_main2 from "@site/static/img/ios_main2.png";
 import ios_main3 from "@site/static/img/ios_main3.png";

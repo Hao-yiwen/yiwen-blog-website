@@ -1,3 +1,11 @@
+---
+title: RN源码运行流程
+sidebar_label: RN源码运行流程
+date: 2024-07-10
+last_update:
+  date: 2024-10-29
+---
+
 # RN源码运行流程
 
 :::danger

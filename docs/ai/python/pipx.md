@@ -1,3 +1,11 @@
+---
+title: pip vs pipx - 区别详解
+sidebar_label: pip vs pipx - 区别详解
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # pip vs pipx - 区别详解
 
 ## 核心区别一句话

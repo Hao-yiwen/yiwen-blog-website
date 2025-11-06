@@ -1,3 +1,11 @@
+---
+title: gradle学习
+sidebar_label: gradle学习
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # gradle学习
 
 ## 文档

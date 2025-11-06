@@ -1,3 +1,11 @@
+---
+title: 使用zPosition控制z轴层级
+sidebar_label: 使用zPosition控制z轴层级
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 使用zPosition控制z轴层级
 
 如果有三个view，并且自由控制z轴上面的层级，用zPosition控制,zPosition默认是0

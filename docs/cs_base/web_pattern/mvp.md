@@ -1,3 +1,11 @@
+---
+title: MVP
+sidebar_label: MVP
+date: 2024-07-02
+last_update:
+  date: 2024-07-02
+---
+
 # MVP
 
 MVP（Model-View-Presenter）是一种软件架构模式，用于分离应用程序的逻辑部分（Model）和用户界面（View），并通过主持人（Presenter）进行连接。这种模式的目的是提高代码的可维护性、可测试性和灵活性。MVP模式在Android开发中非常流行，因为它能很好地应对Android平台的复杂性和多样性。

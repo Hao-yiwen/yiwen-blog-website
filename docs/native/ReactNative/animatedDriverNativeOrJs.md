@@ -1,3 +1,11 @@
+---
+title: 用原生或者js驱动动画
+sidebar_label: 用原生或者js驱动动画
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 用原生或者js驱动动画
 
 ```tsx

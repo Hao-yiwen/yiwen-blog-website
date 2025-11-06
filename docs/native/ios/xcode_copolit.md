@@ -1,3 +1,11 @@
+---
+title: CopilotForXcode
+sidebar_label: CopilotForXcode
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # CopilotForXcode
 
 最近在学习IOS开发，一直在思考一个问题，难道xcode没有什么ai编程助手吗，如果没有的话是不是也太可怜了。毕竟现在ide没有ai编程助手，那确实是一件匪夷所思的事情。

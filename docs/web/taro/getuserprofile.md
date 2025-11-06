@@ -1,3 +1,11 @@
+---
+title: 小程序获取用户信息
+sidebar_label: 小程序获取用户信息
+date: 2025-02-14
+last_update:
+  date: 2025-02-14
+---
+
 # 小程序获取用户信息
 
 https://developers.weixin.qq.com/community/develop/doc/00022c683e8a80b29bed2142b56c01?highLine=%25E5%25A4%25B4%25E5%2583%258F%25E6%2598%25B5%25E7%25A7%25B0

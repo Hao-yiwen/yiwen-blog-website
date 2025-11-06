@@ -1,3 +1,11 @@
+---
+title: 语言中的一等公民
+sidebar_label: 语言中的一等公民
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 语言中的一等公民
 
 ## Java 中：

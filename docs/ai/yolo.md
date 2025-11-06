@@ -1,3 +1,11 @@
+---
+title: yolo 目标检测
+sidebar_label: yolo 目标检测
+date: 2025-05-16
+last_update:
+  date: 2025-05-16
+---
+
 # yolo 目标检测
 
 # YOLO11模型全面介绍

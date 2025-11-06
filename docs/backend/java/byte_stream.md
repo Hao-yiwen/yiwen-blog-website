@@ -1,3 +1,11 @@
+---
+title: 字节流
+sidebar_label: 字节流
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 字节流
 
 -   字节流（Byte Streams）: 字节流处理的是原始二进制数据。它们属于I/O流的基本类别，用于读写数据的最基本形式。字节流在Java中的代表是InputStream和OutputStream类及其子类。这些流可以用于任何类型的数据传输，包括但不限于文件数据

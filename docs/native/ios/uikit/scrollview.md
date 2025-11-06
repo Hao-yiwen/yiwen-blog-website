@@ -1,3 +1,11 @@
+---
+title: 在interfacebuilder中添加UIScrollview
+sidebar_label: 在interfacebuilder中添加UIScrollview
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import uiscrollview from '@site/static/img/uiscrollview.png'
 
 # 在interfacebuilder中添加UIScrollview

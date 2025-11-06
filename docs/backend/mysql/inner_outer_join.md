@@ -1,3 +1,11 @@
+---
+title: INNER JOIN和OUTER JOIN
+sidebar_label: INNER JOIN和OUTER JOIN
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # INNER JOIN和OUTER JOIN
 
 ## 介绍

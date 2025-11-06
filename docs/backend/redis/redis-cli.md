@@ -1,3 +1,11 @@
+---
+title: Redis-cli
+sidebar_label: Redis-cli
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Redis-cli
 
 redis-cli 是 Redis 的官方命令行界面，用于与 Redis 服务器进行交互。它是 Redis 安装包的一部分，并提供了一种简单的方式来执行 Redis 命令、访问数据和管理 Redis 实例。以下是 redis-cli 的一些主要特点和常用操作：

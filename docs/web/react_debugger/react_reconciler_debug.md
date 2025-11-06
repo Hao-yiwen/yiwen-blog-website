@@ -1,3 +1,11 @@
+---
+title: react reconciler debug
+sidebar_label: react reconciler debug
+date: 2024-07-14
+last_update:
+  date: 2024-07-15
+---
+
 ## react运行堆栈
 
 一次从试图创建到真实dom创建的过程。

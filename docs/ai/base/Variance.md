@@ -1,3 +1,11 @@
+---
+title: 方差 (Variance) 详解
+sidebar_label: 方差 (Variance) 详解
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # 方差 (Variance) 详解
 
 ## 什么是方差

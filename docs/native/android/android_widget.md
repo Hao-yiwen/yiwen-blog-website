@@ -1,3 +1,11 @@
+---
+title: Android四大组件
+sidebar_label: Android四大组件
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android四大组件
 
 在 Java 中，通常所说的“四大组件”指的是 Android 应用开发中的四种主要组件。这四种组件是 Android 应用程序的基础构建块，每种组件都扮演着不同的角色和功能。这四大组件包括：

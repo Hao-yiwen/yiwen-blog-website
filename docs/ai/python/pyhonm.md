@@ -1,3 +1,11 @@
+---
+title: python -m 详解
+sidebar_label: python -m 详解
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # python -m 详解
 
 ## 什么是 `python -m`？

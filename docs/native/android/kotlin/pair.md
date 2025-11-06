@@ -1,3 +1,11 @@
+---
+title: Pair和Map
+sidebar_label: Pair和Map
+date: 2024-06-25
+last_update:
+  date: 2025-02-14
+---
+
 # Pair和Map
 
 ## Pair

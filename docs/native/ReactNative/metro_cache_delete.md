@@ -1,3 +1,11 @@
+---
+title: 删除metro缓存
+sidebar_label: 删除metro缓存
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 删除metro缓存
 
 ## 1. 使用命令行直接清除缓存

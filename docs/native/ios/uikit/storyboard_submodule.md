@@ -1,3 +1,11 @@
+---
+title: 引用子模块的storyboard
+sidebar_label: 引用子模块的storyboard
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import substoryboard_controller from '@site/static/img/substoryboard_controller.png'
 import storyboard_copu_bundle from '@site/static/img/storyboard_copu_bundle.png'
 

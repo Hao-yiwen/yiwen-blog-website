@@ -1,3 +1,11 @@
+---
+title: 路由守卫
+sidebar_label: 路由守卫
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 路由守卫
 
 路由守卫（Route Guard）是前端路由管理中的一个概念，主要用于控制用户对特定路由的访问权限。它在单页应用（SPA）如Angular、React、Vue.js等框架中尤为常见，用于在路由级别处理认证和授权。

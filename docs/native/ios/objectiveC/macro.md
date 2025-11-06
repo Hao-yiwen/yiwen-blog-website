@@ -1,3 +1,11 @@
+---
+title: 宏和预处理器
+sidebar_label: 宏和预处理器
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 宏和预处理器
 
 ## 宏（Macro）

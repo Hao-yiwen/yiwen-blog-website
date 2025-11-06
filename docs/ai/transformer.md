@@ -1,3 +1,11 @@
+---
+title: Transformer基础架构
+sidebar_label: Transformer基础架构
+date: 2025-01-21
+last_update:
+  date: 2025-01-21
+---
+
 # Transformer基础架构
 
 Transformer是一种基于自注意力机制的神经网络架构，作为现代大语言模型的基础架构。它通过多头注意力机制和位置编码来捕获序列中的长距离依赖关系，能够有效处理自然语言处理中的各类任务。

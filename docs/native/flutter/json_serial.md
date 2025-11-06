@@ -1,3 +1,11 @@
+---
+title: flutter离奇问题
+sidebar_label: flutter离奇问题
+date: 2024-08-10
+last_update:
+  date: 2024-08-10
+---
+
 # flutter离奇问题
 
 ## json_serializable无法生成.g.dart问题

@@ -1,3 +1,11 @@
+---
+title: aar和jar区别
+sidebar_label: aar和jar区别
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # aar和jar区别
 
 AAR (Android Archive) 和 JAR (Java Archive) 文件格式都用于打包和分发代码，但它们服务于不同的目的，尤其是在 Android 应用开发中。

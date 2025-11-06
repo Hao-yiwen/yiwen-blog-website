@@ -1,3 +1,11 @@
+---
+title: map和forof
+sidebar_label: map和forof
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # map和forof
 
 今晚碰到一个离谱的事情，发现foreach和map中的内容如果是异步的，竟然没法顺序执行，感觉非常的离谱，所以写了个demo放在这里。

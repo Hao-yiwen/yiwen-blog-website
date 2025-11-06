@@ -1,3 +1,11 @@
+---
+title: FrameLayout
+sidebar_label: FrameLayout
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # FrameLayout
 
 FrameLayout 是 Android 开发中的一个基本布局容器，它被设计为一个轻量级的容器，用来存放单个子视图或者视图堆栈。在 FrameLayout 中，子视图按照它们被添加的顺序堆叠在一起，最新添加的子视图会显示在最上层。这使得 FrameLayout 非常适合用来覆盖视图。

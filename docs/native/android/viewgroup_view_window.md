@@ -1,3 +1,11 @@
+---
+title: ViewGroup、View 和 Window
+sidebar_label: ViewGroup、View 和 Window
+date: 2024-07-05
+last_update:
+  date: 2024-07-05
+---
+
 # ViewGroup、View 和 Window
 
 在 Android 开发中，ViewGroup、View 和 Window 是非常重要的概念，分别承担着不同的角色和职责。下面详细介绍它们的作用，以及 Window 的 getDecorView 方法的功能。

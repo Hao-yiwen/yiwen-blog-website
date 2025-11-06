@@ -1,3 +1,11 @@
+---
+title: Handler
+sidebar_label: Handler
+date: 2024-07-02
+last_update:
+  date: 2024-07-02
+---
+
 # Handler
 
 Handler 是 Android 中用于处理消息和执行任务的一个重要组件，通常与 Looper 和 MessageQueue 一起使用，以实现线程间通信和任务调度。以下是 Handler 的详细介绍：

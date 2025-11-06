@@ -1,3 +1,11 @@
+---
+title: gravity属性解释
+sidebar_label: gravity属性解释
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # gravity属性解释
 
 ## 示例代码

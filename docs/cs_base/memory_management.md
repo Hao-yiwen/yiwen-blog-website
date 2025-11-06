@@ -1,3 +1,11 @@
+---
+title: c/oc/java/js的内存管理机制
+sidebar_label: c/oc/java/js的内存管理机制
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # c/oc/java/js的内存管理机制
 
 ## C 语言使用手动管理

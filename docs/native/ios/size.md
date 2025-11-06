@@ -1,3 +1,11 @@
+---
+title: Ios中的尺寸
+sidebar_label: Ios中的尺寸
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Ios中的尺寸
 
 iOS 的尺寸也是以点（points）为单位，而不是像素（pixels）。这是因为不同的设备可能有不同的像素密度。例如，一个 Retina 屏幕的设备可能有更高的像素密度，这意味着同样的点数会占据更多的像素。

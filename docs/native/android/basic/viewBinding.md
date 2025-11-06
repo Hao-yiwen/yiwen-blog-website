@@ -1,3 +1,11 @@
+---
+title: viewBinding
+sidebar_label: viewBinding
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # viewBinding
 
 ## 开启viewbinding

@@ -1,3 +1,11 @@
+---
+title: 常用的flutter组件
+sidebar_label: 常用的flutter组件
+date: 2024-09-13
+last_update:
+  date: 2024-09-13
+---
+
 # 常用的flutter组件
 
 1. 基础组件（Basic Widgets）

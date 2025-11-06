@@ -1,3 +1,11 @@
+---
+title: ios和android集成flutter页面后调试
+sidebar_label: ios和android集成flutter页面后调试
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # ios和android集成flutter页面后调试
 
 在混编app中，会遇到在宿主app中调试flutter页面的问题。

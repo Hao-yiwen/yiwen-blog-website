@@ -1,3 +1,11 @@
+---
+title: OC常见类型
+sidebar_label: OC常见类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # OC常见类型
 
 ## 基础类型扩展

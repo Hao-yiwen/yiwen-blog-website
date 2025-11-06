@@ -1,3 +1,11 @@
+---
+title: AOSP
+sidebar_label: AOSP
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import android_struct from "@site/static/img/android_struct.jpeg";
 
 # AOSP

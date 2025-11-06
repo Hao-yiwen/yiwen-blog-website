@@ -1,3 +1,11 @@
+---
+title: 权重衰减(Weight Decay)简介
+sidebar_label: 权重衰减(Weight Decay)简介
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # 权重衰减(Weight Decay)简介
 
 ## 什么是权重衰减

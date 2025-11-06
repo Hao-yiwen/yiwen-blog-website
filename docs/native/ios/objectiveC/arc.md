@@ -1,3 +1,11 @@
+---
+title: ARC(自动引用计数)
+sidebar_label: ARC(自动引用计数)
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # ARC(自动引用计数)
 
 自动引用计数（Automatic Reference Counting，ARC）是 Apple 为 Objective-C 引入的一种内存管理机制。ARC 在编译时自动为对象的引用计数管理插入适当的代码，以确保对象在不再使用时被释放。ARC 旨在简化开发者的内存管理任务，同时减少内存泄漏和其他与手动内存管理相关的问题。

@@ -1,3 +1,11 @@
+---
+title: 浏览器打开新窗口
+sidebar_label: 浏览器打开新窗口
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 浏览器打开新窗口
 
 ```js

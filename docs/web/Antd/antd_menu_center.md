@@ -1,3 +1,11 @@
+---
+title: Antd中Menu中选中项移动到屏幕中间位置
+sidebar_label: Antd中Menu中选中项移动到屏幕中间位置
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Antd中Menu中选中项移动到屏幕中间位置
 
 ```js

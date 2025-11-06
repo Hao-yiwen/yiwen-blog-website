@@ -1,3 +1,11 @@
+---
+title: 常见问题
+sidebar_label: 常见问题
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # 常见问题
 
 ## __pycache__ 是什么？

@@ -1,3 +1,11 @@
+---
+title: 介绍
+sidebar_label: 介绍
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 介绍
 
 WidgetKit 是 Apple 提供的一种框架，用于在 iOS 和 macOS 上创建和管理小组件（Widgets）。小组件是在主屏幕和今日视图中显示的微型应用程序，用户可以快速获取应用的关键内容和数据。

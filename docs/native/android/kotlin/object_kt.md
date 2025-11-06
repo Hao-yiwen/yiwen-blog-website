@@ -1,3 +1,11 @@
+---
+title: Object在Kt中的使用
+sidebar_label: Object在Kt中的使用
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Object在Kt中的使用
 
 object在kt中使用广泛，例如有

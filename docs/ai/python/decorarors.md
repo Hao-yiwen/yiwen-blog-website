@@ -1,3 +1,11 @@
+---
+title: Python 装饰器简介
+sidebar_label: Python 装饰器简介
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # Python 装饰器简介
 
 ## 什么是装饰器？

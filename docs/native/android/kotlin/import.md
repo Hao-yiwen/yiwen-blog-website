@@ -1,3 +1,11 @@
+---
+title: Java和kotlin中的import做了什么
+sidebar_label: Java和kotlin中的import做了什么
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Java和kotlin中的import做了什么
 
 在 Kotlin 和 Java 中，当你使用 import 语句引入一个依赖（例如 import androidx.annotation.StringRes）时，并不是将所有的代码复制到你的项目中。import 语句的作用是告诉编译器你将在代码中使用来自某个包的类、接口、函数或其他成员，这样编译器就可以正确地解析你使用的这些类型的引用。

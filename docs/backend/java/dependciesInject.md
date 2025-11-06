@@ -1,3 +1,11 @@
+---
+title: 依赖注入(DI)
+sidebar_label: 依赖注入(DI)
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 依赖注入(DI)
 
 [参考文档](https://juejin.cn/post/6857406008877121550)

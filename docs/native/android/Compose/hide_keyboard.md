@@ -1,3 +1,11 @@
+---
+title: 键盘隐藏和焦点取消
+sidebar_label: 键盘隐藏和焦点取消
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import keyboard_2024_0405 from "@site/static/img/2024_0405_keyboard.png";
 
 # 键盘隐藏和焦点取消

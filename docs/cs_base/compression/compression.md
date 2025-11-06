@@ -1,3 +1,11 @@
+---
+title: 压缩方案对比
+sidebar_label: 压缩方案对比
+date: 2024-07-10
+last_update:
+  date: 2024-07-10
+---
+
 # 压缩方案对比
 
 ## 文档

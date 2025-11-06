@@ -1,3 +1,11 @@
+---
+title: Gradle debug调试
+sidebar_label: Gradle debug调试
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import gradle_pic from '@site/static/img/gradle_debug.png'
 
 # Gradle debug调试

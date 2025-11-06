@@ -1,3 +1,11 @@
+---
+title: Java中各类修饰符的权限
+sidebar_label: Java中各类修饰符的权限
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Java中各类修饰符的权限
 
 在Java中，权限修饰符（也称为访问修饰符）定义了类、变量、方法和构造器的访问控制级别。Java提供了四种访问权限修饰符，分别是：private、default（没有指定修饰符时的行为）、protected和public。这些修饰符帮助实现了封装，是面向对象编程的一个核心概念。

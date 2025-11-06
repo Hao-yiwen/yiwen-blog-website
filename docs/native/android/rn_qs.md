@@ -1,3 +1,11 @@
+---
+title: Android集成rn常见报错
+sidebar_label: Android集成rn常见报错
+date: 2024-06-25
+last_update:
+  date: 2025-02-14
+---
+
 # Android集成rn常见报错
 
 ## command node path问题

@@ -1,3 +1,11 @@
+---
+title: 范数
+sidebar_label: 范数
+date: 2025-11-04
+last_update:
+  date: 2025-11-04
+---
+
 # 范数
 
 # 一句话版

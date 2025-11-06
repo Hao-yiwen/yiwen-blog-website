@@ -1,3 +1,11 @@
+---
+title: compose设置Topbar颜色
+sidebar_label: compose设置Topbar颜色
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # compose设置Topbar颜色
 
 今天在开发compose应用的时候碰到一个问题，就是为什么给topbar设置顶部颜色的时候无法设置。

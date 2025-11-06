@@ -1,3 +1,11 @@
+---
+title: AppDelegate
+sidebar_label: AppDelegate
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # AppDelegate
 
 在UIKit中，AppDelegate是应用生命周期管理的重要部分。以下是一些常用的AppDelegate生命周期函数：

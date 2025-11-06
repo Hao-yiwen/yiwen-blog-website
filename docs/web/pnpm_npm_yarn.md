@@ -1,3 +1,11 @@
+---
+title: pnpm,yarn和npm
+sidebar_label: pnpm,yarn和npm
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import pnpm_store from "@site/static/img/pnpm_store.png";
 import pnpm_metro_error from "@site/static/img/pnpm_metro_error.png";
 

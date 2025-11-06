@@ -1,3 +1,11 @@
+---
+title: scheduler解析
+sidebar_label: scheduler解析
+date: 2024-07-14
+last_update:
+  date: 2024-07-15
+---
+
 # scheduler解析
 
 ~~在页面初始化的时候会调用unstable_scheduleCallback调度一次performSyncWorkOnRoot来初始化渲染工作。~~

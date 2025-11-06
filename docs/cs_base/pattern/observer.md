@@ -1,3 +1,11 @@
+---
+title: 观察者模式
+sidebar_label: 观察者模式
+date: 2024-06-25
+last_update:
+  date: 2024-06-26
+---
+
 # 观察者模式
 
 ## 代码

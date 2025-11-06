@@ -1,3 +1,11 @@
+---
+title: VSCode Notebook 导入报错解决指南
+sidebar_label: VSCode Notebook 导入报错解决指南
+date: 2025-11-04
+last_update:
+  date: 2025-11-04
+---
+
 # VSCode Notebook 导入报错解决指南
 
 ## 问题描述

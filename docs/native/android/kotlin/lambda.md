@@ -1,3 +1,11 @@
+---
+title: Kotlin中的Lambda表达式
+sidebar_label: Kotlin中的Lambda表达式
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Kotlin中的Lambda表达式
 
 ## 基本语法

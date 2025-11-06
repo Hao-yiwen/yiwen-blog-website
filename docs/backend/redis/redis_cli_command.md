@@ -1,3 +1,11 @@
+---
+title: 常用redis-cli命令
+sidebar_label: 常用redis-cli命令
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 常用redis-cli命令
 
 Redis 提供了大量的命令用于处理各种数据类型和任务。以下是一些常用的 Redis 命令：

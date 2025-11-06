@@ -1,3 +1,11 @@
+---
+title: ExecutorService
+sidebar_label: ExecutorService
+date: 2024-07-02
+last_update:
+  date: 2024-07-02
+---
+
 # ExecutorService
 
 ExecutorService 是 Java 提供的一个框架，用于简化并发编程中的线程管理和任务调度。它位于 java.util.concurrent 包中，提供了多种方法来管理线程和任务，确保更高效和更可靠的并发编程。以下是 ExecutorService 的详细介绍：

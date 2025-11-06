@@ -1,3 +1,11 @@
+---
+title: 残差网络
+sidebar_label: 残差网络
+date: 2025-01-21
+last_update:
+  date: 2025-01-21
+---
+
 # 残差网络
 
 ## 函数

@@ -1,3 +1,11 @@
+---
+title: Jupyter Notebook 和 JupyterLab
+sidebar_label: Jupyter Notebook 和 JupyterLab
+date: 2024-07-23
+last_update:
+  date: 2024-07-23
+---
+
 # Jupyter Notebook 和 JupyterLab
 
 Jupyter 这个名字由 “Julia”, “Python” 和 “R” 三种编程语言的名字组合而成。Jupyter 项目最初旨在支持这些主要用于数据科学和科学计算的编程语言。

@@ -1,3 +1,11 @@
+---
+title: 介绍
+sidebar_label: 介绍
+date: 2024-06-25
+last_update:
+  date: 2024-11-23
+---
+
 # 介绍
 
 Gradle 是一个开源的自动化构建工具，它能够为各种编程语言和平台提供构建、测试、发布等自动化操作。Gradle 结合了 Apache Ant 的灵活性和 Apache Maven 的约定优于配置的原则，同时引入了一种基于 Groovy（现在也支持 Kotlin）的领域特定语言（DSL）来声明项目设置和构建逻辑，使得构建脚本更加简洁且易于理解。

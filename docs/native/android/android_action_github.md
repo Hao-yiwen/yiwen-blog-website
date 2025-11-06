@@ -1,3 +1,11 @@
+---
+title: Android项目在github action中的打包
+sidebar_label: Android项目在github action中的打包
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android项目在github action中的打包
 
 今天心血来潮，想要在github action中进行android打包，然后将打包产物上传到github 仓库页面的release中，经过查询和修补，这个是一个可用版本。

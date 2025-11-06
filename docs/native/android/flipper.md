@@ -1,3 +1,11 @@
+---
+title: Android集成flipper
+sidebar_label: Android集成flipper
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android集成flipper
 
 Flipper 是一个开源的平台，用于调试 iOS、Android 和 React Native 应用程序。它由 Facebook 开发和维护，提供了一个统一的界面，开发者可以通过各种插件来查看和调试应用的不同部分，比如网络请求、数据库、布局、日志等等。

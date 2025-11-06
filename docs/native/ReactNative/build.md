@@ -1,3 +1,11 @@
+---
+title: RN打包命令
+sidebar_label: RN打包命令
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # RN打包命令
 
 ## Android 打包 JS Bundle

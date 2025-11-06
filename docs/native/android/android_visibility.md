@@ -1,3 +1,11 @@
+---
+title: visibility解释
+sidebar_label: visibility解释
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # visibility解释
 
 ## 代码示例

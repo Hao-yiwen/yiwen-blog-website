@@ -1,3 +1,11 @@
+---
+title: Androud中的屏幕方向
+sidebar_label: Androud中的屏幕方向
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Androud中的屏幕方向
 
 - ORIENTATION_UNDEFINES: 表示屏幕方向未定义或未设置。

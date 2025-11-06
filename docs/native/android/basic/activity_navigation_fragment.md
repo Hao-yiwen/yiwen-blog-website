@@ -1,3 +1,11 @@
+---
+title: Navigation-fragment和activity切换
+sidebar_label: Navigation-fragment和activity切换
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Navigation-fragment和activity切换
 
 使用 Navigation 组件确实会鼓励你主要使用 Fragment 来实现应用的各个界面，而非 Activity。这样做有其优点也有限制，下面我为你总结一下：

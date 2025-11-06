@@ -1,3 +1,11 @@
+---
+title: Android项目中使用BuildConfig
+sidebar_label: Android项目中使用BuildConfig
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android项目中使用BuildConfig
 
 [参考文档](https://developermemos.com/posts/jetpack-compose-buildconfig-import-issue)

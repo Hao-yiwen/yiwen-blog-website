@@ -1,3 +1,11 @@
+---
+title: oc的方法重载
+sidebar_label: oc的方法重载
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # oc的方法重载
 
 oc不支持java一样的同名方法重载。需要使用不同方法名实现。

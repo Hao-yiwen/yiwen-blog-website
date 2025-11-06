@@ -1,3 +1,11 @@
+---
+title: MVVM
+sidebar_label: MVVM
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # MVVM
 
 MVVM（Model-View-ViewModel）模式的产生是为了更好地分离关注点和简化用户界面逻辑，而不仅仅是因为 Controller 逻辑过于复杂。MVVM 主要针对的是以下几个方面的改进：

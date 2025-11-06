@@ -1,3 +1,11 @@
+---
+title: 常用rollup插件
+sidebar_label: 常用rollup插件
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 常用rollup插件
 
 [官方插件仓库](https://github.com/rollup/plugins)

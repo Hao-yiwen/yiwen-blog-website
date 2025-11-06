@@ -1,3 +1,11 @@
+---
+title: Redis
+sidebar_label: Redis
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Redis
 
 Redis（Remote Dictionary Server）是一个开源的、基于内存的高性能键值对数据库。它通常被用作数据库、缓存和消息代理。下面是Redis的一些关键特点和用途：

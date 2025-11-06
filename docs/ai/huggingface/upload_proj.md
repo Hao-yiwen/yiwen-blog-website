@@ -1,3 +1,11 @@
+---
+title: Hugging Face 模型上传完整教程（Git方式）
+sidebar_label: Hugging Face 模型上传完整教程（Git方式）
+date: 2025-10-28
+last_update:
+  date: 2025-11-06
+---
+
 # Hugging Face 模型上传完整教程（Git方式）
 
 ## 第一步：登录认证

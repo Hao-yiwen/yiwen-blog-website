@@ -1,3 +1,11 @@
+---
+title: 基于BaseActivity添加loading图标动画
+sidebar_label: 基于BaseActivity添加loading图标动画
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 基于BaseActivity添加loading图标动画
 
 动画使用lottie动画，效果更好。

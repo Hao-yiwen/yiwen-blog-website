@@ -1,3 +1,11 @@
+---
+title: ConstraintLayout - 约束布局
+sidebar_label: ConstraintLayout - 约束布局
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # ConstraintLayout - 约束布局
 
 [文档](https://developer.android.com/develop/ui/views/layout/constraint-layout?hl=zh-cn)

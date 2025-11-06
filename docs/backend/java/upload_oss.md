@@ -1,3 +1,11 @@
+---
+title: 上传文件至阿里OSS
+sidebar_label: 上传文件至阿里OSS
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 上传文件至阿里OSS
 
 使用阿里云OSS作为静态资源保存场所。[使用文档](https://help.aliyun.com/zh/oss/getting-started/sdk-quick-start?spm=a2c4g.11186623.0.0.2d4a4a74iqsgTm)

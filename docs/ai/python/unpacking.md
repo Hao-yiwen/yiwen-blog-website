@@ -1,3 +1,11 @@
+---
+title: 解包
+sidebar_label: 解包
+date: 2025-11-04
+last_update:
+  date: 2025-11-05
+---
+
 # 解包
 
 **Python 里的 `*` 和 `**` 解包用法详解**

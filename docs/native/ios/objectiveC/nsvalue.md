@@ -1,3 +1,11 @@
+---
+title: NSValue
+sidebar_label: NSValue
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # NSValue
 
 NSValue 是 Objective-C 中的一个类，用于包装和存储基础数据类型和结构体，使它们能够在集合类（如 NSArray、NSDictionary 等）中使用。NSValue 可以存储任意类型的值，包括基本数据类型（如 int、float 等）、结构体（如 CGRect、CGSize、CGPoint 等）以及指针。

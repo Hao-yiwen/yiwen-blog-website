@@ -1,3 +1,11 @@
+---
+title: Android通知实现
+sidebar_label: Android通知实现
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android通知实现
 
 今天在写联系的时候看到一段官方通知工具类，拿来记录一下。

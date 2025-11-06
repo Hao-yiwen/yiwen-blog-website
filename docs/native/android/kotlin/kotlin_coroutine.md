@@ -1,3 +1,11 @@
+---
+title: kotlin中的协成并发请求
+sidebar_label: kotlin中的协成并发请求
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # kotlin中的协成并发请求
 
 有一个典型示例是在`viewModel`中同时进行数据库读写和进行网络请求。

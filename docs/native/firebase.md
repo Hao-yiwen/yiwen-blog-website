@@ -1,3 +1,11 @@
+---
+title: Firebase
+sidebar_label: Firebase
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Firebase
 
 在开发的过程中经常遇到一个问题，那就是开发基座不可能都是自己研发的，类似AB实验，云数据库，崩溃统计，静态资源托管。

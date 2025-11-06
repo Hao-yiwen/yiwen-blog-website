@@ -1,3 +1,11 @@
+---
+title: Android开发中常用的Gradle
+sidebar_label: Android开发中常用的Gradle
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android开发中常用的Gradle
 
 在 Android 开发中，Gradle 是核心的构建工具，它提供了许多命令来帮助开发者进行项目构建、依赖管理、调试等任务。以下是一些在 Android 开发中常用的 Gradle 命令及其描述：

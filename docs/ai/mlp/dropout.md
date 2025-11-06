@@ -1,3 +1,11 @@
+---
+title: Dropout 技术详解
+sidebar_label: Dropout 技术详解
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # Dropout 技术详解
 
 ## 什么是 Dropout？
