@@ -1,6 +1,6 @@
 ---
-title: Redis-cli
-sidebar_label: Redis-cli
+title: "Redis-cli"
+sidebar_label: "Redis-cli"
 date: 2024-06-25
 last_update:
   date: 2024-06-25

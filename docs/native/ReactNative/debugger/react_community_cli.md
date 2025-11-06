@@ -1,6 +1,6 @@
 ---
-title: @react-native-community/cli调试
-sidebar_label: @react-native-community/cli调试
+title: "@react-native-community/cli调试"
+sidebar_label: "@react-native-community/cli调试"
 date: 2024-07-04
 last_update:
   date: 2024-07-04

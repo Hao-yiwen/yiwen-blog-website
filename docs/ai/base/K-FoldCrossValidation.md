@@ -1,6 +1,6 @@
 ---
-title: K折交叉验证 (K-Fold Cross Validation)
-sidebar_label: K折交叉验证 (K-Fold Cross Validation)
+title: "K折交叉验证 (K-Fold Cross Validation)"
+sidebar_label: "K折交叉验证 (K-Fold Cross Validation)"
 date: 2025-11-06
 last_update:
   date: 2025-11-05

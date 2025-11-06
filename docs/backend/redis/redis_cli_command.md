@@ -1,6 +1,6 @@
 ---
-title: 常用redis-cli命令
-sidebar_label: 常用redis-cli命令
+title: "常用redis-cli命令"
+sidebar_label: "常用redis-cli命令"
 date: 2024-06-25
 last_update:
   date: 2024-06-25
