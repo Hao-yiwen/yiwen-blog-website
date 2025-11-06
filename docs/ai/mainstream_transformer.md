@@ -1,3 +1,11 @@
+---
+title: 主流 Transformer 架构详解：GPT、BERT、T5
+sidebar_label: 主流 Transformer 架构详解：GPT、BERT、T5
+date: 2025-09-28
+last_update:
+  date: 2025-09-28
+---
+
 # 主流 Transformer 架构详解：GPT、BERT、T5
 
 ## 一、架构概述

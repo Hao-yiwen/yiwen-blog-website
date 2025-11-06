@@ -1,3 +1,11 @@
+---
+title: Android使用svg
+sidebar_label: Android使用svg
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android使用svg
 
 在 `Android` 开发中，使用 SVG（可缩放矢量图形）文件可以提供更清晰、更灵活的图形展示。不过，Android 原生并不直接支持 `SVG` 文件格式。为了在 `Android` 应用中使用 `SVG`，你可以采取以下几种方法：

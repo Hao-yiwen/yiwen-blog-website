@@ -1,3 +1,11 @@
+---
+title: measureHeight和height
+sidebar_label: measureHeight和height
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # measureHeight和height
 
 在Android开发中，measureHeight和height是与视图（View）尺寸相关的两个概念，它们代表了视图的高度信息，但是用途和含义有所不同。

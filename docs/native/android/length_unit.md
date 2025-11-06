@@ -1,3 +1,11 @@
+---
+title: Android长度单位
+sidebar_label: Android长度单位
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android长度单位
 
 在 Android 开发中，长度单位主要包括像素（px）、密度无关像素（dp）和比例像素（sp），以及其他一些较少使用的单位。这些单位的使用场景如下：

@@ -1,3 +1,11 @@
+---
+title: LinkedList
+sidebar_label: LinkedList
+date: 2024-07-03
+last_update:
+  date: 2024-07-03
+---
+
 # LinkedList
 
 双向链表列表。

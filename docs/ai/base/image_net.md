@@ -1,3 +1,11 @@
+---
+title: ImageNet 简介
+sidebar_label: ImageNet 简介
+date: 2025-01-21
+last_update:
+  date: 2025-01-21
+---
+
 # ImageNet 简介
 
 ImageNet 是一个大规模视觉数据库，用于支持图像分类、目标检测等计算机视觉任务的研究和开发。它由普林斯顿大学的李飞飞教授及其团队在 2009 年创建，现已成为深度学习领域的重要基准。

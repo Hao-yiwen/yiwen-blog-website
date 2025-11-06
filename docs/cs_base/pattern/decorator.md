@@ -1,3 +1,11 @@
+---
+title: 装饰器模式
+sidebar_label: 装饰器模式
+date: 2024-06-26
+last_update:
+  date: 2024-06-26
+---
+
 # 装饰器模式
 
 

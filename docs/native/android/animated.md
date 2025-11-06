@@ -1,3 +1,11 @@
+---
+title: Android中的动画
+sidebar_label: Android中的动画
+date: 2024-07-25
+last_update:
+  date: 2024-07-25
+---
+
 # Android中的动画
 
 动画一直是前端和移动端开发中比较头痛的一块内容，因为动画往往需要编写复杂的内容，而其底层也往往非常繁杂。以下是对android中动画的一些总结。

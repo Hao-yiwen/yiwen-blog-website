@@ -1,3 +1,11 @@
+---
+title: Text中的adjustsFontSizeToFit属性
+sidebar_label: Text中的adjustsFontSizeToFit属性
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Text中的adjustsFontSizeToFit属性
 
 今天正好在帮业务查问题，顺手就查了一个Text的adjustsFontSizeToFit属性，该属性的作用是自使用字体大小，但是在使用的时候还是遇到了一点问题，还是觉得要记录一下。

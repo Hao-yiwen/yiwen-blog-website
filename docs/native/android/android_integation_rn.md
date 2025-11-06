@@ -1,3 +1,11 @@
+---
+title: Android集成RN
+sidebar_label: Android集成RN
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android集成RN
 
 今天尝试移动端和Js代码分离的方式并行开发移动端项目和RN项目，所以想将RN集成进Android中。但是文档给的都是标准的RN结构，所以并没有合适的文档告诉我该如何进行集成，于是在翻看了很多文档后我的得出了集成方案，并且今晚实际踩了一些坑，此文档用来记录Android集成RN的方法和问题。

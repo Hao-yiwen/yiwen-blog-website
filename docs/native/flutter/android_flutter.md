@@ -1,3 +1,11 @@
+---
+title: Android集成flutter作为一个页面
+sidebar_label: Android集成flutter作为一个页面
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android集成flutter作为一个页面
 
 经过前端时间android集成rn时候的复杂操作，今天心血来潮，想要集成flutter到android，于是看官方文档进行集成，没想到半个小时就搞完了。(因为真的没什么好搞的~~),flutter确实很方便。

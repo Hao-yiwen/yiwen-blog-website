@@ -1,3 +1,11 @@
+---
+title: Build Phase
+sidebar_label: Build Phase
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Build Phase
 
 在 Xcode 中，Build Phases 定义了在项目构建过程中的各个阶段应该执行的任务。这些任务包括编译源代码、复制资源文件、链接库文件等。Build Phases 在整个构建过程中有特定的执行顺序，既包括在构建之前，也包括在构建之后执行的任务。

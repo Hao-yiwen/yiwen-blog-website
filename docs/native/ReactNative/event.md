@@ -1,3 +1,11 @@
+---
+title: RN事件机制相关API
+sidebar_label: RN事件机制相关API
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # RN事件机制相关API
 
 在React Native中，事件监听和触发是组件间通信的关键机制之一。React Native提供了几种不同的API来帮助开发者在JavaScript和原生代码之间以及不同的组件之间进行事件的监听和触发。

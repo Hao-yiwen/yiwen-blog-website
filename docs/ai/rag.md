@@ -1,3 +1,11 @@
+---
+title: RAG（检索增强生成）原理文档
+sidebar_label: RAG（检索增强生成）原理文档
+date: 2025-09-14
+last_update:
+  date: 2025-09-14
+---
+
 # RAG（检索增强生成）原理文档
 
 ## 一、核心概念

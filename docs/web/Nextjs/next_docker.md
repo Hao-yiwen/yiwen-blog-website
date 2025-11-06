@@ -1,3 +1,11 @@
+---
+title: 使用 nginx 映射 next 资源的问题
+sidebar_label: 使用 nginx 映射 next 资源的问题
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 使用 nginx 映射 next 资源的问题
 
 ## 介绍

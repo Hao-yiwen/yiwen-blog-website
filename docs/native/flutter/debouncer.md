@@ -1,3 +1,11 @@
+---
+title: flutter防抖
+sidebar_label: flutter防抖
+date: 2024-09-16
+last_update:
+  date: 2024-09-16
+---
+
 # flutter防抖
 
 ```dart

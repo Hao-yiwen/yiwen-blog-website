@@ -1,3 +1,11 @@
+---
+title: color文件夹和colorsxml区别
+sidebar_label: color文件夹和colorsxml区别
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # color文件夹和colorsxml区别
 
 在Android项目中，处理颜色资源主要涉及values/colors.xml文件和color文件夹，两者有着明显的不同用途和功能。这里详细解释一下：

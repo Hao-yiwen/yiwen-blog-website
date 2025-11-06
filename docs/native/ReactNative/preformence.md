@@ -1,3 +1,11 @@
+---
+title: RN性能测试
+sidebar_label: RN性能测试
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # RN性能测试
 
 最近有个场景，需要测试一下`RN Harmony`和`RN android`的性能，在查略了很多资料后设计了一套测试`TTI/FCP`时间的方法。简单说就是，在原生侧`RN bundle`开始加载的时候记录时间，在`RN`侧最后一个元素完成渲染时的`onLayout`中打印加载完成时间，根据时间差来计算最终时间。

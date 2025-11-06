@@ -1,3 +1,11 @@
+---
+title: RN前端简单实现
+sidebar_label: RN前端简单实现
+date: 2024-07-11
+last_update:
+  date: 2024-07-11
+---
+
 # RN前端简单实现
 
 ```js

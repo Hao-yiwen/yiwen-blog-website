@@ -1,3 +1,11 @@
+---
+title: codepush
+sidebar_label: codepush
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # codepush
 
 Microsoft CodePush 是一个云服务，用于实现 React Native 和 Cordova 应用的即时更新。通过 CodePush，你可以在不通过应用商店发布新版本的情况下，将 JavaScript、HTML 和 CSS 更新推送到用户的设备上。这种能力对于快速修复 Bug、推出新功能和改善用户体验非常有用。

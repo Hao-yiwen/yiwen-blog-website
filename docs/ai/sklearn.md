@@ -1,3 +1,11 @@
+---
+title: Scikit-learn 实用工具指南
+sidebar_label: Scikit-learn 实用工具指南
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # Scikit-learn 实用工具指南
 
 ## 介绍

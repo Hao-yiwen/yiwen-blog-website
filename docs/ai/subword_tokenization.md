@@ -1,3 +1,11 @@
+---
+title: subword tokenization（子词分词器）
+sidebar_label: subword tokenization（子词分词器）
+date: 2025-09-24
+last_update:
+  date: 2025-09-24
+---
+
 # subword tokenization（子词分词器）
 
 ## BPE

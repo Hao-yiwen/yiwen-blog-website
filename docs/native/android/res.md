@@ -1,3 +1,11 @@
+---
+title: res资源优先级
+sidebar_label: res资源优先级
+date: 2024-07-03
+last_update:
+  date: 2024-07-03
+---
+
 # res资源优先级
 
 ## 使用sourceSets有多个res目录的时候

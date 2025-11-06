@@ -1,3 +1,11 @@
+---
+title: Alter操作符
+sidebar_label: Alter操作符
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Alter操作符
 
 在SQL中，ALTER命令用于修改现有的数据库结构。这包括对表格、索引、视图等的修改。常见的ALTER操作包括：

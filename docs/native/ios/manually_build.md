@@ -1,3 +1,11 @@
+---
+title: IOS手动打包
+sidebar_label: IOS手动打包
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # IOS手动打包
 
 ## 1. 创建开发者证书和配置文件

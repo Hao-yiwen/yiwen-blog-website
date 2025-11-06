@@ -1,3 +1,11 @@
+---
+title: GCD
+sidebar_label: GCD
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # GCD
 
 Grand Central Dispatch (GCD) 是 Apple 为并发编程提供的一套高效的解决方案。GCD 允许开发者在多个队列中执行任务，从而充分利用多核处理器的性能，避免编写复杂的线程管理代码。GCD是Apple为了简化多线程开发推出的基础库，不是swift和oc的语言能力。(库: Dispatch)

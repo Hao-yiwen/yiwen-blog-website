@@ -1,3 +1,11 @@
+---
+title: Andoroid生命周期
+sidebar_label: Andoroid生命周期
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import android_cycle from '@site/static/img/20240304_android_cycle.png'
 
 # Andoroid生命周期

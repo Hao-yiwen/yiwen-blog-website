@@ -1,3 +1,11 @@
+---
+title: Navigation Graph
+sidebar_label: Navigation Graph
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Navigation Graph
 
 ## 介绍

@@ -1,3 +1,11 @@
+---
+title: Fastjson 和 Gson 的区别
+sidebar_label: Fastjson 和 Gson 的区别
+date: 2024-07-03
+last_update:
+  date: 2024-07-03
+---
+
 # Fastjson 和 Gson 的区别
 
 fastjson 和 gson 都是用于在 Java 中进行 JSON 数据解析和生成的库。它们各自有其特点和使用场景。以下是两者的主要区别：

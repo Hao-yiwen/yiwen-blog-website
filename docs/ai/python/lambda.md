@@ -1,3 +1,11 @@
+---
+title: Lambda 匿名函数
+sidebar_label: Lambda 匿名函数
+date: 2025-11-05
+last_update:
+  date: 2025-11-05
+---
+
 # Lambda 匿名函数
 
 Python 中的 `lambda` 是**匿名函数**，用于创建简单的一次性函数。

@@ -1,3 +1,11 @@
+---
+title: kotlin中的构造函数
+sidebar_label: kotlin中的构造函数
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # kotlin中的构造函数
 
 在 Kotlin 中，构造函数用于初始化新创建的对象。Kotlin 处理构造函数的方式稍有不同于其他语言，提供了更简洁的语法以及主构造函数和次构造函数的概念。

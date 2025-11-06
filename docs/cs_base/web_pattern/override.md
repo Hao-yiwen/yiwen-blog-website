@@ -1,3 +1,11 @@
+---
+title: 总结
+sidebar_label: 总结
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 总结
 
 现阶段大前端的实现中主要使用mvvm,因为大多数框架都做到了view和state的绑定。很少需要手动更新视图，除了古老的jqurey和手动操作dom需要。

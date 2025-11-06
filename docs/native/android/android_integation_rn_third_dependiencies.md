@@ -1,3 +1,11 @@
+---
+title: android集成rn第三方依赖
+sidebar_label: android集成rn第三方依赖
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # android集成rn第三方依赖
 
 ## 手动连接

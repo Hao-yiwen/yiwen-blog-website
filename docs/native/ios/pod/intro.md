@@ -1,3 +1,11 @@
+---
+title: 介绍
+sidebar_label: 介绍
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 介绍
 
 CocoaPods 是 iOS 和 macOS 应用开发中的一个依赖管理工具，类似于 Java 的 Maven 或 Node.js 的 npm。它可以帮助开发者管理项目中的第三方库（dependencies），简化了库的集成和版本管理过程。以下是关于 CocoaPods 的详细介绍：

@@ -1,3 +1,11 @@
+---
+title: rn自动连接
+sidebar_label: rn自动连接
+date: 2024-07-10
+last_update:
+  date: 2024-07-10
+---
+
 # rn自动连接
 
 一直对rn自动连接很好奇，在想到底如何做到的自动链接。今天有机会研究RN，所以对自动连接研究了一下。以android为例，自动连接实际上就是`@react-native-communtity/cli-platform-android/native_modules.gralde`脚本

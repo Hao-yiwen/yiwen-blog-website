@@ -1,3 +1,11 @@
+---
+title: 从githubpackages上传或下载aar
+sidebar_label: 从githubpackages上传或下载aar
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 从githubpackages上传或下载aar
 
 

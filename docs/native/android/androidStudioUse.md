@@ -1,3 +1,11 @@
+---
+title: Android studio使用
+sidebar_label: Android studio使用
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import android_proxy from "@site/static/img/android_proxy.png";
 
 # Android studio使用

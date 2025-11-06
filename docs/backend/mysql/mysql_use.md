@@ -1,3 +1,11 @@
+---
+title: mysql使用
+sidebar_label: mysql使用
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # mysql使用
 
 - 创建数据库：

@@ -1,3 +1,11 @@
+---
+title: 梯度消失和爆炸问题
+sidebar_label: 梯度消失和爆炸问题
+date: 2025-01-17
+last_update:
+  date: 2025-02-03
+---
+
 import sigmoid_pic from '@site/static/img/sigmoid_pic.png'
 import tanh_pic from '@site/static/img/tanh_pic.png'
 

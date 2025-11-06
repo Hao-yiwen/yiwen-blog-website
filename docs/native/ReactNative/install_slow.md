@@ -1,3 +1,11 @@
+---
+title: ios侧pod慢的问题
+sidebar_label: ios侧pod慢的问题
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # ios侧pod慢的问题
 
 - 在ios侧安装ios pod依赖，在国内有时候会非常慢。最慢的是boost和hermes-enigne。

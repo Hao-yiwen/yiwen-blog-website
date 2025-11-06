@@ -1,3 +1,11 @@
+---
+title: 常见adb命令
+sidebar_label: 常见adb命令
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 常见adb命令
 
 `Android Debug Bridge (ADB)` 是一个强大的工具，用于管理和调试 Android 设备。以下是一些常见的 ADB 命令：

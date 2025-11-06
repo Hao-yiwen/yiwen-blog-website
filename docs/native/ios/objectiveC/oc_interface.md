@@ -1,3 +1,11 @@
+---
+title: oc为什么有interface和implementation两部分
+sidebar_label: oc为什么有interface和implementation两部分
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # oc为什么有interface和implementation两部分
 
 在 Objective-C 中，将 @interface 和 @implementation 分开的设计确实有多种原因，其中一个重要原因是为了更好的封装和隐藏实现细节。以下是一些主要的原因和好处：

@@ -1,3 +1,11 @@
+---
+title: springboot3.2设置跨域
+sidebar_label: springboot3.2设置跨域
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # springboot3.2设置跨域
 
 ## 未开启 Spring Security

@@ -1,3 +1,11 @@
+---
+title: 为什么叫CGFloat而不是NSFloat
+sidebar_label: 为什么叫CGFloat而不是NSFloat
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 为什么叫CGFloat而不是NSFloat
 
 在 Objective-C 中，CGFloat 是由 Core Graphics 框架定义的，而不是由 Foundation 框架定义的。这就是为什么它叫 CGFloat 而不是 NSFloat。

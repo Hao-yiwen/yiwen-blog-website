@@ -1,3 +1,11 @@
+---
+title: Android中xml的主题切换
+sidebar_label: Android中xml的主题切换
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android中xml的主题切换
 
 在 Android 中，通过使用 XML 文件和主题，可以轻松实现根据系统主题（白天模式和夜间模式）动态切换背景颜色。以下是详细的步骤：

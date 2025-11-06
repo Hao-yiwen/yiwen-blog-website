@@ -1,3 +1,11 @@
+---
+title: instanceof
+sidebar_label: instanceof
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # instanceof
 
 ## 介绍

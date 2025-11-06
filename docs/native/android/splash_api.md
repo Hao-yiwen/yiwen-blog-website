@@ -1,3 +1,11 @@
+---
+title: Splash Api
+sidebar_label: Splash Api
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Splash Api
 
 Android 12引入的新的启动画面API（SplashScreen API）主要旨在简化应用的启动画面实现，确保启动画面的显示更加一致，并减少应用启动时间。这个API确实支持一些动画功能，但它的设计主要是用来显示静态图片或非常简单的动画，比如矢量图形的动画。

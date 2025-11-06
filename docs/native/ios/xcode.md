@@ -1,3 +1,11 @@
+---
+title: Xcode常见命令
+sidebar_label: Xcode常见命令
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Xcode常见命令
 
 ## xcode-select

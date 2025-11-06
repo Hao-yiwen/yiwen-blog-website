@@ -1,3 +1,11 @@
+---
+title: uv 常用命令（简化版）
+sidebar_label: uv 常用命令（简化版）
+date: 2025-07-01
+last_update:
+  date: 2025-11-06
+---
+
 # uv 常用命令（简化版）
 
 ## 安装 uv

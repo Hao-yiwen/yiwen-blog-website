@@ -1,3 +1,11 @@
+---
+title: LiveData
+sidebar_label: LiveData
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # LiveData
 
 liveData和stateFlow类似，是一个可观察的数据持有类，lieveData是生命周期感知的，只在活跃生命周期状态才会通知数据变化。

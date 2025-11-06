@@ -1,3 +1,11 @@
+---
+title: Kotlin类型
+sidebar_label: Kotlin类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Kotlin类型
 
 在Kotlin中，List类型不是基本类型（也称为原生类型或原始类型）。Kotlin的基本类型是指那些直接映射到Java虚拟机原生类型的类型，主要用于表示数字、字符和布尔值等简单值。Kotlin设计这些类型是为了实现高效的运行时性能，同时提供比Java更安全、更丰富的操作。

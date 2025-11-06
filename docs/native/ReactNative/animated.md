@@ -1,3 +1,11 @@
+---
+title: Animated
+sidebar_label: Animated
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Animated
 
 ## 原声驱动常见问题

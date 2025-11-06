@@ -1,3 +1,11 @@
+---
+title: Kotlin基础
+sidebar_label: Kotlin基础
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Kotlin基础
 
 ## 介绍

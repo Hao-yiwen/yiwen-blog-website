@@ -1,3 +1,11 @@
+---
+title: python标准库
+sidebar_label: python标准库
+date: 2025-01-21
+last_update:
+  date: 2025-01-21
+---
+
 # python标准库
 
 Python 提供了非常丰富的标准库，覆盖了从基础数据操作到网络编程、文件处理等众多功能。这些标准库不需要额外安装，可以直接在 Python 中使用。以下是一些常用的标准库分类和具体模块

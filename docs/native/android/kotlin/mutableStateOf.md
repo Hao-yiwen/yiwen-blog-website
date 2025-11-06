@@ -1,3 +1,11 @@
+---
+title: mutableStateOf
+sidebar_label: mutableStateOf
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # mutableStateOf
 
 mutableStateOf 在 Jetpack Compose 中用于创建可观察的状态，这种状态用于构建响应式 UI。当状态通过 mutableStateOf 定义的变量发生变化时，依赖于这个状态的 Compose UI 会自动重新绘制，以反映最新的数据。这是实现声明式 UI 更新的核心机制之一。

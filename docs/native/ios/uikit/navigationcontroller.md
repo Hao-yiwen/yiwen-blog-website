@@ -1,3 +1,11 @@
+---
+title: 使用navigation导航时没有导航头但是能左滑
+sidebar_label: 使用navigation导航时没有导航头但是能左滑
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 使用navigation导航时没有导航头但是能左滑
 
 ## 场景说明

@@ -1,3 +1,11 @@
+---
+title: Storyboard
+sidebar_label: Storyboard
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Storyboard
 
 Storyboard 是 iOS 应用开发中的一种可视化工具，用于设计和组织用户界面。它提供了一种直观的方式，通过拖放组件来创建应用的视图层次结构和导航流程。Storyboards 是 Xcode 的一部分，允许开发者在一个文件中定义多个视图控制器及其之间的关系。

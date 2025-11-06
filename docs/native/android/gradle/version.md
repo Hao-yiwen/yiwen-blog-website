@@ -1,3 +1,11 @@
+---
+title: agp和gradle和jdk版本兼容情况
+sidebar_label: agp和gradle和jdk版本兼容情况
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # agp和gradle和jdk版本兼容情况
 
 [gradle版本和jdk版本兼容](https://docs.gradle.org/current/userguide/compatibility.html)

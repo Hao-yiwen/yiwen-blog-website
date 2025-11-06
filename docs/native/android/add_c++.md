@@ -1,3 +1,11 @@
+---
+title: Android添加c++
+sidebar_label: Android添加c++
+date: 2024-06-25
+last_update:
+  date: 2025-02-14
+---
+
 # Android添加c++
 
 在 Android 应用程序中使用 C++ 代码通常通过 JNI（Java Native Interface）进行交互。JNI 提供了一种在 Java 和 C/C++ 代码之间调用方法和传递数据的机制。以下是一个详细的示例，展示如何在 Android 项目中使用 JNI 进行 Java 和 C++ 的交互。

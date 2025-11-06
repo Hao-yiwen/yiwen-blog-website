@@ -1,3 +1,11 @@
+---
+title: Expo
+sidebar_label: Expo
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Expo
 
 谈到`RN`开发，`Expo`绝对是绕不过去的一环，凭借这一体化的服务和丰富的`SDK`，`Expo`在`ReactNative`社区有着巨大的影响力，以下是`Expo`的简单介绍和使用。

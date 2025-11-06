@@ -1,3 +1,11 @@
+---
+title: final和static
+sidebar_label: final和static
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # final和static
 
 在Java中，final和static是两个用途和含义完全不同的关键字，它们可以用于变量、方法和类。

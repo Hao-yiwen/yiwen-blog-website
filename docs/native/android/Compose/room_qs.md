@@ -1,3 +1,11 @@
+---
+title: fallbackToDestructiveMigration问题
+sidebar_label: fallbackToDestructiveMigration问题
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # fallbackToDestructiveMigration问题
 
 ## 场景

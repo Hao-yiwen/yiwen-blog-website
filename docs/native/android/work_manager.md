@@ -1,3 +1,11 @@
+---
+title: WorkManager
+sidebar_label: WorkManager
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # WorkManager
 
 WorkManager提供了灵活的API来支持不同类型的后台任务调度需求，主要包括一次性任务（OneTimeWorkRequest）和周期性任务（PeriodicWorkRequest）。以下是这两种使用方式的详细介绍和示例。

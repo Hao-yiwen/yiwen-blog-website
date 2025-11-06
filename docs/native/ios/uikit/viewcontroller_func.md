@@ -1,3 +1,11 @@
+---
+title: viewController常用的生命周期方法
+sidebar_label: viewController常用的生命周期方法
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import ios_viewcontroller_lifecycle from '@site/static/img/ios_viewcontroller_lifecycle.png'
 
 # viewController常用的生命周期方法

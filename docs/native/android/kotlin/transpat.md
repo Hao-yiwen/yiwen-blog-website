@@ -1,3 +1,11 @@
+---
+title: compose设置透明导航栏
+sidebar_label: compose设置透明导航栏
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # compose设置透明导航栏
 ```kt
 // 看代码注释

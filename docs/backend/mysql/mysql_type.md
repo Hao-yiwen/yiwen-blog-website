@@ -1,3 +1,11 @@
+---
+title: mysql常见类型
+sidebar_label: mysql常见类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # mysql常见类型
 
 MySQL中常见的数据类型包括：

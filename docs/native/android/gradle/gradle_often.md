@@ -1,3 +1,11 @@
+---
+title: 常用gradle依赖
+sidebar_label: 常用gradle依赖
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 常用gradle依赖
 
 ```kt

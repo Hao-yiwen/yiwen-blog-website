@@ -1,3 +1,11 @@
+---
+title: so和.a文件
+sidebar_label: so和.a文件
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # so和.a文件
 
 so 文件和 a 文件都是用于共享代码库的文件格式，但它们在使用和行为上有显著的区别。

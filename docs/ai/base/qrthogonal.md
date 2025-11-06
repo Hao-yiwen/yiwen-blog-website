@@ -1,3 +1,11 @@
+---
+title: 正交矩阵（Orthogonal）
+sidebar_label: 正交矩阵（Orthogonal）
+date: 2025-11-04
+last_update:
+  date: 2025-11-05
+---
+
 # 正交矩阵（Orthogonal）
 
 **一句话**：正交矩阵就是“只旋转/翻折，不拉伸”的变换矩阵。

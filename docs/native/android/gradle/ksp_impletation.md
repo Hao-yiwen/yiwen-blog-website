@@ -1,3 +1,11 @@
+---
+title: KSP
+sidebar_label: KSP
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # KSP
 
 KSP (Kotlin Symbol Processing) 是 Google 开发的一套工具，专门用于在编译时处理 Kotlin 代码的注解。与传统的注解处理器（如 kapt）相比，KSP 提供了更快的编译速度和更好的开发体验。使用 KSP，开发者可以编写自己的注解处理器来生成、修改或检查 Kotlin 代码。

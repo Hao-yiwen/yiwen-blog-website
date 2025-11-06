@@ -1,3 +1,11 @@
+---
+title: @react-native-community/cli调试
+sidebar_label: @react-native-community/cli调试
+date: 2024-07-04
+last_update:
+  date: 2024-07-04
+---
+
 # @react-native-community/cli调试
 
 1. [克隆仓库](https://github.com/react-native-community/cli)

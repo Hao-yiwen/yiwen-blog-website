@@ -1,3 +1,11 @@
+---
+title: navigateUp和popBackStack
+sidebar_label: navigateUp和popBackStack
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # navigateUp和popBackStack
 
 ## navigateUp()

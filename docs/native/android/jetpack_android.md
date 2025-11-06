@@ -1,3 +1,11 @@
+---
+title: jetpack,android和androidx
+sidebar_label: jetpack,android和androidx
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # jetpack,android和androidx
 
 ## jetpack

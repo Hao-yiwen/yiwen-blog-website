@@ -1,3 +1,11 @@
+---
+title: AutoDL预设
+sidebar_label: AutoDL预设
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # AutoDL预设
 
 ## 私有镜像

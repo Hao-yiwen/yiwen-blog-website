@@ -1,3 +1,11 @@
+---
+title: Sqlite
+sidebar_label: Sqlite
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Sqlite
 
 ## sqlite的基础数据类型

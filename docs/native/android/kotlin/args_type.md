@@ -1,3 +1,11 @@
+---
+title: 参数类型
+sidebar_label: 参数类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 参数类型
 
 ## 位置参数

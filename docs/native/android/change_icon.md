@@ -1,3 +1,11 @@
+---
+title: Android侧设置图标
+sidebar_label: Android侧设置图标
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android侧设置图标
 
 ## 1. 使用Android Studio 的 Image Asset 工具

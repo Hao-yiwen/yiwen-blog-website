@@ -1,3 +1,11 @@
+---
+title: 创建一个新的Pod模块
+sidebar_label: 创建一个新的Pod模块
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 创建一个新的Pod模块
 
 在使用 CocoaPods 创建新模块（Pod）时，你需要按照以下步骤操作。这个过程包括创建一个新的 Podspec 文件，配置你的模块，发布到 CocoaPods 仓库等。

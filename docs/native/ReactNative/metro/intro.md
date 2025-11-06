@@ -1,3 +1,11 @@
+---
+title: Metro
+sidebar_label: Metro
+date: 2024-09-23
+last_update:
+  date: 2024-09-23
+---
+
 # Metro
 
 本章用来介绍metro打包过程，包括resolve/transform，以及序列化过程。

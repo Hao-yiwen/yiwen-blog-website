@@ -1,3 +1,11 @@
+---
+title: 在Form中使用Upload组件
+sidebar_label: 在Form中使用Upload组件
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 在Form中使用Upload组件
 
 ## 介绍

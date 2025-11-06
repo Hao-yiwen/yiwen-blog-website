@@ -1,3 +1,11 @@
+---
+title: java和kt中lambda实现及原始实现
+sidebar_label: java和kt中lambda实现及原始实现
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # java和kt中lambda实现及原始实现
 
 ## Kotlin

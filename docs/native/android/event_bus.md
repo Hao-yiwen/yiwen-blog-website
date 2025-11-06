@@ -1,3 +1,11 @@
+---
+title: EventBus 概述
+sidebar_label: EventBus 概述
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # EventBus 概述
 EventBus 是一个用于 Android 和 Java 的事件发布/订阅库。它简化了应用程序中组件之间的通信，尤其是当它们之间没有直接引用时。EventBus 提供了一种松耦合的方式，让组件可以通过发布和订阅事件来进行通信。
 

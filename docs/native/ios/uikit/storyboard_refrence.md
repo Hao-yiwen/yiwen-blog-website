@@ -1,3 +1,11 @@
+---
+title: Storyboard References
+sidebar_label: Storyboard References
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Storyboard References
 
 Storyboard References 是 iOS 开发中用来在一个 Storyboard 中引用另一个 Storyboard 的功能。这种方法有助于将应用程序拆分为多个 Storyboard，从而简化管理、提高可维护性，并支持更好的团队协作。

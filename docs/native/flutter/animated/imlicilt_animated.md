@@ -1,3 +1,11 @@
+---
+title: imlicilt animated
+sidebar_label: imlicilt animated
+date: 2024-08-08
+last_update:
+  date: 2024-08-08
+---
+
 ~~# 隐式动画
 
 ## 常用隐式动画组件

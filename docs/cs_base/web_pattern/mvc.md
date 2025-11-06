@@ -1,3 +1,11 @@
+---
+title: MVC
+sidebar_label: MVC
+date: 2024-06-25
+last_update:
+  date: 2024-07-02
+---
+
 # MVC
 
 下面的示例存在问题，view的更新和model操作都在controller层。但是实际上的mvc并不是这样的。实际工作过程：

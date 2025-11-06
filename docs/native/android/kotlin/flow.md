@@ -1,3 +1,11 @@
+---
+title: Flow和StateFlow
+sidebar_label: Flow和StateFlow
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Flow和StateFlow
 
 Kotlin Flows 是 Kotlin 为处理异步数据流（asynchronous stream）引入的一套 API。这些 API 是协程（coroutines）的一部分，专门用于处理时间上分散的一系列数据。Flows 允许你以非阻塞的方式工作，使得在多个线程之间传递数据变得简单且安全。

@@ -1,3 +1,11 @@
+---
+title: struct和class区别
+sidebar_label: struct和class区别
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # struct和class区别
 
 ## 值类型 vs. 引用类型：

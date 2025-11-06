@@ -1,3 +1,11 @@
+---
+title: metro
+sidebar_label: metro
+date: 2024-07-04
+last_update:
+  date: 2024-08-29
+---
+
 # metro
 
 Metro 是 React Native 的 JavaScript bundler，它负责将 JavaScript 代码打包并提供开发和调试工具。Metro 的主要功能包括模块解析、代码转换和优化，以及热重载（Hot Reloading）和快速刷新（Fast Refresh）。以下是 Metro 的主要组成部分和一个完整的 demo。

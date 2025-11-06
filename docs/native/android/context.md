@@ -1,3 +1,11 @@
+---
+title: Android中的Context
+sidebar_label: Android中的Context
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android中的Context
 
 在 Android 开发中，Context确实是一个核心概念，它为应用提供了一个接口，用于访问应用的全局信息和系统级服务。通过Context，开发者可以访问资源、数据库、偏好设置、启动活动（Activities）、服务等。它像是一个桥梁，连接应用程序与 Android 系统。

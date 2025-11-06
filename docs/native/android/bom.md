@@ -1,3 +1,11 @@
+---
+title: Gradle中的Bom依赖管理
+sidebar_label: Gradle中的Bom依赖管理
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Gradle中的Bom依赖管理
 
 ## 介绍

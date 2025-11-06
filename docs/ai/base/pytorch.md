@@ -1,3 +1,11 @@
+---
+title: PyTorch
+sidebar_label: PyTorch
+date: 2024-07-23
+last_update:
+  date: 2024-10-17
+---
+
 # PyTorch
 
 torch在英文中是火炬的意思。

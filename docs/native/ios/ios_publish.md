@@ -1,3 +1,11 @@
+---
+title: IOS打包
+sidebar_label: IOS打包
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 import fastlane from "@site/static/img/fastlane.png";
 
 # IOS打包

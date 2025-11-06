@@ -1,3 +1,11 @@
+---
+title: Android 应用的签名
+sidebar_label: Android 应用的签名
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android 应用的签名
 
 Android 应用的签名机制是一个关键的安全特性，它确保了应用的安全性、完整性和来源验证。下面我将详细介绍 Android 应用签名的作用以及如何进行签名。

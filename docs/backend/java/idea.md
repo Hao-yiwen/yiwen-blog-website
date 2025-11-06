@@ -1,3 +1,11 @@
+---
+title: Idea工作原理
+sidebar_label: Idea工作原理
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Idea工作原理
 
 ## 问题

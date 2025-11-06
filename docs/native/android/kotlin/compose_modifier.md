@@ -1,3 +1,11 @@
+---
+title: Compose中的Modifier和Style
+sidebar_label: Compose中的Modifier和Style
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Compose中的Modifier和Style
 
 在 Jetpack Compose 中，Modifier 是一个非常核心的概念，用于修改 composable 函数的布局参数、绘制参数以及其他属性。Modifier 提供了一种声明式的方式来添加装饰和行为到 UI 组件上，如设置尺寸、添加填充、设置点击事件监听器、应用背景色等。

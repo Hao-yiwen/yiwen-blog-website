@@ -1,3 +1,11 @@
+---
+title: Python 类（Class）快速入门
+sidebar_label: Python 类（Class）快速入门
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # Python 类（Class）快速入门
 
 ## 什么是类？

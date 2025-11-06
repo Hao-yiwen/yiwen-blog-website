@@ -1,3 +1,11 @@
+---
+title: 开始
+sidebar_label: 开始
+date: 2024-07-14
+last_update:
+  date: 2024-07-14
+---
+
 # 开始
 
 工作三年了，一直想系统性梳理一下React源码。在整个前端体系，React始终占据重要地位，无论是jsx，容器化，还是批处理，fiber切片，优先级调度。

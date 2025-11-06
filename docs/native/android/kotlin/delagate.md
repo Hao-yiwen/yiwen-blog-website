@@ -1,3 +1,11 @@
+---
+title: By关键字
+sidebar_label: By关键字
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # By关键字
 
 在Kotlin中，by关键字主要用于两个场景：委托属性（Property Delegation）和类委托（Class Delegation）。这里我将提供两个示例，分别展示这两种用法。

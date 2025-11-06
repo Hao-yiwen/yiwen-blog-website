@@ -1,3 +1,11 @@
+---
+title: c中基本数据类型
+sidebar_label: c中基本数据类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # c中基本数据类型
 
 在 C 语言中，有几种基本数据类型可以用来存储不同类型的数据。Objective-C 的 NSNumber 类可以封装这些基本数据类型，使其可以作为对象使用。

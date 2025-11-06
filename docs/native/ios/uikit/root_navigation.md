@@ -1,3 +1,11 @@
+---
+title: 从任何地方获取UIKit中navigationController的办法
+sidebar_label: 从任何地方获取UIKit中navigationController的办法
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 从任何地方获取UIKit中navigationController的办法
 
 ## 从oc和swift获取navigationController的方法

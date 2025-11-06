@@ -1,3 +1,11 @@
+---
+title: FAQ
+sidebar_label: FAQ
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # FAQ
 
 ## QA1

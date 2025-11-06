@@ -1,3 +1,11 @@
+---
+title: Java中的各种流
+sidebar_label: Java中的各种流
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Java中的各种流
 
 -   字节流（Byte Streams）: 字节流主要用于处理原始二进制数据。它们是所有输入输出流的基础，可以用来读取或写入任何类型的数据，不仅仅是文本。字节流在java.io包中，最基本的类是InputStream和OutputStream。这些流对于处理图像、音频、视频等非文本数据非常有用。

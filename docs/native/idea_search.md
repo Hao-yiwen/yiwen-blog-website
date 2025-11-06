@@ -1,3 +1,11 @@
+---
+title: IDEA中的搜索
+sidebar_label: IDEA中的搜索
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # IDEA中的搜索
 
 IntelliJ IDEA中的双击Shift和Shift + Command + F（在Windows/Linux上是Shift + Ctrl + F）提供了两种不同的搜索功能，它们分别适用于不同的搜索场景：

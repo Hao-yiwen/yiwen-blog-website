@@ -1,3 +1,11 @@
+---
+title: 定义成员变量的时候需要指定nonatomic和strong，两者分别是干什么的
+sidebar_label: 定义成员变量的时候需要指定nonatomic和strong，两者分别是干什么的
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 定义成员变量的时候需要指定nonatomic和strong，两者分别是干什么的
 
 ```oc

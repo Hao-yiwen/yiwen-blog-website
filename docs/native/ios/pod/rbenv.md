@@ -1,3 +1,11 @@
+---
+title: 使用rbenv管理ruby
+sidebar_label: 使用rbenv管理ruby
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 使用rbenv管理ruby
 
 ## 背景

@@ -1,3 +1,11 @@
+---
+title: instancetype类型
+sidebar_label: instancetype类型
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # instancetype类型
 
 instancetype 是 Objective-C 中用于方法返回类型的一种特殊类型，特别适用于初始化方法（如 init 方法）。它的引入主要是为了解决一些与类型推断和类型安全相关的问题。

@@ -1,3 +1,11 @@
+---
+title: arrayOf 和 listOf
+sidebar_label: arrayOf 和 listOf
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # arrayOf 和 listOf
 
 在 Kotlin 中，arrayOf 和 listOf 都用于创建集合，但它们分别创建的是不同类型的集合：数组和列表。这两种类型在用途、性能和操作上有所区别。

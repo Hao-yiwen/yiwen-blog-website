@@ -1,3 +1,11 @@
+---
+title: Conda 常用命令（简化版）
+sidebar_label: Conda 常用命令（简化版）
+date: 2025-09-13
+last_update:
+  date: 2025-11-05
+---
+
 # Conda 常用命令（简化版）
 
 ## 安装 Conda

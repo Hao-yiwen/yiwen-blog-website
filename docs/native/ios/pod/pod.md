@@ -1,3 +1,11 @@
+---
+title: development pod和pod
+sidebar_label: development pod和pod
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # development pod和pod
 
 ## 使用cocopod添加依赖,为什么有些依赖在development pod中还有一些在pod中?

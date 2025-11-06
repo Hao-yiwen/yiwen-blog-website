@@ -1,3 +1,11 @@
+---
+title: ViewModel
+sidebar_label: ViewModel
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # ViewModel
 
 ViewModel 是 Android Jetpack 库的一部分，旨在以声明式方式存储和管理 UI 相关的数据。ViewModel 的主要目的是解决设备配置更改（如屏幕旋转）时数据丢失的问题，并帮助组织代码以使数据管理与 UI 控制器（如活动和片段）解耦。以下是 ViewModel 的一些关键特点和用途：

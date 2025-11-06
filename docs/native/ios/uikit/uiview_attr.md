@@ -1,3 +1,11 @@
+---
+title: UIView常用属性
+sidebar_label: UIView常用属性
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # UIView常用属性
 
 UIView 是 iOS 应用程序中用于显示和管理用户界面的基本构建块。它有许多属性用于配置其外观和行为。以下是一些常用的 UIView 属性及其用途：

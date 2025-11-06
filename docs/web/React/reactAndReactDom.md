@@ -1,3 +1,11 @@
+---
+title: react和reactDom
+sidebar_label: react和reactDom
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # react和reactDom
 
 在 React 生态系统中，react 和 react-dom 是两个核心的库，它们的分工是明确且互补的：

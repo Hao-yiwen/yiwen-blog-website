@@ -1,3 +1,11 @@
+---
+title: 打出ipa包
+sidebar_label: 打出ipa包
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 打出ipa包
 
 ## 包体积分析

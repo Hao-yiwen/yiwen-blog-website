@@ -1,3 +1,11 @@
+---
+title: FastAPI 入门指南
+sidebar_label: FastAPI 入门指南
+date: 2025-11-06
+last_update:
+  date: 2025-11-06
+---
+
 # FastAPI 入门指南
 
 ## 📖 什么是 FastAPI？

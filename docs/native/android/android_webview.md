@@ -1,3 +1,11 @@
+---
+title: Android添加webview
+sidebar_label: Android添加webview
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # Android添加webview
 
 1. 创建activity，activity包含webview

@@ -1,3 +1,11 @@
+---
+title: 如何在android中使用svg图标
+sidebar_label: 如何在android中使用svg图标
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 如何在android中使用svg图标
 
 ## 转换svg为Vector Drawable

@@ -1,3 +1,11 @@
+---
+title: 为什么oc中类创建不同于c
+sidebar_label: 为什么oc中类创建不同于c
+date: 2024-06-25
+last_update:
+  date: 2024-06-25
+---
+
 # 为什么oc中类创建不同于c
 
 - c
