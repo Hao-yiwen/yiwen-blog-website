@@ -1,4 +1,7 @@
-好问题！这个中括号 `[]` 是 Python 包管理中的 **extras**（额外依赖）功能。
+---
+title: Python pip 中括号语法详解
+sidebar_label: pip 可选依赖 [extras]
+---
 
 ## 中括号的含义
 

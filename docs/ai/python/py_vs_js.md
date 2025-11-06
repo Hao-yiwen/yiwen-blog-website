@@ -1,4 +1,7 @@
-非常好的问题！让我逐一解答。
+---
+title: Python vs JavaScript OOP 对比详解
+sidebar_label: Python vs JS 面向对象
+---
 
 ## 1. Python 的 `__xxx__` 方法（魔法方法/Dunder 方法）
 
