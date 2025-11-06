@@ -18,6 +18,11 @@ uv init --python 3.11 my-project  # 指定Python版本（推荐）
 cd my-project
 ```
 
+### 2. 已有项目
+```bash
+uv init .               # 或明确指定当前目录
+```
+
 ### 2. 管理依赖
 ```bash
 uv add requests             # 添加包
@@ -31,6 +36,15 @@ uv sync                     # 安装所有依赖
 uv run python main.py       # 运行Python脚本
 uv run pytest              # 运行测试
 uv run python              # 进入Python REPL
+```
+
+### 传统方式
+```bash
+## 🔧 传统方式（可选）
+uv venv                           # 只创建虚拟环境
+source .venv/bin/activate
+uv pip install requests
+python main.py
 ```
 
 ## 🐍 Python版本
