@@ -1,6 +1,6 @@
 ---
-title: Navigation-fragment和activity切换
-sidebar_label: Navigation-fragment和activity切换
+title: "Navigation-fragment和activity切换"
+sidebar_label: "Navigation-fragment和activity切换"
 date: 2024-06-25
 last_update:
   date: 2024-06-25

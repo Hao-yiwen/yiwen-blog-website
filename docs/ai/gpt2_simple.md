@@ -1,6 +1,6 @@
 ---
-title: GPT-2 极简实现
-sidebar_label: GPT-2 极简实现
+title: "GPT-2 极简实现"
+sidebar_label: "GPT-2 极简实现"
 date: 2025-10-09
 last_update:
   date: 2025-10-09

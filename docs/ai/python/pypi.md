@@ -1,6 +1,6 @@
 ---
-title: 如何发布 PyPI 包 - 完整教程
-sidebar_label: 如何发布 PyPI 包 - 完整教程
+title: "如何发布 PyPI 包 - 完整教程"
+sidebar_label: "如何发布 PyPI 包 - 完整教程"
 date: 2025-11-06
 last_update:
   date: 2025-11-06
