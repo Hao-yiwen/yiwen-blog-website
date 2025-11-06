@@ -39,6 +39,8 @@ return {
                     remarkPlugins: [math],
                     rehypePlugins: [katex],
                     sidebarCollapsed: false,
+                    showLastUpdateTime: true,
+                    showLastUpdateAuthor: false,
                 },
                 blog: {
                     showReadingTime: true,
