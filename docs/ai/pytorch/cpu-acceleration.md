@@ -158,37 +158,6 @@ if torch.cuda.is_available():
 | 大规模矩阵运算 | PyTorch (GPU) | 性能远超 NumPy |
 | 科学计算（SciPy 生态） | NumPy | 工具链完善 |
 
-### 💡 从 NumPy 迁移到 PyTorch
-
-如果你的 NumPy 代码需要 GPU 加速，迁移很简单：
-
-```python
-# NumPy 代码
-import numpy as np
-a = np.random.randn(1000, 1000)
-b = np.random.randn(1000, 1000)
-c = np.dot(a, b)
-result = np.sum(c)
-
-# 等价的 PyTorch 代码（CPU）
-import torch
-a = torch.randn(1000, 1000)
-b = torch.randn(1000, 1000)
-c = torch.mm(a, b)
-result = torch.sum(c)
-
-# 一行代码切换到 GPU
-a = torch.randn(1000, 1000).cuda()
-b = torch.randn(1000, 1000).cuda()
-c = torch.mm(a, b)  # 自动在 GPU 上运行
-result = torch.sum(c)
-```
-
-**关键点：**
-- PyTorch 的 API 和 NumPy 非常相似（`np.dot` → `torch.mm`）
-- NumPy 不支持 GPU，如果需要 GPU 加速必须用 PyTorch 或其他框架
-- PyTorch 在 CPU 上性能和 NumPy 相当，但在 GPU 上快几十倍
-
 ---
 
 ## 总结
