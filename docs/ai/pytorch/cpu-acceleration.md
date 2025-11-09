@@ -106,15 +106,88 @@ PyTorch 会自动使用多个 CPU 核心
 
 ## PyTorch CPU vs NumPy
 
+### CPU 性能对比
+
 **性能差不多**，因为：
 - 都用类似的底层库 (BLAS, LAPACK)
 - 都是向量化操作
 - 都支持多线程
 
-**选择建议：**
-- 如果只做数值计算 → NumPy 更轻量
-- 如果要训练神经网络/自动求导 → PyTorch
-- 如果可能用 GPU → PyTorch
+### ⚠️ 关键区别：GPU 支持
+
+**NumPy 的限制：**
+- ❌ **只支持 CPU**，完全不支持 GPU 加速
+- ❌ 即使有 GPU，NumPy 也无法使用
+- ❌ 大规模矩阵运算受限于 CPU 性能
+
+**PyTorch 的优势：**
+- ✅ 同时支持 CPU 和 GPU
+- ✅ 代码几乎不用改，只需 `.cuda()` 或 `.to(device)`
+- ✅ GPU 可以带来 50-100 倍的加速
+
+```python
+import numpy as np
+import torch
+
+# NumPy: 只能在 CPU 上运行
+a_np = np.random.randn(10000, 10000)
+b_np = np.random.randn(10000, 10000)
+c_np = np.dot(a_np, b_np)  # ❌ 无法使用 GPU，约 2 秒
+
+# PyTorch: 可以选择 CPU 或 GPU
+a_torch = torch.randn(10000, 10000)
+b_torch = torch.randn(10000, 10000)
+
+# CPU 模式（和 NumPy 差不多）
+c_cpu = torch.mm(a_torch, b_torch)  # 约 2 秒
+
+# GPU 模式（快得多！）
+if torch.cuda.is_available():
+    a_gpu = a_torch.cuda()
+    b_gpu = b_torch.cuda()
+    c_gpu = torch.mm(a_gpu, b_gpu)  # ✅ 约 0.05 秒，快 40 倍！
+```
+
+### 📌 选择建议
+
+| 场景 | 推荐工具 | 原因 |
+|------|---------|------|
+| 只做数值计算，数据量小 | NumPy | 更轻量，生态成熟 |
+| 需要训练神经网络 | PyTorch | 自动微分，灵活 |
+| **需要 GPU 加速** | **PyTorch** | **NumPy 不支持 GPU** |
+| 大规模矩阵运算 | PyTorch (GPU) | 性能远超 NumPy |
+| 科学计算（SciPy 生态） | NumPy | 工具链完善 |
+
+### 💡 从 NumPy 迁移到 PyTorch
+
+如果你的 NumPy 代码需要 GPU 加速，迁移很简单：
+
+```python
+# NumPy 代码
+import numpy as np
+a = np.random.randn(1000, 1000)
+b = np.random.randn(1000, 1000)
+c = np.dot(a, b)
+result = np.sum(c)
+
+# 等价的 PyTorch 代码（CPU）
+import torch
+a = torch.randn(1000, 1000)
+b = torch.randn(1000, 1000)
+c = torch.mm(a, b)
+result = torch.sum(c)
+
+# 一行代码切换到 GPU
+a = torch.randn(1000, 1000).cuda()
+b = torch.randn(1000, 1000).cuda()
+c = torch.mm(a, b)  # 自动在 GPU 上运行
+result = torch.sum(c)
+```
+
+**关键点：**
+- PyTorch 的 API 和 NumPy 非常相似（`np.dot` → `torch.mm`）
+- NumPy 不支持 GPU，如果需要 GPU 加速必须用 PyTorch 或其他框架
+- PyTorch 在 CPU 上性能和 NumPy 相当，但在 GPU 上快几十倍
 
 ---
 
