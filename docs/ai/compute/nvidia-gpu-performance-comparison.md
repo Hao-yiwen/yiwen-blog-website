@@ -1,5 +1,10 @@
 ---
+title: NVIDIA GPU 算力对比表
+sidebar_label: GPU 算力对比
 sidebar_position: 2
+date: 2025-11-13
+last_update:
+  date: 2025-11-13
 ---
 
 # NVIDIA GPU 算力对比表：FP32 / FP16 / Tensor Core 全览

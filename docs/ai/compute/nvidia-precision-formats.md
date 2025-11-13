@@ -1,5 +1,10 @@
 ---
+title: NVIDIA 常见数值格式速查
+sidebar_label: NVIDIA 数值格式
 sidebar_position: 1
+date: 2025-11-13
+last_update:
+  date: 2025-11-13
 ---
 
 # NVIDIA 常见数值格式速查：FP16 / BF16 / TF32 / INT8 / INT4
