@@ -9,6 +9,21 @@ last_update:
 
 # NVIDIA GPU 算力对比表：FP32 / FP16 / Tensor Core 全览
 
+## NVIDIA 架构演进与 Tensor Core 精度支持
+
+> 按时间顺序展示各代架构的 Tensor Core 代数及支持的精度格式
+
+| 架构 & 代表卡 | Tensor Core 代数 | 首次/主要支持的精度 |
+| ------------ | --------------- | ------------------ |
+| **Pascal（P100 等）** | 无 Tensor Core | 只支持 FP32/FP64 常规计算（无 FP16 Tensor Core） |
+| **Volta（V100）** | 第 1 代 | **FP16 Tensor Core**（训练混合精度起点） |
+| **Turing（T4, RTX 20）** | 第 2 代 | 在 Volta FP16 基础上新增 **INT8 / INT4** Tensor Core 精度 |
+| **Ampere（A100, A30, 部分 RTX A 系列）** | 第 3 代 | 保留 **FP16 + INT8/INT4**，新加 **BF16**、**TF32** 支持 |
+| **Hopper（H100/H200）** | 第 4 代 | 延续 **FP16/BF16/TF32/INT8/INT4**，新加 **FP8**（两种 nvFP8 格式） |
+| **Blackwell（B100/GB200, RTX Blackwell）** | 第 5 代 | 延续上面所有，并加强 **FP8**，新增 **FP4** Tensor Core 精度（极致低精度） |
+
+---
+
 ## 说明
 
 * **FP32 / FP16（非 Tensor）**：普通 CUDA 浮点算力。对大部分 GeForce / RTX 工作站卡来说，FP16 标称带宽 ≈ FP32，所以直接写成相同数值。
