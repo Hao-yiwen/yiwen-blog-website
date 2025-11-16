@@ -337,5 +337,5 @@ if __name__ == "__main__":
 - 作为教学演示代码
 
 :::tip
-开启 `debug=True` 可以打印每层的 tensor 形状,帮助理解数据流转过程。
+开启 `debug=True` 可以打印每层的 tensor 形状
 :::
