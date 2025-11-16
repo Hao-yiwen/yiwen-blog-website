@@ -4,7 +4,7 @@ sidebar_position: 21
 tags: [Scaling Law, 大模型, MoE, RLHF, 深度学习]
 ---
 
-# **大模型 Scaling Law 与后 Scaling Law 时代的应对策略（简要版）**
+# 大模型 Scaling Law 与后 Scaling Law 时代的应对策略
 
 ## 1. 什么是 Scaling Law
 
@@ -144,6 +144,6 @@ RLHF/DPO 已成为最强模型能力提升的关键来源之一。
 
 ---
 
-# 4. 总结（适合放飞书的一句话）
+# 4. 总结
 
 > **后 Scaling Law 时代不再依赖单纯扩大 dense 模型规模，而是通过 MoE、强化学习、数据质量、工具使用、检索记忆和结构创新来提升模型能力，从而在有限算力下获得更高的性价比与更强的智能表现。**
