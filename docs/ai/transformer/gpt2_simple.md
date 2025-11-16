@@ -17,10 +17,6 @@ last_update:
 - **遮罩多头注意力(Masked Multi-Head Attention)**
 - **前馈网络(MLP)**
 
-:::note
-本实现专注于代码可读性和教学目的,省略了并行化、KV Cache、FlashAttention 等工程优化,不适用于生产环境。
-:::
-
 ## 完整代码实现
 
 ```py
