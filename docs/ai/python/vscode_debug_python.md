@@ -4,7 +4,7 @@ sidebar_position: 10
 tags: [python, vscode, 调试, debug]
 ---
 
-# 📘 VS Code 中调试 Python（.py）文件的简单指南
+# VS Code 中调试 Python（.py）文件的简单指南
 
 本文介绍如何在 **Visual Studio Code** 中"丝滑地"调试 Python 文件，包括环境选择、断点调试、配置启动项等基础操作。
 
@@ -157,8 +157,8 @@ len(my_list)
 * 使用虚拟环境可保持依赖干净
 * 在调试 GPU（如 PyTorch）时可插入：
 
-  ```python
-  torch.cuda.synchronize()
-  ```
+```python
+torch.cuda.synchronize()
+```
 
-  避免步进乱跳
+避免步进乱跳
