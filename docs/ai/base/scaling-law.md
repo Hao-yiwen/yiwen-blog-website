@@ -4,7 +4,7 @@ sidebar_position: 21
 tags: [Scaling Law, 大模型, MoE, RLHF, 深度学习]
 ---
 
-# 📘 **大模型 Scaling Law 与后 Scaling Law 时代的应对策略（简要版）**
+# **大模型 Scaling Law 与后 Scaling Law 时代的应对策略（简要版）**
 
 ## 1. 什么是 Scaling Law
 
