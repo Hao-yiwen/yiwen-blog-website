@@ -88,11 +88,3 @@ OpenAI **Sora**, 快手 **可灵 (Kling)**, Luma **Dream Machine**, Runway **Gen
 ### 一句话概括
 
 现在的 AI 实际上大多是 **"穿着不同外衣的 Transformer"**。无论是处理文字、生成图片还是渲染视频，核心都是通过 Transformer 的注意力机制来学习数据之间的关联。
-
----
-
-## 扩展阅读
-
--   [Transformer 架构详解](./transformer)
--   [扩散模型原理](./diffusion)
--   [注意力机制](./attention)
