@@ -324,9 +324,9 @@ Faiss 索引构建完成，库中共有 2000 个物品。
 ### 向量检索优化
 - **量化**：使用 Product Quantization 减少内存占用
 - **索引类型**：
-  - 小数据（`<100万`）：`IndexFlatIP`
+  - 小数据（&lt;100万）：`IndexFlatIP`
   - 中等数据（100万-1000万）：`IndexIVFFlat`
-  - 大数据（`>1000万`）：`IndexIVFPQ`
+  - 大数据（&gt;1000万）：`IndexIVFPQ`
 
 ## 参考资料
 
