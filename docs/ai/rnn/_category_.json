@@ -1,0 +1,8 @@
+{
+    "label": "RNN",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "循环神经网络的原理、实现与应用"
+    }
+}
