@@ -5,6 +5,8 @@ date: 2023-09-25
 
 # ARM架构centos9Stream安装
 
+<!-- truncate -->
+
 :::info
 20230923是非常有意义的一天，因为这一天我终于知道原来mac也可以`VMare Fusion`有个人免费版本。
 :::

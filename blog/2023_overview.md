@@ -7,6 +7,8 @@ import pic from '@site/static/img/2023_overview.jpg'
 
 # 2023年度总结
 
+<!-- truncate -->
+
 ## 2023年度词汇
 
 君子慎独、开源、自习室

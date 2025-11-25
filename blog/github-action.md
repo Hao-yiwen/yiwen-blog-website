@@ -7,6 +7,8 @@ date: 2023-09-09
 
 本指南旨在引导您使用 GitHub Actions 和 GitHub Pages，高效地为前端项目实现自动化部署。自动化部署不仅可以提高开发效率，还能确保代码质量。
 
+<!-- truncate -->
+
 ## TODO
 
 github action 连接服务器，进行 docker 部署。

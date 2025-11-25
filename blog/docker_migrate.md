@@ -5,6 +5,8 @@ date: 2024-01-14
 
 # docker镜像仓库迁移
 
+<!-- truncate -->
+
 ## 前置条件
 
 [阿里云容器仓库](https://cr.console.aliyun.com/cn-shanghai/instance/repositories)

@@ -232,7 +232,7 @@ vLLM 通过 Continuous Batching + PagedAttention 双重优化，在 LLM 推理�
    - 需要快速原型验证
 
 3. **企业内部服务**
-   - 并发量不高（<100 QPS）
+   - 并发量不高（&lt;100 QPS）
    - 更看重稳定性和易用性
 
 ### 选择 Triton 的场景 ✅
@@ -307,7 +307,7 @@ parameters: {
 | PyTorch 模型快速验证 | **TorchServe** | 最简单，生态完整 |
 | 需要 TensorRT 加速 | **Triton** | NVIDIA 官方深度优化 |
 | 成本敏感（GPU 资源有限） | **vLLM** | 显存利用率最高 |
-| 并发量 <50 QPS | **TorchServe** | 足够用，不需要过度优化 |
+| 并发量 &lt;50 QPS | **TorchServe** | 足够用，不需要过度优化 |
 | 并发量 >500 QPS | **vLLM** | 唯一能扛住的选择 |
 
 ---

@@ -5,6 +5,8 @@ date: 2023-09-29
 
 # githubPackages上传踩坑
 
+<!-- truncate -->
+
 ## 背景
 
 为进一步闭环`github`体系开发，镜像上传逐步向`githubpackages`倾斜。
