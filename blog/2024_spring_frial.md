@@ -13,6 +13,8 @@ import festfrial_6 from '@site/static/img/2024_festfrial_6.jpeg'
 
 # 2024龙年春节有感
 
+<!-- truncate -->
+
 ## 老家
 
 <img src={tree} width={300} />

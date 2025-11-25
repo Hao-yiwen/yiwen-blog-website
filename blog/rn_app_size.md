@@ -10,6 +10,8 @@ import Size0725 from '@site/static/img/0725_size.png'
 
 今天晚上尝试对一个新创建的`rn@0.74.0` android app打release包时发现，打完包后的体积是50mb，我心里咯噔了一下。这也太离谱了把，什么都没有做就50mb了。
 
+<!-- truncate -->
+
 ## 0.74.0
 
 <img src={Size0740} width={500}/>

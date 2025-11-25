@@ -7,6 +7,8 @@ date: 2024-03-19
 
 今天在开发android，在开发过程中在思考一个问题，如果是从0开始，并没有完善的基建，那么如何知晓接口返回的情况那，于是打算重新熟悉charles进行抓包
 
+<!-- truncate -->
+
 ## 安装charles
 
 https://www.charlesproxy.com/download/latest-release/

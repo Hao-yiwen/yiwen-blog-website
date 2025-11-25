@@ -5,6 +5,8 @@ date: 2023-09-12
 
 # oh-my-zsh代码提示和补全
 
+<!-- truncate -->
+
 ## 安装oh-my-zsh
 
 1. 安装

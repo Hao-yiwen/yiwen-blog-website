@@ -5,6 +5,8 @@ date: 2023-09-14
 
 # 常用git命令及解释
 
+<!-- truncate -->
+
 ## 常用git命令
 
 ```bash

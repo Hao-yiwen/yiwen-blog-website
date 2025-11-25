@@ -5,6 +5,8 @@ date: 2023-09-12
 
 # Docusaurus 添加评论
 
+<!-- truncate -->
+
 ## 前置条件
 
 1. `Docusaurus`: `2.4.1`

@@ -5,6 +5,8 @@ date: 2023-09-20
 
 # nginx配置
 
+<!-- truncate -->
+
 ## root和alias区别
 
 ### root

@@ -5,6 +5,8 @@ date: 2023-09-13
 
 # 常用命令
 
+<!-- truncate -->
+
 ## 终端代理
 ```bash title="ss"
 export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
