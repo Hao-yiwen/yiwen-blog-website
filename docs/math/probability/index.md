@@ -20,24 +20,24 @@ tags: [概率论, 数学, 统计]
 
 | 章节 | 主题 | 核心内容 |
 |------|------|----------|
-| 第一章 | [随机事件与概率](./01-random-events-and-probability) | 概率的定义、条件概率、贝叶斯公式 |
-| 第二章 | [一维随机变量及其分布](./02-one-dimensional-random-variables) | 离散型与连续型分布、常见分布 |
-| 第三章 | [多维随机变量及其分布](./03-multi-dimensional-random-variables) | 联合分布、边缘分布、独立性 |
-| 第四章 | [随机变量的数字特征](./04-numerical-characteristics) | 期望、方差、协方差、相关系数 |
+| 第一章 | [随机事件与概率](./01-random-events-and-probability.md) | 概率的定义、条件概率、贝叶斯公式 |
+| 第二章 | [一维随机变量及其分布](./02-one-dimensional-random-variables.md) | 离散型与连续型分布、常见分布 |
+| 第三章 | [多维随机变量及其分布](./03-multi-dimensional-random-variables.md) | 联合分布、边缘分布、独立性 |
+| 第四章 | [随机变量的数字特征](./04-numerical-characteristics.md) | 期望、方差、协方差、相关系数 |
 
 ### 两个极限定理
 
 | 章节 | 主题 | 核心内容 |
 |------|------|----------|
-| 第五章 | [大数定律与中心极限定理](./05-limit-theorems) | 频率稳定性、正态分布的普遍性 |
+| 第五章 | [大数定律与中心极限定理](./05-limit-theorems.md) | 频率稳定性、正态分布的普遍性 |
 
 ### 扩展阅读
 
 | 章节 | 主题 | 核心内容 |
 |------|------|----------|
-| 第六章 | [深度学习为何痴迷标准正态分布](./06-normal-distribution-in-deep-learning) | 数据标准化、权重初始化、BatchNorm |
-| 第七章 | [深度学习中的概率论](./07-probability-in-deep-learning) | Loss函数、SGD、正则化、生成模型 |
-| 第八章 | [正态分布详解](./08-normal-distribution) | 钟形曲线、3σ原则、中心极限定理 |
+| 第六章 | [深度学习为何痴迷标准正态分布](./06-normal-distribution-in-deep-learning.md) | 数据标准化、权重初始化、BatchNorm |
+| 第七章 | [深度学习中的概率论](./07-probability-in-deep-learning.md) | Loss函数、SGD、正则化、生成模型 |
+| 第八章 | [正态分布详解](./08-normal-distribution.md) | 钟形曲线、3σ原则、中心极限定理 |
 
 ## 学习路径
 
