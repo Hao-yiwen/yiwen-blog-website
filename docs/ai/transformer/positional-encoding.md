@@ -7,6 +7,8 @@ last_update:
 tags: [transformer, positional-encoding, attention]
 ---
 
+import transfomer_float from "@site/static/img/transfomer_float.png";
+
 # Transformer 绝对位置编码 (Sinusoidal Positional Encoding) 原理总结
 
 ## 1. 背景：为什么 Transformer 需要位置编码？
@@ -54,8 +56,7 @@ $$\text{最终输入向量} = \text{词向量}(\text{Word Embedding}) + \text{�
 
 ## 3. 可视化解读：热力图分析
 
-{/* TODO: 添加图片后取消注释 */}
-{/* ![Transformer 正弦位置编码热力图](/img/transformer-positional-encoding-heatmap.png) */}
+<img src={transfomer_float} alt="Transformer 正弦位置编码示意图" style={{width: '80%', display: 'block', margin: '32px auto'}} />
 
 结合热力图，我们可以直观地理解位置编码的原理：
 
