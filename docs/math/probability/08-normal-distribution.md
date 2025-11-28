@@ -4,6 +4,8 @@ sidebar_position: 8
 tags: [概率论, 正态分布, 高斯分布, 3σ原则]
 ---
 
+import normalImg from '@site/static/img/normal.png';
+
 # 正态分布详解
 
 **正态分布（Normal Distribution）**，又叫**高斯分布（Gaussian Distribution）**，它不仅是重要，它简直就是概率论里的**"神"**。
@@ -22,6 +24,8 @@ tags: [概率论, 正态分布, 高斯分布, 3σ原则]
 - **中间高**：代表大多数人都凑在中间（平均水平）。
 - **两边低**：代表极好和极坏的人都是少数。
 - **左右对称**：比平均好一点的人数，和比平均差一点的人数是一样的。
+
+<img src={normalImg} alt="正态分布曲线" />
 
 ### 概率密度函数
 
