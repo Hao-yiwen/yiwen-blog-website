@@ -124,6 +124,7 @@ $$
 3. **部署**: Docker 目标平台 `linux/amd64`
 4. **提交**: 必须符合 Conventional Commits 规范
 5. **MDX**: 所有 markdown 文件支持 React 组件
+6. **开发**: 添加或修改文档时，直接写入文件即可，无需运行构建命令验证
 
 ## 故障排查
 
