@@ -36,6 +36,8 @@ tags: [概率论, 数学, 统计]
 | 章节 | 主题 | 核心内容 |
 |------|------|----------|
 | 第六章 | [深度学习为何痴迷标准正态分布](./06-normal-distribution-in-deep-learning) | 数据标准化、权重初始化、BatchNorm |
+| 第七章 | [深度学习中的概率论](./07-probability-in-deep-learning) | Loss函数、SGD、正则化、生成模型 |
+| 第八章 | [正态分布详解](./08-normal-distribution) | 钟形曲线、3σ原则、中心极限定理 |
 
 ## 学习路径
 
