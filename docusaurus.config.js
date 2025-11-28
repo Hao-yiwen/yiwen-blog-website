@@ -125,6 +125,12 @@ return {
                     },
                     {
                         type: 'docSidebar',
+                        sidebarId: 'mathSidebar',
+                        position: 'left',
+                        label: '数学',
+                    },
+                    {
+                        type: 'docSidebar',
                         sidebarId: 'whelkSidebar',
                         position: 'left',
                         label: '抗痘',
