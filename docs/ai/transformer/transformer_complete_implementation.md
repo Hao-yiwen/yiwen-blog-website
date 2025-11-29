@@ -8,6 +8,8 @@ last_update:
   date: 2025-01-22
 ---
 
+import transformerImage from '@site/static/img/transformer.png';
+
 # Transformer 完整架构详解与 PyTorch 实现
 
 这是一份完整的 Transformer 架构代码笔记，整合了从底层的多头注意力（QKV）到中间的编码器/解码器块，再到整体架构和掩码机制的所有核心概念。本文包含极其详尽的中文注释，帮助你深入理解 Transformer 的工作原理。
@@ -28,6 +30,8 @@ Transformer 成功的秘诀在于完全抛弃了循环结构，转而依赖强�
    - **Decoder (解码器塔)**：负责"看着笔记写作文"，自回归地生成目标输出
 
 ## 代码结构宏观导航：两座独立的"大楼"
+
+<img src={transformerImage} alt="Transformer 架构图" />
 
 在阅读这份代码时，请务必牢记：Transformer 并不是编码一层、解码一层交替进行的。它的实际工作流程是**两座独立堆叠的"塔楼"**前后接力完成的：
 
