@@ -92,12 +92,6 @@ tags: [深度学习, 教程, 李沐, d2l]
 - [纸质书](https://zh.d2l.ai/) - 《动手学深度学习（PyTorch版）》京东、当当有售
 - [英文版](https://d2l.ai/) - Dive into Deep Learning
 
-## 我的学习笔记
+## 学习代码
 
-本博客中许多深度学习相关的笔记都源自对这本书的学习和理解，包括：
-
-- [反向传播](/docs/ai/base/backpropagation)
-- [批量归一化](/docs/ai/base/batch-normalization)
-- [经典 CNN 网络](/docs/ai/cnn/classic-networks)
-- [RNN 从零实现](/docs/ai/rnn/rnn-from-scratch)
-- [Transformer](/docs/ai/transformer/transformer)
+https://github.com/Hao-yiwen/deeplearning/tree/master/pytorch_2025/month_11
