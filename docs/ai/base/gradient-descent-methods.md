@@ -120,6 +120,6 @@ $$
 
 这三种方法在实际应用中通常还会配合**动量（Momentum）**或自适应学习率算法（如 **Adam**）使用。相关文档：
 
-- [Adam vs SGD](/docs/ai/pytorch/adam-vs-sgd) - Adam 和 SGD 优化器对比
-- [Adam vs AdamW](/docs/ai/pytorch/adam-vs-adamw) - Adam 和 AdamW 的区别
-- [学习率调度器](/docs/ai/pytorch/learning-rate-schedulers) - 学习率调度策略
+- [Adam vs SGD](../pytorch/adam-vs-sgd.md) - Adam 和 SGD 优化器对比
+- [Adam vs AdamW](../pytorch/adam-vs-adamw.md) - Adam 和 AdamW 的区别
+- [学习率调度器](../pytorch/learning-rate-schedulers.md) - 学习率调度策略
