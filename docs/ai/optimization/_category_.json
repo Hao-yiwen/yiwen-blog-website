@@ -1,0 +1,8 @@
+{
+    "label": "优化器与训练技巧",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "梯度下降、Adam、SGD、学习率调度等优化算法"
+    }
+}

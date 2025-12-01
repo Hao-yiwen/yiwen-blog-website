@@ -1,0 +1,8 @@
+{
+    "label": "模型架构",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "MLP、CNN、RNN、Transformer 等神经网络架构"
+    }
+}

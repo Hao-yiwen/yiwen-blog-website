@@ -1,0 +1,8 @@
+{
+    "label": "数学基础",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "深度学习所需的数学知识：范数、方差、正交矩阵等"
+    }
+}

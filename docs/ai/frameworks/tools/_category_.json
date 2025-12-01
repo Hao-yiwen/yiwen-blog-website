@@ -1,0 +1,8 @@
+{
+    "label": "工具与平台",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Jupyter、Kaggle、AutoDL、Scikit-learn 等工具和平台"
+    }
+}
