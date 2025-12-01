@@ -217,6 +217,8 @@ print(f'真实参数:   w = 2.0000, b = 1.0000')
 
 ## 相关链接
 
+- [Adam 优化器详解](./adam-optimizer.md)
 - [Adam vs SGD 优化器对比](./adam-vs-sgd.md)
 - [Adam vs AdamW 区别](./adam-vs-adamw.md)
 - [学习率调度器](./learning-rate-schedulers.md)
+- [梯度下降方法详解](../base/gradient-descent-methods.md)
