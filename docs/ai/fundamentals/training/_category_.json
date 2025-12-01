@@ -1,0 +1,8 @@
+{
+    "label": "训练核心概念",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "前向传播、反向传播、损失函数、归一化、参数初始化等核心训练概念"
+    }
+}

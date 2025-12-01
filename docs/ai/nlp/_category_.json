@@ -1,0 +1,8 @@
+{
+    "label": "自然语言处理",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "词嵌入、分词、RAG 等 NLP 核心技术"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "label": "框架与工具",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "PyTorch、Hugging Face 及各类 AI 开发工具"
+    }
+}
