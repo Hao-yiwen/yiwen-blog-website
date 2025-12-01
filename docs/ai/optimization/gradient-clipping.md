@@ -161,5 +161,5 @@ print(f"Gradient norm: {total_norm}")
 ## 参考资源
 
 - [PyTorch clip_grad_norm_ 文档](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html)
-- [反向传播算法](./backpropagation.md)
-- [参数初始化指南](./parameter-initialization-guide.md)
+- [反向传播算法](../fundamentals/training/backpropagation.md)
+- [参数初始化指南](../fundamentals/training/parameter-initialization-guide.md)

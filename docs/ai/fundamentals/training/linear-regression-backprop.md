@@ -233,6 +233,6 @@ $$
 
 ## 参考资源
 
-- [PyTorch Autograd 机制](../pytorch/autograd-mechanism.md)
+- [PyTorch Autograd 机制](./autograd-mechanism.md)
 - [反向传播算法](./backpropagation.md)
 - [前向传播](./forwardpropagation.md)

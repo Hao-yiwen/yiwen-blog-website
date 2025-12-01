@@ -99,5 +99,5 @@ w -= lr * w.grad  # 报错！
 
 ## 相关文档
 
-- [PyTorch 自动求导机制](./autograd-mechanism.md)
-- [PyTorch 计算图详解](./computational_graph.md)
+- [PyTorch 自动求导机制](../../fundamentals/training/autograd-mechanism.md)
+- [PyTorch 计算图详解](../../fundamentals/training/computational_graph.md)

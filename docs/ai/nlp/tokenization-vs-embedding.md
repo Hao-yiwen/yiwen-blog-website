@@ -236,7 +236,7 @@ embeddings = embedding_matrix[token_ids]  # ✅ 查表
 ## 拓展阅读
 
 - [子词分词方法详解](./subword_tokenization.md)
-- [Transformer完整实现](./transformer_complete_implementation.md)
+- [Transformer完整实现](../architectures/transformer/transformer_complete_implementation.md)
 - [为什么BPE成为主流](./why-bpe-is-mainstream.md)
 
 ## 参考资料

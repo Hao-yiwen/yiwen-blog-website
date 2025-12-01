@@ -413,4 +413,4 @@ Adam 自带"加速"机制，一阶矩会累积梯度，如果学习率设太大�
 - [Adam vs SGD 优化器对比](./adam-vs-sgd.md)
 - [Adam vs AdamW 区别](./adam-vs-adamw.md)
 - [学习率调度器](./learning-rate-schedulers.md)
-- [梯度下降方法详解](../base/gradient-descent-methods.md)
+- [梯度下降方法详解](./gradient-descent-methods.md)
