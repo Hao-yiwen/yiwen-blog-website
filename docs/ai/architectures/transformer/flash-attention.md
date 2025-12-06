@@ -171,7 +171,60 @@ output = F.scaled_dot_product_attention(
 
 ---
 
-## 6. 总结：FlashAttention 的优势
+## 6. 显存节省分析
+
+FlashAttention 最显著的优势之一是大幅降低显存占用。以下是具体的分析。
+
+### 6.1. 显存占用对比公式
+
+假设输入序列长度为 $N$，特征维度为 $d$，batch size 为 $B$，注意力头数为 $H$：
+
+| 方法 | 注意力矩阵显存 | 复杂度 |
+| :--- | :--- | :--- |
+| **标准 Attention** | $B \times H \times N \times N$ | $O(N^2)$ |
+| **FlashAttention** | 不存储完整矩阵 | $O(N)$ |
+
+### 6.2. 具体数值示例
+
+以 **float16（2 bytes）** 精度为例，单个注意力头的显存占用：
+
+| 序列长度 $N$ | 标准 Attention | FlashAttention | 节省比例 |
+| :--- | :--- | :--- | :--- |
+| 1K (1,024) | 2 MB | ~几 KB | ~99% |
+| 4K (4,096) | 32 MB | ~几 KB | ~99.9% |
+| 16K (16,384) | 512 MB | ~几 KB | ~99.99% |
+| 64K (65,536) | 8 GB | ~几 KB | ~99.999% |
+| 128K (131,072) | 32 GB | ~几 KB | OOM → 可运行 |
+
+> **计算方式：** 标准 Attention 显存 = $N^2 \times 2$ bytes
+> 例如：$16384^2 \times 2 = 536,870,912$ bytes $\approx 512$ MB
+
+### 6.3. 为什么能节省这么多？
+
+**标准 Attention 必须存储的中间结果：**
+1. $QK^T$ 矩阵：$[B, H, N, N]$ — 这是显存爆炸的元凶
+2. Softmax 输出：$[B, H, N, N]$ — 同样巨大
+3. Dropout mask（如果有）：$[B, H, N, N]$
+
+**FlashAttention 的做法：**
+- 分块计算，每次只在 SRAM 中处理一小块（如 $128 \times 128$）
+- 计算完立即丢弃，不写回 HBM
+- 只存储最终输出 $[B, H, N, d]$ 和用于反向传播的少量统计信息（softmax 归一化因子）
+
+### 6.4. 实际训练中的影响
+
+在训练 GPT 类模型时，显存节省带来的实际好处：
+
+| 场景 | 标准 Attention | FlashAttention |
+| :--- | :--- | :--- |
+| **GPT-2 (1.5B), seq=1024** | 可运行 | 可运行，更快 |
+| **GPT-3 (175B), seq=2048** | 需要模型并行 | 减少并行需求 |
+| **LLaMA-2, seq=4096** | 显存紧张 | 轻松运行 |
+| **Claude/GPT-4, seq=128K** | 不可能 | 成为可能 |
+
+---
+
+## 7. 总结：FlashAttention 的优势
 
 | 特性 | 标准 Attention | FlashAttention | 优势说明 |
 | :--- | :--- | :--- | :--- |
@@ -186,7 +239,7 @@ FlashAttention 并没有改变 Attention 的数学本质，而是通过极致的
 
 ---
 
-## 7. 参考资料
+## 8. 参考资料
 
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) - FlashAttention v1 论文 (2022)
 - [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) - FlashAttention-2 论文 (2023)
