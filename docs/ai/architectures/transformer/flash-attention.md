@@ -17,6 +17,16 @@ tags: [transformer, attention, flash-attention, optimization, pytorch, gpu]
 
 **一句话核心：** FlashAttention 通过一种**"IO感知（IO-Aware）"**的方法，极大地减少了 GPU 显存的读写次数，使得注意力计算的速度提升了 2-4 倍，同时将显存占用从平方级爆炸降低为线性增长。
 
+### 作者与版本演进
+
+FlashAttention 由 **Tri Dao**（斯坦福大学）主导开发，合作者包括 Daniel Y. Fu、Stefano Ermon、Atri Rudra、Christopher Ré 等人。
+
+| 版本 | 发布时间 | 主要改进 |
+| :--- | :--- | :--- |
+| **FlashAttention v1** | 2022 年 5 月 | 首次提出 IO-Aware 的分块算法，实现 2-4x 加速 |
+| **FlashAttention-2** | 2023 年 7 月 | 优化并行策略和工作分配，速度提升约 2x（相比 v1） |
+| **FlashAttention-3** | 2024 年 7 月 | 针对 Hopper GPU（H100）优化，利用异步执行和 FP8 支持 |
+
 ---
 
 ## 2. 背景痛点：标准 Attention 的瓶颈
@@ -178,6 +188,8 @@ FlashAttention 并没有改变 Attention 的数学本质，而是通过极致的
 
 ## 7. 参考资料
 
-- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) - FlashAttention 原始论文
-- [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) - FlashAttention-2 论文
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) - FlashAttention v1 论文 (2022)
+- [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) - FlashAttention-2 论文 (2023)
+- [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) - FlashAttention-3 论文 (2024)
+- [GitHub: flash-attention](https://github.com/Dao-AILab/flash-attention) - 官方代码仓库
 - [PyTorch SDPA 文档](https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html) - PyTorch 官方文档
