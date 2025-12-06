@@ -1,5 +1,5 @@
 ---
-title: 带掩码的自注意力机制 (Masked Self-Attention)
+title: 手写带掩码的自注意力机制
 sidebar_label: Masked Self-Attention
 date: 2025-12-06
 last_update:
@@ -7,7 +7,7 @@ last_update:
 tags: [transformer, attention, gpt, masked-attention]
 ---
 
-# 手写 Transformer 核心：带掩码的自注意力机制 (Masked Self-Attention)
+# 手写带掩码的自注意力机制
 
 GPT 等大模型之所以强大，核心在于它们如何"理解"上下文。而这一切的基石，就藏在不到 20 行的 PyTorch 代码中。
 
