@@ -70,5 +70,36 @@ tags: [transformer, kv-cache, llm, inference, prefill, decode]
 
 ---
 
+## 4. 标准 KV Cache 的局限性
+
+虽然 KV Cache 解决了重复计算问题，但传统实现（如 HuggingFace Transformers）存在严重的**显存管理问题**：
+
+### 4.1 预分配浪费
+
+假设模型的 `max_len = 2048`，当用户输入"你好"（2 个 Token）时：
+
+* 系统必须预留 **2048** 个 Token 的连续显存空间
+* 实际只用了几个 Token，剩余空间被锁定但空置
+* **浪费率高达 60% - 80%**
+
+### 4.2 显存碎片化
+
+* **内部碎片：** 预留了没用完的空间
+* **外部碎片：** 显存总量够，但因不连续无法分配给新请求
+
+### 4.3 并发受限
+
+由于每个请求都要预留大块连续显存，同一张显卡能同时服务的请求数（Batch Size）被严重限制。
+
+---
+
+**如何解决这些问题？**
+
+vLLM 团队提出的 **PagedAttention** 技术，借鉴操作系统虚拟内存分页思想，将 KV Cache 切分为小块按需分配，彻底解决了显存碎片化问题。
+
+👉 详见：[PagedAttention：vLLM 的显存管理革命](./paged-attention.md)
+
+---
+
 **一句话总结：**
 **Prefill 和 Decode 是 KV Cache 的物理定律（基本逻辑）**
