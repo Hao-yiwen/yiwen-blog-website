@@ -1,6 +1,6 @@
 ---
 title: 手写带掩码的自注意力机制
-sidebar_label: Masked Self-Attention
+sidebar_label: 手写带掩码的自注意力机制
 date: 2025-12-06
 last_update:
   date: 2025-12-06
