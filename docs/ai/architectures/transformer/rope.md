@@ -1,17 +1,19 @@
 ---
-title: 深入理解 RoPE：从几何直觉到代码实现
+title: RoPE 旋转位置编码
+sidebar_label: RoPE 旋转位置编码
 date: 2025-12-06
+last_update:
+  date: 2025-12-06
+tags: [transformer, positional-encoding, rope, llama]
 ---
 
-# 深入理解 RoPE：从几何直觉到代码实现
+# RoPE 旋转位置编码
 
 在 Transformer 的架构演进中，位置编码（Positional Embedding）一直是核心话题。从最初的正弦位置编码（Sinusoidal），到可学习的绝对位置编码，再到如今 LLaMA、Mistral 等主流大模型标配的 **RoPE (Rotary Positional Embedding)**，我们一直在寻找一种更优雅的方式告诉模型"我是第几个字"。
 
 RoPE 之所以成为主流，是因为它用一种极其巧妙的**几何**手段，解决了"绝对位置"与"相对位置"的统一问题。
 
 本文将带你从最直观的几何原理出发，推导其数学形式，并最终落实到一行行的 PyTorch 代码实现。
-
-<!-- truncate -->
 
 ## 1. 核心直觉：为什么是"旋转"？
 
