@@ -170,7 +170,94 @@ state_dict = torch.load("model.pt", map_location="cpu")
 save_file(state_dict, "model.safetensors")
 ```
 
-## 5. 总结
+## 5. `.safetensors` 的通用性：不只是 LLM
+
+**绝对不只能给 LLM 用！它可以用于任何深度学习模型，包括 CNN、RNN、GAN，甚至是非 AI 的纯数学计算数据。**
+
+`.safetensors` 的本质不是"LLM 存储器"，而是一个**"通用的、安全的、高效的张量（Tensor）存储格式"**。
+
+只要你的模型参数是由**数字矩阵（Tensors）**组成的，它就能存。
+
+### 为什么它能通用？（底层逻辑）
+
+计算机根本不知道什么是"语言模型"什么是"CNN"。
+
+- **LLM (Llama 3):** 权重是一堆形状为 `[4096, 4096]` 的矩阵。
+- **CNN (ResNet):** 权重是一堆形状为 `[64, 3, 7, 7]` 的卷积核矩阵。
+
+对于 `.safetensors` 来说，它们都是**由名字（Key）和数组（Value）组成的字典**。它只负责把这些数组安全、快速地存到硬盘上，至于这些数组用来做卷积还是做 Attention，它不在乎。
+
+### 事实证明：AI 绘画领域（CNN/UNet）用得比 LLM 还早
+
+其实，**Stable Diffusion (AI 绘画)** 社区才是推动 `.safetensors` 普及的急先锋。
+
+- **背景：** 在 2022-2023 年，大家疯狂在网上（如 Civitai）下载别人微调好的 `.ckpt` (Pickle 格式) 模型文件。
+- **危机：** 有黑客把勒索病毒藏在 `.ckpt` 文件里，导致很多人下载模型后电脑中招。
+- **变革：** Civitai 和 Hugging Face 强制推广 `.safetensors`。
+- **现状：** 现在你在网上下载的所有 Stable Diffusion 模型（本质是 UNet，一种类似于 CNN 的结构），几乎全是 `.safetensors` 格式。
+
+**结论：AI 绘画（CV领域）早就全面拥抱它了。**
+
+### 代码演示：怎么给 CNN 用？
+
+假设你有一个标准的 ResNet (CNN) 模型，存取方式和 LLM 一模一样。
+
+#### 保存一个 CNN 模型
+
+```python
+import torch
+import torchvision.models as models
+from safetensors.torch import save_file
+
+# 1. 创建一个 CNN 模型 (ResNet18)
+cnn_model = models.resnet18(pretrained=True)
+
+# 2. 获取它的 state_dict (就是一堆张量)
+state_dict = cnn_model.state_dict()
+
+# 3. 直接保存为 safetensors
+# 只要安装了 safetensors 库：pip install safetensors
+save_file(state_dict, "resnet18.safetensors")
+
+print("CNN 模型保存成功！")
+```
+
+#### 加载一个 CNN 模型
+
+```python
+from safetensors.torch import load_file
+
+# 1. 从硬盘读取张量 (速度极快)
+loaded_state_dict = load_file("resnet18.safetensors")
+
+# 2. 塞回模型里
+cnn_model = models.resnet18()
+cnn_model.load_state_dict(loaded_state_dict)
+
+print("CNN 模型加载成功！")
+```
+
+### 为什么在 CNN 教程里见得少？
+
+你感觉它好像是 LLM 专属，主要是因为**需求迫切程度**不同：
+
+1. **文件大小不同：**
+
+   - **LLM:** 动不动 20GB、100GB。加载慢是痛点，`.safetensors` 的**零拷贝（Zero-copy）**技术能让加载速度快 10 倍，这是刚需。
+   - **CNN:** 经典的 ResNet50 只有 100MB。用 `.pth` 加载也就 0.1 秒，用 `.safetensors` 加载 0.01 秒，用户**体感差异不大**。
+
+2. **生态惯性：**
+
+   - PyTorch 的官方 `torchvision` 库默认还是给 `.pth`。
+   - 但是 Hugging Face 的 `timm` (PyTorch Image Models) 库（CV 界最强的库之一）已经开始全面支持 `.safetensors` 了。
+
+### 最佳实践
+
+- **能不能用？** 能，随便用。
+- **好不好用？** 好用。更安全，且跨语言（你在 Python 存的 CNN，可以用 Rust 或 C++ 直接读取部署，不需要 Python 环境）。
+- **建议：** 如果你在做公司项目，或者要公开发布模型，**强烈建议无论是什么模型（CNN, RNN, Transformer），都统一使用 `.safetensors`**。这是专业度的体现。
+
+## 6. 总结
 
 | 格式 | 推荐场景 | 安全性 | 性能 |
 | :--- | :--- | :--- | :--- |
