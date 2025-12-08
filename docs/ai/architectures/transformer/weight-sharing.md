@@ -7,6 +7,8 @@ last_update:
 tags: [transformer, embedding, lm-head, weight-tying, parameter-efficiency, regularization]
 ---
 
+import weightShare from '@site/static/img/weight_share.png';
+
 # Weight Sharing (权重共享) 技术文档
 
 ## 1. 概述 (Overview)
@@ -154,6 +156,8 @@ $$
 |:-----|:------|:------------|:----------|
 | 不共享权重 | 基准 | 基准 | 一般 |
 | 共享权重 | ↓ 显著减少 | ↓ 通常更低 | ↑ 更稳定 |
+
+<img src={weightShare} alt="权重共享训练稳定性对比" />
 
 ### 4.3 为什么通常提升效果？
 

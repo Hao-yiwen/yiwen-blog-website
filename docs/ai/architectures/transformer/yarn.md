@@ -7,9 +7,10 @@ last_update:
 tags: [transformer, positional-encoding, rope, yarn, llama, context-window]
 ---
 
+import yarnRope from '@site/static/img/yarn_rope.png';
+
 # YaRN (Yet another RoPE extensioN) 技术文档
 
-**版本:** 1.0
 **适用对象:** AI 研究员、大型模型工程师、深度学习开发者
 **核心功能:** 高效扩展基于 RoPE 的 Transformer 模型的上下文窗口（Context Window）。
 
@@ -68,6 +69,8 @@ YaRN 引入了一个平滑的"斜坡函数 (Ramp Function)"，根据每个维度
 1. **高频区 (不插值):** 对于波长很短的维度，YaRN **完全不改变**其频率，保持原始 RoPE 的行为。这完美保护了短文本性能。
 2. **低频区 (线性插值):** 对于波长很长的维度，YaRN 应用**线性插值**（将频率除以扩展倍数 $s$），强制拉长其感知范围。
 3. **过渡区 (混合):** 在两者之间，YaRN 对原始频率和插值频率进行平滑的加权平均。
+
+<img src={yarnRope} alt="RoPE vs YaRN Frequency Curve" />
 
 ### 3.3. 注意力温度修正 (Temperature Scaling / `mscale`)
 
