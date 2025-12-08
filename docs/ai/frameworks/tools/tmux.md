@@ -13,6 +13,22 @@ tags: [tmux, linux, terminal, 工具]
 
 ---
 
+## 0. 安装 tmux
+
+### Linux (Debian/Ubuntu)
+
+```bash
+apt install tmux
+```
+
+### macOS
+
+```bash
+brew install tmux
+```
+
+---
+
 ## 1. 核心概念：套娃结构
 
 理解这三个概念，你就懂了 tmux 的逻辑：
