@@ -8,6 +8,28 @@ last_update:
 
 # AutoDL预设
 
+## 目录结构
+
+AutoDL 实例中有多种存储目录，各有不同用途：
+
+| 目录 | 说明 |
+|------|------|
+| `/root/autodl-tmp` | **数据盘**，速度快，适合放数据集和模型，不随镜像保存 |
+| `/root/autodl-nas` | 网盘，跨实例共享 |
+| `/root/autodl-pub` | 公共数据集（如 COCO2017 等） |
+| `/root/autodl-fs` | 文件存储，多实例同步 |
+
+:::tip 存储建议
+系统盘一般只有 30G，大文件（数据集、模型权重）建议都放 `/root/autodl-tmp` 里。
+:::
+
+**示例：下载 MiniMind 数据集**
+
+```bash
+cd /root/autodl-tmp
+modelscope download --dataset gongjy/minimind_dataset --local_dir ./minimind_dataset
+```
+
 ## 私有镜像
 - 镜像源 （实测中科大镜像源速度最快）
     - 中科大镜像源: https://pypi.mirrors.ustc.edu.cn/simple
