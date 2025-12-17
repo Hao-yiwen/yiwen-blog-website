@@ -6,8 +6,9 @@ sidebar_position: 1
 
 服务端开发
 
--   java开发
--   nodejs开发
+-   Java开发
+-   Go开发
+-   数据库（MySQL、Redis、MongoDB）
 
 ## 学习文档
 
