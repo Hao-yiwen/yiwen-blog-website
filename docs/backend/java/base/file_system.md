@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # 分布式文件系统
 
-![架构图](../../../static/img/file_system.png)
+![架构图](../../../../static/img/file_system.png)
 
 ## 介绍
 

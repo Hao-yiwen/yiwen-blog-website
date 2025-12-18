@@ -80,4 +80,4 @@ XXL-JOB 是一个开源的分布式任务调度平台，它主要面向企业级
 
 并行处理，效率提高。
 
-![video_handler](../../../static/img/video_handler.png)
+![video_handler](../../../../static/img/video_handler.png)
