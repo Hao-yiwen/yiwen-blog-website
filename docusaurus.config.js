@@ -101,6 +101,12 @@ return {
                     },
                     {
                         type: 'docSidebar',
+                        sidebarId: 'backendSidebar',
+                        position: 'left',
+                        label: '服务端开发',
+                    },
+                    {
+                        type: 'docSidebar',
                         sidebarId: 'nativeSidebar',
                         position: 'left',
                         label: 'Native开发',
@@ -110,12 +116,6 @@ return {
                         sidebarId: 'webSidebar',
                         position: 'left',
                         label: 'Web开发',
-                    },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'backendSidebar',
-                        position: 'left',
-                        label: '服务端开发',
                     },
                     {
                         type: 'docSidebar',
