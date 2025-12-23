@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Go 生态全景指南
 tags: [go, golang, 标准库, 第三方库, gin, gorm, grpc]
 ---
