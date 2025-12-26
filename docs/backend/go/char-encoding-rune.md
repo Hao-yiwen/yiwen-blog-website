@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: 字符编码与 Rune
+title: 字符编码与rune
 tags: [go, string, rune, utf-8, unicode, 字符编码]
 ---
 

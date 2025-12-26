@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-title: Make 函数详解
+title: make函数详解
 tags: [go, make, slice, map, channel, 内置函数]
 ---
 
