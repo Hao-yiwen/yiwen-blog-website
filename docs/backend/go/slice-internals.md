@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-title: Slice 本质深度解析
+title: 切片本质深度解析
 tags: [go, slice, 切片, 内存, append, 底层数组]
 ---
 

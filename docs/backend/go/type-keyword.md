@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: Type 关键字详解
+title: type关键字详解
 tags: [go, type, 类型定义, 类型别名, 接口, 结构体]
 ---
 

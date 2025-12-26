@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Range 迭代
+title: range迭代
 tags: [go, range, 迭代, for循环]
 ---
 

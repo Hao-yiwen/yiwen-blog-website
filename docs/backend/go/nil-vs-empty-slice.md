@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Nil 切片 vs 空切片
+title: nil切片与空切片
 tags: [go, slice, nil, make, 内存]
 ---
 
