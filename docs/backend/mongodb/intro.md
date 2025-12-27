@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # MongoDB
@@ -116,4 +116,3 @@ app.listen(PORT, () => {
 3. 强大的事务支持：支持复杂的事务处理和锁定机制。
 4. 高效的 JOIN 操作：在处理关系型数据时表现出色。
 5. 广泛的社区和工具支持：有大量的工具和社区支持。
-
