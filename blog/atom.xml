@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/yiwen-blog-website/blog</id>
     <title>yiwen Blog</title>
-    <updated>2025-12-30T00:00:00.000Z</updated>
+    <updated>2026-01-13T13:59:12.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog"/>
     <subtitle>yiwen Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/yiwen-blog-website/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[20260113]]></title>
+        <id>https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2026_blog</id>
+        <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2026_blog"/>
+        <updated>2026-01-13T13:59:12.000Z</updated>
+        <summary type="html"><![CDATA[时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？]]></summary>
+        <content type="html"><![CDATA[<p>时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？</p>
+<p>每一轮技术浪潮，都伴随着新生力量的诞生。而AI，这个现在几乎已经成为所有人共识的产业，为什么到现在为止没有对原有的互联网软件进行颠覆？或者说，不是颠覆，而是从产品层面进行有品位的改造——但即便如此，目前来看依然没有出现。这确实是一个奇怪的情况，因为AI浪潮已经持续三年了。三年时光，在舞台上活跃的依然还是那些模型企业或者互联网巨头，但是新生代的企业竟然到现在还没有一个足够有名气、被世人所熟知。</p>
+<p>这是为什么呢？按道理来说，不应该是这样的。所以2026年会出现非凡的企业吗？能否给传统的互联网带来一点新时代的震撼？如果没有一个新企业出现，那实在说不过去了。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2025年度总结]]></title>
         <id>https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_overview</id>
@@ -43,7 +53,7 @@
 <p>Manus 的成功令人感慨。想象一下：如果背景普通、资源有限，但热爱 AI，从零起步——在当前时代，真的无路可走吗？每每看到硅谷创新涌现、生态繁荣，都觉得与国内像是生活在两个平行宇宙。曾以为每一次技术浪潮总会有新面孔出现，结果三年过去了，仍然是那些熟悉的互联网巨头。难道我八十岁还要用微信？那未免太过悲凉。</p>
 <p>Manus 给了一代人希望。那句评论很有力量：“没有背景，没有关系，只凭技术，在世界 AI 舞台上杀出一条血路。”唯一的遗憾，这样的故事未能发生在中国本土。</p>
 <p>可以预见，Manus 的模式也许会成为未来很长一段时间中国 AI 开发者的范式：先在海外试水 Demo，获得认可后，再果断出国重新开始。尽管艰难，但唯有继续努力，毕竟，这片土地已无养分，只能向外求生。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="��展望">展望<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_overview#%E5%B1%95%E6%9C%9B" class="hash-link" aria-label="展望的直接链接" title="展望的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="展望">展望<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_overview#%E5%B1%95%E6%9C%9B" class="hash-link" aria-label="展望的直接链接" title="展望的直接链接" translate="no">​</a></h2>
 <p>这就是我的 2025，轰轰烈烈的开头，以及一个茫然的结尾。我也不太清楚要搞啥，但是我觉得要往前走，或许最好，是来一场大的变革，在这个年纪能大动干戈就大动干戈吧，过了 30 就职业危机了。所以 2026 年我押宝在海外应用和换换地方上，即使前方是惊涛骇浪，但是也要劈波斩棘，因为在本该活动筋骨的年纪选择了安逸，那就是对自己的不负责，关键你想怎样度过一生。其实这些都是屁话，当我决绝离开小呆的时刻，我就没想过选择平稳度日，所以，干就完了。</p>]]></content>
     </entry>
     <entry>
@@ -75,7 +85,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="20250120">20250120<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_blog#20250120" class="hash-link" aria-label="20250120的直接链接" title="20250120的直接链接" translate="no">​</a></h2>
 <p>心里一直想搞清楚大模型的基本原理是什么，大模型到底是怎么一回事，一致想搞懂，但是从机器学习到深度学习路程太遥远，现在我大概知道原理是什么了。这是值得开心的一天。</p>
 <p><a href="https://hao-yiwen.github.io/yiwen-blog-website/docs/ai/transformer" target="_blank" rel="noopener noreferrer">文档链接</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20250205">20250205<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_blog#20250205" class="hash-link" aria-label="20250205的直��接链接" title="20250205的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20250205">20250205<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2025_blog#20250205" class="hash-link" aria-label="20250205的直接链接" title="20250205的直接链接" translate="no">​</a></h2>
 <p>时间在不留意之间从指尖划过，今天又到了离开的时候，又需要去外出打工了。</p>
 <p>经过半个月的休整，这半个月发生了很多事情，事情繁杂而又遗憾，我没有去小董家，原本的约定也止步于口头，爱情终究要溜走了，我也要溜走了。</p>
 <p>事情并没有按照预期发展，内心是挣扎的，但是问题也暴露了。我也不知道如何解决这些问题，我选择了离开。</p>
@@ -230,7 +240,7 @@
 <p>到今年年底的时候要交付一班稳定的，可用性高的IOS和Android集成RN项目。(Android现已交付)，</p>
 <p>明年花三个月时间搞Flutter。争取在明年4月的时候收官。</p>
 <p>去年有写过一个月的SwiftUI,感觉还好，只是当时对线程和内存回收之类的实在不太熟悉，但是现在有Android基础打底，希望进度可以稍快。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20240704小记">20240704小记<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2024_blog#20240704%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="20240704小记的直接链接" title="20240704小记的直��接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="20240704小记">20240704小记<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/2024_blog#20240704%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="20240704小记的直接链接" title="20240704小记的直接链接" translate="no">​</a></h2>
 <p>从昨晚凌晨开始，感觉心脏跳动有些困难，貌似有东西堵着一样。</p>
 <p>感觉长时间的生活不规律和加班奋斗导致身体出了一些异常，可能需要一些时间来调养。</p>
 <p>暂时需要一段时间再凌晨1点前睡觉。</p>
@@ -419,7 +429,7 @@
 <li>点击<code>proxy-&gt; proxy setting</code>来创建代理端口，点击<code>enable transparent http proxying</code></li>
 <li>点击<code>proxy-&gt; ssl proxy setting</code>来容许所有流量流入</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下载根证书到android手机">下载根证书到android手机<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/charles#%E4%B8%8B%E8%BD%BD%E6%A0%B9%E8%AF%81%E4%B9%A6%E5%88%B0android%E6%89%8B%E6%9C%BA" class="hash-link" aria-label="下载根证书到android手机的直接链接" title="下载根证书到android手机的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下载根证书到android手机">下载根证书到android手机<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/charles#%E4%B8%8B%E8%BD%BD%E6%A0%B9%E8%AF%81%E4%B9%A6%E5%88%B0android%E6%89%8B%E6%9C%BA" class="hash-link" aria-label="下载根证书到android手机��的直接链接" title="下载根证书到android手机的直接链接" translate="no">​</a></h2>
 <ul>
 <li>
 <p>查看根证书在本地的位置，并导出证书为cer文件</p>
@@ -568,62 +578,5 @@
 <p><a href="https://ap-northeast-1.console.aws.amazon.com/console/home?region=ap-northeast-1#" target="_blank" rel="noopener noreferrer">ec2链接</a></p>
 <p><a href="https://www.youtube.com/watch?v=SpxTFes1B8U&amp;ab_channel=%E4%B8%8D%E8%89%AF%E6%9E%97" target="_blank" rel="noopener noreferrer">vary</a></p>
 <p><a href="https://bulianglin.com/archives/nicename.html" target="_blank" rel="noopener noreferrer">vary文档</a></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[git rebase]]></title>
-        <id>https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git</id>
-        <link href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git"/>
-        <updated>2024-01-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[问题]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="问题">问题<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#%E9%97%AE%E9%A2%98" class="hash-link" aria-label="问题的直接链接" title="问题的直接链接" translate="no">​</a></h2>
-<p>在最近的开发过程中碰到一个问题，每次拉取master分支开发完成后，会有其他人已经合并到master分支，这个时候我往往是通过merge来做，但是merge导致每次提交都会多出一条提交记录，在问题追溯的时候总是不太好。所以我想着如何解决这个问题</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="解决办法">解决办法<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95" class="hash-link" aria-label="解决办法的直接链接" title="解决办法的直接链接" translate="no">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_OeMC">拉取最新主分支</div><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token function" style="color:#d73a49">git</span><span class="token plain"> fetch origin master</span><br></span></code></pre></div></div>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_OeMC">执行rebase</div><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token function" style="color:#d73a49">git</span><span class="token plain"> rebase origin/master</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="git-rebase介绍">git rebase介绍<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#git-rebase%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="git rebase介绍的直接链接" title="git rebase介绍的直接链接" translate="no">​</a></h2>
-<ol>
-<li>
-<p>工作方式：rebase 会重新应用一个分支上的更改到另一个分支。它首先找到两个分支的共同祖先，然后将改动的每个提交应用于目标分支。</p>
-</li>
-<li>
-<p>提交历史：使用 rebase 会创建一个更线性的历史。它实际上是移动了一系列的提交到新的基线（base）。这会改变这些提交的哈希值，因为Git中的提交包括父提交的哈希值。</p>
-</li>
-<li>
-<p>冲突解决：在 rebase 过程中遇到的冲突需要在每个重新应用的提交过程中逐个解决。这与 merge 不同，merge 是在最后创建合并提交之前一次性解决所有冲突。</p>
-</li>
-<li>
-<p>适用场景：rebase 更适用于当你想要一个干净、线性的提交历史时。它常用于整理特性分支的提交历史，使其更加整洁和有序，然后再将这个特性分支合并到主分支。</p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="merge和rebase比较">Merge和Rebase比较<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#merge%E5%92%8Crebase%E6%AF%94%E8%BE%83" class="hash-link" aria-label="Merge和Rebase比较的直接链接" title="Merge和Rebase比较的直接链接" translate="no">​</a></h2>
-<ol>
-<li>
-<p>提交历史的清晰度：merge 保留了所有分支的历史和合并点，而 rebase 则提供了一个更线性、更干净的历史。</p>
-</li>
-<li>
-<p>历史的改变：merge 保留了原始的提交哈希值和历史，而 rebase 会改变提交的哈希值（因为提交的上下文发生了改变）。</p>
-</li>
-<li>
-<p>冲突解决的方式：rebase 可能需要在多个提交上反复解决相同的冲突，而 merge 则是一次性解决所有冲突。</p>
-</li>
-<li>
-<p>最佳使用时机：如果你需要频繁地从一个长期存在的分支（如 main 或 develop）中获取最新的更改，rebase 是一个很好的选择，因为它避免了多余的合并提交。而 merge 更适合在最终整合长期分支时使用，因为它保留了分支之间的合并点和关系。</p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="结论">结论<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="结论的直接链接" title="结论的直接链接" translate="no">​</a></h2>
-<p>merge 和 rebase 都是处理分支间差异的强大工具，选择使用哪一个取决于你的具体需求、团队规范以及你希望维护的历史类型。rebase 对于维持一个清洁、线性的历史非常有效，而 merge 则提供了一个直观、真实的开发历史视图。在协作的环境中，理解并正确使用这两种方法对于维护一个健康、可管理的代码库至关重要。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rebase冲突">Rebase冲突<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#rebase%E5%86%B2%E7%AA%81" class="hash-link" aria-label="Rebase冲突的直接链接" title="Rebase冲突的直接链接" translate="no">​</a></h2>
-<p>当您使用 rebase 将您的分支（例如，特性分支）放到 master 分支的最新提交之上时，如果 master 分支的最新提交修改了与您在特性分支中修改的相同的代码部分，就会出现冲突。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="处理rebase冲突">处理rebase冲突<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#%E5%A4%84%E7%90%86rebase%E5%86%B2%E7%AA%81" class="hash-link" aria-label="处理rebase冲突的直接链接" title="处理rebase冲突的直接链接" translate="no">​</a></h2>
-<ul>
-<li>当出现冲突时，Git会暂停rebase操作。</li>
-<li>此时，你需要手动解决这些冲突。</li>
-<li>解决冲突后，使用git add将更改标记为已解决。</li>
-<li>然后，使用git rebase --continue继续rebase过程。</li>
-<li>如果你决定不继续rebase，可以使用git rebase --abort回到原始状态。</li>
-<li>记住，rebase是一个强大但复杂的工具。在处理共享分支时要特别小心，因为rebase会改变历史，可能会导致其他协作者的困惑或更多的合并冲突。</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="问题-1">问题<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/blog/git#%E9%97%AE%E9%A2%98-1" class="hash-link" aria-label="问题的直接链接" title="问题的直接链接" translate="no">​</a></h2>
-<p>不要在公共分支rebase</p>]]></content>
     </entry>
 </feed>
