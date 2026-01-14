@@ -1,12 +1,10 @@
 ---
-title: 后端稳定性与可观测性实践：OpenTelemetry 深度解析与实战
-date: 2026-01-14
-tags: [opentelemetry, observability, 可观测性, go, docker, jaeger, prometheus, grafana]
+title: OpenTelemetry 可观测性实践
+sidebar_position: 5
+tags: [opentelemetry, observability, 可观测性, go, docker, jaeger, prometheus, grafana, devops]
 ---
 
 # 后端稳定性与可观测性实践：OpenTelemetry 深度解析与实战
-
-<!-- truncate -->
 
 ## 1. 引言：软件稳定性的基石
 
