@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-backend/go/ascii-unicode-utf8" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">ASCII/Unicode/UTF-8编码进化史 | yiwen</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/ascii-unicode-utf8"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="ASCII/Unicode/UTF-8编码进化史 | yiwen"><meta data-rh="true" name="description" content="这三者其实是一部计算机字符编码的进化史。"><meta data-rh="true" property="og:description" content="这三者其实是一部计算机字符编码的进化史。"><link data-rh="true" rel="icon" href="/yiwen-blog-website/en/img/logo.png"><link data-rh="true" rel="canonical" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/ascii-unicode-utf8"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/ascii-unicode-utf8" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/backend/go/ascii-unicode-utf8" hreflang="zh"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/backend/go/ascii-unicode-utf8" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Go","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/category/go"},{"@type":"ListItem","position":2,"name":"ASCII/Unicode/UTF-8编码进化史","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/ascii-unicode-utf8"}]}</script><link rel="alternate" type="application/rss+xml" href="/yiwen-blog-website/en/blog/rss.xml" title="yiwen RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/yiwen-blog-website/en/blog/atom.xml" title="yiwen Atom Feed">
 
@@ -10,9 +10,10 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/en/assets/css/styles.4e185611.css">
-<script src="/yiwen-blog-website/en/assets/js/runtime~main.bccab1bc.js" defer="defer"></script>
-<script src="/yiwen-blog-website/en/assets/js/main.3bd0c6ef.js" defer="defer"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/en/assets/css/styles.bce95865.css">
+<script src="/yiwen-blog-website/en/assets/js/runtime~main.3f63cee1.js" defer="defer"></script>
+<script src="/yiwen-blog-website/en/assets/js/main.0d5501ca.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -22,113 +23,113 @@
 <p>这三者其实是一部<strong>计算机字符编码的进化史</strong>。</p>
 <p>要搞懂它们，你需要区分两个核心概念：</p>
 <ol>
-<li><strong>字符集 (Character Set)</strong>：把字符映射成数字的<strong>列表</strong>（比如：&#x27;A&#x27; 是 65，&#x27;中&#x27; 是 20013）。</li>
-<li><strong>字符编码 (Encoding)</strong>：把这些数字真正<strong>存进计算机</strong>（二进制）的规则。</li>
+<li class=""><strong>字符集 (Character Set)</strong>：把字符映射成数字的<strong>列表</strong>（比如：&#x27;A&#x27; 是 65，&#x27;中&#x27; 是 20013）。</li>
+<li class=""><strong>字符编码 (Encoding)</strong>：把这些数字真正<strong>存进计算机</strong>（二进制）的规则。</li>
 </ol>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-ascii早期的美国标准-1960s">1. ASCII：早期的美国标准 (1960s)<a href="#1-ascii早期的美国标准-1960s" class="hash-link" aria-label="Direct link to 1. ASCII：早期的美国标准 (1960s)" title="Direct link to 1. ASCII：早期的美国标准 (1960s)" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-ascii早期的美国标准-1960s">1. ASCII：早期的美国标准 (1960s)<a href="#1-ascii早期的美国标准-1960s" class="hash-link" aria-label="Direct link to 1. ASCII：早期的美国标准 (1960s)" title="Direct link to 1. ASCII：早期的美国标准 (1960s)" translate="no">​</a></h2>
 <p><strong>全称</strong>：American Standard Code for Information Interchange（美国信息交换标准代码）。</p>
 <ul>
-<li><strong>背景</strong>：计算机刚发明时，主要是美国人在用。他们只需要英语字母、数字和一些标点符号。</li>
-<li><strong>原理</strong>：使用 <strong>7个 bit (位)</strong> 来表示一个字符。也就是说，ASCII 最多 只能存 <strong>128</strong> 个字符（2^7 = 128）。</li>
-<li><strong>内容</strong>：<!-- -->
+<li class=""><strong>背景</strong>：计算机刚发明时，主要是美国人在用。他们只需要英语字母、数字和一些标点符号。</li>
+<li class=""><strong>原理</strong>：使用 <strong>7个 bit (位)</strong> 来表示一  个字符。也就是说，ASCII 最多只能存 <strong>128</strong> 个字符（2^7 = 128）。</li>
+<li class=""><strong>内容</strong>：<!-- -->
 <ul>
-<li>0-31：控制字符（换行、回车、响铃等）</li>
-<li>32-127：可打印字符（a-z, A-Z, 0-9, !@#$ 等）</li>
+<li class="">0-31：控制字符（换行、回车、响铃等）</li>
+<li class="">32-127：可打印字符（a-z, A-Z, 0-9, !@#$ 等）</li>
 </ul>
 </li>
-<li><strong>缺点</strong>：<strong>完全不考虑非英语国家</strong>。后来欧洲人来了，发现没有重音符号（e, u）；中国人来了，发现几万个汉字根本放不下。</li>
+<li class=""><strong>缺点</strong>：<strong>完全不考虑非英语国家</strong>。后来欧洲人来了，发现没有重音符号（e, u）；中国人来了，发现几万个汉字根本放不下。</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-混乱时代oem-与-iso-8859">2. 混乱时代：OEM 与 ISO-8859<a href="#2-混乱时代oem-与-iso-8859" class="hash-link" aria-label="Direct link to 2. 混乱时代：OEM 与 ISO-8859" title="Direct link to 2. 混乱时代：OEM 与 ISO-8859" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-混乱时代oem-与-iso-8859">2. 混乱时代：OEM 与 ISO-8859<a href="#2-混乱时代oem-与-iso-8859" class="hash-link" aria-label="Direct link to 2. 混乱时代：OEM 与 ISO-8859" title="Direct link to 2. 混乱时代：OEM 与 ISO-8859" translate="no">​</a></h2>
 <p>为了解决 ASCII 不够用的问题，各国开始&quot;魔改&quot;：</p>
 <ul>
-<li>利用剩下的第 8 位（128-255）来存自己的符号</li>
-<li><strong>中国</strong>搞出了 GB2312、GBK（用两个字节存一个汉字）</li>
-<li><strong>台湾</strong>搞出了 Big5</li>
+<li class="">利用剩下的第 8 位（128-255）来存自己的符号</li>
+<li class=""><strong>中国</strong>搞出了 GB2312、GBK（用两个字节存一个汉字）</li>
+<li class=""><strong>台湾</strong>搞出了 Big5</li>
 </ul>
 <p><strong>问题（乱码之源）</strong>：同一个数字 <code>200</code>，在法语系统里可能是 <code>e</code>，在俄语系统里可能是个俄文。同一个文件跨国打开全是乱码（Mojibake）。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-unicode大一统的万国码-1990s">3. Unicode：大一统的&quot;万国码&quot; (1990s)<a href="#3-unicode大一统的万国码-1990s" class="hash-link" aria-label="Direct link to 3. Unicode：大一统的&quot;万国码&quot; (1990s)" title="Direct link to 3. Unicode：大一统的&quot;万国码&quot; (1990s)" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-unicode大一统的万国码-1990s">3. Unicode：大一统的&quot;万国码&quot; (1990s)<a href="#3-unicode大一统的万国码-1990s" class="hash-link" aria-label="Direct link to 3. Unicode：大一统的&quot;万国码&quot; (1990s)" title="Direct link to 3. Unicode：大一统的&quot;万国码&quot; (1990s)" translate="no">​</a></h2>
 <p><strong>全称</strong>：Universal Coded Character Set。</p>
 <ul>
-<li><strong>使命</strong>：给世界上所有的符号（包括汉字、Emoji、楔形文字）都分配一个<strong>独一无二的编号</strong></li>
-<li><strong>本质</strong>：它只是一个<strong>字符集（列表）</strong>，它只规定了&quot;哪个字符对应哪个数字&quot;，<strong>并没有规定怎么存</strong></li>
-<li><strong>码点 (Code Point)</strong>：Unicode 给每个字符分配的那个十六进制编号，通常写成 <code>U+XXXX</code>
+<li class=""><strong>使命</strong>：给世界上所有的符号（包括汉字、Emoji、楔形文字）都分配一个<strong>独一无二的编号</strong></li>
+<li class=""><strong>本质</strong>：它只是一个<strong>字符集（列表）</strong>，它只规定了&quot;哪个字符对应哪个数字&quot;，<strong>并没有规定怎么存</strong></li>
+<li class=""><strong>码点 (Code Point)</strong>：Unicode 给每个字符分配的那个十六进制编号，通常写成 <code>U+XXXX</code>
 <ul>
-<li><code>A</code> -&gt; <code>U+0041</code></li>
-<li><code>中</code> -&gt; <code>U+4E2D</code></li>
-<li><code>...</code> -&gt; <code>U+1F4A9</code></li>
+<li class=""><code>A</code> -&gt; <code>U+0041</code></li>
+<li class=""><code>中</code> -&gt; <code>U+4E2D</code></li>
+<li class=""><code>...</code> -&gt; <code>U+1F4A9</code></li>
 </ul>
 </li>
 </ul>
 <p><strong>问题</strong>：Unicode 收录了 100 多万个字符，最大的字符可能需要 4 个字节才能装下。如果所有字符都强制用 4 个字节存（比如 UTF-32）：</p>
 <ul>
-<li><code>A</code> 本来只需要 1 个字节，现在也要占 4 个字节（前面补 3 个字节的 0）</li>
-<li><strong>结果</strong>：对于全是英语的文档，文件体积直接变成 4 倍。太浪费硬盘和带宽了！</li>
+<li class=""><code>A</code> 本来只需要 1 个字节，现在也要占 4 个字节（前面补 3 个字节的 0）</li>
+<li class=""><strong>结果</strong>：对于全是英语的文档，文件体积直接变成 4 倍。太浪费硬盘和带宽了！</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-utf-8最聪明的打包工">4. UTF-8：最聪明的&quot;打包工&quot;<a href="#4-utf-8最聪明的打包工" class="hash-link" aria-label="Direct link to 4. UTF-8：最聪明的&quot;打包工&quot;" title="Direct link to 4. UTF-8：最聪明的&quot;打包工&quot;" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-utf-8最聪明的打包工">4. UTF-8：最聪明的&quot;打包工&quot;<a href="#4-utf-8最聪明的打包工" class="hash-link" aria-label="Direct link to 4. UTF-8：最聪明的&quot;打包工&quot;" title="Direct link to 4. UTF-8：最聪明的&quot;打包工&quot;" translate="no">​</a></h2>
 <p><strong>全称</strong>：Unicode Transformation Format - 8-bit。</p>
 <ul>
-<li><strong>背景</strong>：为了解决 Unicode 存储浪费空间的问题，Ken Thompson（没错，就是发明 Go 语言和 Unix 的那个大神）在一个餐垫上设计出了 UTF-8</li>
-<li><strong>本质</strong>：它是 Unicode 的一种<strong>实现方式（编码）</strong></li>
-<li><strong>特点：可变长度（Variable Width）</strong>。它看人下菜碟：<!-- -->
+<li class=""><strong>背景</strong>：为了解决 Unicode 存储浪费空间的问题，Ken Thompson（没错，就是发明 Go 语言和 Unix 的那个大神）在一个餐垫上设计出了 UTF-8</li>
+<li class=""><strong>本质</strong>：它是 Unicode 的一种<strong>实现方式（编码）</strong></li>
+<li class=""><strong>特点：可变长度（Variable Width）</strong>。它看人下菜碟：<!-- -->
 <ul>
-<li>遇到 ASCII 字符（0-127）：只用 <strong>1 个字节</strong> 存（和 ASCII 一模一样）</li>
-<li>遇到欧洲字符：用 <strong>2 个字节</strong></li>
-<li>遇到常用汉字（如&quot;中&quot;）：用 <strong>3 个字节</strong></li>
-<li>遇到生僻字或 Emoji：用 <strong>4 个字节</strong></li>
+<li class="">遇到 ASCII 字符（0-127）：只用 <strong>1 个字节</strong> 存（和 ASCII 一模一样）</li>
+<li class="">遇到欧洲字符：用 <strong>2 个字节</strong></li>
+<li class="">遇到常用汉字（如&quot;中&quot;）：用 <strong>3 个字节</strong></li>
+<li class="">遇到生僻字或 Emoji：用 <strong>4 个字节</strong></li>
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="utf-8-二进制规则">UTF-8 二进制规则<a href="#utf-8-二进制规则" class="hash-link" aria-label="Direct link to UTF-8 二进制规则" title="Direct link to UTF-8 二进制规则" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="utf-8-二进制规则">UTF-8 二进制规则<a href="#utf-8-二进制规则" class="hash-link" aria-label="Direct link to UTF-8 二进制规则" title="Direct link to UTF-8 二进制规则" translate="no">​</a></h3>
 <p>计算机怎么知道这几个字节是属于一个字的，还是分开的三个字？<strong>看前缀（Header）。</strong></p>
 <table><thead><tr><th>字符范围 (16进制)</th><th>需要字节数</th><th>二进制模板 (x 代表实际填入的数据)</th><th>解释</th></tr></thead><tbody><tr><td>0000 - 007F</td><td><strong>1 byte</strong></td><td><strong>0</strong>xxxxxxx</td><td>首位是0，兼容 ASCII</td></tr><tr><td>0080 - 07FF</td><td><strong>2 bytes</strong></td><td><strong>110</strong>xxxxx <strong>10</strong>xxxxxx</td><td>110开头，表示这是双字节字的头</td></tr><tr><td>0800 - FFFF</td><td><strong>3 bytes</strong></td><td><strong>1110</strong>xxxx <strong>10</strong>xxxxxx <strong>10</strong>xxxxxx</td><td>1110开头，表示这是三字节字 (汉字都在这)</td></tr><tr><td>10000 - ...</td><td><strong>4 bytes</strong></td><td><strong>11110</strong>xxx <strong>10</strong>xxxxxx ...</td><td>Emoji 等</td></tr></tbody></table>
 <p><strong>Followers</strong>: 后面跟着的字节都必须以 <code>10</code> 开头。这样即使数据流断了，计算机也能很容易找到下一个字符的起始位置（具有<strong>自同步</strong>能力）。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-举个栗子对比-a-和-中">5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;<a href="#5-举个栗子对比-a-和-中" class="hash-link" aria-label="Direct link to 5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;" title="Direct link to 5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="字符-a">字符 &#x27;A&#x27;<a href="#字符-a" class="hash-link" aria-label="Direct link to 字符 &#x27;A&#x27;" title="Direct link to 字符 &#x27;A&#x27;" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-举个栗子对比-a-和-中">5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;<a href="#5-举个栗子对比-a-和-中" class="hash-link" aria-label="Direct link to 5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;" title="Direct link to 5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="字符-a">字符 &#x27;A&#x27;<a href="#字符-a" class="hash-link" aria-label="Direct link to 字符 &#x27;A&#x27;" title="Direct link to 字符 &#x27;A&#x27;" translate="no">​</a></h3>
 <ul>
-<li><strong>ASCII</strong>: <code>0x41</code> (1 byte)</li>
-<li><strong>Unicode</strong>: <code>U+0041</code></li>
-<li><strong>UTF-8</strong>: <code>0x41</code> (1 byte)</li>
-<li><em>优势</em>：和 ASCII 完全一样，老软件也能读</li>
+<li class=""><strong>ASCII</strong>: <code>0x41</code> (1 byte)</li>
+<li class=""><strong>Unicode</strong>: <code>U+0041</code></li>
+<li class=""><strong>UTF-8</strong>: <code>0x41</code> (1 byte)</li>
+<li class=""><em>优势</em>：和 ASCII 完全一样，老软件也能读</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="字符-中">字符 &#x27;中&#x27;<a href="#字符-中" class="hash-link" aria-label="Direct link to 字符 &#x27;中&#x27;" title="Direct link to 字符 &#x27;中&#x27;" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="字符-中">字符 &#x27;中&#x27;<a href="#字符-中" class="hash-link" aria-label="Direct link to 字符 &#x27;中&#x27;" title="Direct link to 字符 &#x27;中&#x27;" translate="no">​</a></h3>
 <ul>
-<li>
+<li class="">
 <p><strong>Unicode</strong>: <code>U+4E2D</code> (二进制: <code>0100 1110 0010 1101</code>)</p>
 </li>
-<li>
+<li class="">
 <p><strong>UTF-8</strong>: 需要 3 个字节</p>
 <ol>
-<li>填入模板： <code>1110xxxx 10xxxxxx 10xxxxxx</code></li>
-<li>把 <code>4E2D</code> 的二进制切分填进去</li>
-<li>结果（16进制）：<code>E4 B8 AD</code></li>
+<li class="">填入模板： <code>1110xxxx 10xxxxxx 10xxxxxx</code></li>
+<li class="">把 <code>4E2D</code> 的二进制切分填进去</li>
+<li class="">结果（16进制）：<code>E4 B8 AD</code></li>
 </ol>
 </li>
-<li>
+<li class="">
 <p>所以在 Go 里，<code>len(&quot;中&quot;)</code> 等于 3</p>
 </li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-总结">6. 总结<a href="#6-总结" class="hash-link" aria-label="Direct link to 6. 总结" title="Direct link to 6. 总结" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-总结">6. 总结<a href="#6-总结" class="hash-link" aria-label="Direct link to 6. 总结" title="Direct link to 6. 总结" translate="no">​</a></h2>
 <table><thead><tr><th>名称</th><th>角色</th><th>关键点</th><th>优缺点</th></tr></thead><tbody><tr><td><strong>ASCII</strong></td><td>鼻祖</td><td>只有 128 个字符</td><td>只能存英文，太小了</td></tr><tr><td><strong>Unicode</strong></td><td>地图 (字符集)</td><td>给万物编号 (U+XXXX)</td><td>统一了标准，但没规定怎么存</td></tr><tr><td><strong>UTF-8</strong></td><td>打包工 (编码)</td><td><strong>变长编码</strong>，Unicode 的一种存法</td><td><strong>Go 的默认编码</strong>。省空间，兼容 ASCII</td></tr></tbody></table>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-与-go-语言的关系">7. 与 Go 语言的关系<a href="#7-与-go-语言的关系" class="hash-link" aria-label="Direct link to 7. 与 Go 语言的关系" title="Direct link to 7. 与 Go 语言的关系" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-与-go-语言的关系">7. 与 Go 语言的关系<a href="#7-与-go-语言的关系" class="hash-link" aria-label="Direct link to 7. 与 Go 语言的关系" title="Direct link to 7. 与 Go 语言的关系" translate="no">​</a></h2>
 <p>在 Go 语言中：</p>
 <ul>
-<li><code>string</code> 底层就是 <strong>UTF-8</strong> 字节数组</li>
-<li><code>rune</code> 类型本质上就是 <strong>Unicode 码点</strong>（即 <code>int32</code>），用来处理那个 <code>U+XXXX</code> 的数字</li>
+<li class=""><code>string</code> 底层就是 <strong>UTF-8</strong> 字节数组</li>
+<li class=""><code>rune</code> 类型本质上就是 <strong>Unicode 码点</strong>（即 <code>int32</code>），用来处理那个 <code>U+XXXX</code> 的数字</li>
 </ul>
 <div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">s </span><span class="token operator" style="color:#393A34">:=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;中&quot;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">len</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">s</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain">           </span><span class="token comment" style="color:#999988;font-style:italic">// 3 (UTF-8 字节数)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">len</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">]</span><span class="token function" style="color:#d73a49">rune</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">s</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain">   </span><span class="token comment" style="color:#999988;font-style:italic">// 1 (Unicode 字符数)</span><br></span></code></pre></div></div>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="相关阅读">相关阅读<a href="#相关阅读" class="hash-link" aria-label="Direct link to 相关阅读" title="Direct link to 相关阅读" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="相关阅读">相关阅读<a href="#相关阅读" class="hash-link" aria-label="Direct link to 相关阅读" title="Direct link to 相关阅读" translate="no">​</a></h2>
 <ul>
-<li><a href="/yiwen-blog-website/en/docs/backend/go/char-encoding-rune">字符编码与rune</a> - Go 中 String vs Rune 的实战</li>
-<li><a href="/yiwen-blog-website/en/docs/backend/go/string-design">字符串设计哲学</a> - Go vs Java 的字符串设计差异</li>
-<li><a href="/yiwen-blog-website/en/docs/backend/go/range">Range 迭代</a> - 如何正确遍历包含中文的字符串</li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/go">go</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/ascii">ascii</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/unicode">unicode</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/utf-8">utf-8</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/字符编码">字符编码</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/计算机基础">计算机基础</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/backend/go/ascii-unicode-utf8.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2026-01-14T19:28:53.000Z" itemprop="dateModified">Jan 14, 2026</time></b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/en/docs/backend/go/map-sorting-comparison"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Map 排序与比较</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/en/docs/backend/go/makefile-tutorial"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Makefile 详解</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-ascii早期的美国标准-1960s" class="table-of-contents__link toc-highlight">1. ASCII：早期的美国标准 (1960s)</a></li><li><a href="#2-混乱时代oem-与-iso-8859" class="table-of-contents__link toc-highlight">2. 混乱时代：OEM 与 ISO-8859</a></li><li><a href="#3-unicode大一统的万国码-1990s" class="table-of-contents__link toc-highlight">3. Unicode：大一统的&quot;万国码&quot; (1990s)</a></li><li><a href="#4-utf-8最聪明的打包工" class="table-of-contents__link toc-highlight">4. UTF-8：最聪明的&quot;打包工&quot;</a><ul><li><a href="#utf-8-二进制规则" class="table-of-contents__link toc-highlight">UTF-8 二进制规则</a></li></ul></li><li><a href="#5-举个栗子对 比-a-和-中" class="table-of-contents__link toc-highlight">5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;</a><ul><li><a href="#字符-a" class="table-of-contents__link toc-highlight">字符 &#39;A&#39;</a></li><li><a href="#字符-中" class="table-of-contents__link toc-highlight">字符 &#39;中&#39;</a></li></ul></li><li><a href="#6-总结" class="table-of-contents__link toc-highlight">6. 总结</a></li><li><a href="#7-与-go-语言的关系" class="table-of-contents__link toc-highlight">7. 与 Go 语言的关系</a></li><li><a href="#相关阅读" class="table-of-contents__link toc-highlight">相关阅读</a></li></ul></div></div></div></div></main></div></div></div></div>
+<li class=""><a class="" href="/yiwen-blog-website/en/docs/backend/go/char-encoding-rune">字符编码与rune</a> - Go 中 String vs Rune 的实战</li>
+<li class=""><a class="" href="/yiwen-blog-website/en/docs/backend/go/string-design">字符串设计哲学</a> - Go vs Java 的字符串设计差异</li>
+<li class=""><a class="" href="/yiwen-blog-website/en/docs/backend/go/range">Range 迭代</a> - 如何正确遍历包含中文的字符串</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/go">go</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/ascii">ascii</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/unicode">unicode</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/utf-8">utf-8</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/字符  编码">字符编码</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/计算机基础">计算机基础</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/backend/go/ascii-unicode-utf8.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2026-01-15T09:23:32.000Z" itemprop="dateModified">Jan 15, 2026</time></b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/en/docs/backend/go/map-sorting-comparison"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Map 排序与比较</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/en/docs/backend/go/makefile-tutorial"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Makefile 详解</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-ascii早期的美国标准-1960s" class="table-of-contents__link toc-highlight">1. ASCII：早期的美国标准 (1960s)</a></li><li><a href="#2-混乱时代oem-与-iso-8859" class="table-of-contents__link toc-highlight">2. 混乱时代：OEM 与 ISO-8859</a></li><li><a href="#3-unicode 大一统的万国码-1990s" class="table-of-contents__link toc-highlight">3. Unicode：大一统的&quot;万国码&quot; (1990s)</a></li><li><a href="#4-utf-8最聪明的打包工" class="table-of-contents__link toc-highlight">4. UTF-8：最聪明的&quot;打包工&quot;</a><ul><li><a href="#utf-8-二进制规则" class="table-of-contents__link toc-highlight">UTF-8 二进制规则</a></li></ul></li><li><a href="#5-举个栗子对比-a-和-中" class="table-of-contents__link toc-highlight">5. 举个栗子：对比 &quot;A&quot; 和 &quot;中&quot;</a><ul><li><a href="#字符-a" class="table-of-contents__link toc-highlight">字符 &#39;A&#39;</a></li><li><a href="#字符-中" class="table-of-contents__link toc-highlight">字符 &#39;中&#39;</a></li></ul></li><li><a href="#6-总结" class="table-of-contents__link toc-highlight">6. 总结</a></li><li><a href="#7-与-go-语言的关系" class="table-of-contents__link toc-highlight">7. 与 Go 语言的关系</a></li><li><a href="#相关阅读" class="table-of-contents__link toc-highlight">相关阅读</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>

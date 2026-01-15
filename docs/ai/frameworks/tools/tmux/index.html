@@ -2,7 +2,7 @@
 <html lang="zh" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-ai/frameworks/tools/tmux" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">tmux 终端复用器入门 | yiwen</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/ai/frameworks/tools/tmux"><meta data-rh="true" property="og:locale" content="zh"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh"><meta data-rh="true" name="docsearch:language" content="zh"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="tmux 终端复用器入门 | yiwen"><meta data-rh="true" name="description" content="tmux (Terminal Multiplexer) 是后端开发、运维和 Linux 爱好者的必备神器。简单来说，它能让你的终端拥有分屏、多标签页以及后台挂起（防断线）的能力。"><meta data-rh="true" property="og:description" content="tmux (Terminal Multiplexer) 是后端开发、运维和 Linux 爱好者的必备神器。简单来说，它能让你的终端拥有分屏、多标签页以及后台挂起（防断线）的能力。"><link data-rh="true" rel="icon" href="/yiwen-blog-website/img/logo.png"><link data-rh="true" rel="canonical" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/ai/frameworks/tools/tmux"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/ai/frameworks/tools/tmux" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/ai/frameworks/tools/tmux" hreflang="zh"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/ai/frameworks/tools/tmux" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"框架与工具","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/docs/category/框架与工具"},{"@type":"ListItem","position":2,"name":"工具与平台","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/docs/category/工具与平台"},{"@type":"ListItem","position":3,"name":"tmux 入门","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/docs/ai/frameworks/tools/tmux"}]}</script><link rel="alternate" type="application/rss+xml" href="/yiwen-blog-website/blog/rss.xml" title="yiwen RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/yiwen-blog-website/blog/atom.xml" title="yiwen Atom Feed">
 
@@ -10,9 +10,10 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/assets/css/styles.4e185611.css">
-<script src="/yiwen-blog-website/assets/js/runtime~main.6aad2b28.js" defer="defer"></script>
-<script src="/yiwen-blog-website/assets/js/main.01369e33.js" defer="defer"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/assets/css/styles.bce95865.css">
+<script src="/yiwen-blog-website/assets/js/runtime~main.9306f078.js" defer="defer"></script>
+<script src="/yiwen-blog-website/assets/js/main.56098f9a.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -22,46 +23,46 @@
 <p><strong>tmux (Terminal Multiplexer)</strong> 是后端开发、运维和 Linux 爱好者的必备神器。简单来说，它能让你的终端拥有<strong>分屏</strong>、<strong>多标签页</strong>以及**后台挂起（防断线）**的能力。</p>
 <p>想象一下：你在远程服务器上跑代码，突然网断了，或者你不小心关掉了终端窗口。如果没有 tmux，你的程序就挂了；有了 tmux，程序还在后台跑，你连回去还能接着刚才的地方继续。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="0-安装-tmux">0. 安装 tmux<a href="#0-安装-tmux" class="hash-link" aria-label="0. 安装 tmux的直接链接" title="0. 安装 tmux的直接链接" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="linux-debianubuntu">Linux (Debian/Ubuntu)<a href="#linux-debianubuntu" class="hash-link" aria-label="Linux (Debian/Ubuntu)的直接链接" title="Linux (Debian/Ubuntu)的直接链接" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="0-安装-tmux">0. 安装 tmux<a href="#0-安装-tmux" class="hash-link" aria-label="0. 安装 tmux的直接链接" title="0. 安装 tmux的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-debianubuntu">Linux (Debian/Ubuntu)<a href="#linux-debianubuntu" class="hash-link" aria-label="Linux (Debian/Ubuntu)的直接链接" title="Linux (Debian/Ubuntu)的直接链接" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token function" style="color:#d73a49">apt</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">install</span><span class="token plain"> tmux</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="macos">macOS<a href="#macos" class="hash-link" aria-label="macOS的直接链接" title="macOS的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="macos">macOS<a href="#macos" class="hash-link" aria-label="macOS的直接链接" title="macOS的直接链接" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">brew </span><span class="token function" style="color:#d73a49">install</span><span class="token plain"> tmux</span><br></span></code></pre></div></div>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-核心概念套娃结构">1. 核心概念：套娃结构<a href="#1-核心概念套娃结构" class="hash-link" aria-label="1. 核心概念：套娃结构的直接链接" title="1. 核心概念：套娃结构的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-核心概念套娃结构">1. 核心概念：套娃结构<a href="#1-核心概念套娃结构" class="hash-link" aria-label="1. 核心概念：套娃结构的直接链接" title="1. 核心概念：套娃结构的直接链接" translate="no">​</a></h2>
 <p>理解这三个概念，你就懂了 tmux 的逻辑：</p>
 <ol>
-<li><strong>Session (会话)</strong>：最外层的容器。就像一个&quot;工作区&quot;。你可以为一个项目建一个 Session。</li>
-<li><strong>Window (窗口)</strong>：Session 里的&quot;标签页&quot;。就像浏览器的 Tab，全屏显示。</li>
-<li><strong>Pane (窗格)</strong>：Window 里的切分块。把一个屏幕切成几块，同时看日志、敲代码、监控资源。</li>
+<li class=""><strong>Session (会话)</strong>：最外层的容器。就像一个&quot;工作区&quot;。你可以为一个项目建一个 Session。</li>
+<li class=""><strong>Window (窗口)</strong>：Session 里的&quot;标签页&quot;。就像浏览器的 Tab，全屏显示。</li>
+<li class=""><strong>Pane (窗格)</strong>：Window 里的切分块。把一个屏幕切成几块，同时看日志、敲代码、监控资源。</li>
 </ol>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-最重要的按键前缀键-prefix">2. 最重要的按键：前缀键 (Prefix)<a href="#2-最重要的按键前缀键-prefix" class="hash-link" aria-label="2. 最重要的按键：前缀键 (Prefix)的直接链接" title="2. 最重要的按键：前缀键 (Prefix)的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-最重要的按键前缀键-prefix">2. 最重要的按键：前缀键 (Prefix)<a href="#2-最重要的按键前缀键-prefix" class="hash-link" aria-label="2. 最重要的按键：前缀键 (Prefix)的直接链接" title="2. 最重要的按键：前缀键 (Prefix)的直接链接" translate="no">​</a></h2>
 <p>Tmux 的所有快捷键都需要先按一个&quot;前缀键&quot;来唤醒。
 默认是 <strong><code>Ctrl</code> + <code>b</code></strong> (同时按住 Ctrl 和 b，然后松开)。</p>
 <ul>
-<li>下文中提到 <strong><code>Prefix</code></strong> 时，指的就是按一下 <code>Ctrl + b</code>。</li>
+<li class="">下文中提到 <strong><code>Prefix</code></strong> 时，指的就是按一下 <code>Ctrl + b</code>。</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-常用操作速查表">3. 常用操作速查表<a href="#3-常用操作速查表" class="hash-link" aria-label="3. 常用操作速查表的直接链接" title="3. 常用操作速查表的直接链接" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-会话管理-在普通终端里敲命令">A. 会话管理 (在普通终端里敲命令)<a href="#a-会话管理-在普通终端里敲命令" class="hash-link" aria-label="A. 会话管理 (在普通终端里敲命令)的直接链接" title="A. 会话管理 (在普通终端里敲命令)的直接链接" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-常用操作速查表">3. 常用操作速查表<a href="#3-常用操作速查表" class="hash-link" aria-label="3. 常用操作速查表的直接链接" title="3. 常用操作速查表的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-会话管理-在普通终端里敲命令">A. 会话 管理 (在普通终端里敲命令)<a href="#a-会话管理-在普通终端里敲命令" class="hash-link" aria-label="A. 会话管理 (在普通终端里敲命令)的直接链接" title="A. 会话管理 (在普通终端里敲命令)的直接链接" translate="no">​</a></h3>
 <table><thead><tr><th style="text-align:left">目标</th><th style="text-align:left">命令</th><th style="text-align:left">说明</th></tr></thead><tbody><tr><td style="text-align:left"><strong>新建会话</strong></td><td style="text-align:left"><code>tmux</code></td><td style="text-align:left">新建一个无名会话</td></tr><tr><td style="text-align:left"><strong>命名会话</strong></td><td style="text-align:left"><code>tmux new -s mywork</code></td><td style="text-align:left">新建叫 &quot;mywork&quot; 的会话 (<strong>推荐</strong>)</td></tr><tr><td style="text-align:left"><strong>列出会话</strong></td><td style="text-align:left"><code>tmux ls</code></td><td style="text-align:left">查看后台有哪些会话</td></tr><tr><td style="text-align:left"><strong>进入会话</strong></td><td style="text-align:left"><code>tmux a -t mywork</code></td><td style="text-align:left">重新连回 (attach) 到 &quot;mywork&quot;</td></tr><tr><td style="text-align:left"><strong>杀掉会话</strong></td><td style="text-align:left"><code>tmux kill-session -t mywork</code></td><td style="text-align:left">彻底关闭某个会话</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="b-窗格控制-pane---最常用的功能">B. 窗格控制 (Pane) - 最常用的功能<a href="#b-窗格控制-pane---最常用的功能" class="hash-link" aria-label="B. 窗格控制 (Pane) - 最常用的功能的直接链接" title="B. 窗格控制 (Pane) - 最常用的功能的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="b-窗格控制-pane---最常用的功能">B. 窗格控制 (Pane) - 最常用的功能<a href="#b-窗格控制-pane---最常用的功能" class="hash-link" aria-label="B. 窗格控制 (Pane) - 最常用的功能的直接链接" title="B. 窗格控制 (Pane) - 最常用的功能的直接链接" translate="no">​</a></h3>
 <p><em>先按 <code>Prefix</code>，松开后按下列键：</em></p>
 <table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:left">功能</th><th style="text-align:left">记忆法</th></tr></thead><tbody><tr><td style="text-align:left"><strong><code>%</code></strong></td><td style="text-align:left"><strong>左右分屏</strong> (垂直切分)</td><td style="text-align:left">Shift + 5</td></tr><tr><td style="text-align:left"><strong><code>&quot;</code></strong></td><td style="text-align:left"><strong>上下分屏</strong> (水平切分)</td><td style="text-align:left">Shift + &#x27;</td></tr><tr><td style="text-align:left"><strong>方向键</strong></td><td style="text-align:left">在不同窗格间切换光标</td><td style="text-align:left">上下左右</td></tr><tr><td style="text-align:left"><strong><code>x</code></strong></td><td style="text-align:left">关闭当前窗格</td><td style="text-align:left">会提示确认 (y/n)</td></tr><tr><td style="text-align:left"><strong><code>z</code></strong></td><td style="text-align:left"><strong>最大化/恢复</strong>当前窗格</td><td style="text-align:left">Zoom (临时全屏看日志很有用)</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c-窗口控制-window">C. 窗口控制 (Window)<a href="#c-窗口控制-window" class="hash-link" aria-label="C. 窗口控制 (Window)的直接链接" title="C. 窗口控制 (Window)的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="c-窗口控制-window">C. 窗口控制 (Window)<a href="#c-窗口控制-window" class="hash-link" aria-label="C. 窗口控制 (Window)的直接链接" title="C. 窗口控制 (Window)的直接链接" translate="no">​</a></h3>
 <p><em>先按 <code>Prefix</code>，松开后按下列键：</em></p>
 <table><thead><tr><th style="text-align:left">快捷键</th><th style="text-align:left">功能</th></tr></thead><tbody><tr><td style="text-align:left"><strong><code>c</code></strong></td><td style="text-align:left">创建新窗口 (Create)</td></tr><tr><td style="text-align:left"><strong><code>w</code></strong></td><td style="text-align:left">列表选择窗口 (可视化菜单)</td></tr><tr><td style="text-align:left"><strong><code>n</code></strong></td><td style="text-align:left">切换到下一个窗口 (Next)</td></tr><tr><td style="text-align:left"><strong><code>p</code></strong></td><td style="text-align:left">切换到上一个窗口 (Previous)</td></tr><tr><td style="text-align:left"><strong><code>,</code></strong></td><td style="text-align:left">重命名当前窗口 (方便记忆)</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="d-挂起与离开-关键">D. 挂起与离开 (关键！)<a href="#d-挂起与离开-关键" class="hash-link" aria-label="D. 挂起与离开 (关键！)的直接链接" title="D. 挂起与离开 (关键！)的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="d-挂起与离开-关键">D. 挂起与离开 (关键！)<a href="#d-挂起与离开-关键" class="hash-link" aria-label="D. 挂起与离开 (关键！)的直接链接" title="D. 挂起与离开 (关键！)的直接链接" translate="no">​</a></h3>
 <ul>
-<li><strong><code>Prefix</code> + <code>d</code></strong>：<strong>Detach (分离)</strong>。<!-- -->
+<li class=""><strong><code>Prefix</code> + <code>d</code></strong>：<strong>Detach (分离)</strong>。<!-- -->
 <ul>
-<li>这会让你回到普通终端，但 tmux 里的所有程序都在后台继续跑，<strong>不会断开</strong>。这是 tmux 的灵魂功能。</li>
+<li class="">这会让你回到普通终端，但 tmux 里的所有程序都在后台继续跑，<strong>不会断开</strong>。这是 tmux 的灵魂功能。</li>
 </ul>
 </li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-实战示例模拟一次开发流程">4. 实战示例：模拟一次开发流程<a href="#4-实战示例模拟一次开发流程" class="hash-link" aria-label="4. 实战示例：模拟一次开发流程的直接链接" title="4. 实战示例：模拟一次开发流程的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-实战示例模拟一次开发流程">4. 实战示例：模拟一次开发流程<a href="#4-实战示例模拟一次开发流程" class="hash-link" aria-label="4. 实战示例：模拟一次开发流程的直接链接" title="4. 实战示例：模拟一次开发流程的直接链接" translate="no">​</a></h2>
 <p>假设你要在服务器上运行一个 Python 脚本，同时监控系统 CPU。</p>
 <p><strong>第一步：创建会话</strong>
 在终端输入：</p>
@@ -69,46 +70,46 @@
 <p><em>(你现在进入了 tmux 界面)</em></p>
 <p><strong>第二步：分屏</strong></p>
 <ol>
-<li>按 <code>Ctrl+b</code>，松开，按 <code>%</code>。屏幕变成了左右两半。</li>
-<li>按 <code>Ctrl+b</code>，松开，按 <code>&quot;</code>。右半部分又切成了上下两半。</li>
+<li class="">按 <code>Ctrl+b</code>，松开，按 <code>%</code>。屏幕变成了左右两半。</li>
+<li class="">按 <code>Ctrl+b</code>，松开，按 <code>&quot;</code>。右半部分又切成了上下两半。</li>
 </ol>
 <p>现在你的屏幕布局是：左边一大块，右边分上下。</p>
 <p><strong>第三步：运行任务</strong></p>
 <ol>
-<li><strong>左边窗格</strong>：输入 <code>vim main.py</code> 开始写代码。</li>
-<li>按 <code>Ctrl+b</code> 然后按 <code>右方向键</code>，光标跳到右侧。</li>
-<li><strong>右上窗格</strong>：输入 <code>htop</code> 监控 CPU。</li>
-<li>按 <code>Ctrl+b</code> 然后按 <code>下方向键</code>。</li>
-<li><strong>右下窗格</strong>：输入 <code>python main.py</code> 运行程序看输出。</li>
+<li class=""><strong>左边窗格</strong>：输入 <code>vim main.py</code> 开始写代码。</li>
+<li class="">按 <code>Ctrl+b</code> 然后按 <code>右方向键</code>，光标跳到右侧。</li>
+<li class=""><strong>右上窗格</strong>：输入 <code>htop</code> 监控 CPU。</li>
+<li class="">按 <code>Ctrl+b</code> 然后按 <code>下方向键</code>。</li>
+<li class=""><strong>右下窗格</strong>：输入 <code>python main.py</code> 运行程序看输出。</li>
 </ol>
 <p><strong>第四步：下班挂起</strong>
 你要下班了，但想让程序一直跑。</p>
 <ol>
-<li>按 <code>Ctrl+b</code>，松开，按 <code>d</code>。</li>
-<li>界面显示 <code>[detached]</code>，你回到了普通终端。</li>
-<li>你可以安全地关闭 SSH 连接，程序依然在后台运行。</li>
+<li class="">按 <code>Ctrl+b</code>，松开，按 <code>d</code>。</li>
+<li class="">界面显示 <code>[detached]</code>，你回到了普通终端。</li>
+<li class="">你可以安全地关闭 SSH 连接，程序依然在后台运行。</li>
 </ol>
 <p><strong>第五步：第二天恢复</strong>
 第二天上班，连上服务器：</p>
 <ol>
-<li>输入 <code>tmux ls</code>，看到 <code>demo: 1 windows...</code>。</li>
-<li>输入 <code>tmux a -t demo</code>。</li>
-<li><strong>Boom！</strong> 昨天的三个分屏、运行的代码、光标位置，全部原封不动地回来了。</li>
+<li class="">输入 <code>tmux ls</code>，看到 <code>demo: 1 windows...</code>。</li>
+<li class="">输入 <code>tmux a -t demo</code>。</li>
+<li class=""><strong>Boom！</strong> 昨天的三个分屏、运行的代码、光标位置，全部原封不动地回来了。</li>
 </ol>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-新手必装配置-开启鼠标支持">5. 新手必装配置 (开启鼠标支持)<a href="#5-新手必装配置-开启鼠标支持" class="hash-link" aria-label="5. 新手必装配置 (开启鼠标支持)的直接链接" title="5. 新手必装配置 (开启鼠标支持)的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-新手必装配置-开启鼠标支持">5. 新手必装配置 (开启鼠标支持)<a href="#5-新手必装配置-开启鼠标支持" class="hash-link" aria-label="5. 新手必装配置 (开启鼠标支持)的直接链接" title="5. 新手必装配置 (开启鼠标支持)的直接链接" translate="no">​</a></h2>
 <p>默认的 tmux 不支持鼠标点击切换窗格，新手会很痛苦。建议开启鼠标支持。</p>
 <ol>
-<li>在用户目录下新建/编辑配置文件：<!-- -->
+<li class="">在用户目录下新建/编辑配置文件：<!-- -->
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token function" style="color:#d73a49">nano</span><span class="token plain"> ~/.tmux.conf</span><br></span></code></pre></div></div>
 </li>
-<li>在里面粘贴这一行：<!-- -->
+<li class="">在里面粘贴这一行：<!-- -->
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set -g mouse on</span><br></span></code></pre></div></div>
 </li>
-<li>保存退出。然后重新加载配置（在终端执行）：<!-- -->
+<li class="">保存退出。然后重新加载配置（在终端执行）：<!-- -->
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">tmux source-file ~/.tmux.conf</span><br></span></code></pre></div></div>
 </li>
 </ol>
-<p><strong>效果</strong>：现在你可以直接用鼠标点击来切换窗格，或者拖动分割线来调整大小了！</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/tmux">tmux</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/linux">linux</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/terminal">terminal</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/工具">工具</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/ai/frameworks/tools/tmux.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-14T19:28:53.000Z" itemprop="dateModified">2026年1月14日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/docs/ai/frameworks/tools/system-monitoring"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">btop 监控</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/docs/ai/frameworks/tools/upload_proj"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Hugging Face 模型上传完整教程（Git方式）</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#0-安装-tmux" class="table-of-contents__link toc-highlight">0. 安装 tmux</a><ul><li><a href="#linux-debianubuntu" class="table-of-contents__link toc-highlight">Linux (Debian/Ubuntu)</a></li><li><a href="#macos" class="table-of-contents__link toc-highlight">macOS</a></li></ul></li><li><a href="#1-核心概念套娃结构" class="table-of-contents__link toc-highlight">1. 核心概念：套娃结构</a></li><li><a href="#2-最重要的按键前缀键-prefix" class="table-of-contents__link toc-highlight">2. 最重要的按键：前缀键 (Prefix)</a></li><li><a href="#3-常用操作速查表" class="table-of-contents__link toc-highlight">3. 常用操作速查表</a><ul><li><a href="#a-会话管理-在普通终端里敲命令" class="table-of-contents__link toc-highlight">A. 会话管理 (在普通终端里敲命令)</a></li><li><a href="#b-窗格控制-pane---最常用的功能" class="table-of-contents__link toc-highlight">B. 窗格控制 (Pane) - 最常用的功能</a></li><li><a href="#c-窗口控制-window" class="table-of-contents__link toc-highlight">C. 窗口控制 (Window)</a></li><li><a href="#d-挂起与离开-关键" class="table-of-contents__link toc-highlight">D. 挂起与离开 (关键！)</a></li></ul></li><li><a href="#4-实战示例模拟一次开发流程" class="table-of-contents__link toc-highlight">4. 实战示例：模拟一次开发流程</a></li><li><a href="#5-新手必装配置-开启鼠标支持" class="table-of-contents__link toc-highlight">5. 新手必装配置 (开启鼠标支持)</a></li></ul></div></div></div></div></main></div></div></div></div>
+<p><strong>效果</strong>：现在你可以直接用鼠标点击来切换窗格，或者拖动分割线来调整大小了！</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/tmux">tmux</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/linux">linux</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/terminal">terminal</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/工具">工具</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/ai/frameworks/tools/tmux.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-15T09:23:32.000Z" itemprop="dateModified">2026年1月15日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/docs/ai/frameworks/tools/system-monitoring"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">btop 监控</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/docs/ai/frameworks/tools/upload_proj"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Hugging Face 模型上传完整教程（Git方式）</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#0-安装-tmux" class="table-of-contents__link toc-highlight">0. 安装 tmux</a><ul><li><a href="#linux-debianubuntu" class="table-of-contents__link toc-highlight">Linux (Debian/Ubuntu)</a></li><li><a href="#macos" class="table-of-contents__link toc-highlight">macOS</a></li></ul></li><li><a href="#1-核心概念套娃结构" class="table-of-contents__link toc-highlight">1. 核心概念：套娃结构</a></li><li><a href="#2-最重要的按键前缀键-prefix" class="table-of-contents__link toc-highlight">2. 最重要的按键：前缀键 (Prefix)</a></li><li><a href="#3-常用操作速查表" class="table-of-contents__link toc-highlight">3. 常用操作速查表</a><ul><li><a href="#a-会话管理-在普通终端里敲命令" class="table-of-contents__link toc-highlight">A. 会话管理 (在普通终端里敲命令)</a></li><li><a href="#b-窗格控制-pane---最常用的功能" class="table-of-contents__link toc-highlight">B. 窗格控制 (Pane) - 最常用的功能</a></li><li><a href="#c-窗口控制-window" class="table-of-contents__link toc-highlight">C. 窗口控制 (Window)</a></li><li><a href="#d-挂起与离开-关键" class="table-of-contents__link toc-highlight">D. 挂起与离开 (关键！)</a></li></ul></li><li><a href="#4-实战示例模拟一次开发流程" class="table-of-contents__link toc-highlight">4. 实战示例：模拟一次开发流程</a></li><li><a href="#5-新手必装配置-开启鼠标支持" class="table-of-contents__link toc-highlight">5. 新手必装配置 (开启鼠标支持)</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>

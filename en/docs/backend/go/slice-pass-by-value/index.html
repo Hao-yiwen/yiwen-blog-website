@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-backend/go/slice-pass-by-value" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">切片传参的值拷贝陷阱 | yiwen</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/slice-pass-by-value"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="切片传参的值拷贝陷阱 | yiwen"><meta data-rh="true" name="description" content="这个问题非常经典，核心原因可以用一句话概括："><meta data-rh="true" property="og:description" content="这个问题非常经典，核心原因可以用一句话概括："><link data-rh="true" rel="icon" href="/yiwen-blog-website/en/img/logo.png"><link data-rh="true" rel="canonical" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/slice-pass-by-value"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/slice-pass-by-value" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/backend/go/slice-pass-by-value" hreflang="zh"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/backend/go/slice-pass-by-value" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Go","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/category/go"},{"@type":"ListItem","position":2,"name":"切片传参的值拷贝陷阱","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/backend/go/slice-pass-by-value"}]}</script><link rel="alternate" type="application/rss+xml" href="/yiwen-blog-website/en/blog/rss.xml" title="yiwen RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/yiwen-blog-website/en/blog/atom.xml" title="yiwen Atom Feed">
 
@@ -10,9 +10,10 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/en/assets/css/styles.4e185611.css">
-<script src="/yiwen-blog-website/en/assets/js/runtime~main.bccab1bc.js" defer="defer"></script>
-<script src="/yiwen-blog-website/en/assets/js/main.3bd0c6ef.js" defer="defer"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/en/assets/css/styles.bce95865.css">
+<script src="/yiwen-blog-website/en/assets/js/runtime~main.3f63cee1.js" defer="defer"></script>
+<script src="/yiwen-blog-website/en/assets/js/main.0d5501ca.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -23,81 +24,81 @@
 <p><strong>Go 函数传参是&quot;值传递&quot;，你传进去的切片其实是一个&quot;结构体的副本&quot;。</strong></p>
 <p>虽然它们共享底层数组（指针一样），但它们拥有<strong>各自独立</strong>的 <code>Len</code>（长度）和 <code>Cap</code>（容量）。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-为什么-s0x-外部能看到">1. 为什么 <code>s[0]=x</code> 外部能看到？<a href="#1-为什么-s0x-外部能看到" class="hash-link" aria-label="Direct link to 1-为什么-s0x-外部能看到" title="Direct link to 1-为什么-s0x-外部能看到" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-为什么-s0x-外部能看到">1. 为什么 <code>s[0]=x</code> 外部能看到？<a href="#1-为什么-s0x-外部能看到" class="hash-link" aria-label="Direct link to 1-为什么-s0x-外部能看到" title="Direct link to 1-为什么-s0x-外部能看到" translate="no">​</a></h2>
 <p><strong>因为指针指向的是同一个地方。</strong></p>
 <p>当你传递切片时，Go 复制了那个&quot;切片头&quot;（SliceHeader）：</p>
 <ul>
-<li><strong>外部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code></li>
-<li><strong>函数内部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code></li>
+<li class=""><strong>外部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code></li>
+<li class=""><strong>函数内部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code></li>
 </ul>
 <p>注意 <code>Ptr</code> 都是 <code>0x100</code>。
-函数执行 <code>s[0] = 999</code> 时，它顺着 <code>0x100</code> 这个地址去  修改内存。</p>
+函数执行 <code>s[0] = 999</code> 时，它顺着 <code>0x100</code> 这个地址去修改内存。</p>
 <p><strong>结果：</strong> 内存变了。外部变量也看 <code>0x100</code>，所以它看到了变化。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-为什么-append-外部看不到">2. 为什么 <code>append</code> 外部看不到？<a href="#2-为什么-append-外部看不到" class="hash-link" aria-label="Direct link to 2-为什么-append-外部看不到" title="Direct link to 2-为什么-append-外部看不到" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-为什么-append-外部看不到">2. 为什么 <code>append</code> 外部看不到？<a href="#2-为什么-append-外部看不到" class="hash-link" aria-label="Direct link to 2-为什么-append-外部看不到" title="Direct link to 2-为什么-append-外部看不到" translate="no">​</a></h2>
 <p>这是最坑的地方。<code>append</code> 会导致两种情况，但无论哪种，外部都看不到。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="情况-a容量足够没发生扩容但视野没跟上">情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上<a href="#情况-a容量足够没发生扩容但视野没跟上" class="hash-link" aria-label="Direct link to 情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上" title="Direct link to 情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="情况-a容量足够没发生扩容但视野没跟上">情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上<a href="#情况-a容量足够没发生扩容但视野没跟上" class="hash-link" aria-label="Direct link to 情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上" title="Direct link to 情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上" translate="no">​</a></h3>
 <p>假设 <code>Len=3</code>, <code>Cap=5</code>。
 你 append 了一个元素，底层数组其实<strong>真的被修改了</strong>（第4个位置写入了数据）。</p>
 <p>但是！<strong>SliceHeader 里的 <code>Len</code> 变了。</strong></p>
 <ul>
-<li><strong>函数内部变量：</strong> <code>{Ptr: 0x100, Len: 4, Cap: 5}</code> （长度变成了 4）</li>
-<li><strong>外部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code> （长度<strong>依然是 3</strong>）</li>
+<li class=""><strong>函数内部变量：</strong> <code>{Ptr: 0x100, Len: 4, Cap: 5}</code> （长度变成了 4）</li>
+<li class=""><strong>外部变量：</strong> <code>{Ptr: 0x100, Len: 3, Cap: 5}</code> （长度<strong>依然是 3</strong>）</li>
 </ul>
 <p><strong>结果：</strong> 虽然数据写进去了，但外部切片的 <code>Len</code> 锁死在 3。打印的时候，Go 只会遍历到 <code>Len</code> 为止。外部切片觉得&quot;我只有 3 个元素&quot;，所以它<strong>看不见</strong>第 4 个元素。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="情况-b容量不够发生了扩容彻底分家">情况 B：容量不够（发生了扩容），彻 底分家<a href="#情况-b容量不够发生了扩容彻底分家" class="hash-link" aria-label="Direct link to 情况 B：容量不够（发生了扩容），彻底分家" title="Direct link to 情况 B：容量不够（发生了扩容），彻底分家" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="情况-b容量不够发生了扩容彻底分家">情况 B ：容量不够（发生了扩容），彻底分家<a href="#情况-b容量不够发生了扩容彻底分家" class="hash-link" aria-label="Direct link to 情况 B：容量不够（发生了扩容），彻底分家" title="Direct link to 情况 B：容量不够（发生了扩容），彻底分家" translate="no">​</a></h3>
 <p>假设 <code>Len=3</code>, <code>Cap=3</code>。
 你 append 了一个元素，原来的坑填不下了。</p>
 <ul>
-<li>
+<li class="">
 <p><strong>函数内部：</strong> <code>append</code> 发现不够用，开辟了一块新内存地址 <code>0x888</code>，把老数据拷过去，再追加新数据。</p>
 </li>
-<li>
+<li class="">
 <p>内部变量变成：<code>{Ptr: 0x888, Len: 4, Cap: 6}</code></p>
 </li>
-<li>
+<li class="">
 <p><strong>外部变量：</strong> 依然指向老家。</p>
 </li>
-<li>
+<li class="">
 <p>外部变量保持：<code>{Ptr: 0x100, Len: 3, Cap: 3}</code></p>
 </li>
 </ul>
 <p><strong>结果：</strong> 内部变量已经搬家了，外部变量还在看老房子。彻底无关了。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="图解对比">图解对比<a href="#图解对比" class="hash-link" aria-label="Direct link to 图解对比" title="Direct link to 图解对比" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="图解对比">图解对比<a href="#图解对比" class="hash-link" aria-label="Direct link to 图解对比" title="Direct link to 图解对比" translate="no">​</a></h2>
 <p>我们可以把切片想象成<strong>一张&quot;购物清单&quot;</strong>：</p>
 <p><strong>清单内容：</strong></p>
 <ol>
-<li>仓库地址：A区1号架</li>
-<li>要拿几个商品：3个 (Len)</li>
+<li class="">仓库地址：A区1号架</li>
+<li class="">要拿几个商品：3个 (Len)</li>
 </ol>
 <p><strong>传递给函数时，你复印了一份清单给函数。</strong></p>
 <ul>
-<li>
+<li class="">
 <p><strong>操作 1：修改商品 (s[0] = x)</strong>
 函数拿着复印件，去 A区1号架，把第一个苹果换成了香蕉。
 你拿着原件，去 A区1号架，看到的自然也是香蕉。<strong>(生效)</strong></p>
 </li>
-<li>
+<li class="">
 <p><strong>操作 2：追加商品 (append)</strong>
 函数在复印件上把&quot;要拿几个商品&quot;从 3 改成了 4，并往架子上多放了一个梨。
 你手里的原件，上面写的还是&quot;要拿 3 个&quot;。
-当你去仓库取货时，你只拿前 3 个，<strong>完全不知道第 4 个梨的存  在</strong>。<strong>(不生效)</strong></p>
+当你去仓库取货时，你只拿前 3 个，<strong>完全不知道第 4 个梨的存在</strong>。<strong>(不生效)</strong></p>
 </li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="怎么解决">怎么解决？<a href="#怎么解决" class="hash-link" aria-label="Direct link to 怎么解决？" title="Direct link to 怎么解决？" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="怎么解决">怎么解决？<a href="#怎么解决" class="hash-link" aria-label="Direct link to 怎么解决？" title="Direct link to 怎么解决？" translate="no">​</a></h2>
 <p>如果你希望 <code>append</code> 也能被外面看到，必须把**更新后的清单（切片头）**传回给外面。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="方法-1返回新切片最常用">方法 1：返回新切片（最常用）<a href="#方法-1返回新切片最常用" class="hash-link" aria-label="Direct link to 方法 1：返回新切片（最常用）" title="Direct link to 方法 1：返回新切片（最常用）" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="方法-1返回新切片最常用">方法 1：返回新切片（最常用）<a href="#方法-1返回新切片最常用" class="hash-link" aria-label="Direct link to 方法 1：返回新切片（最常用）" title="Direct link to 方法 1：返回新切片（最常用）" translate="no">​</a></h3>
 <div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">func</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">addOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">s </span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">]</span><span class="token builtin">int</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">]</span><span class="token builtin">int</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    s </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">append</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">s</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">return</span><span class="token plain"> s </span><span class="token comment" style="color:#999988;font-style:italic">// 把修改了 Len 的新切片头传出去</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// 调用</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">list </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">addOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">list</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// 外部用新切片覆盖旧切片</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="方法-2传切片的指 针-pointer-to-slice">方法 2：传切片的指针 (Pointer to Slice)<a href="#方法-2传切片的指针-pointer-to-slice" class="hash-link" aria-label="Direct link to 方法 2：传切片的指针 (Pointer to Slice)" title="Direct link to 方法 2：传切片的指针 (Pointer to Slice)" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="方法-2传切片的指针-pointer-to-slice">方法 2：传切片的指针 (Pointer to Slice)<a href="#方法-2传切片的指针-pointer-to-slice" class="hash-link" aria-label="Direct link to 方法 2：传切片的指针 (Pointer to Slice)" title="Direct link to 方法 2：传切片的指针 (Pointer to Slice)" translate="no">​</a></h3>
 <p>这就相当于把&quot;清单的原件&quot;传进去了，而不是复印件。</p>
 <div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">func</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">addOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">s </span><span class="token operator" style="color:#393A34">*</span><span class="token punctuation" style="color:#393A34">[</span><span class="token punctuation" style="color:#393A34">]</span><span class="token builtin">int</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token operator" style="color:#393A34">*</span><span class="token plain">s </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">append</span><span class="token punctuation" style="color:#393A34">(</span><span class="token operator" style="color:#393A34">*</span><span class="token plain">s</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// 直接修改外部那个切片头的 Len 和 Ptr</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// 调用</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">addOne</span><span class="token punctuation" style="color:#393A34">(</span><span class="token operator" style="color:#393A34">&amp;</span><span class="token plain">list</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre></div></div>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="相关阅读">相关阅读<a href="#相关阅读" class="hash-link" aria-label="Direct link to 相关阅读" title="Direct link to 相关阅读" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="相关阅读">相关阅读<a href="#相关阅读" class="hash-link" aria-label="Direct link to 相关阅读" title="Direct link to 相关阅读" translate="no">​</a></h2>
 <ul>
-<li><a href="/yiwen-blog-website/en/docs/backend/go/slice-internals">切片内部结构</a> - 深入理解 SliceHeader</li>
-<li><a href="/yiwen-blog-website/en/docs/backend/go/nil-vs-empty-slice">nil 切片 vs 空切片</a> - 另一个常见的切片陷阱</li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/go">go</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/slice">slice</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/切片">切片</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/值传递">值传递</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/append">append</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/面试题">面试题</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/backend/go/slice-pass-by-value.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2026-01-14T19:28:53.000Z" itemprop="dateModified">Jan 14, 2026</time></b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/en/docs/backend/go/char-encoding-rune"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">字符编码与rune</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/en/docs/backend/go/ellipsis-syntax"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">省略号(...)语法全解</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-为什么-s0x-外部能看到" class="table-of-contents__link toc-highlight">1. 为什么 <code>s[0]=x</code> 外部能看到？</a></li><li><a href="#2-为什么-append-外部看不到" class="table-of-contents__link toc-highlight">2. 为什么 <code>append</code> 外部看不到？</a><ul><li><a href="#情况-a容量足够没发生扩容但视野没跟上" class="table-of-contents__link toc-highlight">情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上</a></li><li><a href="#情况-b容量不够发生了扩容彻底分家" class="table-of-contents__link toc-highlight">情况 B：容量不够（发生了扩容），彻底分家</a></li></ul></li><li><a href="#图解对比" class="table-of-contents__link toc-highlight">图解对比</a></li><li><a href="#怎么解决" class="table-of-contents__link toc-highlight">怎么解决？</a><ul><li><a href="#方法-1返回新切片最常用" class="table-of-contents__link toc-highlight">方法 1：返回新切片（最常用）</a></li><li><a href="#方法-2传切片的指针-pointer-to-slice" class="table-of-contents__link toc-highlight">方法 2：传切片的指针 (Pointer to Slice)</a></li></ul></li><li><a href="#相关阅读" class="table-of-contents__link toc-highlight">相关阅读</a></li></ul></div></div></div></div></main></div></div></div></div>
+<li class=""><a class="" href="/yiwen-blog-website/en/docs/backend/go/slice-internals">切片内部结构</a> - 深入理解 SliceHeader</li>
+<li class=""><a class="" href="/yiwen-blog-website/en/docs/backend/go/nil-vs-empty-slice">nil 切片 vs 空切片</a> - 另一个常见的切片陷阱</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/go">go</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/slice">slice</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/切片">切片</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/值传递">值传递</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/append">append</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/en/docs/tags/面试题">面试题</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/backend/go/slice-pass-by-value.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">Last updated<!-- --> on <b><time datetime="2026-01-15T09:23:32.000Z" itemprop="dateModified">Jan 15, 2026</time></b></span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/en/docs/backend/go/char-encoding-rune"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">字符编码与rune</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/en/docs/backend/go/ellipsis-syntax"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">省略号(...)语法全解</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-为什么-s0x-外部能看到" class="table-of-contents__link toc-highlight">1. 为什么 <code>s[0]=x</code> 外部能看到？</a></li><li><a href="#2-为什么-append-外部看不到" class="table-of-contents__link toc-highlight">2. 为什么 <code>append</code> 外部看不到？</a><ul><li><a href="#情况-a容量足够没发生扩容但视野没跟上" class="table-of-contents__link toc-highlight">情况 A：容量足够（没发生扩容），但&quot;视野&quot;没跟上</a></li><li><a href="#情况-b容量不够发生了扩容彻底分家" class="table-of-contents__link toc-highlight">情况 B：容量不够（发生了扩容），彻底分家</a></li></ul></li><li><a href="#图解对比" class="table-of-contents__link toc-highlight">图解对比</a></li><li><a href="#怎么解决" class="table-of-contents__link toc-highlight">怎么解决？</a><ul><li><a href="#方法-1返回新切片最常用" class="table-of-contents__link toc-highlight">方法 1：返回新切片（最常用）</a></li><li><a href="#方法-2传切片的指针-pointer-to-slice" class="table-of-contents__link toc-highlight">方法 2：传切片的指针 (Pointer to Slice)</a></li></ul></li><li><a href="#相关阅读" class="table-of-contents__link toc-highlight">相关阅读</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>

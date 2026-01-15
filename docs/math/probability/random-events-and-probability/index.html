@@ -2,7 +2,7 @@
 <html lang="zh" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-math/probability/random-events-and-probability" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">随机事件与概率 | yiwen</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-test-site.com/yiwen-blog-website/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/random-events-and-probability"><meta data-rh="true" property="og:locale" content="zh"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh"><meta data-rh="true" name="docsearch:language" content="zh"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="随机事件与概率 | yiwen"><meta data-rh="true" name="description" content="第一章其实就讲了一件事：怎么给&quot;运气&quot;打分。"><meta data-rh="true" property="og:description" content="第一章其实就讲了一件事：怎么给&quot;运气&quot;打分。"><link data-rh="true" rel="icon" href="/yiwen-blog-website/img/logo.png"><link data-rh="true" rel="canonical" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/random-events-and-probability"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/docs/math/probability/random-events-and-probability" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/random-events-and-probability" hreflang="zh"><link data-rh="true" rel="alternate" href="https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/random-events-and-probability" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"概率论","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/"},{"@type":"ListItem","position":2,"name":"随机事件与概率","item":"https://your-docusaurus-test-site.com/yiwen-blog-website/docs/math/probability/random-events-and-probability"}]}</script><link rel="alternate" type="application/rss+xml" href="/yiwen-blog-website/blog/rss.xml" title="yiwen RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/yiwen-blog-website/blog/atom.xml" title="yiwen Atom Feed">
 
@@ -10,9 +10,10 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/assets/css/styles.4e185611.css">
-<script src="/yiwen-blog-website/assets/js/runtime~main.6aad2b28.js" defer="defer"></script>
-<script src="/yiwen-blog-website/assets/js/main.01369e33.js" defer="defer"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous"><link rel="stylesheet" href="/yiwen-blog-website/assets/css/styles.bce95865.css">
+<script src="/yiwen-blog-website/assets/js/runtime~main.9306f078.js" defer="defer"></script>
+<script src="/yiwen-blog-website/assets/js/main.56098f9a.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -22,175 +23,175 @@
 <p>第一章其实就讲了一件事：<strong>怎么给&quot;运气&quot;打分。</strong></p>
 <p>我们把它拆成四个最通俗的场景来看。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="场景一上帝的菜单样本空间与事件">场景一：上帝的菜单（样本空间与事件）<a href="#场景一上帝的菜单样本空间与事件" class="hash-link" aria-label="场景一：上帝的菜单（样本空间与事件）的直接链接" title="场景一：上帝的菜单（样本空间与事件）的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="场景一上帝的菜单样本空间与事件">场景一：上帝的菜单（样本空间与事件）<a href="#场景一上帝的菜单样本空间与事件" class="hash-link" aria-label="场景一：上帝的菜单（样本空间与事件）的直接链接" title="场景一：上帝的菜单（样本空间与事件）的直接链接" translate="no">​</a></h2>
 <p>想象你走进一家饭店（这个饭店叫&quot;随机试验&quot;），老板递给你一张菜单。</p>
 <ul>
-<li><strong>样本空间 (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord mathnormal" style="margin-right:0.05764em">S</span></span></span></span>)</strong>：就是这张<strong>菜单</strong>。这上面列出了这家店能做的所有菜（所有可能的结果）。比如菜单上只有：{番茄炒蛋，土豆丝，红烧肉}。</li>
-<li><strong>样本点</strong>：菜单上的<strong>一道菜</strong>。</li>
-<li><strong>随机事件</strong>：你想吃的那一类东西。<!-- -->
+<li class=""><strong>样本空间 (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord mathnormal" style="margin-right:0.05764em">S</span></span></span></span>)</strong>：就是这张<strong>菜单</strong>。这上面列出了这家店能做的所有菜（所有可能的结果）。比如菜单上只有：{番茄炒蛋，土豆丝，红烧肉}。</li>
+<li class=""><strong>样本点</strong>：菜单上的<strong>一道菜</strong>。</li>
+<li class=""><strong>随机事件</strong>：你想吃的那一类东西。<!-- -->
 <ul>
-<li>比如你想吃&quot;素菜&quot;，那就是{番茄炒蛋，土豆丝}。</li>
-<li>比如你想吃&quot;满汉全席&quot;，菜单上没有，这就是<strong>不可能事件</strong>（概率为0）。</li>
-<li>比如你说&quot;只要是菜就行&quot;，那就是<strong>必然事件</strong>（概率为1）。</li>
+<li class="">比如你想吃&quot;素菜&quot;，那就是{番茄炒蛋，土豆丝}。</li>
+<li class="">比如你想吃&quot;满汉全席&quot;，菜单上没有，这就是<strong>不可能事件</strong>（概率为0）。</li>
+<li class="">比如你说&quot;只要是菜就行&quot;，那就是<strong>必然事件</strong>（概率为1）。</li>
 </ul>
 </li>
 </ul>
 <p><strong>所谓&quot;算概率&quot;，就是问：你想吃的菜，占整个菜单的比例是多少？</strong></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="场景  二不管谁抽都一样古典概型">场景二：不管谁抽都一样（古典概型）<a href="#场景二不管谁抽都一样古典概型" class="hash-link" aria-label="场景二：不管谁抽都一样（古典概型）的直接链接" title="场景二：不管谁抽都一样（古典概型）的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="场景二不管谁抽都一样古典概型">场景二：不管谁抽都一样（古典概型）<a href="#场景二不管谁抽都一样古典概型" class="hash-link" aria-label="场景二：不管谁抽都一样（古典概型）的直接链接" title="场景二：不管谁抽都一样（古典概型）的直接链接" translate="no">​</a></h2>
 <p>这是考试送分题，但有个大前提：<strong>公平</strong>。</p>
 <p>想象一个箱子里有红球、白球、黑球。古典概型的核心就是：<strong>球没长眼，也没作弊</strong>。摸到每一个球的机会是完全均等的。</p>
 <p><strong>怎么算？</strong></p>
 <ul>
-<li><strong>分子</strong>：你想要的球有几个。</li>
-<li><strong>分母</strong>：箱子里总共有几个球。</li>
-<li><strong>工具</strong>：这时候就要用到<strong>排列组合</strong>了。为什么要用它？因为球太多了，一个个手指头数不过来，排列组合就是帮你快速数数的工具。</li>
+<li class=""><strong>分子</strong>：你想要的球有几个。</li>
+<li class=""><strong>分母</strong>：箱子里总共有几个球。</li>
+<li class=""><strong>工具</strong>：这时候就要用到<strong>排列组合</strong>了。为什么要用它？因为球太多了，一个个手指头数不过来，排列组合就是帮你快速数数的工具。</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="场景三如果你有了小道消息条件概率">场景三：如果你有了&quot;小道消息&quot;（条件概率）<a href="#场景三如果你有了小道消息条件概率" class="hash-link" aria-label="场景三：如果你有了&quot;小道消息&quot;（条件概率）的直接链接" title="场景三：如果你有了&quot;小道消息&quot;（条件概率）的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="场景三如果你有了小道消息条件概率">场景三：如果你有了&quot;小道消息&quot;（条件概率）<a href="#场景三如果你有了小道消息条件概率" class="hash-link" aria-label="场景三：如果你有了&quot;小道消息&quot;（条件概率）的直接链接" title="场景三：如果你有了&quot;小道消息&quot;（条件概率）的直接链接" translate="no">​</a></h2>
 <p>这是第一章最<strong>反直觉</strong>也最<strong>重要</strong>的地方。</p>
 <p><strong>条件概率 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>A</mi><mi mathvariant="normal">∣</mi><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(A|B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord mathnormal">A</span><span class="mord">∣</span><span class="mord mathnormal" style="margin-right:0.05017em">B</span><span class="mclose">)</span></span></span></span> 其实就是：情报改变看法。</strong></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="例子">例子<a href="#例子" class="hash-link" aria-label="例子的直接链接" title="例子的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="例子">例子<a href="#例子" class="hash-link" aria-label="例子的直接链接" title="例子的直接链接" translate="no">​</a></h3>
 <p>你想猜你的同桌是不是富二代（事件A）。</p>
 <ul>
-<li><strong>情况1</strong>：你对他一无所知。他在你眼里就是普通人，概率可能是 <strong>1%</strong>。</li>
-<li><strong>情况2</strong>：突然，你看到他开了一辆法拉利来上学（事件B发生了）。</li>
-<li>这时候，你再猜他是富二代的概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>A</mi><mi mathvariant="normal">∣</mi><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(A|B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord mathnormal">A</span><span class="mord">∣</span><span class="mord mathnormal" style="margin-right:0.05017em">B</span><span class="mclose">)</span></span></span></span>），是不是瞬间飙升到 <strong>99%</strong>？</li>
+<li class=""><strong>情况1</strong>：你对他一无所知。他在你眼里就是普通人，概率可能是 <strong>1%</strong>。</li>
+<li class=""><strong>情况2</strong>：突然，你看到他开了一辆法拉利来上学（事件B发生了）。</li>
+<li class="">这时候，你再猜他是富二代的概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mi>A</mi><mi mathvariant="normal">∣</mi><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(A|B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord mathnormal">A</span><span class="mord">∣</span><span class="mord mathnormal" style="margin-right:0.05017em">B</span><span class="mclose">)</span></span></span></span>），是不是瞬间飙升到 <strong>99%</strong>？</li>
 </ul>
 <p><strong>为什么？</strong></p>
-<p>因为&quot;看到法拉利&quot;这个情报，帮你<strong>排除</strong>了99%的穷人。你的分母（样本空间）变小了，不再是&quot;全校学生&quot;，而是变成了&quot;全校开法拉利的学生&quot;。</p>
+<p>因为&quot;看到法拉利&quot;这个情报，帮你<strong>排除</strong>了99%的穷人。你的分母（样本空间）变小了，不再是&quot;全校学生&quot;，而是变成了&quot;全校 开法拉利的学生&quot;。</p>
 <p><strong>公式的本质</strong>：</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mtext>富二代</mtext><mi mathvariant="normal">∣</mi><mtext>开法拉利</mtext><mo stretchy="false">)</mo><mo>=</mo><mfrac><mtext>既是富二代又开法拉利的人</mtext><mtext>所有开法拉利的人</mtext></mfrac></mrow><annotation encoding="application/x-tex">P(\text{富二代}|\text{开法拉利}) = \frac{\text{既是富二代又开法拉利的人}}{\text{所有开法拉利的人}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">富二代</span></span><span class="mord">∣</span><span class="mord text"><span class="mord cjk_fallback">开法拉利</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:2.0463em;vertical-align:-0.686em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em"><span style="top:-2.314em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">所有开法拉利的人</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.677em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">既是富二代又开法拉利的人</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="深入理解条件概率公式">深入理解条件概率公式<a href="#深入理解条件概率公式" class="hash-link" aria-label="深入理解条件概率公式的直接链接" title="深入理解条件概率公式的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="深入理解条件概率公式">深入理解条件概率公式<a href="#深入理解条件概率公式" class="hash-link" aria-label="深入理解条件概率公式的直接链接" title="深入理解条件概率公式的直接链接" translate="no">​</a></h3>
 <p>我们用**&quot;圈地盘&quot;<strong>的方法来讲。这就好比我们在玩一个</strong>&quot;筛选游戏&quot;**。</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-分母的变化世界变小了关键点">1. 分母的变化：世界变小了（关键点！）<a href="#1-分母的变化世界变小了关键点" class="hash-link" aria-label="1. 分母的变化：世界变小了（关键点！）的直接链接" title="1. 分母的变化：世界变小了（关键点！）的直接链接" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-分母的变化世界变小了关键点">1. 分母的变化：世界变小了（关键点！）<a href="#1-分母的变化世界变小了关键点" class="hash-link" aria-label="1. 分母的变化：世界变小了（关键点！）的直接链接" title="1. 分母的变化：世界变小了（关键点！）的直接链接" translate="no">​</a></h4>
 <p><strong>分母：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>所有开法拉利的人</mtext></mrow><annotation encoding="application/x-tex">\text{所有开法拉利的人}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord text"><span class="mord cjk_fallback">所有开法拉利的人</span></span></span></span></span></strong></p>
 <p>在没有任何条件的时候，我们的分母是**&quot;全人类&quot;<strong>（或者&quot;全校学生&quot;）。但在条件概率里，竖线 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord">∣</span></span></span></span> 后面的内容（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>开法拉利</mtext></mrow><annotation encoding="application/x-tex">\text{开法拉利}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord text"><span class="mord cjk_fallback">开法拉利</span></span></span></span></span>）就是一道</strong>过滤网**。</p>
 <ul>
-<li><strong>以前的视野</strong>：你在大街上闭着眼睛随便抓一个人，他在人群中太渺小了，分母巨大。</li>
-<li><strong>现在的视野</strong>：你说&quot;我只关心开法拉利的人&quot;。那些骑自行车的、坐公交的、走路的人，<strong>统统被你踢出了局</strong>。你的世界里只剩下了一小撮人——<strong>开法拉利的人群</strong>。</li>
+<li class=""><strong>以前的视野</strong>：你在大街上闭着眼睛随便抓一个人，他在人群中太渺小了，分母巨大。</li>
+<li class=""><strong>现在的视野</strong>：你说&quot;我只关心开法拉利的人&quot;。那些骑自行车的、坐公交的、走路的人，<strong>统统被你踢出了局</strong>。你的世界里只剩下了一小撮人——<strong>开法拉利的人群</strong>。</li>
 </ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-分子的锁定在新世界里找目标">2. 分子的锁定：在新世界里找目标<a href="#2-分子的锁定在新世界里找目标" class="hash-link" aria-label="2. 分子的锁定：在新世界里找目标的直接链接" title="2. 分子的锁定：在新世界里找目标的直接链接" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-分子的锁定在新世界里找目标">2. 分子的锁定：在新世界里找目标<a href="#2-分子的锁定在新世界里找目标" class="hash-link" aria-label="2. 分子的锁定：在新世界里找目标的直接链接" title="2. 分子的锁定：在新世界里找目标的直接链接" translate="no">​</a></h4>
 <p><strong>分子：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>既是富二代又开法拉利的人</mtext></mrow><annotation encoding="application/x-tex">\text{既是富二代又开法拉利的人}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord text"><span class="mord cjk_fallback">既是富二代又开法拉利的人</span></span></span></span></span></strong></p>
-<p>现在你的目光已  经锁定在那些法拉利车主身上了（分母已定）。接下来，你要在这个小圈子里找谁？你要找<strong>富二代</strong>。</p>
+<p>现在你的目光已经锁定在那些法拉利车主身上了（分母已定）。接下来，你要在这个小圈子里找谁？你要找<strong>富二代</strong>。</p>
 <p>但这里有个逻辑陷阱：有些富二代很低调，骑共享单车，或者开宝马，他们不在你的&quot;法拉利圈子&quot;里，早就被踢出局了。所以，分子必须是<strong>两个圈子的交集</strong>。</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-一个具体的数字例子">3. 一个具体的数字例子<a href="#3-一个具体的数字例子" class="hash-link" aria-label="3. 一个具体的数字例子的直接链接" title="3. 一个具体的数字例子的直接链接" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-一个具体的数字例子">3. 一个具体的数字例子<a href="#3-一个具体的数字例子" class="hash-link" aria-label="3. 一个具体的数字例子的直接链接" title="3. 一个具体的数字例子的直接链接" translate="no">​</a></h4>
 <p>假设全校有 <strong>1000</strong> 人。</p>
 <ol>
-<li><strong>富二代</strong>总共有 <strong>100</strong> 人。（占比 10%）</li>
-<li><strong>开法拉利</strong>的总共有 <strong>10</strong> 人。<!-- -->
+<li class=""><strong>富二代</strong>总共有 <strong>100</strong> 人。（占比 10%）</li>
+<li class=""><strong>开法拉利</strong>的总共有 <strong>10</strong> 人。<!-- -->
 <ul>
-<li>但这 10 个人里，不一定全是富二代。可能有一个是<strong>修车师傅</strong>在试车，有一个是<strong>租车装大款</strong>的。</li>
-<li>所以，真正<strong>既是富二代又开法拉利</strong>的，只有 <strong>8</strong> 人。</li>
+<li class="">但这 10 个人里，不一定全是富二代。可能有一个是<strong>修车师傅</strong>在试车，有一个是<strong>租车装大款</strong>的。</li>
+<li class="">所以，真正<strong>既是富二代又开法拉利</strong>的，只有 <strong>8</strong> 人。</li>
 </ul>
 </li>
 </ol>
 <p>现在我们套用公式：</p>
 <ul>
-<li><strong>普通的概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mtext>富二代</mtext><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(\text{富二代})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">富二代</span></span><span class="mclose">)</span></span></span></span>）</strong>：在全校随便抓一个，是富二代的概率 = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>100</mn><mn>1000</mn></mfrac><mo>=</mo><mn>10</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\frac{100}{1000} = 10\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1000</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.394em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em"></span><span class="mord">10%</span></span></span></span>。</li>
-<li><strong>条件概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mtext>富二代</mtext><mi mathvariant="normal">∣</mi><mtext>开法拉利</mtext><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(\text{富二代}|\text{开法拉  利})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">富二代</span></span><span class="mord">∣</span><span class="mord text"><span class="mord cjk_fallback">开法拉利</span></span><span class="mclose">)</span></span></span></span>）</strong>：<!-- -->
+<li class=""><strong>普通的概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mtext>富二代</mtext><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(\text{富二代})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">富二代</span></span><span class="mclose">)</span></span></span></span>）</strong>：在全校随便抓一个，是富二代的概率 = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>100</mn><mn>1000</mn></mfrac><mo>=</mo><mn>10</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\frac{100}{1000} = 10\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1000</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.394em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em"></span><span class="mord">10%</span></span></span></span>。</li>
+<li class=""><strong>条件概率（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false">(</mo><mtext>富二代</mtext><mi mathvariant="normal">∣</mi><mtext>开法拉利</mtext><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">P(\text{富二代}|\text{开法拉利})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">富二代</span></span><span class="mord">∣</span><span class="mord text"><span class="mord cjk_fallback">开法拉利</span></span><span class="mclose">)</span></span></span></span>）</strong>：<!-- -->
 <ul>
-<li><strong>分母</strong>：全校开法拉利的只有 <strong>10</strong> 人。</li>
-<li><strong>分子</strong>：这10人里，真富二代有 <strong>8</strong> 人。</li>
-<li><strong>计算</strong>：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>8</mn><mn>10</mn></mfrac><mo>=</mo><mn>80</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\frac{8}{10} = 80\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.394em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em"></span><span class="mord">80%</span></span></span></span>。</li>
+<li class=""><strong>分母</strong>：全校开法拉利的只有 <strong>10</strong> 人。</li>
+<li class=""><strong>分子</strong>：这10人里，真富二代有 <strong>8</strong> 人。</li>
+<li class=""><strong>计算</strong>：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>8</mn><mn>10</mn></mfrac><mo>=</mo><mn>80</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\frac{8}{10} = 80\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.394em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em"></span><span class="mord">80%</span></span></span></span>。</li>
 </ul>
 </li>
 </ul>
 <p><strong>总结</strong>：本来要在&quot;汪洋大海&quot;（全样本）里捞针，现在条件告诉你针在&quot;小碗&quot;（条件B）里，你只需要算出这根针（交集AB）占这个碗（条件B）多大比例就行了。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="场景四侦探破案全概率与贝叶斯">场景四：侦探破案（全概率与贝叶斯）<a href="#场景四侦探破案全概率与贝叶斯" class="hash-link" aria-label="场景四：侦探破案（全概率与贝叶斯）的直接链接" title="场景四：侦探破案（全概率与贝叶斯）的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="场景四侦探破案全概率与贝叶斯">场景四：侦探破案（全概率与贝叶斯）<a href="#场景四侦探破案全概率与贝叶斯" class="hash-link" aria-label="场景四：侦探破案（全概率与贝叶斯）的直接链接" title="场景四：侦探破案（全概率与贝叶斯）的直接链接" translate="no">​</a></h2>
 <p>这两个公式是双胞胎，一个是<strong>从前往后推</strong>，一个是<strong>从后往前推</strong>。</p>
 <p>想象一个凶杀案现场：</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-全概率公式由因推果">1. 全概率公式（由因推果）<a href="#1-全概率公式由因推果" class="hash-link" aria-label="1. 全概率公式（由因推果）的直接链接" title="1. 全概率公式（由因推果）的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-全概率公式由因推果">1. 全概率公式（由因推果）<a href="#1-全概率公式由因推果" class="hash-link" aria-label="1. 全概率公式（由因推果）的直接链接" title="1. 全概率公式（由因推果）的直接链接" translate="no">​</a></h3>
 <p><strong>心态：预测未来。</strong></p>
 <ul>
-<li>你是个杀手，你有三种作案手法：下毒（30%用）、刀刺（50%用）、枪击（20%用）。</li>
-<li>每种手法的成功率你都知道。</li>
-<li><strong>全概率公式问的是</strong>：你今天出任务，<strong>总体</strong>成功的概率是多少？</li>
-<li><strong>算法</strong>：把每条路算一遍加起来。</li>
+<li class="">你是个杀手，你有三种作案手法：下毒（30%用）、刀刺（50%用）、枪击（20%用）。</li>
+<li class="">每种手法的成功率你都知道。</li>
+<li class=""><strong>全概率公式问的是</strong>：你今天出任务，<strong>总体</strong>成功的概率是多少？</li>
+<li class=""><strong>算法</strong>：把每条路算一遍加起来。</li>
 </ul>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">(</mo><mtext>下毒概率</mtext><mo>×</mo><mtext>毒死率</mtext><mo stretchy="false">)</mo><mo>+</mo><mo stretchy="false">(</mo><mtext>刀刺概率</mtext><mo>×</mo><mtext>捅死率</mtext><mo stretchy="false">)</mo><mo>+</mo><mo stretchy="false">(</mo><mtext>枪击概率</mtext><mo>×</mo><mtext>打死率</mtext><mo stretchy="false">)</mo><mo>=</mo><mtext>总成功率</mtext></mrow><annotation encoding="application/x-tex">(\text{下毒概率} \times \text{毒死率}) + (\text{刀刺概率} \times \text{捅死率}) + (\text{枪击概率} \times \text{打死率}) = \text{总成功率}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">下毒概率</span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord text"><span class="mord cjk_fallback">毒死率</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">刀刺概率</span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord text"><span class="mord cjk_fallback">捅死率</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">枪击概率</span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord text"><span class="mord cjk_fallback">打死率</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mord text"><span class="mord cjk_fallback">总成功率</span></span></span></span></span></span>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-贝叶斯公式由果溯因">2. 贝叶斯公式（由果溯因）<a href="#2-贝叶斯公式由果溯因" class="hash-link" aria-label="2. 贝叶斯公式（由果溯因）的直接链接" title="2. 贝叶斯公式（由果溯因）的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-贝叶斯公式由果溯因">2. 贝叶斯公式（由果溯因）<a href="#2-贝叶斯公式由果溯因" class="hash-link" aria-label="2. 贝叶斯公式（由果溯因）的直接链接" title="2. 贝叶斯公式（由果溯因）的直接链接" translate="no">​</a></h3>
 <p><strong>心态：福尔摩斯。</strong></p>
 <ul>
-<li>现在人已经<strong>死</strong>了（结果发生了）。</li>
-<li><strong>贝叶斯公式问的是</strong>：警察想知道，<strong>到底是哪种手法</strong>干的？</li>
-<li>比如：死者身上没有伤口（新情报）。那么&quot;枪击&quot;和&quot;刀刺&quot;的嫌疑瞬间下降，&quot;下毒&quot;的嫌疑瞬间飙升。</li>
-<li><strong>贝叶斯就是用来&quot;事后诸葛亮&quot;的</strong>，根据结果反推原因的可能性。</li>
+<li class="">现在人已经<strong>死</strong>了（结果发生了）。</li>
+<li class=""><strong>贝叶斯公式问的是</strong>：警察想知道，<strong>到底是哪种手法</strong>干的？</li>
+<li class="">比如：死者身上没有伤口（新情报）。那么&quot;枪击&quot;和&quot;刀刺&quot;的嫌疑瞬间下降，&quot;下毒&quot;的嫌疑瞬间飙升。</li>
+<li class=""><strong>贝叶斯就是用来&quot;事后诸葛亮&quot;的</strong>，根据结果反推原因的可能性。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="深入理解贝叶斯">深入理解贝叶斯<a href="#深入理解贝叶斯" class="hash-link" aria-label="深入理解贝叶 斯的直接链接" title="深入理解贝叶斯的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="深入理解贝叶斯">深入理解贝叶斯<a href="#深入理解贝叶斯" class="hash-link" aria-label="深入理解贝叶斯的直接链接" title="深入理解贝叶斯的直接链接" translate="no">​</a></h3>
 <p>贝叶斯公式难懂是因为它<strong>反直觉</strong>。它其实只讲了一个道理：</p>
 <blockquote>
 <p><strong>当你看到一个新证据时，你该怎么修改你的&quot;老偏见&quot;？</strong></p>
 </blockquote>
 <p>你可以把贝叶斯公式看作一个**&quot;信念更新器&quot;**：</p>
 <ul>
-<li><strong>P(A) - 老偏见（先验概率）</strong>：在没看证据之前，你<strong>觉得</strong>这事发生的概率有多大？</li>
-<li><strong>B - 新证据</strong>：发生了一件新的事。</li>
-<li><strong>P(A|B) - 新观点（后验概率）</strong>：结合了&quot;老偏见&quot;和&quot;新证据&quot;后的结论。</li>
+<li class=""><strong>P(A) - 老偏见（先验概率）</strong>：在没看证据之前，你<strong>觉得</strong>这事发生的概率有多大？</li>
+<li class=""><strong>B - 新证据</strong>：发生了一件新的事。</li>
+<li class=""><strong>P(A|B) - 新观点（后验概率）</strong>：结合了&quot;老偏见&quot;和&quot;新证据&quot;后的结论。</li>
 </ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="最通俗的例子它是狗还是狼">最通俗的例子：它是狗还是狼？<a href="#最通俗的例子它是狗还是狼" class="hash-link" aria-label="最通俗的例子：它是狗还是狼？的直接链接" title="最通俗的例子：它是狗还是狼？的直接链接" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="最通俗的例子它是狗还是狼">最通俗的例子：它是狗还是狼？<a href="#最通俗的例子它是狗还是狼" class="hash-link" aria-label="最通俗的例子：它是狗还是狼？的直接链接" title="最通俗的例子：它是狗还是狼？的直接链接" translate="no">​</a></h4>
 <p>想象你在<strong>北京三里屯</strong>（闹市区）遛弯。突然，前面闪过一个黑影，看起来像一只<strong>狼</strong>。</p>
 <p>如果你不懂贝叶斯，你会想：&quot;我看那东西长得像狼，那它肯定是狼！&quot;</p>
 <p><strong>但贝叶斯会给你一巴掌，问你两个问题：</strong></p>
 <p><strong>第一问：这事儿本来常见的可能性有多大？（先验概率）</strong></p>
-<p>老兄，这里是北京三里屯！不是非洲大草原。在这个地方出现狼的概率，本来就无限接近于 0。出现哈士奇（狗）的概率非常高。</p>
+<p>老兄，这里是北京三里屯！不是非洲大草原。在这个地方出现狼的概率，本来就无限接近于 0。出现哈士奇  （狗）的概率非常高。</p>
 <p><strong>结论</strong>：不管它长得再像狼，只要是在三里屯，它<strong>大概率</strong>是只长得像狼的哈士奇。</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="最反直觉的例子为什么神医也会误诊">最反直觉的例子：为什么&quot;神医&quot;也会误诊？<a href="#最反直觉的例子为什么神医也会误诊" class="hash-link" aria-label="最反直觉的例子：为什么&quot;神医&quot;也会误诊？的直接链接" title="最反直觉的例子：为什么&quot;神医&quot;也会误诊？的直接链接" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="最反直觉的例子为什么神医也会误诊">最反直觉的例子：为什么&quot;神医&quot;也会误诊？<a href="#最反直觉的例子为什么神医也会误诊" class="hash-link" aria-label="最反直觉的例子：为什么&quot;神医&quot;也会误诊？的直接链接" title="最反直觉的例子：为什么&quot;神医&quot;也会误诊？的直接链接" translate="no">​</a></h4>
 <p><strong>场景</strong>：</p>
 <ul>
-<li>有一种罕见病，得病率只有 <strong>0.1%</strong>（一千个人里只有1个得病）。</li>
-<li>医院有个试纸，准确率高达 <strong>99%</strong>。</li>
-<li>现在，你去体检，试纸显示&quot;阳性&quot;（你得病了）。</li>
-<li><strong>请问：你真得病的概率是多少？</strong></li>
+<li class="">有一种罕见病，得病率只有 <strong>0.1%</strong>（一千个人里只有1个得病）。</li>
+<li class="">医院有个试纸，准确率高达 <strong>99%</strong>。</li>
+<li class="">现在，你去体检，试纸显示&quot;阳性&quot;（你得病了）。</li>
+<li class=""><strong>请问：你真得病的概率是多少？</strong></li>
 </ul>
 <p><strong>直觉</strong>：试纸99%准确，那我有99%的概率得病了！</p>
 <p><strong>贝叶斯</strong>：<strong>别怕！你真得病的概率其实只有 9% 左右。</strong></p>
 <p><strong>为什么？</strong></p>
 <p>假设有 <strong>1000</strong> 个人来体检：</p>
 <ol>
-<li><strong>真病人</strong>：只有 <strong>1</strong> 个（0.1%）。他做测试，99%显示阳性。</li>
-<li><strong>健康人</strong>：有 <strong>999</strong> 个。试纸有 <strong>1%</strong> 的出错率（假阳性）。999 × 1% ≈ <strong>10</strong> 个人被误诊。</li>
+<li class=""><strong>真病人</strong>：只有 <strong>1</strong> 个（0.1%）。他做测试，99%显示阳性。</li>
+<li class=""><strong>健康人</strong>：有 <strong>999</strong> 个。试纸有 <strong>1%</strong> 的出错率（假阳性）。999 × 1% ≈ <strong>10</strong> 个人被误诊。</li>
 </ol>
 <p>医院里拿着&quot;阳性化验单&quot;的人，总共有 <strong>11</strong> 个（1个真病人 + 10个被误诊的健康人）。</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mtext>真病人(1人)</mtext><mtext>所有拿阳性单子的人(11人)</mtext></mfrac><mo>≈</mo><mn>9</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\frac{\text{真病人(1人)}}{\text{所有拿阳性单子的人(11人)}} \approx 9\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em"><span style="top:-2.314em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">所有拿阳性单子的人</span><span class="mord">(11</span><span class="mord cjk_fallback">人</span><span class="mord">)</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.677em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">真病人</span><span class="mord">(1</span><span class="mord cjk_fallback">人</span><span class="mord">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em"></span><span class="mord">9%</span></span></span></span></span>
 <p><strong>贝叶斯就是一句警告</strong>：当你听到一个&quot;惊人的消息&quot;（证据），先别急着信。你要看看这事儿在&quot;常理&quot;（先验概率）上讲不讲得通。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="还有个大坑独立-vs-互斥">还有个大坑：独立 vs 互斥<a href="#还有个大坑独立-vs-互斥" class="hash-link" aria-label="还有个大坑：独立 vs 互斥的直接链接" title="还有个大坑：独立 vs 互斥的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="还有个大坑独立-vs-互斥">还有个大坑：独立 vs 互斥<a href="#还有个大坑独立-vs-互斥" class="hash-link" aria-label="还有个大坑：独立 vs 互斥的直接链接" title="还有个大坑：独立 vs 互斥的直接链接" translate="no">​</a></h2>
 <p>这是做判断题最容易翻车的地方：</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-互斥mutually-exclusive死对头">1. 互斥（Mutually Exclusive）：死对头<a href="#1-互斥mutually-exclusive死对头" class="hash-link" aria-label="1. 互斥（Mutually Exclusive）：死对头的直接链接" title="1. 互斥（Mutually Exclusive）：死对头的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-互斥mutually-exclusive死对头">1. 互斥（Mutually Exclusive）：死对头<a href="#1-互斥mutually-exclusive死对头" class="hash-link" aria-label="1. 互斥（Mutually Exclusive）：死对头的直接链接" title="1. 互斥（Mutually Exclusive）：死对头的直接链接" translate="no">​</a></h3>
 <p>有你没我，有我没你。</p>
 <p><em>例子</em>：扔硬币，正面朝上和反面朝上。出了正面，反面就绝对不可能出。<strong>见面就打架。</strong></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-独立independent路人甲">2. 独立（Independent）：路人甲<a href="#2-独立independent路人甲" class="hash-link" aria-label="2. 独立（Independent）：路人甲的直接链接" title="2. 独立（Independent）：路人甲的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-独立independent路人甲">2. 独立（Independent）：路人甲<a href="#2-独立independent路人甲" class="hash-link" aria-label="2. 独立（Independent）：路人甲的直接链接" title="2. 独立（Independent）：路人甲的直接链接" translate="no">​</a></h3>
 <p>你干你的，我干我的，咱俩互不影响。</p>
 <p><em>例子</em>：我在北京吃包子，你在纽约喝咖啡。我噎住了，会不会影响你被烫到？完全不会。<strong>这叫独立。</strong></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="这一章的精髓三句话">这一章的精髓（三句话）<a href="#这一章的精髓三句话" class="hash-link" aria-label="这一章的精髓（三句话）的直接链接" title="这一章的精髓（三句话）的直接链接" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="第一句万物皆可数字化">第一句：万物皆可数字化<a href="#第一句万物皆可数字化" class="hash-link" aria-label="第一句：万物皆可数字化的直接链接" title="第一句：万物皆可数字化的直接链接" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="这一章的精髓三句话">这一章的精髓（三句话）<a href="#这一章的精髓三句话" class="hash-link" aria-label="这一章的精髓（三句话）的直接链接" title="这一章的精髓（三句话）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="第一句万物皆可数字化">第一句：万物皆可数字化<a href="#第一句万物皆可数字化" class="hash-link" aria-label="第一句：万物皆可数字化的直接链接" title="第一句：万物皆可数字化的直接链接" translate="no">​</a></h3>
 <p><strong>——把&quot;我觉得&quot;变成&quot;百分之几&quot;。</strong></p>
 <p>第一章教你的第一件事，就是当一名**&quot;翻译官&quot;<strong>。它强迫你把生活中的模棱两可，翻译成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em"></span><span class="mord">0</span></span></span></span> 到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em"></span><span class="mord">1</span></span></span></span> 之间的</strong>精确数字**。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="第二句分母就是世界观">第二句：分母就是&quot;世界观&quot;<a href="#第二句分母就是世界观" class="hash-link" aria-label="第二句：分母就是&quot;世界观&quot;的直接链接" title="第二句：分母就是&quot;世界观&quot;的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="第二句分母就是世界观">第二句：分母就是&quot;世界观&quot;<a href="#第二句分母就是世界观" class="hash-link" aria-label="第二句：分母就是&quot;世界观&quot;的直接链接" title="第二句：分母就是&quot;世界观&quot;的直接链接" translate="no">​</a></h3>
 <p><strong>——屁股决定脑袋（位置决定概率）。</strong></p>
 <p>所有的概率计算，核心不在分子（你想要什么），而在<strong>分母（你在哪个圈子里找）</strong>。</p>
 <ul>
-<li>你说&quot;考清华很难&quot;，是因为你的分母是<strong>全省考生</strong>。</li>
-<li>但如果你是全省前十名，你的分母变成了**&quot;顶尖学霸圈&quot;**，概率就很高。</li>
+<li class="">你说&quot;考清华很难&quot;，是因为你的分母是<strong>全省考生</strong>。</li>
+<li class="">但如果你是全省前十名，你的分母变成了**&quot;顶尖学霸圈&quot;**，概率就很高。</li>
 </ul>
 <p><strong>精髓</strong>：任何概率都是<strong>相对</strong>的。谁掌握了定义分母的权力，谁就掌握了概率的话语权。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="第三句情报就是力量">第三句：情报就是力量<a href="#第三句情报就是力量" class="hash-link" aria-label="第三句：情报就是力量的直接链接" title="第三句：情报就是力量的直接链接" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="第三句情报就是力量">第三句：情报就是力量<a href="#第三句情报就是力量" class="hash-link" aria-label="第三句：情报就是力量的直接链接" title="第三句：情报就是力量的直接链接" translate="no">​</a></h3>
 <p><strong>——概率是活的，不是死的（贝叶斯思想）。</strong></p>
 <ul>
-<li>初学 者认为：硬币抛出去，正面的概率永远是 50%，是死的。</li>
-<li>高手知道：<strong>概率是随着信息流动的。</strong></li>
+<li class="">初学者认为：硬币抛出去，正面的概率永远是 50%，是死的。</li>
+<li class="">高手知道：<strong>概率是随着信息流动的。</strong></li>
 </ul>
 <p><strong>贝叶斯公式的灵魂</strong>：新的信息会不断修正旧的认知。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="总结">总结<a href="#总结" class="hash-link" aria-label="总结的直接链接" title="总结的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="总结">总结<a href="#总结" class="hash-link" aria-label="总结的直接链接" title="总结的直接链接" translate="no">​</a></h2>
 <p><strong>第一章就是教你在信息不完整的情况下，如何理智地&quot;瞎猜&quot;。</strong></p>
 <ul>
-<li>什么都不知道？用<strong>古典概型</strong>猜。</li>
-<li>知道了一点情报？用<strong>条件概率</strong>猜。</li>
-<li>知道了结果想猜原因？用<strong>贝叶斯</strong>猜。</li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/概率论">概率论</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/随机事件">随机事件</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/条件概率">条件概率</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/贝叶斯">贝叶斯</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/math/probability/01-random-events-and-probability.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-14T19:28:53.000Z" itemprop="dateModified">2026年1月14日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/docs/math/probability/"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">概率论概述</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/docs/math/probability/one-dimensional-random-variables"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">一维随机变量及其分布</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#场景一上帝的菜单样本空间与事件" class="table-of-contents__link toc-highlight">场景一：上帝的菜单（样本空间与事件）</a></li><li><a href="#场景二不管谁抽都一样古典概型" class="table-of-contents__link toc-highlight">场景二：不管谁抽都一样（古典概型）</a></li><li><a href="#场景三如果你有了小道消息条件概率" class="table-of-contents__link toc-highlight">场景三：如果你有了&quot;小道消息&quot;（条件概率）</a><ul><li><a href="#例子" class="table-of-contents__link toc-highlight">例子</a></li><li><a href="#深入理解条件概率公式" class="table-of-contents__link toc-highlight">深入理解条件概率公式</a></li></ul></li><li><a href="#场景四侦探破案全概率与贝叶斯" class="table-of-contents__link toc-highlight">场景四：侦探破案（全概率与贝叶斯）</a><ul><li><a href="#1-全概率公式由因推果" class="table-of-contents__link toc-highlight">1. 全概率公式（由因推果）</a></li><li><a href="#2-贝叶斯公式由果溯因" class="table-of-contents__link toc-highlight">2. 贝叶斯公式（由果溯因）</a></li><li><a href="#深入理解贝叶斯" class="table-of-contents__link toc-highlight">深入理解贝叶斯</a></li></ul></li><li><a href="#还有个大坑独立-vs-互斥" class="table-of-contents__link toc-highlight">还有个大坑：独立 vs 互斥</a><ul><li><a href="#1-互斥mutually-exclusive死对头" class="table-of-contents__link toc-highlight">1. 互斥（Mutually Exclusive）：死对头</a></li><li><a href="#2-独立independent路人甲" class="table-of-contents__link toc-highlight">2. 独立（Independent）：路人甲</a></li></ul></li><li><a href="#这一章的精髓三句话" class="table-of-contents__link toc-highlight">这一章的精髓（三句话）</a><ul><li><a href="#第一句万物皆可数字化" class="table-of-contents__link toc-highlight">第一句：万物皆可数字化</a></li><li><a href="#第二句分母就是世界观" class="table-of-contents__link toc-highlight">第二句：分母就是&quot;世界观&quot;</a></li><li><a href="#第三句情报就是力量" class="table-of-contents__link toc-highlight">第三句：情报就是力量</a></li></ul></li><li><a href="#总结" class="table-of-contents__link toc-highlight">总结</a></li></ul></div></div></div></div></main></div></div></div></div>
+<li class="">什么都不知道？用<strong>古典概型</strong>猜。</li>
+<li class="">知道了一点情报？用<strong>条件概率</strong>猜。</li>
+<li class="">知道了结果想猜原因？用<strong>贝叶斯</strong>猜。</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>标签：</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/概率论">概率论</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/随机事件">随机事件</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/条件概率">条件概率</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/yiwen-blog-website/docs/tags/贝叶斯">贝叶斯</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/docs/math/probability/01-random-events-and-probability.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"><span class="theme-last-updated">最后<!-- -->于 <b><time datetime="2026-01-15T09:23:32.000Z" itemprop="dateModified">2026年1月15日</time></b> <!-- -->更新</span></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/yiwen-blog-website/docs/math/probability/"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">概率论概述</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/yiwen-blog-website/docs/math/probability/one-dimensional-random-variables"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">一维随机变量及其分布</div></a></nav></div><div style="padding-top:50px"></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#场景一上帝的菜单样本空间与事件" class="table-of-contents__link toc-highlight">场景一：上帝的菜单（样本空间与事件）</a></li><li><a href="#场景二不管谁抽都一样古典概型" class="table-of-contents__link toc-highlight">场景二：不管谁抽都一样（古典概型）</a></li><li><a href="#场景三如果你有了小道消息条件概率" class="table-of-contents__link toc-highlight">场景三：如果你有了&quot;小道消息&quot;（条件概率）</a><ul><li><a href="#例子" class="table-of-contents__link toc-highlight">例子</a></li><li><a href="#深入理解条件概率公式" class="table-of-contents__link toc-highlight">深入理解条件概率公式</a></li></ul></li><li><a href="#场景四侦探破案全概率与贝叶斯" class="table-of-contents__link toc-highlight">场景四：侦探破案（全概率与贝叶斯）</a><ul><li><a href="#1-全概率公式由因推果" class="table-of-contents__link toc-highlight">1. 全概率公式（由因推果）</a></li><li><a href="#2-贝叶斯公式由果溯因" class="table-of-contents__link toc-highlight">2. 贝叶斯公式（由果溯因）</a></li><li><a href="#深入理解贝叶斯" class="table-of-contents__link toc-highlight">深入理解贝叶斯</a></li></ul></li><li><a href="#还有个大坑独立-vs-互斥" class="table-of-contents__link toc-highlight">还有个大坑：独立 vs 互斥</a><ul><li><a href="#1-互斥mutually-exclusive死对头" class="table-of-contents__link toc-highlight">1. 互斥（Mutually Exclusive）：死对头</a></li><li><a href="#2-独立independent路人甲" class="table-of-contents__link toc-highlight">2. 独立（Independent）：路人甲</a></li></ul></li><li><a href="#这一章的精髓三句话" class="table-of-contents__link toc-highlight">这一章的精髓（三句话）</a><ul><li><a href="#第一句万物皆可数字化" class="table-of-contents__link toc-highlight">第一句：万物皆可数字化</a></li><li><a href="#第二句分母就是世界观" class="table-of-contents__link toc-highlight">第二句：分母就是&quot;世界观&quot;</a></li><li><a href="#第三句情报就是力量" class="table-of-contents__link toc-highlight">第三句：情报就是力量</a></li></ul></li><li><a href="#总结" class="table-of-contents__link toc-highlight">总结</a></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>

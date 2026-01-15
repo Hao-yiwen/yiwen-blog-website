@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkyiwen_blog_website=globalThis.webpackChunkyiwen_blog_website||[]).push([[86366],{86366(e,i,b){b.d(i,{createArchitectureServices:()=>s.S});var s=b(38980);b(87960)}}]);
