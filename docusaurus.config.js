@@ -20,8 +20,9 @@ return {
     onBrokenLinks: 'throw',
     markdown: {
         format: 'mdx',
-        mermaid: false,
+        mermaid: true,
     },
+    themes: ['@docusaurus/theme-mermaid'],
     i18n: {
         defaultLocale: 'zh',
         locales: ['en', 'zh'],
