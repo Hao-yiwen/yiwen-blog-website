@@ -4,7 +4,7 @@ authors: [yiwen]
 tags: [AI, 软件工程, 自动化, 随想]
 date: 2026-02-07
 ---
-import pic from '@site/static/img/self_iterating_software.jpg'
+import pic from '@site/static/img/self_iterating_software.png'
 
 软件领域进度很快，所以下一个方向是什么呢？今天有些随想，我认为是**"自迭代软件系统"**，核心是从产品层面完成自举。
 
