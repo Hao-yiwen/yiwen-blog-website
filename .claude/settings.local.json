@@ -14,7 +14,9 @@
       "Bash(git log:*)",
       "Bash(git commit:*)",
       "Bash(mv:*)",
-      "Bash(yarn install:*)"
+      "Bash(yarn install:*)",
+      "Bash(ssh:*)",
+      "Bash(mv applications:*)"
     ],
     "deny": [],
     "ask": []
