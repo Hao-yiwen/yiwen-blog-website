@@ -4,25 +4,28 @@
         <title>yiwen Blog</title>
         <link>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog</link>
         <description>yiwen Blog</description>
-        <lastBuildDate>Mon, 09 Mar 2026 09:29:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 08:23:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[20260113]]></title>
+            <title><![CDATA[2026]]></title>
             <link>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2026_blog</link>
             <guid>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2026_blog</guid>
-            <pubDate>Mon, 09 Mar 2026 09:29:45 GMT</pubDate>
-            <description><![CDATA[时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？]]></description>
-            <content:encoded><![CDATA[<p>时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？</p>
+            <pubDate>Sat, 14 Mar 2026 08:23:47 GMT</pubDate>
+            <description><![CDATA[20260113]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="20260113">20260113<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2026_blog#20260113" class="hash-link" aria-label="Direct link to 20260113" title="Direct link to 20260113" translate="no">​</a></h2>
+<p>时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？</p>
 <p>每一轮技术浪潮，都伴随着新生力量的诞生。而AI，这个现在几乎已经成为所有人共识的产业，为什么到现在为止没有对原有的互联网软件进行颠覆？或者说，不是颠覆，而是从产品层面进行有品位的改造——但即便如此，目前来看依然没有出现。这确实是一个奇怪的情况，因为AI浪潮已经持续三年了。三年时光，在舞台上活跃的依然还是那些模型企业或者互联网巨头，但是新生代的企业竟然到现在还没有一个足够有名气、被世人所熟知。</p>
-<p>这是为什么呢？按道理来说，不应该是这样的。所以2026年会出现非凡的企业吗？能否给传统的互联网带来一点新时代的震撼？如果没有一个新企业出现，那实在说不过去了。</p>]]></content:encoded>
+<p>这是为什么呢？按道理来说，不应该是这样的。所以2026年会出现非凡的企业吗？能否给传统的互联网带来一点新时代的震撼？如果没有一个新企业出现，那实在说不过去了。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="20260314">20260314<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/2026_blog#20260314" class="hash-link" aria-label="Direct link to 20260314" title="Direct link to 20260314" translate="no">​</a></h2>
+<p>今天挺难的，但是我过来了，我一直想要的，我正在靠近。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[去中心化]]></title>
             <link>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/quzhongxinhua</link>
             <guid>https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/quzhongxinhua</guid>
-            <pubDate>Mon, 09 Mar 2026 09:29:45 GMT</pubDate>
+            <pubDate>Sat, 14 Mar 2026 08:23:47 GMT</pubDate>
             <description><![CDATA[从我们出生那一刻起，我们生活在集体中，我们通常被告知集体的力量是巨大的，甚至集体越大，能力越强，但是事实真是如此吗。]]></description>
             <content:encoded><![CDATA[<p>从我们出生那一刻起，我们生活在集体中，我们通常被告知集体的力量是巨大的，甚至集体越大，能力越强，但是事实真是如此吗。</p>
 <p>18世纪，苹果掉在了牛顿的头上，所以新时代开始了，当时只掉在了一个人头上，不是很多人。屠呦呦发现了青蒿素，所以疟疾可以被治愈了。根据最新采访，好像4个人左右开发了chatgpt，新的ai时代开始了，在文艺复兴后的若干大的进展中，无数的事例证明，推动时代和社会进步的并不是多么伟大的集体，而是一个小的团队或者个人，从深度学习来说，从辛顿教授的坚守，到alexnet的提出，实际上这个过程中，这是一个冷门领域，研究人员并不多，但是正是这些不多的研究人员的坚守，才有今天这个伟大的ai时代，这里也不需要很多人。</p>
@@ -400,7 +403,7 @@
 <li class="">选择性合并：如果你只想将特定的提交从一个分支引入到当前分支，而不是整个分支的更改，cherry-pick 是完美的工具。</li>
 <li class="">修复和调整：在一些复杂的分支策略中，特定的修复可能只需要应用到某些分支上。cherry-pick 可以帮助你实现这一点，而无需进行完整的分支合并。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用">使用<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_cherry_pick#%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="Direct link to 使�用" title="Direct link to 使用" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用">使用<a href="https://your-docusaurus-test-site.com/yiwen-blog-website/en/blog/git_cherry_pick#%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="Direct link to 使用" title="Direct link to 使用" translate="no">​</a></h2>
 <p>使用fork应用来使用<code>git cherry-pick</code>体验极好，可以将commit从其他分支检出到自己分支。</p>]]></content:encoded>
         </item>
         <item>
