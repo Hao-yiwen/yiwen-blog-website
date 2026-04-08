@@ -10,7 +10,7 @@
 - **Native 开发** - iOS、Android、React Native、Flutter、HarmonyOS 等
 - **Web 开发** - React、Next.js、CSS、JavaScript 等前端技术
 - **服务端开发** - Java、MySQL、Redis 等后端技术
-- **计算机基础** - 算法、设计模式、网络等基础知识
+- **计算机基础** - 算法、设计模式、网络等基础知识 
 
 ## 技术栈
 
