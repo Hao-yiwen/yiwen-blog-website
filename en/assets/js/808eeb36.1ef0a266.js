@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkyiwen_blog_website=globalThis.webpackChunkyiwen_blog_website||[]).push([[72896],{5545(e){e.exports=JSON.parse('{"authors":[{"name":"Hao Yiwen","url":"https://github.com/Hao-yiwen","imageURL":"https://github.com/Hao-yiwen.png","key":"yiwen","page":null,"count":1}]}')}}]);

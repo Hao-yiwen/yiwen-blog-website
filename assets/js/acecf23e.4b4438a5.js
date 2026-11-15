@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([["93220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/yiwen-blog-website/blog","blogTitle":"Blog","authorsListPath":"/yiwen-blog-website/blog/authors"}')}}]);
