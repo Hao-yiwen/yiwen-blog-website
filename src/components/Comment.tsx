@@ -1,29 +1,36 @@
-import React from 'react';
+import React, { type ReactNode } from 'react';
 import Giscus from '@giscus/react';
+import { useColorMode } from '@docusaurus/theme-common';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-export const Comment = () => {
+/**
+ * Giscus 评论区（基于 GitHub Discussions）。
+ * - mapping="pathname"：按页面路径关联 Discussion，修改文档路径会导致旧评论无法关联
+ * - 主题跟随站点的明暗模式切换，语言跟随当前 locale
+ */
+export default function Comment(): ReactNode {
+    const { colorMode } = useColorMode();
+    const {
+        i18n: { currentLocale },
+    } = useDocusaurusContext();
+
     return (
         <div style={{ paddingTop: 50 }}>
             <Giscus
                 id="comments"
-                // highlight-warn-start
                 repo="Hao-yiwen/yiwen-blog-website"
                 repoId="R_kgDOKCp9Gw"
                 category="Announcements"
                 categoryId="DIC_kwDOKCp9G84CZP8J"
-                // highlight-warn-end
                 mapping="pathname"
                 strict="0"
-                term="Welcome to @giscus/react component!"
                 reactionsEnabled="1"
                 emitMetadata="0"
                 inputPosition="bottom"
-                theme="preferred_color_scheme"
-                lang="zh-CN"
+                theme={colorMode === 'dark' ? 'dark' : 'light'}
+                lang={currentLocale === 'zh' ? 'zh-CN' : 'en'}
                 loading="lazy"
             />
         </div>
     );
-};
-
-export default Comment;
+}

@@ -1,0 +1,6 @@
+# pnpm 默认禁止依赖执行安装脚本，这里显式声明（两者都不需要执行）：
+# - core-js：postinstall 只打印赞助信息
+# - @swc/core：postinstall 仅在原生二进制缺失时回退安装 wasm 版，正常平台无需执行
+allowBuilds:
+  core-js: false
+  '@swc/core': false

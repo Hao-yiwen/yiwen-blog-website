@@ -1,5 +1,6 @@
 # Dependencies
 /node_modules
+/.pnpm-store
 
 # Production
 /build
@@ -15,9 +16,14 @@
 .env.test.local
 .env.production.local
 
+# 统一使用 pnpm，避免误提交其他包管理器的锁文件
+package-lock.json
+yarn.lock
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-package-lock.json
-# yarn.lock
+# scripts/merge_docs.py 的输出
+/all_docs_merged.md

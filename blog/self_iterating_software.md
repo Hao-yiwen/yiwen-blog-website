@@ -10,6 +10,8 @@ import pic from '@site/static/img/self_iterating_software.png'
 
 <img src={pic} width={600} />
 
+<!-- truncate -->
+
 ## 开发侧：从写代码到 Merge 代码
 
 在开发侧，基于 OpenTelemetry 和关键链路埋点，用大量胶水代码将数据库与日志封装成 Skills。上线后设置智能定时器（如 3 小时一轮），一旦查到异常，直接结合上下文自动化修复，最后给出 PR 和归因报告。系统平稳后，巡检粒度甚至可以根据 Token 消耗自动调整——我们从写代码的人，变成了只负责最后 Merge 的决策者。

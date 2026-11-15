@@ -1,14 +1,7 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * 全局样式。classic 主题默认使用 Infima，这里覆盖其 CSS 变量。
+ * KaTeX 样式已在 docusaurus.config.js 的 customCss 中引入。
  */
-
-/* Import KaTeX CSS for math rendering */
-@import url('https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css');
-
-/* You can override the default Infima variables here. */
-@import "./taro/custom.css";
 
 :root {
   --ifm-color-primary: #3578e5;
@@ -24,13 +17,6 @@
     segoe ui emoji, segoe ui symbol, noto color emoji;
   --ifm-line-height-base: 2;
 
-  /* --ifm-h1-font-size: 2rem;
-  --ifm-h2-font-size: 1.5rem;
-  --ifm-h3-font-size: 1.25rem;
-  --ifm-h4-font-size: 1rem;
-  --ifm-h5-font-size: 0.875rem;
-  --ifm-h6-font-size: 0.85rem; */
-
   --ifm-font-size-base: 14px;
   --ifm-h1-font-size: 30px;
   --ifm-h2-font-size: 24px;
@@ -42,6 +28,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+[data-theme="dark"] {
+  --docusaurus-highlighted-code-line-bg: rgba(66, 66, 66, 0.35);
+}
+
+/* Infima 会在 .markdown 下单独设置标题字号，需要再覆盖一次 */
 .markdown > h1,
 .markdown h1:first-child {
   --ifm-h1-font-size: 30px;
@@ -62,11 +53,6 @@
   --ifm-h6-font-size: 12px;
 }
 
-.blog-wrapper
-  .blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-BlogPostItem-styles-module {
-  font-size: var(--ifm-h2-font-size);
-}
-
 code {
   margin: 0 0.2em;
   padding: 0.2em 0.4em;
@@ -83,21 +69,7 @@ pre code {
   line-height: 1.5;
 }
 
-[data-theme="dark"] {
-  --docusaurus-highlighted-code-line-bg: rgba(66, 66, 66, 0.35);
-}
-
 html,
 body {
   height: 100%;
-}
-
-.expandButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-ExpandButton-styles-module {
-    width: 10px;
-    height: 20px;
-}
-
-.footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
