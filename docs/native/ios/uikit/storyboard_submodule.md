@@ -1,22 +1,24 @@
 ---
-title: 引用子模块的storyboard
-sidebar_label: 引用子模块的storyboard
+title: 引用子模块的 Storyboard
+sidebar_label: 引用子模块 Storyboard
 date: 2024-06-25
 last_update:
   date: 2024-06-25
 ---
 
 import substoryboard_controller from '@site/static/img/substoryboard_controller.png'
-import storyboard_copu_bundle from '@site/static/img/storyboard_copu_bundle.png'
+import storyboard_copy_bundle from '@site/static/img/storyboard_copy_bundle.png'
 
-# 引用子模块的storyboard
+# 引用子模块的 Storyboard
 
-有时候有些storyboard在子模块，而父模块要去使用storyboard refrence去引用这些模块，但是有时候是找不到，有时候各种报错。
+当部分 Storyboard 存放在独立的 CocoaPods 子模块中，主工程通过 `Storyboard Reference` 跨模块引用时，常会出现找不到 ViewController 或 Bundle 资源未拷贝报错。
 
-## 步骤
+## 关键检查步骤
 
--   storyboard ID一定要和Class一样，不然就会有controller找不到问题
+1. **Storyboard ID 与 Class 保持一致**：确保对应 ViewController 在 Identity Inspector 中配置了正确的 `Storyboard ID` 与 `Module`。
 
-<img src={storyboard_copu_bundle} width={500} />
+<img src={substoryboard_controller} width={500} />
 
-<img src={storyboard_copu_bundle} />
+2. **检查 Copy Bundle Resources**：确保子模块 `.podspec` 或主工程 `Build Phases -> Copy Bundle Resources` 中已包含对应的 `.storyboard` 资源包。
+
+<img src={storyboard_copy_bundle} width={600} />

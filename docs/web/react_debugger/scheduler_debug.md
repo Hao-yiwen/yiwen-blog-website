@@ -1,15 +1,15 @@
 ---
-title: scheduler解析
-sidebar_label: scheduler解析
+title: React Scheduler 优先级调度器解析
+sidebar_label: Scheduler 解析
 date: 2024-07-14
 last_update:
   date: 2024-07-15
 ---
 
-# scheduler解析
+# React Scheduler 优先级调度器解析
 
-~~在页面初始化的时候会调用unstable_scheduleCallback调度一次performSyncWorkOnRoot来初始化渲染工作。~~
+`Scheduler` 是独立于 `Reconciler`（协调器）之外的低耦合任务调度包，专门负责基于浏览器空闲帧的时间切片（Time Slicing）与多优先级任务队列管理。
 
-不是上面的说法一样，而是schedular只是作为一个调度器。然后交由协调器调用罢了。从下面堆栈可以看到，schedular主要ensureRootIsScheduled进行优先级调度，在不是同步优先级的并发渲染和提交阶段调用scheduler来进行时间切片和任务执行。所以schedular只是一个调度器，低耦合。
+从下方调用栈可以清晰看到：`Reconciler` 在 `ensureRootIsScheduled` 阶段根据更新车道（Lane）决定调度策略——对于非同步阻塞的并发更新（Concurrent Mode），会委托 `Scheduler` 的 `unstable_scheduleCallback` 注册异步宏任务切片，按帧预算循环推进工作单元并在必要时让出主线程。
 
-![alt unstable_scheduleCallback](unstable_scheduleCallback.png)
+![unstable_scheduleCallback 调用栈](unstable_scheduleCallback.png)

@@ -1,4 +1,5 @@
 ---
+title: 网关配置
 sidebar_position: 3
 ---
 

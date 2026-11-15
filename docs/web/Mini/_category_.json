@@ -1,8 +1,7 @@
 {
-    "label": "Mini",
+    "label": "小程序",
     "position": 7,
     "link": {
-        "type": "generated-index",
-        "description": "Mini"
+        "type": "generated-index"
     }
 }

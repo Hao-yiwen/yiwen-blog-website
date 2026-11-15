@@ -14,6 +14,9 @@ importers:
       '@docusaurus/faster':
         specifier: ^3.10.2
         version: 3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33)
+      '@docusaurus/plugin-client-redirects':
+        specifier: 3.10.2
+        version: 3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
       '@docusaurus/preset-classic':
         specifier: ^3.10.2
         version: 3.10.2(@algolia/client-search@5.64.0)(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(@types/react@18.3.31)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.9.3)
@@ -1265,6 +1268,13 @@ packages:
       react: '*'
       react-dom: '*'
 
+  '@docusaurus/plugin-client-redirects@3.10.2':
+    resolution: {integrity: sha512-z5I5ttCXw+8y2gHVZvqAMmUw4Rb0ZzKA5eCPk87SfM/jCKOTvE24yDpPAwwipvug96ij7mOwEHXWw8G4LlWdGA==}
+    engines: {node: '>=20.0'}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
   '@docusaurus/plugin-content-blog@3.10.2':
     resolution: {integrity: sha512-0cbEnNKf0InmLkhj/+nVRmqEnWEoOE8Mh+2x1qOXI0qYpCnphq4RXknVJ8BvybKRXqYVvbmdMfiJSup+k4tm5w==}
     engines: {node: '>=20.0'}
@@ -2088,6 +2098,13 @@ packages:
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
+
+  '@swc/html-linux-arm64-gnu@1.16.22':
+    resolution: {integrity: sha512-5TNgztX9VzTKbXH6vjmXdBEwQozb2DSzwts5+zbuk3BKdtVqE7aCRnCdC3Td/yccsJS81rm8yRveicp9jmUz2A==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
 
   '@swc/html-linux-arm64-musl@1.16.22':
     resolution: {integrity: sha512-rhN2+X1ElD3DM41wEwkOdpmUBZAY1CronS87rt0Sbi3Arp2pmoP8I7eC1SjLb69MEd6wJsr2teJvcLAn78Oxdw==}
@@ -3827,6 +3844,7 @@ packages:
   git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   github-slugger@1.5.0:
@@ -3848,7 +3866,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-dirs@0.1.1:
     resolution: {integrity: sha512-NknMLn7F2J7aflwFOlGdNIuCDpN3VGoSoB+aap3KABFWbHVn1TCgFC+np23J8W2BiZbjfEw3BFBycSMv1AFblg==}
@@ -4378,6 +4396,7 @@ packages:
 
   katex@0.18.11:
     resolution: {integrity: sha512-yvyz/2VMKqoho/35Hat5w37wIEdWJ5ElVMidTAlWrxr5uW4aBGsEpveTmKh18/zw08v/7lGswCPon4OhqmqrTA==}
+    deprecated: Accidentally published with breaking changes. Use 0.19.0 instead.
     hasBin: true
 
   keyv@4.5.4:
@@ -6677,6 +6696,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-compile-cache-lib@3.0.1:
@@ -8573,6 +8593,47 @@ snapshots:
       - uglify-js
       - webpack-cli
 
+  '@docusaurus/plugin-client-redirects@3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)':
+    dependencies:
+      '@docusaurus/core': 3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(debug@4.4.3)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+      '@docusaurus/logger': 3.10.2
+      '@docusaurus/utils': 3.10.2(@swc/core@1.16.22)(clean-css@5.3.3)(cssnano@6.1.2(postcss@8.5.33))(html-minifier-terser@7.2.0)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@docusaurus/utils-common': 3.10.2(@swc/core@1.16.22)(clean-css@5.3.3)(cssnano@6.1.2(postcss@8.5.33))(html-minifier-terser@7.2.0)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@docusaurus/utils-validation': 3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      eta: 2.2.0
+      fs-extra: 11.4.1
+      lodash: 4.18.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      tslib: 2.9.1
+    transitivePeerDependencies:
+      - '@docusaurus/faster'
+      - '@mdx-js/react'
+      - '@minify-html/node'
+      - '@napi-rs/image'
+      - '@parcel/css'
+      - '@rspack/core'
+      - '@swc/core'
+      - '@swc/css'
+      - '@swc/html'
+      - bufferutil
+      - clean-css
+      - cssnano
+      - csso
+      - debug
+      - esbuild
+      - html-minifier-terser
+      - imagemin
+      - lightningcss
+      - postcss
+      - sharp
+      - supports-color
+      - svgo
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+
   '@docusaurus/plugin-content-blog@3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@docusaurus/plugin-content-docs@3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)':
     dependencies:
       '@docusaurus/core': 3.10.2(@docusaurus/faster@3.10.2(@docusaurus/types@3.10.2(@swc/core@1.16.22)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(postcss@8.5.33))(@mdx-js/react@3.1.1(@types/react@18.3.31)(react@18.3.1))(@rspack/core@1.7.12)(@swc/core@1.16.22)(debug@4.4.3)(postcss@8.5.33)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
@@ -10135,6 +10196,9 @@ snapshots:
   '@swc/html-linux-arm-gnueabihf@1.16.22':
     optional: true
 
+  '@swc/html-linux-arm64-gnu@1.16.22':
+    optional: true
+
   '@swc/html-linux-arm64-musl@1.16.22':
     optional: true
 
@@ -10166,6 +10230,7 @@ snapshots:
       '@swc/html-darwin-arm64': 1.16.22
       '@swc/html-darwin-x64': 1.16.22
       '@swc/html-linux-arm-gnueabihf': 1.16.22
+      '@swc/html-linux-arm64-gnu': 1.16.22
       '@swc/html-linux-arm64-musl': 1.16.22
       '@swc/html-linux-ppc64-gnu': 1.16.22
       '@swc/html-linux-s390x-gnu': 1.16.22

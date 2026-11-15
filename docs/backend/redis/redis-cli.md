@@ -1,86 +1,81 @@
 ---
-title: "Redis-cli"
-sidebar_label: "Redis-cli"
+title: redis-cli 工具与常用命令速查
+sidebar_label: redis-cli 与常用命令
+sidebar_position: 2
 date: 2024-06-25
 last_update:
   date: 2024-06-25
 ---
 
-# Redis-cli
+# redis-cli 工具与常用命令速查
 
-redis-cli 是 Redis 的官方命令行界面，用于与 Redis 服务器进行交互。它是 Redis 安装包的一部分，并提供了一种简单的方式来执行 Redis 命令、访问数据和管理 Redis 实例。以下是 redis-cli 的一些主要特点和常用操作：
+`redis-cli` 是 Redis 官方命令行客户端，支持交互式命令执行、远程连接、管道批处理（Pipeline）与实时监控。
 
-## 主要特点
-
--   命令行接口：提供了一个文本界面，允许用户输入 Redis 命令并直接查看结果。
-
--   连接远程服务器：可以连接到本地或远程的 Redis 服务器。
-
--   交互式和非交互式模式：
-
-    -   交互式模式：启动后进入一个可以输入命令的提示符。
-    -   非交互式模式：可以直接在命令行中执行单个命令。
-
--   支持所有 Redis 命令：包括数据操作、服务器管理、监控等。
-
--   调试和测试：常用于调试、测试 Redis 命令和脚本。
-
--   管道支持：可以通过管道（pipeline）执行多个命令。
-
-## 常用操作
-
--   启动 redis-cli：
+## 一、连接与基础操作
 
 ```bash
+# 连接本机默认实例 (127.0.0.1:6379)
 redis-cli
-```
 
--   连接到远程 Redis 服务器：
-
-```bash
-redis-cli -h [hostname] -p [port]
-```
-
-例如，连接到位于 127.0.0.1、端口 6379 的服务器：
-
-```bash
+# 连接指定远程主机与端口
 redis-cli -h 127.0.0.1 -p 6379
-```
 
--   身份验证：
-    如果 Redis 服务器设置了密码，需要先进行身份验证：
+# 密码鉴权（交互模式下）
+AUTH <password>
 
-```bash
-AUTH [password]
-```
+# 批量执行文件中的命令
+redis-cli < my_commands.txt
 
--   执行命令：
-    在 redis-cli 提示符下，可以输入任何 Redis 命令：
-
-```bash
-SET mykey "Hello"
-GET mykey
-```
-
--   退出 redis-cli：
-
-```bash
+# 退出客户端
 quit
 ```
 
--   执行文件中的命令：
-    可以将一系列 Redis 命令保存在文件中，然后使用 redis-cli 执行这个文件：
+### 高级调试能力
 
-```bash
-redis-cli < my_commands.txt
-```
+- **实时监控**：通过 `MONITOR` 实时打印服务端收到的命令流（生产环境慎用，有性能开销）。
+- **管道批处理**：通过 `--pipe` 或 Pipeline 批量发送命令，减少网络往返 RTT。
 
-## 高级功能
+---
 
--   监控模式：通过 MONITOR 命令实时监控服务器接收到的命令。
--   管道模式：可以通过管道执行批量命令，提高命令执行效率。
+## 二、常用命令分类速查
 
-## 注意事项
+### 1. 通用键（Key）管理
 
--   安全性：在生产环境中使用 redis-cli 时应该小心，尤其是在执行可能修改数据或配置的命令时。
--   隐私：如果你在公共环境或脚本中使用 redis-cli 进行身份验证，请确保密码不会被泄露。
+| 命令 | 说明 |
+| :--- | :--- |
+| `KEYS pattern` | 查找匹配模式的键（生产环境大数据量请改用 `SCAN`） |
+| `EXISTS key` | 检查键是否存在 |
+| `DEL key` | 删除指定键 |
+| `EXPIRE key seconds` | 设置过期时间（秒） |
+| `TTL key` | 查看键的剩余存活秒数 |
+
+### 2. 字符串（String）
+
+- `SET key value`：设置字符串值
+- `GET key`：获取字符串值
+- `INCR key` / `DECR key`：将整数值原子自增 / 自减 1
+- `APPEND key value`：追加内容到原字符串末尾
+
+### 3. 列表（List）
+
+- `LPUSH key value` / `RPUSH key value`：从列表头部 / 尾部插入元素
+- `LPOP key` / `RPOP key`：移除并返回列表头 / 尾元素
+- `LRANGE key start stop`：获取指定区间内的元素
+
+### 4. 集合（Set）与有序集合（Sorted Set）
+
+- **Set**：`SADD`（添加）、`SMEMBERS`（获取全部成员）、`SISMEMBER`（判断存在）、`SREM`（移除）
+- **ZSet**：`ZADD key score member`（带分值添加）、`ZRANGE` / `ZREVRANGE`（按分值正序/倒序区间查询）、`ZREM`（移除）
+
+### 5. 哈希（Hash）
+
+- `HSET key field value`：设置哈希表字段值
+- `HGET key field`：读取单个字段值
+- `HGETALL key`：获取所有字段与值
+- `HDEL key field`：删除一个或多个字段
+
+### 6. 扩展结构与发布订阅
+
+- **Geospatial**：`GEOADD key longitude latitude member`、`GEODIST key m1 m2 [unit]`
+- **HyperLogLog**：`PFADD key element`、`PFCOUNT key`
+- **Pub/Sub**：`PUBLISH channel message`、`SUBSCRIBE channel`

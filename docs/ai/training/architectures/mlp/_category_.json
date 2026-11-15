@@ -1,8 +1,7 @@
 {
-    "label": "mlp",
+    "label": "MLP",
     "position": 5,
     "link": {
         "type": "generated-index"
-    },
-    "collapsed": false
+    }
 }

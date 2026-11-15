@@ -1,4 +1,5 @@
 ---
+title: 小程序禁止热更新公告
 sidebar_position: 1
 ---
 

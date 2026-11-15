@@ -1,3 +1,7 @@
+---
+title: PyTorch 常见错误与陷阱
+---
+
 # PyTorch 常见错误与陷阱
 
 ## 梯度更新：in-place 操作 vs 重新赋值

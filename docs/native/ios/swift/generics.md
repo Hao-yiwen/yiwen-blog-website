@@ -1,4 +1,5 @@
 ---
+title: 泛型
 sidebar_position: 6
 ---
 

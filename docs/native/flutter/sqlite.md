@@ -1,4 +1,5 @@
 ---
+title: sqlite
 sidebar_position: 4
 ---
 

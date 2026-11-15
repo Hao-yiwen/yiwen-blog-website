@@ -234,5 +234,4 @@ $$
 ## 参考资源
 
 - [PyTorch Autograd 机制](./autograd-mechanism.md)
-- [反向传播算法](./backpropagation.md)
-- [前向传播](./forwardpropagation.md)
+- [前向传播与反向传播算法详解](./backpropagation.md)
