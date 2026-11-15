@@ -4,113 +4,84 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-这是一个基于 Docusaurus 3.6.3 构建的技术博客网站，专注于软件开发和人工智能领域。主要使用中文，支持 i18n（中英文）。目前包含 **543+ 篇技术文档**和多篇博客文章。
+基于 Docusaurus 3 构建的个人技术博客，专注于软件开发和人工智能领域。内容以中文为主，配置了 `zh`（默认）和 `en` 两个 locale（目前没有英文翻译）。目前约 **550+ 篇技术文档**、**35+ 篇博客**。
 
 **技术栈:**
-- Docusaurus 3.6.3
-- React 18.2
-- TypeScript 5.1
-- KaTeX (数学公式)
-- Mermaid (流程图)
-- Giscus (GitHub Discussions 评论系统)
+- Docusaurus 3.10（启用 Docusaurus Faster：Rspack + SWC + Lightning CSS）
+- React 18 + TypeScript 5
+- KaTeX（数学公式，样式随站点打包，不走 CDN）
+- Mermaid（流程图）
+- Giscus（GitHub Discussions 评论系统）
+- `@easyops-cn/docusaurus-search-local`（本地搜索，中英文）
 
-**系统要求:** Node.js >= 18.0
+**系统要求:** Node.js >= 22.13，包管理器 **pnpm**（版本见 `package.json` 的 `packageManager`）
 
 ## 项目结构
 
 ```
 yiwen-blog-website/
-├── blog/                    # 博客文章 (年度总结、技术分享等)
-├── docs/                    # 技术文档 (按领域分类)
+├── blog/                    # 博客文章 (年度总结、随想、技术分享)
+├── docs/                    # 技术文档，目录结构即侧边栏结构
 │   ├── ai/                  # 人工智能
-│   │   ├── applications/    # AI 应用
-│   │   ├── architectures/   # 模型架构 (CNN, Transformer等)
-│   │   ├── deployment/      # 模型部署
-│   │   ├── frameworks/      # 框架 (PyTorch, HuggingFace等)
-│   │   ├── fundamentals/    # 基础概念
-│   │   ├── nlp/            # 自然语言处理
-│   │   ├── optimization/    # 优化技术
-│   │   └── python/         # Python 相关
-│   ├── backend/            # 服务端开发
-│   │   ├── architecture/   # 系统架构
-│   │   ├── devops/        # DevOps
-│   │   ├── docker/        # Docker
-│   │   ├── go/            # Go 语言
-│   │   ├── java/          # Java
-│   │   ├── k8s/           # Kubernetes
-│   │   ├── mongodb/       # MongoDB
-│   │   ├── mysql/         # MySQL
-│   │   └── redis/         # Redis
-│   ├── cs_base/           # 计算机基础
-│   │   ├── arithmetic/    # 算法
-│   │   ├── compression/   # 压缩算法
-│   │   ├── cs_internet/   # 计算机网络
-│   │   ├── pattern/       # 设计模式
-│   │   └── web_pattern/   # Web 架构模式
-│   ├── math/              # 数学
-│   │   └── probability/   # 概率论
-│   ├── native/            # 客户端开发
-│   │   ├── android/       # Android
-│   │   ├── flutter/       # Flutter
-│   │   ├── harmony/       # 鸿蒙
-│   │   ├── ios/           # iOS
-│   │   └── ReactNative/   # React Native
-│   ├── web/               # Web 开发
-│   │   ├── Antd/          # Ant Design
-│   │   ├── Css/           # CSS
-│   │   ├── Js/            # JavaScript
-│   │   ├── Mini/          # 小程序
-│   │   ├── Nextjs/        # Next.js
-│   │   ├── React/         # React
-│   │   ├── Rollup/        # Rollup
-│   │   ├── taro/          # Taro
-│   │   └── Umi/           # UmiJS
-│   └── whelk/             # 个人内容
+│   │   ├── ai_engineering/  # AI 工程化
+│   │   ├── python/          # Python
+│   │   └── training/        # 深度学习 (applications / architectures / deployment /
+│   │                        #   frameworks / fundamentals / nlp / optimization)
+│   ├── backend/             # 服务端 (architecture / devops / docker / go / java /
+│   │                        #   k8s / mongodb / mysql / redis)
+│   ├── cs_base/             # 计算机基础 (arithmetic / compression / cs_internet /
+│   │                        #   pattern / web_pattern)
+│   ├── math/                # 数学 (probability)
+│   ├── native/              # 客户端 (android / flutter / harmony / ios / ReactNative)
+│   ├── web/                 # Web (Antd / Css / Js / Mini / Nextjs / React /
+│   │                        #   react_debugger / Rollup / taro / Umi)
+│   └── whelk/               # 个人内容 (抗痘记录)
 ├── src/
-│   ├── components/        # React 组件
-│   │   └── Comment.tsx    # Giscus 评论组件
-│   ├── css/               # 样式文件
-│   │   ├── custom.css     # 全局自定义样式
-│   │   └── taro/          # Taro 相关样式
-│   ├── pages/             # 自定义页面
-│   │   └── index.tsx      # 首页
-│   └── theme/             # 主题覆盖 (Swizzled)
-│       ├── BlogPostPage/  # 博客页面 (添加评论)
-│       └── DocItem/       # 文档页面 (添加评论)
-├── static/                # 静态资源
-├── docusaurus.config.js   # Docusaurus 配置 (异步模式)
-├── sidebars.js            # 侧边栏配置 (全自动生成)
-└── Dockerfile             # Docker 部署配置
+│   ├── components/
+│   │   └── Comment.tsx      # Giscus 评论组件
+│   ├── css/custom.css       # 全局样式 (覆盖 Infima 变量)
+│   ├── pages/index.tsx      # 首页 (重定向到 /docs/ai/)
+│   └── theme/               # Swizzle (全部为 wrap 方式)
+│       ├── DocItem/Paginator/   # 文档页翻页导航下方追加评论
+│       └── BlogPostPaginator/   # 博客文章翻页导航下方追加评论
+├── static/img/              # 图片资源
+├── scripts/merge_docs.py    # 把所有文档合并成一个 md (输出 all_docs_merged.md，已 gitignore)
+├── xmind/ self/             # 个人资料，不参与站点构建
+├── docusaurus.config.js     # Docusaurus 配置 (异步函数模式)
+├── sidebars.js              # 侧边栏配置 (全自动生成)
+├── pnpm-workspace.yaml      # pnpm 配置 (依赖安装脚本白名单 allowBuilds)
+└── Dockerfile               # Docker 部署配置
 ```
 
 ## 常用命令
 
 ```bash
 # 开发
-npm install          # 安装依赖
-npm start           # 启动开发服务器 (localhost:3000)
+pnpm install         # 安装依赖 (prepare 脚本会同时安装 husky git hooks)
+pnpm start           # 启动开发服务器 (localhost:3000，只启动默认 zh locale)
 
-# 构建和部署
-npm run build       # 构建生产站点
-npm run serve       # 本地预览构建
-npm run deploy      # 部署到 GitHub Pages
+# 构建
+pnpm build           # 构建生产站点 (zh + en 两个 locale)
+pnpm build --locale zh   # 只构建中文，本地验证更快
+pnpm serve           # 本地预览构建产物
 
 # 代码质量
-npm run typecheck   # TypeScript 类型检查
-npm run lint:css    # CSS 检查 (Stylelint)
-npm run clear       # 清除 Docusaurus 缓存
+pnpm typecheck       # TypeScript 类型检查
+pnpm lint:css        # CSS 检查 (Stylelint)
+pnpm clear           # 清除 Docusaurus 缓存
 ```
 
 ## 核心配置
 
 ### docusaurus.config.js
-- **Base URL:** `/yiwen-blog-website/` (GitHub Pages)
+- **配置模式:** `async function createConfig()`，因为 `remark-math` / `rehype-katex` 是纯 ESM 包，需要动态 `import()`；添加插件时保持此模式
+- **站点地址:** `url: https://hao-yiwen.github.io`，`baseUrl: /yiwen-blog-website/`
+- **future:** `faster: true`（构建提速），`v4.removeLegacyPostBuildHeadAttribute: true`（faster 的 ssgWorkerThreads 依赖它）
 - **i18n:** `zh` (默认), `en`
-- **Markdown:** MDX 格式，支持 Mermaid 图表
-- **数学公式:** remark-math + rehype-katex
-- **搜索:** `@easyops-cn/docusaurus-search-local` (支持中英文)
-- **侧边栏:** 全局禁用折叠 (`sidebarCollapsed: false`)
-- **配置模式:** 使用 `async function createConfig()` 异步函数
+- **Markdown:** MDX 格式，支持 Mermaid；`onBrokenLinks: 'throw'`，有坏链接会直接构建失败
+- **数学公式:** remark-math + rehype-katex；KaTeX CSS 通过 `theme.customCss` 从 `katex` 包引入
+- **侧边栏:** 全局不折叠 (`sidebarCollapsed: false`)
+- **最后更新时间:** `showLastUpdateTime: true`，依赖完整 git 历史（CI 中 checkout 使用 `fetch-depth: 0`）
 
 ### sidebars.js
 所有侧边栏使用 `type: 'autogenerated'`，目录结构直接决定导航：
@@ -127,38 +98,34 @@ npm run clear       # 清除 Docusaurus 缓存
 ```
 
 ### 代码高亮
-支持语言: `swift`, `java`, `bash`, `dart`, `go`, `sql`, `objectivec`, `cpp`, `ruby`, `kotlin`
+额外支持语言: `swift`, `java`, `bash`, `dart`, `go`, `sql`, `objectivec`, `cpp`, `ruby`, `kotlin`
 
 ### 代码质量工具
 - **Prettier** - 格式化 (tabWidth: 4, singleQuote: true, semi: true)
 - **Stylelint** - CSS 检查 (允许单位: em, rem, s, %, px)
 - **CommitLint** - Conventional commits
-- **lint-staged** - 提交时自动检查 (*.js, *.json, *.md, *.ts, src/**/*.css)
+- **lint-staged** - 提交时只格式化 `*.{js,jsx,ts,tsx,json}` 和检查 `src/**/*.css`；**不格式化 Markdown**，避免改坏 KaTeX / MDX
 
 ## 主题定制
 
-项目通过 Docusaurus Swizzle 机制自定义了以下组件：
+所有 swizzle 均采用 **wrap** 方式（只包裹原组件，不复制实现），Docusaurus 升级时无需同步上游代码。新增定制时也优先用 wrap：
 
-### DocItem/Layout (`src/theme/DocItem/Layout/index.tsx`)
-- 在文档页面底部添加 Giscus 评论组件
+```bash
+pnpm swizzle @docusaurus/theme-classic <组件名> --wrap --typescript
+```
 
-### BlogPostPage (`src/theme/BlogPostPage/index.tsx`)
-- 在博客文章底部添加 Giscus 评论组件
+- `src/theme/DocItem/Paginator` - 文档页「上一篇/下一篇」下方追加评论
+- `src/theme/BlogPostPaginator` - 博客文章「上一篇/下一篇」下方追加评论
+- `src/components/Comment.tsx` - Giscus 组件，`mapping="pathname"`，主题跟随站点明暗模式，语言跟随 locale
 
-### Comment 组件 (`src/components/Comment.tsx`)
-- 使用 `@giscus/react` 实现
-- 配置: repo=`Hao-yiwen/yiwen-blog-website`, 主题自适应
+**pnpm 注意事项:** pnpm 不会把间接依赖提升到根目录，`src/` 中 import 的任何包（如 `@docusaurus/theme-common`）都必须在 `package.json` 中显式声明，版本与 `@docusaurus/core` 保持一致。
 
 ## Git 工作流
 
-### Pre-commit Hooks (Husky)
-```bash
-# pre-commit: 运行 lint-staged
-npx lint-staged
-
-# commit-msg: 验证提交信息
-npx commitlint --edit "$1"
-```
+### Git Hooks (husky 9)
+`pnpm install` 时由 `prepare` 脚本自动安装：
+- `pre-commit`: `pnpm exec lint-staged`
+- `commit-msg`: `pnpm exec commitlint --edit "$1"`
 
 ### Conventional Commits 格式
 ```bash
@@ -173,8 +140,8 @@ test: 添加测试
 ```
 
 ### CI/CD
-- **master 分支:** 自动部署到 GitHub Pages (通过 `npm run deploy`)
-- **v* 标签:** 触发 Docker 镜像构建并推送到阿里云容器镜像服务
+- **`.github/workflows/deploy.yml`:** push 到 master 时用 pnpm 构建并通过 `peaceiris/actions-gh-pages` 发布到 `gh-pages` 分支
+- **`.github/workflows/docker-build-and-push.yml`:** 推送 `v*` 标签时构建 Docker 镜像并推送到阿里云容器镜像服务，镜像 tag 即 git 标签名
 
 ### 分支策略
 - `master` - 生产分支
@@ -194,7 +161,11 @@ test: 添加测试
    ---
    ```
 3. 文档会自动出现在侧边栏 (autogenerated)
-4. 使用 `_category_.json` 配置目录元信息
+4. 新建目录时添加 `_category_.json` 配置显示名（否则侧边栏直接显示目录名）：
+   ```json
+   { "label": "Redis", "position": 3, "link": { "type": "generated-index" } }
+   ```
+5. **不要随意重命名/移动已有文档**：URL 会变化，Giscus 按 pathname 关联评论，旧评论会丢失关联
 
 ### 添加博客
 在 `blog/` 目录创建文件:
@@ -206,12 +177,13 @@ tags: [react, tutorial]
 date: 2024-11-15
 ---
 
-文章内容...
+文章摘要...
 
-<!--truncate-->
+<!-- truncate -->
 
-更多内容 (摘要截断点之后)...
+正文 (摘要截断点之后)...
 ```
+每篇博客都应加 `<!-- truncate -->`，否则博客列表页会展示全文且构建时报警告。
 
 ### 数学公式 (KaTeX)
 ```markdown
@@ -222,6 +194,7 @@ $$
 f(x) = \int_{-\infty}^{\infty} e^{-x^2} dx
 $$
 ```
+公式中的中文必须包在 `\text{}` 里（如 `\text{期望副本数}`），否则 KaTeX 会报 `unicodeTextInMathMode` 警告。
 
 ### Mermaid 图表
 ````markdown
@@ -234,7 +207,7 @@ graph TD
 ````
 
 ### MDX 组件
-所有 markdown 文件支持 React 组件:
+所有 markdown 文件都按 MDX 解析，支持 React 组件:
 ```jsx
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -252,8 +225,10 @@ import TabItem from '@theme/TabItem';
 ## Docker 部署
 
 ### Dockerfile (多阶段构建)
-1. **构建阶段:** Node 16 Alpine, yarn 安装依赖并构建
-2. **运行阶段:** Nginx Alpine, 复制构建产物
+1. **构建阶段:** `node:22-alpine`，安装 git（生成「最后更新时间」需要）和 pnpm，`pnpm install --frozen-lockfile` 后构建
+2. **运行阶段:** `nginx:alpine`，复制构建产物
+
+`.dockerignore` 不能忽略 `.git`，否则镜像内构建拿不到 git 历史。
 
 ### 构建命令
 ```bash
@@ -267,28 +242,29 @@ docker run -p 80:80 yiwen-blog
 ## 重要提示
 
 1. **配置模式:** `docusaurus.config.js` 使用异步函数模式 (`async function createConfig()`)，添加插件时保持此模式
-2. **内容语言:** 中文为主，添加新文档直接放在 `docs/` 对应目录即可自动生成导航
-3. **Docker 平台:** 目标平台 `linux/amd64`
-4. **提交规范:** 必须符合 Conventional Commits 规范
-5. **开发验证:** 添加或修改文档时，直接写入文件即可，无需运行构建命令验证
-6. **评论系统:** Giscus 基于 GitHub Discussions，已集成到 Doc 和 Blog 页面
+2. **包管理器:** 只用 pnpm，不要提交 `package-lock.json` / `yarn.lock`；依赖需要执行安装脚本时，在 `pnpm-workspace.yaml` 的 `allowBuilds` 中声明
+3. **内容语言:** 中文为主，添加新文档直接放在 `docs/` 对应目录即可自动生成导航
+4. **Docker 平台:** 目标平台 `linux/amd64`
+5. **提交规范:** 必须符合 Conventional Commits 规范
+6. **开发验证:** 添加或修改文档时，直接写入文件即可，无需运行构建命令验证；修改框架配置、主题组件或依赖时，用 `pnpm build --locale zh` 验证
+7. **评论系统:** Giscus 基于 GitHub Discussions，已集成到 Doc 和 Blog 页面
 
 ## 故障排查
 
 ```bash
 # 构建失败
-npm run clear
-rm -rf node_modules package-lock.json
-npm install
+pnpm clear
+rm -rf node_modules
+pnpm install
 
 # 类型检查失败
-npm run typecheck
+pnpm typecheck
 
 # CSS 检查失败
-npm run lint:css
+pnpm lint:css
 
 # 重建搜索索引
-npm run build
+pnpm build
 ```
 
 ## 资源链接

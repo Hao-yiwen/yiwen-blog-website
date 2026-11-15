@@ -107,7 +107,7 @@ HPA 是 Kubernetes 的"弹性伸缩控制器"。它像一个不知疲倦的管�
 HPA 使用以下公式来决定扩容还是缩容：
 
 $$
-期望副本数 = \lceil 当前副本数 \times \frac{当前指标值}{目标指标值} \rceil
+\text{期望副本数} = \left\lceil \text{当前副本数} \times \frac{\text{当前指标值}}{\text{目标指标值}} \right\rceil
 $$
 
 **举例**：
