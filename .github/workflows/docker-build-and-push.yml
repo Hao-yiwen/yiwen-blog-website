@@ -3,27 +3,27 @@ name: Docker Build and Push to Aliyun
 on:
   push:
     tags:
-      - 'v*'  # 当推送符合 'v*' 格式的标签时触发
+      - 'v*' # 推送 v* 标签时触发
+
+env:
+  IMAGE: registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ github.ref_name }}
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # 镜像内构建同样需要完整 git 历史来生成文档「最后更新时间」
+          fetch-depth: 0
 
-    - name: Login to Aliyun Container Registry
-      run: |
-        echo "${{ secrets.ALIYUN_CONTAINER_REGISTRY_PASSWORD }}" | docker login --username ${{ secrets.ALIYUN_CONTAINER_REGISTRY_USERNAME }} --password-stdin registry.cn-shanghai.aliyuncs.com
+      - name: Login to Aliyun Container Registry
+        run: |
+          echo "${{ secrets.ALIYUN_CONTAINER_REGISTRY_PASSWORD }}" | docker login --username ${{ secrets.ALIYUN_CONTAINER_REGISTRY_USERNAME }} --password-stdin registry.cn-shanghai.aliyuncs.com
 
-    - name: Extract Git Tag for Version
-      id: tag
-      run: echo "::set-output name=version::$(git describe --tags --abbrev=0)"
+      - name: Build Docker Image
+        run: docker build --platform linux/amd64 -t "$IMAGE" .
 
-    - name: Build Docker Image
-      run: |
-        docker build --platform linux/amd64 -t registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }} .
-
-    - name: Push to Aliyun Container Registry
-      run: |
-        docker push registry.cn-shanghai.aliyuncs.com/${{ secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE }}/yiwen-blog-website:${{ steps.tag.outputs.version }}
+      - name: Push to Aliyun Container Registry
+        run: docker push "$IMAGE"

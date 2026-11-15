@@ -1,31 +1,26 @@
-# 阶段 1: 构建项目
-# 使用 Node 官方镜像作为基础镜像
-FROM node:16-alpine as builder
+# 阶段 1：构建静态站点
+FROM node:22-alpine AS builder
 
-# 设置工作目录
+# git：文档「最后更新时间」需要读取 git 历史（Docusaurus Faster 在无 git 时会构建失败）
+RUN apk add --no-cache git && npm install -g pnpm@11.9.0
+
+# 镜像内不需要安装 git hooks
+ENV HUSKY=0
+
 WORKDIR /app
 
-# 复制 package.json 和 yarn.lock 文件
-COPY package.json yarn.lock ./
+# 先只复制依赖清单，利用 Docker 层缓存
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+RUN pnpm install --frozen-lockfile
 
-# 安装依赖
-RUN yarn install --frozen-lockfile
-
-# 复制项目文件
 COPY . .
+RUN pnpm build
 
-# 构建项目
-RUN yarn build
-
-# 阶段 2: 部署到 Nginx
-# 使用 Nginx 官方镜像作为基础镜像
+# 阶段 2：使用 Nginx 托管构建产物
 FROM nginx:alpine
 
-# 从构建器阶段复制构建的文件到 Nginx 镜像中
 COPY --from=builder /app/build /usr/share/nginx/html
 
-# 暴露 80 端口
 EXPOSE 80
 
-# 运行 Nginx
 CMD ["nginx", "-g", "daemon off;"]

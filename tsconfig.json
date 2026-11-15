@@ -1,7 +1,8 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "."
-  }
+    // 仅用于编辑器提示和 `pnpm typecheck`，不参与站点编译
+    "extends": "@docusaurus/tsconfig",
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "exclude": [".docusaurus", "build", "node_modules"]
 }

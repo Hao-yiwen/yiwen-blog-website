@@ -1,3 +1,14 @@
+# 注意：不要忽略 .git，构建时需要它生成文档「最后更新时间」
 node_modules
-.dockerignore
+build
+.docusaurus
+.pnpm-store
+.github
+.husky
+.vscode
+.claude
 Dockerfile
+.dockerignore
+xmind
+self
+scripts
