@@ -41,7 +41,7 @@ yiwen-blog-website/
 │   ├── components/
 │   │   └── Comment.tsx      # Giscus 评论组件
 │   ├── css/custom.css       # 全局样式 (覆盖 Infima 变量)
-│   ├── pages/index.tsx      # 首页 (重定向到 /docs/ai/)
+│   ├── pages/index.tsx      # 首页 (重定向到 /docs/ai/intro)
 │   └── theme/               # Swizzle (全部为 wrap 方式)
 │       ├── DocItem/Paginator/   # 文档页翻页导航下方追加评论
 │       └── BlogPostPaginator/   # 博客文章翻页导航下方追加评论

@@ -10,6 +10,9 @@ const EDIT_URL = 'https://github.com/Hao-yiwen/yiwen-blog-website/tree/master/';
  * @type {Array<{from: string | string[], to: string}>}
  */
 const REDIRECTS = [
+    // 首页与模块入口兜底重定向
+    { from: ['/docs/ai', '/docs/ai/training/intro'], to: '/docs/ai/intro' },
+
     // Blog 重命名与合并重定向
     { from: '/blog/2023_overview', to: '/blog/2023-overview' },
     { from: '/blog/2024_overview', to: '/blog/2024-overview' },
