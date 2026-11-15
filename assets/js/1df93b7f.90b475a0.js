@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyiwen_blog_website=self.webpackChunkyiwen_blog_website||[]).push([["19452"],{5146(e,s,t){t.r(s),t.d(s,{default:()=>u});var i=t(86070);t(30758);var n=t(25557),r=t(45625);function u(){return(0,i.jsx)(n.rd,{to:(0,r.Ay)("/docs/ai/intro")})}}}]);

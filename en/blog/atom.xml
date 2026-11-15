@@ -2,45 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog</id>
     <title>yiwen Blog</title>
-    <updated>2026-02-07T16:56:18.000Z</updated>
+    <updated>2026-11-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog"/>
     <subtitle>yiwen Blog</subtitle>
     <icon>https://hao-yiwen.github.io/yiwen-blog-website/en/img/logo.png</icon>
     <entry>
-        <title type="html"><![CDATA[去中心化]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/quzhongxinhua</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/quzhongxinhua"/>
-        <updated>2026-02-07T16:56:18.000Z</updated>
-        <summary type="html"><![CDATA[从我们出生那一刻起，我们生活在集体中，我们通常被告知集体的力量是巨大的，甚至集体越大，能力越强，但是事实真是如此吗。]]></summary>
-        <content type="html"><![CDATA[<p>从我们出生那一刻起，我们生活在集体中，我们通常被告知集体的力量是巨大的，甚至集体越大，能力越强，但是事实真是如此吗。</p>
-<p>18世纪，苹果掉在了牛顿的头上，所以新时代开始了，当时只掉在了一个人头上，不是很多人。屠呦呦发现了青蒿素，所以疟疾可以被治愈了。根据最新采访，好像4个人左右开发了chatgpt，新的ai时代开始了，在文艺复兴后的若干大的进展中，无数的事例证明，推动时代和社会进步的并不是多么伟大的集体，而是一个小的团队或者个人，从深度学习来说，从辛顿教授的坚守，到alexnet的提出，实际上这个过程中，这是一个冷门领域，研究人员并不多，但是正是这些不多的研究人员的坚守，才有今天这个伟大的ai时代，这里也不需要很多人。</p>
-<p>所以，在经常的左右脑互搏中，现实经常告诉我人多力量大，但是我最近发现，貌似人少力量也很大，当然现在是因为ai的陪伴，所以在这种情况下，我理解未来的发展中是否会出现去中心化的情况，当大家都有相同强大的智能体相伴，多人协作实际上只是增加沟通成本，而个人，加上拥有超级记忆功能的模型，我们意念合一，心领神会，默契的在这个世界上游走。</p>
-<p>实际上目前最大的集体应该是朝鲜，说一个冷知识，他们的人民甚至没有用过豆包一样的ai产品，我觉得这是悲哀的，而这种悲哀到底为何那？我认为和集体的性质有关系，集体认为人只是一个螺丝钉，只是每个螺丝钉的作用不同，有些做决策，有些执行，他们被这套系统裹挟，这套系统中定位的边界决定了其眼界，而这种局限性导致了很多创造性的东西天然无法在这种集体中实现，如果要实现，也是如履薄冰，简称薄冰哥。在ai之前的时代，因为智能无法被量化，这套系统虽然臃肿和效率低，但是还是能够正常工作。但是现在不一样了，实际上我理解小团队+多agent，加扁平化的组织，往往能带来更好的效果，因为完全扁平的组织，没有任何局限，从而创造行蜂拥而至。</p>
-<p>为啥今天有这个感叹那，因为从比特币那波潮流开始，无数次听到过这个概念，但是很多时候是不理解的，当然它说的去中心化和这里的去中心化是不一样的，但是内核是一样的，一个中心往往束缚手脚，而去中心化后的边缘节点，往往少量的边缘节点能够产生巨大的力量。</p>
-<p>为什么我觉得这个事情是重要的，因为我感觉目前很多公司都在学习硅谷先进技术和产品，但是有一点本质完全没有学过来，或者学过来不改，那就是小团队+扁平化，我认为这个是其内生力量的核心，并且在这个时代还在不断的放大，孕育着新的力量，而我们这快依然是兵团作战，看起来强大，但是实际上没有力量。就像我从来不相信那些动则百万员工的公司会有创造性的产出，他们在跟随，十年前在跟随，今天还在跟随，答应我，有些改变好吗。</p>
-<p>说到这里，我的朋友，如果你在一个人做产品，我理解无需畏惧大公司，5年前他们优势太多了，而目前为止，我理解他们只是虚胖，并没有天然的护城河，对我们个体而言，在现在的环境下，唯一的阻碍就是审核，如果这一点能够完全被解决，会更好，但是即使有这个限制，也可以克服。</p>
-<p>26年，属于个体的一年，无数个个体将会点亮未来世界的星空，让那些传统的，保守的规则都见鬼去吧。</p>]]></content>
+        <title type="html"><![CDATA[2026我想和这个世界谈谈]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog"/>
+        <updated>2026-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[时间过得真快，2026 年的碎碎念与随想记录。]]></summary>
+        <content type="html"><![CDATA[<p>时间过得真快，2026 年的碎碎念与随想记录。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260113">20260113<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog#20260113" class="hash-link" aria-label="Direct link to 20260113" title="Direct link to 20260113" translate="no">​</a></h2>
+<p>时间过得真快，转眼间已经 1 月 13 日了，2026 年已经悄然过去了半个月。今天我们继续以往的话题，探讨 AI 带来的变革——为什么到现在还没有新势力企业诞生？</p>
+<p>每一轮技术浪潮，都伴随着新生力量的诞生。而 AI，这个现在几乎已经成为所有人共识的产业，为什么到现在为止没有对原有的互联网软件进行颠覆？或者说，不是颠覆，而是从产品层面进行有品位的改造——但即便如此，目前来看依然没有出现。这确实是一个奇怪的情况，因为 AI 浪潮已经持续三年了。三年时光，在舞台上活跃的依然还是那些模型企业或者互联网巨头，但是新生代的企业竟然到现在还没有一个足够有名气、被世人所熟知。</p>
+<p>这是为什么呢？按道理来说，不应该是这样的。所以 2026 年会出现非凡的企业吗？能否给传统的互联网带来一点新时代的震撼？如果没有一个新企业出现，那实在说不过去了。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260314">20260314<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog#20260314" class="hash-link" aria-label="Direct link to 20260314" title="Direct link to 20260314" translate="no">​</a></h2>
+<p>今天挺难的，但是我过来了，我一直想要的，我正在靠近。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260408">20260408<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog#20260408" class="hash-link" aria-label="Direct link to 20260408" title="Direct link to 20260408" translate="no">​</a></h2>
+<p>好恼火呀，为啥拖这么久呢，真的有点难过。无论好坏，希望今天有个好的结果。</p>
+<p>四月是一个值得期待的月份吗？真的等死我了，搞快点呀。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20261116">20261116<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026-blog#20261116" class="hash-link" aria-label="Direct link to 20261116" title="Direct link to 20261116" translate="no">​</a></h2>
+<p>今年确实经历了很多事情。年初的时候，我一心想离开携程，费了很大的力气，最终在 4 月份如愿离开。可没想到，到了 6 月底，我又回去了。这件事一直是我心里的一个痛。离开时，我以为自己和这里再也不会有什么交集了，结果最后还是厚着脸皮走了回头路。我终究没能在 MiniMax 待下去。后来我一直在给自己找借口，说当时不待下去是对的，因为它后来的发展并不算好；但现在回想起来，或许坚持下去才是对的，因为人生中很多时候，人还是要挺得住啊。</p>
+<p>不过从结果来看，回去以后我确实获得了一些激励，做事情也还算顺利，整体状态比之前好了很多。唯独有一点，这里的工资实在太低了，今天要和他们好好谈谈涨薪的事。</p>
+<p>也是因为这些波折，原本我一直在坚持写博客、在 GitHub 上做些事情，可现在已经很久没有再写代码、写博客了，总觉得这件事好像把我打垮了一样。明明觉得自己应该可以做很多事，可这段经历就像一根刺，一直扎在心里。但走到今天，我觉得无论过程与结果好坏，我都应该去好好面对它。所以我又回来了，2026 我想和这个世界谈谈——无论好与坏，其实都只是我自己的事情而已。如果我自己都不能和这些事和解，它们又怎么可能真正流走呢？所以，yiwen，明天开始继续好好地活，精精彩彩地活。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="随想" term="随想"/>
+        <category label="年度记录" term="年度记录"/>
+        <category label="AI" term="AI"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化：个体与小团队的时代]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/decentralization</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/decentralization"/>
+        <updated>2026-02-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从我们出生那一刻起，我们就生活在集体中，通常被告知集体的力量是巨大的，甚至集体越大，能力越强。但事实真是如此吗？]]></summary>
+        <content type="html"><![CDATA[<p>从我们出生那一刻起，我们就生活在集体中，通常被告知集体的力量是巨大的，甚至集体越大，能力越强。但事实真是如此吗？</p>
+<p>17 世纪，苹果掉在了牛顿的头上，于是新时代开始了——当时只掉在了一个人头上，而不是很多人。屠呦呦发现了青蒿素，疟疾得以被治愈。根据访谈，核心团队仅寥寥数人便推进了 ChatGPT 的诞生，新的 AI 时代由此开启。在文艺复兴之后的若干重大进展中，无数事例证明，推动时代和社会进步的往往并不是多么庞大的集体，而是一个小团队甚至是个体。以深度学习为例，从辛顿（Hinton）教授的坚守到 AlexNet 的提出，这在很长一段时间里都是一个冷门领域，研究人员并不多，但正是这些少数研究者的坚守，才造就了今天这个伟大的 AI 时代。</p>
+<p>在日常的思考中，现实常常告诉我“人多力量大”，但我最近发现，在 AI 的陪伴下，“人少力量也很大”。当每个人都有同样强大的智能体相伴时，过度的多人协作有时反而只是在增加沟通成本；而个体加上拥有超级记忆能力的模型，意念合一、心领神会，便能默契地在这个世界上游走。未来的发展，或许正走向一种全新的“去中心化”。</p>
+<p>如果看传统意义上高度集中的集体，人往往被视作一颗螺丝钉，只是分工不同——有人做决策，有人做执行。个体被系统裹挟，系统中的定位边界决定了眼界，而这种局限性导致许多创造性的事物天然无法在庞大的层级体系中生长，即便尝试推进也往往如履薄冰。在 AI 之前的时代，因为智能难以被量化与复制，这套系统虽然臃肿、效率低下，却依然能够运转。但现在不同了，“小团队 + 多 Agent + 扁平化组织”往往能爆发更强的战斗力——因为扁平的组织少了层级束缚，创造力才得以涌现。</p>
+<p>从比特币那波潮流开始，我无数次听过“去中心化”这个概念。虽然加密领域的去中心化与组织形态的去中心化语境不同，但内核是一致的：单一中心往往束缚手脚，而去中心化之后，少量的边缘节点反而能迸发出巨大的能量。</p>
+<p>目前很多公司都在学习硅谷先进的技术和产品，但有一点核心本质往往没有学过来——那就是“小团队 + 扁平化”。这是硅谷内生力量的源泉，并且在这个时代被不断放大，孕育着新的创新；反观依然迷信“大兵团作战”的庞大组织，看似声势浩大，实则步履蹒跚，在十年前跟随，在今天依然跟随。</p>
+<p>说到这里，我的朋友，如果你正在一个人做产品，无需畏惧大公司。五年前他们优势太多，而到了今天，庞大的体量有时反而只是虚胖，并非天然的护城河。对个体开发者而言，当下的限制也并非不可逾越。</p>
+<p>2026 年，属于个体的一年。无数个独立的个体将会点亮未来世界的星空。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="AI" term="AI"/>
+        <category label="随想" term="随想"/>
+        <category label="组织架构" term="组织架构"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[自迭代软件系统：下一个方向]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software"/>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software"/>
         <updated>2026-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[软件领域进度很快，所以下一个方向是什么呢？今天有些随想，我认为是"自迭代软件系统"，核心是从产品层面完成自举。]]></summary>
         <content type="html"><![CDATA[<p>软件领域进度很快，所以下一个方向是什么呢？今天有些随想，我认为是**"自迭代软件系统"**，核心是从产品层面完成自举。</p>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/self_iterating_software-ae95dffc7db98baef6550b4a4a865586.png" width="600">
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="开发侧从写代码到-merge-代码">开发侧：从写代码到 Merge 代码<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E5%BC%80%E5%8F%91%E4%BE%A7%E4%BB%8E%E5%86%99%E4%BB%A3%E7%A0%81%E5%88%B0-merge-%E4%BB%A3%E7%A0%81" class="hash-link" aria-label="Direct link to 开发侧：从写代码到 Merge 代码" title="Direct link to 开发侧：从写代码到 Merge 代码" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="开发侧从写代码到-merge-代码">开发侧：从写代码到 Merge 代码<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E5%BC%80%E5%8F%91%E4%BE%A7%E4%BB%8E%E5%86%99%E4%BB%A3%E7%A0%81%E5%88%B0-merge-%E4%BB%A3%E7%A0%81" class="hash-link" aria-label="Direct link to 开发侧：从写代码到 Merge 代码" title="Direct link to 开发侧：从写代码到 Merge 代码" translate="no">​</a></h2>
 <p>在开发侧，基于 OpenTelemetry 和关键链路埋点，用大量胶水代码将数据库与日志封装成 Skills。上线后设置智能定时器（如 3 小时一轮），一旦查到异常，直接结合上下文自动化修复，最后给出 PR 和归因报告。系统平稳后，巡检粒度甚至可以根据 Token 消耗自动调整——我们从写代码的人，变成了只负责最后 Merge 的决策者。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="产品侧让系统自己生长出新功能">产品侧：让系统自己"生长"出新功能<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E4%BA%A7%E5%93%81%E4%BE%A7%E8%AE%A9%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E5%87%BA%E6%96%B0%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to 产品侧：让系统自己&quot;生长&quot;出新功能" title="Direct link to 产品侧：让系统自己&quot;生长&quot;出新功能" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="产品侧让系统自己生长出新功能">产品侧：让系统自己"生长"出新功能<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E4%BA%A7%E5%93%81%E4%BE%A7%E8%AE%A9%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%B7%B1%E7%94%9F%E9%95%BF%E5%87%BA%E6%96%B0%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to 产品侧：让系统自己&quot;生长&quot;出新功能" title="Direct link to 产品侧：让系统自己&quot;生长&quot;出新功能" translate="no">​</a></h2>
 <p>这套逻辑同样适用于产品指标。从 PV、UV 和 ROI 出发，不仅仅是产出报表，而是结合用户反馈信息构建闭环。利用策略让系统自行决策——例如每 5 天自动分析一次全形态数据，自行决定下一步迭代方向，再调度 Coding 系统协作实现。让系统自己根据反馈"生长"出新功能，我们依然只负责收口，确保大方向正确。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="那我们该干嘛">那我们该干嘛？<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E9%82%A3%E6%88%91%E4%BB%AC%E8%AF%A5%E5%B9%B2%E5%98%9B" class="hash-link" aria-label="Direct link to 那我们该干嘛？" title="Direct link to 那我们该干嘛？" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="那我们该干嘛">那我们该干嘛？<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E9%82%A3%E6%88%91%E4%BB%AC%E8%AF%A5%E5%B9%B2%E5%98%9B" class="hash-link" aria-label="Direct link to 那我们该干嘛？" title="Direct link to 那我们该干嘛？" translate="no">​</a></h2>
 <p>负责维护好"胶水层"，减少系统运行的摩擦。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="趋势判断">趋势判断<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E8%B6%8B%E5%8A%BF%E5%88%A4%E6%96%AD" class="hash-link" aria-label="Direct link to 趋势判断" title="Direct link to 趋势判断" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="趋势判断">趋势判断<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E8%B6%8B%E5%8A%BF%E5%88%A4%E6%96%AD" class="hash-link" aria-label="Direct link to 趋势判断" title="Direct link to 趋势判断" translate="no">​</a></h2>
 <p>目前个人感觉顶级团队已基本实现自举，26 年随着范式成熟会加速扩散。所以我认为这可能是传统软件开发的最后一年了，毕竟从目前技术来说任何链路都可以完成自动化。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="落地形态">落地形态<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E8%90%BD%E5%9C%B0%E5%BD%A2%E6%80%81" class="hash-link" aria-label="Direct link to 落地形态" title="Direct link to 落地形态" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="落地形态">落地形态<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E8%90%BD%E5%9C%B0%E5%BD%A2%E6%80%81" class="hash-link" aria-label="Direct link to 落地形态" title="Direct link to 落地形态" translate="no">​</a></h2>
 <p>这套系统最适合跑在远程 Mac mini 上，日夜不间断工作，我们只需要拿着手机或 Mac，固定时间上去合并一次。但这并不是成本消失了，而是全流程自动化下，24 小时不间断的 AI 牛马在替我们打工，而我们只负责在关键节点 Say Yes。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="正在实践">正在实践<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self_iterating_software#%E6%AD%A3%E5%9C%A8%E5%AE%9E%E8%B7%B5" class="hash-link" aria-label="Direct link to 正在实践" title="Direct link to 正在实践" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="正在实践">正在实践<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/self-iterating-software#%E6%AD%A3%E5%9C%A8%E5%AE%9E%E8%B7%B5" class="hash-link" aria-label="Direct link to 正在实践" title="Direct link to 正在实践" translate="no">​</a></h2>
 <p>目前我正在尝试基于全栈阿里云解决方案实现这套系统，如果有想法可以交流。话说到这里，个人认为过去一年，个人开发者基本完成了技术沉淀，随着目前模型能力成熟，并且基于这种自迭代系统，一个人写一个超级 App，也不是不可能。</p>]]></content>
         <author>
             <name>Hao Yiwen</name>
@@ -52,32 +87,16 @@
         <category label="随想" term="随想"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2026]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026_blog</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026_blog"/>
-        <updated>2026-01-13T13:59:08.000Z</updated>
-        <summary type="html"><![CDATA[20260113]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260113">20260113<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026_blog#20260113" class="hash-link" aria-label="Direct link to 20260113" title="Direct link to 20260113" translate="no">​</a></h2>
-<p>时间过得真快，转眼间已经1月13日了，2026年已经悄然过去了半个月。今天我们继续以往的话题，探讨AI带来的变革——为什么到现在还没有新势力企业诞生？</p>
-<p>每一轮技术浪潮，都伴随着新生力量的诞生。而AI，这个现在几乎已经成为所有人共识的产业，为什么到现在为止没有对原有的互联网软件进行颠覆？或者说，不是颠覆，而是从产品层面进行有品位的改造——但即便如此，目前来看依然没有出现。这确实是一个奇怪的情况，因为AI浪潮已经持续三年了。三年时光，在舞台上活跃的依然还是那些模型企业或者互联网巨头，但是新生代的企业竟然到现在还没有一个足够有名气、被世人所熟知。</p>
-<p>这是为什么呢？按道理来说，不应该是这样的。所以2026年会出现非凡的企业吗？能否给传统的互联网带来一点新时代的震撼？如果没有一个新企业出现，那实在说不过去了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260314">20260314<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026_blog#20260314" class="hash-link" aria-label="Direct link to 20260314" title="Direct link to 20260314" translate="no">​</a></h2>
-<p>今天挺难的，但是我过来了，我一直想要的，我正在靠近。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20260408">20260408<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2026_blog#20260408" class="hash-link" aria-label="Direct link to 20260408" title="Direct link to 20260408" translate="no">​</a></h2>
-<p>好恼火呀，为啥拖这么久那，真的有点难过，无论好坏，希望今天有个好的结果。</p>
-<p>四月是一个值得期待的月份吗？真的等死我了，搞快点呀。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025年度总结]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview"/>
+        <title type="html"><![CDATA[2025 年度总结]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview"/>
         <updated>2025-12-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[夜深了，实在有点睡不着，觉得想写点东西。因为确实很长时间没写了，正好是 2025 年的最后一天，写点东西，和 2025 年告别一下。]]></summary>
         <content type="html"><![CDATA[<p>夜深了，实在有点睡不着，觉得想写点东西。因为确实很长时间没写了，正好是 2025 年的最后一天，写点东西，和 2025 年告别一下。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="生活">生活<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E7%94%9F%E6%B4%BB" class="hash-link" aria-label="Direct link to 生活" title="Direct link to 生活" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="生活">生活<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E7%94%9F%E6%B4%BB" class="hash-link" aria-label="Direct link to 生活" title="Direct link to 生活" translate="no">​</a></h2>
 <p>2025 年过年期间，因为和小呆的争吵，导致原本的见家长、渐进式发展策略完全被打断。一段没有未来的感情，自然而然地消亡了。也曾在深夜痛哭流涕，但是都过来了；也曾不习惯，但是也过来了。感谢你，在我人生中最黑暗的时候陪我一起渡过，但是下一次，我想自己渡过了，因为一个总是步入黑暗的人，不值得你托付终身。</p>
 <p>我们还是走散了，在一个白雪茫茫的清晨，在一个霞光闪闪的傍晚，我们再也见不到了。感谢你陪我走过了 6 年，但是最终我没有选择我们的小幸福。我实在不愿意回去，我也不知道我会混成什么样，大概率也是一事无成，并且因为自己的性格和这个世界格格不入。但是只要我不回家，我依然是那个意气风发的我，我的性格实在不适合我们所深爱的家乡。我可以改变，为此做出所有的妥协，但是下一次又换做是谁的妥协呢？让妥协成为我们这一代人内心深处的记忆吧，别把它留给下一代。我期望你好，我会在远处深深地祝福你，谢谢你。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="技术">技术<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E6%8A%80%E6%9C%AF" class="hash-link" aria-label="Direct link to 技术" title="Direct link to 技术" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="技术">技术<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E6%8A%80%E6%9C%AF" class="hash-link" aria-label="Direct link to 技术" title="Direct link to 技术" translate="no">​</a></h2>
 <p>2025 年是创造的一年。从年初开始，从“时光伴侣”开始，从一个简单的倒计时回家 iOS App 开始，我觉得 AI 浪潮开始了。这波浪潮要做点事情，因为如果什么都不做，我还不如回家养猪，因为养的猪过年还能吃肉，但是什么都不做，在上海当卧底一样生活，一点意思没有。从时光伴侣、幸运骰子、Mac 翻译助手、二维码生成器，我做了一些小工具，它们为我的生活带来了便利。而这些小工具的实现，让我觉得，我或许可以做得再大一点，做一些好的产品，让它被更多人看见和使用。</p>
 <p>于是我开发了“作业批改王”小程序。为什么做这个小程序呢？因为教育是 AI 最重要的落地场景之一，大家会在教育上花很多钱，一个好的教育体验软件是值得大家付费的。之前的作业帮和学霸君，在这个时代体验已经不再是领先了，而其所用的拍照搜题等技术也被 LLM 给平民化了。所以以这个作为切入点，做一个 App，一步步发展，实际上是可以做很多事情的。所以作业批改王在一年的发展过程中，到目前已经有了 2 万用户了，日活也在 400 左右。并且以这个为契机，我开发了“学小帮”App，这个 App 是对标作业帮、学霸君的教育产品，但是到后面貌似实在很难弄到资质，K12 是国内的红线之一，我实在懒得弄了，但是这块应该拾起来，为明年的战略做准备。</p>
 <p>在作业帮小程序做完后，我开发了“AI 问卷包”小程序。这个是一次真正意义上的产品创新，因为它完全不需要你去写问卷，你只需要告诉它主题，然后自动生成，然后微调就可以了。并且为此我还创意的发明了动态问卷玩法，就是一份问卷有 20 个问题，先展示 5 个，然后用户回答到第 3 个的时候再生成 5 个，一个滑动窗口，然后根据用户回答结果动态生成问卷问题。这样实际上对问卷是更友好的，但是需要大量的 Token 消耗才能完成问卷，不过这个算很好的创意了。AI 问卷包在上线后到现在，差不多有 2400 多用户，也还行，本来想着是会成为爆款的，哈哈哈🤣。</p>
@@ -87,15 +106,15 @@
 <p>接下来就有点技术含金量了。因为前面 9 个月矢志不渝的在技术上的打磨，开发了若干次产品，但是没有一款获得了成功，并且后续商业化计划也遥遥无期，也就是我做的产品无法帮我赚到钱，而这些钱无法支撑产品的继续维护，所以我很失落，我决定去搞我心心念念的 AI 了。24 年搞过很久的机器学习，所以底子还是在的，所以这次直接从深度学习起手了。从 CNN/RNN 到 Transformer，里面了解了几乎全部经典网络，LeNet/AlexNet/GoogleNet/ResNet 再到序列模型的 LSTM/GRU 到最后的 Transformer 模型，一代神级架构的 Transformer 模型。跟着 A 神写了 nanoGPT，实现了中文歌词的训练，虽然只有 3000 万参数，但是也能够人模人样地写小说了，虽然很多都是错的。后面根据 minimind，做了 3000 万参数的歌词创作模型，效果还行，也是人模人样。大模型的原理原来也不复杂，而且也大概了解了后训练中的 SFT/DPO/PPO/GRPO，尤其是 PPO 和 GRPO，两个强化学习可以说是推理的开端吧，也是 2025 年 AI 元年的开端，一切开始的地方。通过奖励机制，让 AI 去寻找规律和局部最优解，然后解决复杂的问题，一次不行，但是 10 万次呢，各种尝试，逼近局部最优解，理论来说基本能解决人类大部分问题，尤其是代码领域，因为数据足够充分，所以机会很大。</p>
 <p>目前正在训练一款 4B 大小的模型，本来以为这个参数量，需要的显存也就 20 倍也就是 80G 左右的样子，但是实际好像不是这样的。在 65000 的 vocab size 的情况下，在 seq 是 2048 的情况下，batch size 是 4 竟然跑完 200 个 epoch 需要 1 个小时，那么两台 Blackwell RTX 6000 Pro 完全有点训练不动。再加上之前 Tokenizer 需要的强大内存限制，我开始审视这个冒险的方案，可能更小的模型才适合我，虽然 4B 是一个分水岭，但是目前确实有点太大了，或许 1B 左右才合适，不然感觉训练半天都训练不完。</p>
 <p>然后年末因为若干原因，紧急接触 Golang。我的天，接触后我就想到一句话，“我以为雨很大，拉开窗帘发现，原来外面根本没有下雨。” Node.js Koa 框架的升级版，性能提升 5 倍，再也不用深思熟虑高并发模式了，强大的微服务框架支持，千万月活不在话下，大厂爱用，干就完了。目前基础内容和简单架构学习已经完成，目前对学小帮服务已经用 Go 重构了，后续会引入 DDD 架构以及 go-zero 微服务框架，用来进行服务的长期维护。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="工作">工作<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E5%B7%A5%E4%BD%9C" class="hash-link" aria-label="Direct link to 工作" title="Direct link to 工作" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="工作">工作<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E5%B7%A5%E4%BD%9C" class="hash-link" aria-label="Direct link to 工作" title="Direct link to 工作" translate="no">​</a></h2>
 <p>今年可能要好好聊聊工作相关了，因为前两年虽然有做一些事情，但是投入力度完全没有今年大。因为今年产出很多，今年满打满算做了 3 个产品，年初的 AI 答疑系统到后面的程小帮、Ada CLI，封装 CLI 给公司内部用，取得了一些成果。但是在这个过程中，我也看到了无限的问题，我不觉得我还能继续坚持在这里走下去了，无尽的争吵。其实我们只是程序员而已，我们完全没有必要进行这样的争吵，搞项目一般，但是搞人很专业，这样实际上是很不好的。我很讨厌这里，之前因为要花大量时间学习，所以没那么在乎，但是现在不是的，我有点难受了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="总结">总结<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E6%80%BB%E7%BB%93" class="hash-link" aria-label="Direct link to 总结" title="Direct link to 总结" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="总结">总结<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E6%80%BB%E7%BB%93" class="hash-link" aria-label="Direct link to 总结" title="Direct link to 总结" translate="no">​</a></h2>
 <p>2025 年是不可或缺的一年，因为看前面的内容可以知道，前面基本都是打基础，从深入 React、Flutter，到学习 Android/iOS 以及更前面的 Spring，我学了很多，但是用的时候完全不是一回事。而且一个产品的关注点根本不再是技术，而是产品本身，我从产品角度出发，进行代码实现，更好的完成产品特性，给用户最好的体验。所以准备了许久，今年算是大规模实践，总的来说，干的不错，成绩斐然，但是也深知这个是过渡期，因为 2026 年才是真正挑战重重的一年，因为从目前的进展往下看，只有复杂度拉满才能创造好用的 App，才能搞钱。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="线性之类">线性之类<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E7%BA%BF%E6%80%A7%E4%B9%8B%E7%B1%BB" class="hash-link" aria-label="Direct link to 线性之类" title="Direct link to 线性之类" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="线性之美">线性之美<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E7%BA%BF%E6%80%A7%E4%B9%8B%E7%BE%8E" class="hash-link" aria-label="Direct link to 线性之美" title="Direct link to 线性之美" translate="no">​</a></h2>
 <p>2025 年，说白了最大的变化，可能是心理上的变化。在之前，我是排斥自己的，我觉得自己做的不完美，在做很多错事以后，我会跟自己说，从明天开始做个全新的自己，劈柴喂马周游世界，也就是状态是离散的，我期望突然我就变好了，变得很完美，而这一天就是明天。但是 2025 年，我真的重新回过头来审视自己，我觉得自己很不错，从泥潭中爬出来，有糟糕的过去，但是我活下来了，活的也挺好，虽然有很多毛病，但是这些问题不大，而且也不是不可调和的。我开始接受自己了，而接受自己以后，我觉得我可能不需要立刻马上成为那么完美的人，我可能每天一小步，就一小步，慢慢走，总是能走到头吗？到时候不就好了吗？因为想立刻马上成为最好的人，就像永远把希望寄托在明天，而明天永远不会到来。我变成熟了，更加理解自己，也更宽容了。</p>
 <p>总是习惯用“突然变得很好”、“突击学习”来告诫自己、宽慰自己。但是世界的本质是线性的，是基于规则和秩序的，怎么可能忽然变好或者变坏呢？如果有，那就是有因必有果。</p>
 <p>所以，尊重线性美，用线性思维去解决复杂问题。一天搞不定就搞一个月，一个月不行就一年，再不行，10 年够了吧？或者一辈子。线性进步，总是能达到预期的。但是我们往往很着急，着急生，着急死，着急一切。其实做好当下，习惯线性美，可能远比幻想好得多。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="出海">出海<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E5%87%BA%E6%B5%B7" class="hash-link" aria-label="Direct link to 出海" title="Direct link to 出海" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="出海">出海<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E5%87%BA%E6%B5%B7" class="hash-link" aria-label="Direct link to 出海" title="Direct link to 出海" translate="no">​</a></h2>
 <p>一直想聊聊 Manus 连夜迁往新加坡的故事，以及当前国内 AI Agent 创业的真实现状，但一直没有机会。今天看到 Manus 被 Meta 收购，创始人晋升为 Meta VP，愈发有感而发，忍不住想谈谈 Manus 以及行业背后的诸多思考。</p>
 <p>先说行业现状。以国内较有名气的 MiniMax 和 GLM 为例，上市前的财务数据可以说相当惨淡，持续亏损，令人唏嘘。要知道，这两家都还是做大模型的公司，尚且如此，做上层纯应用的创业公司又有何前景？连模型层的企业都难以为继，上游尚且喝不饱，下游应用想要分一杯羹，几近不可能。然而一个健康的 AI 生态，并不该只有模型公司，还应孕育大量有创造力的应用公司，比如 Cursor 这样专注垂直领域的产品。但回头看，从 2022 年 11 月至今，国内掷地有声的 AI Agent 项目只有 Manus 一家，且在今年 8 月毅然转战新加坡。</p>
 <p>由于这种残酷的现状，现在国内创业圈反复讨论的话题就是“AI 做不出钱”，再优秀的 AI 产品在国内也难以变现。原因一方面是用户消费习惯，另一方面是头部企业的免费策略，把市场空间挤压得所剩无几，使得产品收费难有正循环。再加上，大众对于 AI Agent 产品普遍持怀疑——“不就是大模型的套壳应用吗”，不少人还有“字节这些巨头明天就能做出来”的心态。但实际上，就算是巧妙的模型套壳，只要能切实解决某个问题，也完全可以成为优质的产品。然而国内充斥着种种片面和消极的声音，恶劣的舆论环境让初创公司无所适从，更难有生长的土壤。</p>
@@ -103,39 +122,55 @@
 <p>Manus 的成功令人感慨。想象一下：如果背景普通、资源有限，但热爱 AI，从零起步——在当前时代，真的无路可走吗？每每看到硅谷创新涌现、生态繁荣，都觉得与国内像是生活在两个平行宇宙。曾以为每一次技术浪潮总会有新面孔出现，结果三年过去了，仍然是那些熟悉的互联网巨头。难道我八十岁还要用微信？那未免太过悲凉。</p>
 <p>Manus 给了一代人希望。那句评论很有力量：“没有背景，没有关系，只凭技术，在世界 AI 舞台上杀出一条血路。”唯一的遗憾，这样的故事未能发生在中国本土。</p>
 <p>可以预见，Manus 的模式也许会成为未来很长一段时间中国 AI 开发者的范式：先在海外试水 Demo，获得认可后，再果断出国重新开始。尽管艰难，但唯有继续努力，毕竟，这片土地已无养分，只能向外求生。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="展望">展望<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_overview#%E5%B1%95%E6%9C%9B" class="hash-link" aria-label="Direct link to 展望" title="Direct link to 展望" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="展望">展望<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-overview#%E5%B1%95%E6%9C%9B" class="hash-link" aria-label="Direct link to 展望" title="Direct link to 展望" translate="no">​</a></h2>
 <p>这就是我的 2025，轰轰烈烈的开头，以及一个茫然的结尾。我也不太清楚要搞啥，但是我觉得要往前走，或许最好，是来一场大的变革，在这个年纪能大动干戈就大动干戈吧，过了 30 就职业危机了。所以 2026 年我押宝在海外应用和换换地方上，即使前方是惊涛骇浪，但是也要劈波斩棘，因为在本该活动筋骨的年纪选择了安逸，那就是对自己的不负责，关键你想怎样度过一生。其实这些都是屁话，当我决绝离开小呆的时刻，我就没想过选择平稳度日，所以，干就完了。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="年度总结" term="年度总结"/>
+        <category label="AI" term="AI"/>
+        <category label="独立开发" term="独立开发"/>
+        <category label="出海" term="出海"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[黄昏]]></title>
         <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/nightfall</id>
         <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/nightfall"/>
         <updated>2025-11-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[时光一直往前走，而我也在往前，可是越往前走，好像越不知道往哪走，往东，还是往西那，在恍惚之间，在昏黄的灯光和酒水的微醺下，我好像回到了从前，我好想回到了，我始终没有离开过的故乡。]]></summary>
-        <content type="html"><![CDATA[<p>时光一直往前走，而我也在往前，可是越往前走，好像越不知道往哪走，往东，还是往西那，在恍惚之间，在昏黄的灯光和酒水的微醺下，我好像回到了从前，我好想回到了，我始终没有离开过的故乡。</p>
-<p>故乡在我这里从来不是一个好的回忆，但是我却深爱着那片土地，在某一个不经意的瞬间，貌似，我好想就矗立在田埂上， 在清晨的田埂上，一晃15年过去了，所以我经常问，宜文，为啥来这里那，为了换个活法，活的精彩。</p>
-<p>我曾在故乡的田埂背后无数次的幻想过未来，我也曾在家乡的桥头无数次表达对未来的期望，而今看来，确实离开了那里，来到了一个更大的舞台。可是，这里的舞台，貌似灯光忽明忽暗，在恍惚间，我总是感到错愕，好像有些不同于想象。</p>
-<p>在匆忙间，我时常没有力气和心力去回首来时的路，来时满是泥泞的道路，可在今晚，在一些因素的催化下，我好想看到了，看到了我的过去，我那时是那么年轻，那么一无所有，那么没有安全感，但是那么意气风发，可是一切在14岁后都变了，我好像没怎么抬头看过星星，有时候想起来，晚上在家门口一起看星星的时光，貌似一切没有发生过一样。</p>
-<p>好像，在不经意间，我变得轻盈了，我好像不在乎了，我好像不害怕了，我好像解脱了，我好像要拥有自己的人生了。</p>
-<p>所以如果一切按照预想，宜文，你会怎么过那，总是眺望远方，又或者轻盈的活着，至于哪些琐碎的事情，可能很多都无所谓了，在晴天的傍晚，去河堤上去看看池塘的鱼，貌似，一切也不差。</p>
-<p>我从来不曾了解过我的家乡，就像我的想象和记忆，总是那么偏执，而现在每次遇到他，好像他那么轻盈，从来没有见过一般。</p>
-<p>13年过去 我什么也没有改变 现在青春只剩尾巴 一切会好起来吗？一切会好起来的</p>
-<p>过的轻快，随性，洒脱。欢迎回来。</p>]]></content>
+        <summary type="html"><![CDATA[时光一直往前走，而我也在往前，可是越往前走，好像越不知道往哪走——往东，还是往西呢？在恍惚之间，在昏黄的灯光和酒水的微醺下，我好像回到了从前，回到了我始终没有真正离开过的故乡。]]></summary>
+        <content type="html"><![CDATA[<p>时光一直往前走，而我也在往前，可是越往前走，好像越不知道往哪走——往东，还是往西呢？在恍惚之间，在昏黄的灯光和酒水的微醺下，我好像回到了从前，回到了我始终没有真正离开过的故乡。</p>
+<p>故乡在我这里从来不全是美好的回忆，但我却深爱着那片土地。在某一个不经意的瞬间，我仿佛又伫立在清晨的田埂上。一晃 15 年过去了，所以我经常问自己：宜文，为啥来这里呢？为了换个活法，活得精彩。</p>
+<p>我曾在故乡的田埂上无数次幻想过未来，也曾在家乡的桥头无数次表达对远方的期望。而今看来，确实离开了那里，来到了一个更大的舞台。可是，这里的舞台灯光忽明忽暗，在恍惚间，我总是感到一丝错愕，好像有些不同于当初的想象。</p>
+<p>在匆忙间，我时常没有力气和心力去回首来时那条满是泥泞的路。可在今晚，在一些情绪的催化下，我好像又看到了自己的过去——那时是那么年轻，那么一无所有，那么缺乏安全感，却又那么意气风发。可是一切在 14 岁后都变了，我好像很少再抬头看过星星。有时候回想起晚上在家门口一起看星星的时光，恍若隔世。</p>
+<p>好像在不经意间，我变得轻盈了——好像没那么执着了，不害怕了，解脱了，好像终于要拥有属于自己的人生了。</p>
+<p>所以如果一切按照预想，宜文，你会怎么过呢？是继续眺望远方，还是轻盈地活着？至于那些琐碎的事情，很多大概都无所谓了。在晴天的傍晚，去河堤上看看池塘里的鱼，好像一切也不赖。</p>
+<p>我似乎从未真正了解过我的家乡，就像过去的想象和记忆总是带着几分偏执；而现在每次重逢，它却显得那么轻盈，仿佛初见一般。</p>
+<p>十几年过去，青春只剩尾巴。一切会好起来吗？一切都会好起来的。</p>
+<p>过得轻快、随性、洒脱。欢迎回来。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="随想" term="随想"/>
+        <category label="故乡" term="故乡"/>
+        <category label="生活" term="生活"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2025 blog]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog"/>
+        <title type="html"><![CDATA[2025 年度随想与开发日志]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog"/>
         <updated>2025-01-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[20250103]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250103">20250103<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250103" class="hash-link" aria-label="Direct link to 20250103" title="Direct link to 20250103" translate="no">​</a></h2>
-<p>2025年第一个感想，在开发app的时候最好不要使用React Native开发，这个东西性能有时候会查到让你惊讶。而且因为单线程的设计，导致你在有些时候都没有办法优化。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250117">20250117<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250117" class="hash-link" aria-label="Direct link to 20250117" title="Direct link to 20250117" translate="no">​</a></h2>
-<p>因为之前学习进度过慢的情况，再经过很多痛苦的琢磨后有一点进展，不知道是否有效，心里很忐忑，静态结果。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250120">20250120<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250120" class="hash-link" aria-label="Direct link to 20250120" title="Direct link to 20250120" translate="no">​</a></h2>
-<p>心里一直想搞清楚大模型的基本原理是什么，大模型到底是怎么一回事，一致想搞懂，但是从机器学习到深度学习路程太遥远，现在我大概知道原理是什么了。这是值得开心的一天。</p>
-<p><a href="https://hao-yiwen.github.io/yiwen-blog-website/docs/ai/transformer" target="_blank" rel="noopener noreferrer" class="">文档链接</a></p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250205">20250205<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250205" class="hash-link" aria-label="Direct link to 20250205" title="Direct link to 20250205" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[记录 2025 年全年的技术探索、独立产品实践与心路历程。]]></summary>
+        <content type="html"><![CDATA[<p>记录 2025 年全年的技术探索、独立产品实践与心路历程。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250103">20250103<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250103" class="hash-link" aria-label="Direct link to 20250103" title="Direct link to 20250103" translate="no">​</a></h2>
+<p>2025 年第一个感想：开发高性能复杂 App 时尽量慎重选择 React Native，部分场景下的性能瓶颈确实令人头疼，受限于单线程通信等历史包袱，优化空间有时非常有限。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250117">20250117<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250117" class="hash-link" aria-label="Direct link to 20250117" title="Direct link to 20250117" translate="no">​</a></h2>
+<p>针对之前学习进度偏慢的问题，经过一番痛苦琢磨后做了一些调整，初步有了一点进展，心里依然有些忐忑，静待后续效果。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250120">20250120<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250120" class="hash-link" aria-label="Direct link to 20250120" title="Direct link to 20250120" translate="no">​</a></h2>
+<p>心里一直想搞清楚大模型的基本原理到底是怎么一回事。从传统机器学习到深度学习的路途虽然遥远，但今天总算把核心脉络摸清了，值得开心的一天！</p>
+<p>参考笔记：<a class="" href="https://hao-yiwen.github.io/yiwen-blog-website/en/docs/ai/training/architectures/transformer/">Transformer 架构详解</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250205">20250205<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250205" class="hash-link" aria-label="Direct link to 20250205" title="Direct link to 20250205" translate="no">​</a></h2>
 <p>时间在不留意之间从指尖划过，今天又到了离开的时候，又需要去外出打工了。</p>
 <p>经过半个月的休整，这半个月发生了很多事情，事情繁杂而又遗憾，我没有去小董家，原本的约定也止步于口头，爱情终究要溜走了，我也要溜走了。</p>
 <p>事情并没有按照预期发展，内心是挣扎的，但是问题也暴露了。我也不知道如何解决这些问题，我选择了离开。</p>
@@ -151,46 +186,45 @@
 </ul>
 <p>这就是上半年的主要工作了，希望能获得机会进入更好的舞台。</p>
 <p>技术是为了挣钱，如果技术无法变现，那么再牛的技术也毫无意义。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250223">20250223<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250223" class="hash-link" aria-label="Direct link to 20250223" title="Direct link to 20250223" translate="no">​</a></h2>
-<p>年前想着年后要一心一意搞ai，但是在年前对大模型有了一些了解后，发现大模型需要大量的算力，而普通人很难获得这些算力，所以满满的有些懈怠了。也没有啥动力，然后很多事情推进不太顺利。</p>
-<p>年后最先干的事情是日历组件的推动适配，这件事情进展还行，最终也是有业务成功接入了。</p>
-<p>还有很重要的一件事情是ai答疑助手开发，因为涉及到前后端开发，并且设计到es/nodejs/soa/qmq以及公司发布体系/模型申请，还是有些复杂的，然后直到这周才搭完架子，然后很多方面的优化后续才会进行。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250223">20250223<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250223" class="hash-link" aria-label="Direct link to 20250223" title="Direct link to 20250223" translate="no">​</a></h2>
+<p>年前想着年后要一心一意搞 AI，但在对大模型有了进一步了解后，意识到预训练需要海量算力，普通人很难获取，心态一度有些懈怠，事情推进也不太顺利。</p>
+<p>年后最先落地的是日历组件的推广适配，进展不错，最终顺利接入了业务线。另一件重头戏是 AI 答疑助手开发，涉及前后端全链路以及 <code>ES</code> / <code>Node.js</code> / <code>SOA</code> / <code>QMQ</code> 与内部发布体系、模型申请，整体颇为复杂，直到这周才搭完主干架子，后续还要持续迭代优化。</p>
 <p>目前看来进展是有的，但是还是有些艰难的，但是最直观的感觉是事情的进展远没有24年迅速了。希望25年情况能好转些，进展能迅速些。</p>
 <p>ai最终的应用落地场景极其广泛，但是感觉最直观的领域还是教育。所以ai教育大有可为，这也是25年我的主旋律吧。</p>
 <p>ai学习还是要继续深入，就像去年说的，长期坚持投入，到某一个点就好了，如果没有坚持投入，那么后续应该也没有什么大的成就。ai领域的投入是必然的，要对ai模型进行了解，这样才能在新时代有所建树。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250308">20250308<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250308" class="hash-link" aria-label="Direct link to 20250308" title="Direct link to 20250308" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250308">20250308<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250308" class="hash-link" aria-label="Direct link to 20250308" title="Direct link to 20250308" translate="no">​</a></h2>
 <p>病疼总是缠绕身旁，无法评判生活的走向，只是希望未来的生活中，少有些病痛。愿天下父母，平安度春秋。我的一件心事了了，我时常想起和怀念那些年少的夜晚，是您的面容陪我走过，而如今，我无能无为，只是希望少有些疼痛。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250313">20250313<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250313" class="hash-link" aria-label="Direct link to 20250313" title="Direct link to 20250313" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250313">20250313<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250313" class="hash-link" aria-label="Direct link to 20250313" title="Direct link to 20250313" translate="no">​</a></h2>
 <p>今天身体很不舒服，心脏感觉不跳了。然后晚上部署服务，妈的因为国内网络问题，docker容器内死活安装不了依赖，真是气死我了。docker镜像的打包和部署必须彻底分开，不然妈的动不动就的解决打包问题。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250315">20250315<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250315" class="hash-link" aria-label="Direct link to 20250315" title="Direct link to 20250315" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250315">20250315<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250315" class="hash-link" aria-label="Direct link to 20250315" title="Direct link to 20250315" translate="no">​</a></h2>
 <p>很担心应用的高并发情况，一直觉得不可能高并发，但是实际测试发现在15个并发的情况下，实际上cpu只有10%，内存也只有30%左右，但是局限最大的是带宽，nodejs应用性能还是好啊。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250323">20250323<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250323" class="hash-link" aria-label="Direct link to 20250323" title="Direct link to 20250323" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250323">20250323<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250323" class="hash-link" aria-label="Direct link to 20250323" title="Direct link to 20250323" translate="no">​</a></h2>
 <p>今天听到一首歌，感觉很符合我俩，但是人生总是不完美了，唉。。。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250326">20250326<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250326" class="hash-link" aria-label="Direct link to 20250326" title="Direct link to 20250326" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250326">20250326<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250326" class="hash-link" aria-label="Direct link to 20250326" title="Direct link to 20250326" translate="no">​</a></h2>
 <p>痛，太痛了，真的差点痛死我了。以后可不能乱搞了～～</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250328">20250328<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250328" class="hash-link" aria-label="Direct link to 20250328" title="Direct link to 20250328" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250328">20250328<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250328" class="hash-link" aria-label="Direct link to 20250328" title="Direct link to 20250328" translate="no">​</a></h2>
 <p>今天我明白了另一个点，以前我觉得模型质量可靠的时候是完全可以无监督的，但是后续发现这种逻辑是完全错误的，因为这会导致后续问题的迭代和模型本身是一定认为你是对的，是对你能力的一种增强，但是如果你错了，那么无监督模式将会导致巨大的坑点。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250430">20250430<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250430" class="hash-link" aria-label="Direct link to 20250430" title="Direct link to 20250430" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250430">20250430<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250430" class="hash-link" aria-label="Direct link to 20250430" title="Direct link to 20250430" translate="no">​</a></h2>
 <p>在任何时候，任何情况下，个人项目的推荐必须保证最高优先级，拿多少钱办多少事情，没有说拿这白菜价操这巨大的心，天底下从来没有这样的事情，我没有任何义务去普及和提高别人的知识水平。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250506">20250506<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250506" class="hash-link" aria-label="Direct link to 20250506" title="Direct link to 20250506" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250506">20250506<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250506" class="hash-link" aria-label="Direct link to 20250506" title="Direct link to 20250506" translate="no">​</a></h2>
 <p>忽然梦中惊起，一回头，往事历历在目。如果不出意外，可能我们会有不一样的未来，但是生活就是意外重重的，愿我们都好。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250511">20250511<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250511" class="hash-link" aria-label="Direct link to 20250511" title="Direct link to 20250511" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250511">20250511<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250511" class="hash-link" aria-label="Direct link to 20250511" title="Direct link to 20250511" translate="no">​</a></h2>
 <p>25年注定是艰难的一年，因为两年前的心境在此时完全不受用了，而现在正是最艰难的时候，是去还是留往往在一念之间。长时间的艰苦努力，如果没有匹配的收益，那么奋斗其实毫无意义，真的毫无意义。</p>
 <p>Even，你该出现了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250516">20250516<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250516" class="hash-link" aria-label="Direct link to 20250516" title="Direct link to 20250516" translate="no">​</a></h2>
-<p>今天实在不想继续做项目了，于是捣鼓一些自己喜欢的东西，时间过的很快，之前一直想搞yolo的目标检测算法，今天总算差不多了，yolo确实可以的，感觉再搞搞后续直接诶导出模型给应用使用也可以。真实一个宝藏模型</p>
-<p>还有remote ssh真的是个宝藏东西，之前搞来搞去的真麻烦，现在一下子给加速了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250519">20250519<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250519" class="hash-link" aria-label="Direct link to 20250519" title="Direct link to 20250519" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250516">20250516<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250516" class="hash-link" aria-label="Direct link to 20250516" title="Direct link to 20250516" translate="no">​</a></h2>
+<p>今天实在不想继续做业务项目了，于是捣鼓自己喜欢的东西。之前一直想研究 <code>YOLO</code> 目标检测算法，今天总算跑通得差不多了，后续再打磨一下就可以直接导出模型供应用调用，真是一个宝藏模型。</p>
+<p>另外 VS Code 的 <code>Remote - SSH</code> 也真是提效神器，省去了本地折腾环境的诸多麻烦，开发体验一下子顺畅了许多。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250519">20250519<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250519" class="hash-link" aria-label="Direct link to 20250519" title="Direct link to 20250519" translate="no">​</a></h2>
 <p>cloudflare tunnel确实是一个很好的方案，在稳定性方面要比ngrok好一些。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250722">20250722<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250722" class="hash-link" aria-label="Direct link to 20250722" title="Direct link to 20250722" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250722">20250722<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250722" class="hash-link" aria-label="Direct link to 20250722" title="Direct link to 20250722" translate="no">​</a></h2>
 <p>时间走的很快，往回看，一切都变了。</p>
 <p>当时有两条路，我选择了这一条，但是我现在时常望向另一条路，因为我觉得这条路走到这里真的太难了，往前一步，步步受阻。</p>
 <p>人总是幻想于没有选择的那一条路，我在想，我选择了另一条路，会像我期望的一样好吗，我想还是不会的，因为心根本沉稳不下来，因为那是一条更为艰巨的道路，其投入和产出的比例更是巨大的。</p>
 <p>我会时常望向那块，但是现在，最重要的是做好当下事。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250724">20250724<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250724" class="hash-link" aria-label="Direct link to 20250724" title="Direct link to 20250724" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250724">20250724<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250724" class="hash-link" aria-label="Direct link to 20250724" title="Direct link to 20250724" translate="no">​</a></h2>
 <p>今天晚上，想多了解一些大模型训练，然后不知道从什么地方开始入手，开始问ai，然后经过2个小时的提问，我获得了一个惊人的信息，1.8万亿参数的模型训练数据按照20倍计算，也就是36tb，甚至不到100tb。这个东西说明啥问题那，人类目前的知识高度压缩后，有效的知识量级是100tb这个级别。看起来浩瀚无垠的人类文明，100tb把精华都搞得明明白白。。。。。</p>
 <p>另一个可怕的事情是，100tb，也就是50个2tb的机械硬盘的数据，就能训练出聪明无比，写代码比人类强大，感觉是万能的llm。。。这是可怕的一个夜晚，赶紧睡觉。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250803">20250803<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250803" class="hash-link" aria-label="Direct link to 20250803" title="Direct link to 20250803" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250803">20250803<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250803" class="hash-link" aria-label="Direct link to 20250803" title="Direct link to 20250803" translate="no">​</a></h2>
 <p>2025年已经过去了一半，本该一个月前就写个博客进行半年度总结，但是现在才开始记录，有些慢了，但是也反应最近一个月的心态，浮躁，躁动不安。</p>
 <p>上半年整体是成功的，总共开发了2个app，4个小程序，其中拾光app比较复杂，已经不是简单的app了，但是也正常上线了。而小程序给了我一些非常棒的反馈，首先就是作业批改王，我严重低估了教育类应用的流量能力，可以简单来说，只要你开发就会有人用，只是说频率不同而已。</p>
 <p>其实这个本质背后有深层次的意义，就是ai的最好的落地场景就是教育，大模型对教育天然有巨大的冲击，但是因为各种限制，ai在国内教育中并没有大规模应用，所以国内教育app现在也还是拍照搜题之类的，但是本就不该这样了。</p>
@@ -201,27 +235,35 @@
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/huangshan2-ef63d29b1bf6a8eff1b557939d5a0240.jpg" width="500">
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/huangshan3-74f630bec74c169d2b89d1e7e42eb627.jpg" width="500">
 <p>还有一个问题必须要讲，也就是上半年对ai核心原理的掌握程度不够，换句话说从去年年底开始，这块就停滞了，因为前途漫长，我看不到。没有计算资源，没有任何想要的东西。但是截止现在，所有的一切都进行到了非常深层次和复杂的事情，已经不是说重写一个app或者网页了，而在这种情景下，如果app层面进行实在不顺利，或许主要力量还是要集中在这里，因为这是最有前景的项目，因为我们这一代要做到的一件事情就是让ai远超人类，只有这样，我们才能实现理想社会，而这是旗帜，也是人生的意义。</p>
-<p>还有一个事情，就是现阶段最重要的事情已经转向了，也就是上述逻辑的推动拥有最高优先级，任何事情不能将其阻碍，适当的推进其余事情，不要份不清主次。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250913">20250913<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20250913" class="hash-link" aria-label="Direct link to 20250913" title="Direct link to 20250913" translate="no">​</a></h2>
+<p>还有一个变化：现阶段最重要的重心已经明确，上述核心方向的推进拥有最高优先级，适当兼顾其余事项，切忌分不清主次。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20250913">20250913<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20250913" class="hash-link" aria-label="Direct link to 20250913" title="Direct link to 20250913" translate="no">​</a></h2>
 <p>最近有巨大的转向了，因为android侧app根本上不了线，所以实际上所谓的黄金时代的创业，在现在来说就是扯淡，也就是说还想像10年前一样做一些有价值和意义的事情，所遭受的阻力可能是前所未有的，也就是说这片土地已经不再欢迎创业者了，这里不再是创业者的乐土。</p>
 <p>因为这个情况，所以我这块极速转向ai，转向我心心念念的方向，我希望在这里稍微做一些有意义的事情，一些有价值的事情。</p>
 <p>除此之外，我想聊一个很amazing的事情，我理解互联网作为中国最先进的行业，我理解其中应该是包容的，是讲道理的，但是为什么我感觉这个地方是那么的不讲道理那，为什么这里不能讲话那，为什么领导说的是错误的，但是我们还是要继续做那，还有就是有些不该做的事情，为什么我们还要做那，看起来好像为一个产品好，实际上像个弱智一样根本不懂核心，对一个花里胡哨的东西非常感兴趣，要这样做，那样做，我真的他妈佛了，唉。说到这里，和今天罗荣浩打假西贝一样，西贝老板感觉被下属惯坏了，觉得自己说啥都是对的，但是社会上可没有人是你下属啊，不过也心疼西贝员工，一看就是陪着这个沙雕搞这个搞那个，也是真的难受，但是吧，可能还真没办法，真是一个可悲的时代啊，下一个三十年，我们一起让这种可悲的事情少一些，好吗！让真实多一些，可以说真话，不说假话，我真是羡慕硅谷啊，为什么哪里可以有如此的活力，哪里为什么貌似没人任何限制，最起码，我今天遇到的一切不会存在了，唉，真实一种悲哀啊！</p>
 <p>下一个一年，在沉寂和思考中进行，用实际行动来奔向ai时代，一个伟大的，将要改变一些的事物，我寄希望于此，因为他不会说谎，他能够替人坚守有些底线，人类才脆弱了，很多时候不知道为什么就跪下了，答应我，下一个三十年，别跪下，好吗！！</p>
 <p>没有人不会提出馊主意，但是不应该自作聪明，然后不听从别人的意见，你知道的，很多时候，在认知不够的情况下，根本不知道在干什么，而这种情况很容易导致一些糟糕的，没有意义的事情，但是在讨论的时候需要大家广泛发表意见，要听别人讲什么，而不是啥也不听，我就这样搞，这样不行的，这样要完蛋的。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20251025">20251025<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20251025" class="hash-link" aria-label="Direct link to 20251025" title="Direct link to 20251025" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20251025">20251025<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20251025" class="hash-link" aria-label="Direct link to 20251025" title="Direct link to 20251025" translate="no">​</a></h2>
 <p>世间万物什么事情伤你最深，是你在乎的事情，就像和一个人喝一杯茶，喝一杯酒，如果你的心思全部在茶和酒中，那么这个茶或许是好喝的，但是如果你的心思在身旁的人身上，那么你就会被情绪左右。世间万物那么多，但是你这一生能影响的和你真正在乎的又有多少，所以平常心，其实，你越在乎，你的行为会越发变形。
 我想今天，其实已经没啥在乎的了吧，该专心为那些自己觉得尚有一线生机机会全力以赴了，至于其他，该过去的就过去吧，我从山谷走来，一旁始终随行的蝴蝶飞走了，我自由了，我无所畏惧了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20251123">20251123<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025_blog#20251123" class="hash-link" aria-label="Direct link to 20251123" title="Direct link to 20251123" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20251123">20251123<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2025-blog#20251123" class="hash-link" aria-label="Direct link to 20251123" title="Direct link to 20251123" translate="no">​</a></h2>
 <p>国内互联网和硅谷最大的区别，并不是技术层面的区别，至少我认为技术层面差距并不是非常大的。最大的差距是政策差距，例如在国内你想做些什么复杂的事情，你需要解决资质问题，而这套资质说白了是负责的，所以最好的方式是找个天龙人来一起解决这个问题，如果解决不了这个问题，那么就是扯淡，这是一切的基础，因为这套资质，本质上劝退了95%的人，所以国内不是没有创新，而是没有机会。</p>
 <p>所以国内互联网实际上最大的壁垒并不是技术，当然技术很重要，但是借力于开源，实际上或多或少还是能够得到解决的，但是最大的壁垒，实际上是那套资质，这套资质，本质来说，一般无法解决，对于普通人来说是无法解决的，但是对于稍有背景的人来说，可能还是能够得到解决的，所以，投个好胎，比什么都重要。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="随想" term="随想"/>
+        <category label="年度记录" term="年度记录"/>
+        <category label="AI" term="AI"/>
+        <category label="独立开发" term="独立开发"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024年度总结]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_overview</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_overview"/>
+        <title type="html"><![CDATA[2024 年度总结]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-overview</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-overview"/>
         <updated>2024-12-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2024年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。]]></summary>
-        <content type="html"><![CDATA[<p>2024年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。</p>
+        <summary type="html"><![CDATA[2024 年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。]]></summary>
+        <content type="html"><![CDATA[<p>2024 年虽然平凡，但却是从零到一的关键阶段。这个过程必不可少，尽管有些单调，但在单调中蕴含着向上的力量。</p>
 <p>2024年初，我继续完善2023年未完成的工作，目标是成为一名真正的全栈开发者。从2023年7月开始，我探索了Spring Cloud家族，但在JavaScript、移动端开发和跨平台开发方面仍存在很大不足。我不清楚React Native和Flutter的本质区别，以及这些区别对原生开发的影响。由于对这些技术的了解不够深入，我一直处于探索和混乱的阶段，尽管各个环节看似紧密相连，但在实际操作中却显得零散，难以形成完整的体系。</p>
 <p>年初，我开始学习Android开发，从Compose入手，观看了Compose教程，并研究了许多Android示例。当时我以为自己已经入门，但实际上并非如此，因为企业开发中并不常用Compose，这套工具主要是个人开发者在使用，尤其在国内的开发体系中，使用者更是寥寥无几。鉴于Compose的现状以及为后续学习Flutter和React Native做准备，我重新学习了Activity。我阅读了官方文档，编写了无数的示例，创建了包含各种示例的项目，封装了多个库，并集成了Flutter和React Native框架的示例项目。我曾一度对此非常着迷。那段时间虽然单调，但我一直在进步。后来，我不再将大量精力投入到Android体系中，但回过头来看，那段时光是值得的，因为它拓宽了我的视野。我从更高的层次审视整个前端体系，理解了渲染引擎，并从传统的超文本标记语言中跳脱出来，探索基于Skia渲染引擎的不同实现。我了解了声明式框架的兴起，从React到其他框架，命令式仅作为底层支撑，而声明式逐渐占据主导地位。许多原有的控制逻辑被转移到框架内部，以支持开发。这大概就是我在Android学习中的全部收获吧。这个阶段结束时，半年时间已经过去了，那时我确实编写了许多示例，观看了大量视频和示例项目。现在回想起来，仿佛一切都发生在昨天。在实践方面，我参考并开发了一个类似<a href="https://github.com/Hao-yiwen/JinRiTouTiao" target="_blank" rel="noopener noreferrer" class="">今日头条的应用</a>。</p>
 <p>完成了Android的学习后，我开始着手进行应用开发。然而，我发现使用UIKit或Compose进行开发并不是最佳选择，因为成本实在太高。此外，还有HarmonyOS的存在，不可能在每个平台都使用原生开发，这对我这样的个人开发者来说非常不切实际，因为我无法独自开发三套系统，这显然不现实。因此，使用Flutter和React Native是非常必要的。由于React Native框架本身的问题，如果一个项目使用React Native开发，必然需要大量的原生逻辑支持。虽然大部分工作可以跨平台，但仍有一些工作需要原生支持。在这个时候，我将目光转向了Flutter。凭借Android学习的经验，我从Flutter文档入手，运行了大量的示例，深入学习了文档，了解了Flutter如何通过Skia和Dart引擎脱离原生渲染，对谷歌拥有这样的技术感到钦佩。在实际使用中，Flutter在许多性能方面表现出色，因为最终被编译成了.so或静态库，得益于C++的支持，性能并不逊色。这一点在我后续开发仿网易云音乐时得到了体现。Flutter确实是一个非常出色的框架，性能优异，并且由于其静态语言的特性，在后续的可维护性和性能方面也表现良好。</p>
@@ -234,367 +276,449 @@
 <p>在2024年，我还开发了一些应用程序，其中一些是利用AI辅助开发的，效果非常好。由于时间和精力有限，这些应用程序并未上架，而且仓库是私密的，无法在此分享。这就是我2024年的全部生活，虽然看似单调，但我一直在全力弥补自己在计算机知识上的不足。未来属于AI，我正在全力投入其中。</p>
 <p>在这里，我想谈谈即将发生的一件事。在年末的几个月里，我利用AI辅助和自身的知识，开发了一些全栈应用。这些应用相对复杂，如果在过去，开发这些应用可能需要花费半年的时间，即使有AI辅助，也需要大约三个月。然而，现在借助Cursor的帮助，我能够在半个月内完成一个商用化的应用和小型服务器应用。因此，程序员实际上迎来了一个分水岭。如果你对某些领域有深入理解和关注，AI将极大地放大你的能力；但如果你只是将编程视为一份工作，那么你可能会被淘汰，因为AI带来了效率的极大提升。</p>
 <p>最近，我开始关注Next.js。我一直认为自己应该关注这项技术，因为我的根本是前端开发，未来的工作重心可能也会回到前端。然而，我也是一名移动端开发者，因为我很少做网站，更喜欢开发应用程序。尽管我常用跨平台框架开发应用，但这并不完全算是移动端开发者。在了解Next.js后，我对Node.js和前端技术的发展感到震惊。从早期的切图仔到现在的全栈Next.js，从CSR到SSR/SSG/ISR/流式渲染，前端技术虽然只是网页开发，但相比移动端，感觉要领先一代。尽管JavaScript语言常被诟病，但由于其生态系统足够完善，社区也非常强大，因此目前依然非常有力。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="生活">生活<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_overview#%E7%94%9F%E6%B4%BB" class="hash-link" aria-label="Direct link to 生活" title="Direct link to 生活" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="生活">生活<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-overview#%E7%94%9F%E6%B4%BB" class="hash-link" aria-label="Direct link to 生活" title="Direct link to 生活" translate="no">​</a></h2>
 <p>谈完事业，我们来聊聊生活。今年，我和呆呆的感情虽然经历了一些波折，但每次争吵都没有持续超过一周，我们携手度过了完整的一年。在四月，我买下了人生中的第一辆车——比亚迪驱逐舰。这真是一辆非常出色的车，我开着它带呆呆回青岛，从白天到黑夜，从内陆到海岸，我们乐在其中，仿佛永远年轻。到了十月，呆呆也拥有了她的第一辆车，一辆出色的本田思域，它为她的生活增添了无限乐趣和便利。我们的爱情仍在继续，如果一切顺利，我想我们会像电视剧中的许多情侣一样，从相识相爱走向婚姻，目前正稳步推进。最快可能是明年，最慢也不过后年。今年唯一的遗憾是只和呆呆去了青岛，大部分时间都待在上海，主要是因为经济原因，希望明年能有所改善。</p>
 <p>另一个话题是健身。与2023年良好的健身记录相比，2024年的健身天数屈指可数，跑步的日子也不超过50天。虽然完成了年初的学习任务，但在跑步计划上表现得非常糟糕，完全没有达到预期。新的一年，我打算重新拾起健身，因为根据我的经验，健身和学习是正相关的。如果只专注于学习而忽视健身，长期下来，效率会大打折扣。</p>
 <p>今年我爸来上海，我带他游览了杭州、乌镇和苏州。在乌镇，我们乘船游览，感受了江南水乡的温暖与美丽。江南真是一个好地方。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="遗憾">遗憾<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_overview#%E9%81%97%E6%86%BE" class="hash-link" aria-label="Direct link to 遗憾" title="Direct link to 遗憾" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="遗憾">遗憾<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-overview#%E9%81%97%E6%86%BE" class="hash-link" aria-label="Direct link to 遗憾" title="Direct link to 遗憾" translate="no">​</a></h2>
 <p>一直想去看看这个世界，本来打算和呆呆一起出去旅行，但由于经济原因和没有假期，大多数时间都在家乡和青岛度过。我一直想去岳阳，亲身感受一下岳阳楼的壮丽；去海南，体验热带风情；去深圳，漫步人才公园。然而，这些计划都未能实现。希望2025年能有机会去这些地方走走看看。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="flag">FLAG<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_overview#flag" class="hash-link" aria-label="Direct link to FLAG" title="Direct link to FLAG" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="flag">FLAG<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-overview#flag" class="hash-link" aria-label="Direct link to FLAG" title="Direct link to FLAG" translate="no">​</a></h2>
 <p>我很想在这里立一些flag，就像去年一样，但我发现去年立的flag中有一个很重要的没有实现。所以我决定还是不立了，因为只要心中真正立下目标，比写在纸上要有效得多。</p>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/my_car-a04ee8af08a064a3773519c6c7fa8387.png" width="50%">
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/dai_car-58a69b4232cc98009981de999f2b2f5f.jpg" width="50%">]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="年度总结" term="年度总结"/>
+        <category label="全栈开发" term="全栈开发"/>
+        <category label="Flutter" term="Flutter"/>
+        <category label="AI" term="AI"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用proxyman进行抓包]]></title>
+        <title type="html"><![CDATA[使用 Proxyman 兼顾 iOS 抓包与外网代理]]></title>
         <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman</id>
         <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman"/>
         <updated>2024-09-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[在本地进行项目开发的时候，想要对网络请求进行抓包是无可厚非的，但是web开发有浏览器可以抓包，而移动端只能用抓包工具抓。]]></summary>
-        <content type="html"><![CDATA[<p>在本地进行项目开发的时候，想要对网络请求进行抓包是无可厚非的，但是web开发有浏览器可以抓包，而移动端只能用抓包工具抓。</p>
-<p>在这里推荐使用proxyman抓包。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="原因">原因<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman#%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 原因" title="Direct link to 原因" translate="no">​</a></h2>
-<p>使用proxyman的外部代理，我可以做到一遍进行外网访问，还能同时进行抓包，这种场景对在ios模拟器开发app至关重要，因为并不是所有app都有网络基建。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="外部代理设置">外部代理设置<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman#%E5%A4%96%E9%83%A8%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE" class="hash-link" aria-label="Direct link to 外部代理设置" title="Direct link to 外部代理设置" translate="no">​</a></h2>
-<p>不要选择自动代理，开启自动代理就会把流量直接放出去，没有任何作用，做不到代理效果。</p>
-<p>选择http/https/socks，分别代理到对应的要代理的端口。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="感想">感想<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman#%E6%84%9F%E6%83%B3" class="hash-link" aria-label="Direct link to 感想" title="Direct link to 感想" translate="no">​</a></h2>
-<p>这个问题困扰我很久了，如何一边代理，一边在谷歌查略资料，而不是只能抓包或者只能翻墙。。。</p>]]></content>
+        <summary type="html"><![CDATA[Web 开发可以直接用浏览器 DevTools 观察网络请求，而移动端开发在没有内置调试面板时，必须借助抓包工具。在 macOS 与 iOS 模拟器联调场景下，非常推荐使用 Proxyman。]]></summary>
+        <content type="html"><![CDATA[<p>Web 开发可以直接用浏览器 DevTools 观察网络请求，而移动端开发在没有内置调试面板时，必须借助抓包工具。在 macOS 与 iOS 模拟器联调场景下，非常推荐使用 <strong>Proxyman</strong>。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="为什么选择-proxyman">为什么选择 Proxyman？<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-proxyman" class="hash-link" aria-label="Direct link to 为什么选择 Proxyman？" title="Direct link to 为什么选择 Proxyman？" translate="no">​</a></h2>
+<p>利用 Proxyman 的 <strong>External Proxy（外部上游代理）</strong> 功能，可以做到<strong>一边正常访问外网查阅资料，一边同时拦截抓取模拟器与本机的请求</strong>，彻底解决了“开抓包就断外网代理、开外网代理就抓不到包”的冲突。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="外部代理配置要点">外部代理配置要点<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/proxyman#%E5%A4%96%E9%83%A8%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE%E8%A6%81%E7%82%B9" class="hash-link" aria-label="Direct link to 外部代理配置要点" title="Direct link to 外部代理配置要点" translate="no">​</a></h2>
+<ol>
+<li class="">打开 Proxyman 的 <code>Tools -&gt; Proxy Settings -&gt; External Proxy Settings</code>。</li>
+<li class=""><strong>不要勾选自动系统代理检测</strong>（否则部分流量会被直接绕过）。</li>
+<li class="">手动勾选 <code>HTTP</code>、<code>HTTPS</code>（或 <code>SOCKS</code>），分别指向本机代理客户端监听的端口（如 <code>127.0.0.1:7890</code>）。</li>
+</ol>
+<p>配置完成后，再也不用反复来回切换代理开关，可以流畅地一边调接口抓包、一边查文档了。</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="Proxyman" term="Proxyman"/>
+        <category label="iOS" term="iOS"/>
+        <category label="抓包" term="抓包"/>
+        <category label="调试" term="调试"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024平淡生活中的刺]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog"/>
+        <title type="html"><![CDATA[2024 平淡生活中的刺]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog"/>
         <updated>2024-08-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[20240325]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240325">20240325<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20240325" class="hash-link" aria-label="Direct link to 20240325" title="Direct link to 20240325" translate="no">​</a></h2>
-<p>经过一个多月的时间，终于看完了compose基础知识篇章，大概从布局到viewModel,再从internet到Room以及work，大概对compose开发有了一个初步的了解，但是脑海还是一片糊涂，并没有将android知识连成片。</p>
-<p>不积跬步无以至千里，不积小流无以成江河。</p>
-<p>3月份了，情绪还是时好时坏，一方面是因为知识储备的焦虑，目前并不能在各个方面能独当一面，能够作为一个从0到1的人，另一方面，我俩的事情确实对我的情绪影响太深了，我想我们好好地，但是你提的要求或许我还是做不到。</p>
-<p>我想时间确实会治愈一切，等过了这段日子，或许心里自然就解脱了，可是我确实想我们有一个未来，只是目前看起来太过于遥远罢了。</p>
-<h1>20240428</h1>
-<p>今天在写代码的时候照常使用chatgpt辅助开发，但是今天的chatgpt抽风极其严重，感觉都没法正常使用了，在生成xml代码的时候经常卡死。</p>
-<p>不知道是老美对国人的特殊照顾，还是chatgpt的临时抽风，我想马上就能得知事实。</p>
-<p>chatgpt真强大，希望老美真不要封禁啊，不然都没法好好写代码了。</p>
-<p>呜呜呜~</p>
-<p>后续又好了~</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="2024年6月7日有感">2024年6月7日有感<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#2024%E5%B9%B46%E6%9C%887%E6%97%A5%E6%9C%89%E6%84%9F" class="hash-link" aria-label="Direct link to 2024年6月7日有感" title="Direct link to 2024年6月7日有感" translate="no">​</a></h2>
-<p>马上25岁了，7年前走出家门来到北京，再到现在因为机缘巧合来到上海。各类事情萦绕身旁，还好，都走过来了。</p>
-<p>除去前面的感想，来说说目前面对的情景，在经过8个月对android的学习后，目前android基本框架已经搭建完毕，虽然还没有经过很多项目的洗礼，但是基本上也把该学的点都学了和过了一遍，跟当时的预期也差不太多。</p>
-<p>虽然现在目标达人APP还没有完全开发完毕，但是这块可以在后面开发。</p>
-<p>在6月初的时候，在RN源码编译成功和RN多实例集成完毕后，我拿着Android App在想一件事情，为什么感觉android开发明显要比ios开发舒服的多，但是为什么ios性能会好很多那，为什么ios的表现总是让人很满意，而Android总是在什么地方怪怪的。</p>
-<p>并且，我真的受够了Android有时候呆呆的不流畅。我要开发IOS，~~~</p>
-<p>也就是说，目前要走大全栈了。</p>
-<p>首选是Android/RN/IOS。这三个排名不分上下。</p>
-<p>先花三个月基本将IOS开发基础知识全部搞完，再花4个月潜行开发Android和Ios APP.</p>
-<p>到今年年底的时候要交付一班稳定的，可用性高的IOS和Android集成RN项目。(Android现已交付)，</p>
-<p>明年花三个月时间搞Flutter。争取在明年4月的时候收官。</p>
-<p>去年有写过一个月的SwiftUI,感觉还好，只是当时对线程和内存回收之类的实在不太熟悉，但是现在有Android基础打底，希望进度可以稍快。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240704小记">20240704小记<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20240704%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="Direct link to 20240704小记" title="Direct link to 20240704小记" translate="no">​</a></h2>
-<p>从昨晚凌晨开始，感觉心脏跳动有些困难，貌似有东西堵着一样。</p>
-<p>感觉长时间的生活不规律和加班奋斗导致身体出了一些异常，可能需要一些时间来调养。</p>
-<p>暂时需要一段时间再凌晨1点前睡觉。</p>
-<p>~关山难越，谁渡失路之人。萍水相逢，竟是他乡客。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240722">20240722<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20240722" class="hash-link" aria-label="Direct link to 20240722" title="Direct link to 20240722" translate="no">​</a></h2>
-<p>今天和往常相同，但是也有一些不同，因为仿今日头条app终于开发完了。我也终于可以搞ai了。终于要进入ai领域了，相较于其他领域的红海，这里可谓是大有前途。</p>
-<p>需要在巩固之前native开发的基础上进行ai侧的学习和研究。二者需要一个平衡，但是我想入门后情况应该会好的多。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="202408">202408<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#202408" class="hash-link" aria-label="Direct link to 202408" title="Direct link to 202408" translate="no">​</a></h2>
-<p>8月是一个燥热的月份，这个月总是莫名其妙感觉到热。热的让人心慌。以前觉得时间往后推好像很多事情终究不会发生一样，但是时间到了还是会发生。</p>
-<p>很多事情压在心头，无力感一直压在我的心上。而从今年春天开始，不知为什么，我也不再开始跑步，然后很多事情也就那样，慢慢的好像也没有动力了。</p>
-<p>我不知道如何寻找动力，就像我是个很犹豫的人，我貌似一直没有勇气做出决定，我想带她走，但是鉴于目前的现状，我确实无力做些什么。】</p>
-<p>在技术层面，8月的主线就是flutter，flutter可以说是声明式思想的极大体现，解决了native侧若干开发问题。虽然和react师出一脉。但是用flutter开发实际大型商业项目，开发难度还是可想而知的。目前仿网易云音乐项目稳步推进，有一些困难，需要克服。</p>
-<p>8月最离谱的事情就是react native的tree shaking问题。解决难度极大，目前的想法是使用21年的0.64的metro tree shaking方案进行。但是该方案实际也并不有效，只是领导要执意推进此事，也找不到其他方案，就按这个做吧。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240926">20240926<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20240926" class="hash-link" aria-label="Direct link to 20240926" title="Direct link to 20240926" translate="no">​</a></h2>
-<p>再经过了近乎一年的学习后，现在对app开发可以说整体入门了，从android到flutter，当然还有react native,现在该做些事情了，最起码现在要完成之前没有完成的代码了。例如一问ai故事，例如仿网易云音乐。当然还有后端开发～～</p>
-<p>与此同时，当然也要开始新的领域的一些探索了，例如ai，ai发展只有十年，至于transformer也只有7年，是时候进入这个领域了～～</p>
-<p>今天最令我惊讶的是，我在去年12月份开发的应用依然能够正常运行，而且我当时还开发了对应的spring boot应用～</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241007">20241007<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20241007" class="hash-link" aria-label="Direct link to 20241007" title="Direct link to 20241007" translate="no">​</a></h2>
-<p>国庆节还是结束了，我也应该开始新的学习篇章，和大多数人一样就是all in ai。至于为何，就是为了和当今世界最先进的开发产物对齐，这是必须的。因为传统的东西往往无法突破现有的泥潭和困局，而机会往往孕育在新的事物中。</p>
-<p>这是一个难忘的国庆节，虽然还是有一些吵闹。但是呆子总算是买到了自己的第一辆车，真是替她开心啊。希望往后的日子里她越来越好。</p>
-<p>这个国庆，我真的是放空自我，并没有在闲暇时分还进行一些开发工作。因为多方面知识的混杂貌似让我头脑混乱，并不能很好的做到前端的专业性，回去以后要开始继续开发了，但是这一次不能用生命搞开发了，需要早睡早起，不然其实只是度过了半个日子而已，而另一半实际上是被浪费的。</p>
-<p>记得19年选专业的时候还觉得人工智能专业真是垃圾啊，一点用处没有，但是在经过了短短5年之后的今天来看，以llm为首的大模型技术正在疯狂的改造世界。</p>
+        <summary type="html"><![CDATA[记录 2024 年在全栈移动端探索、AI 转向与日常生活中的阶段性感悟与随笔。]]></summary>
+        <content type="html"><![CDATA[<p>记录 2024 年在全栈移动端探索、AI 转向与日常生活中的阶段性感悟与随笔。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240325">20240325<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240325" class="hash-link" aria-label="Direct link to 20240325" title="Direct link to 20240325" translate="no">​</a></h2>
+<p>经过一个多月的时间，终于看完了 Compose 基础知识篇章，从布局到 <code>ViewModel</code>，再从网络请求到 <code>Room</code> 以及 <code>WorkManager</code>，对 Compose 开发有了一个初步认识，但脑海里还没有把 Android 知识完全连成片。</p>
+<p>不积跬步，无以至千里；不积小流，无以成江河。</p>
+<p>3 月份了，情绪还是时好时坏。一方面是因为知识储备的焦虑，目前还不能在各个方向独当一面、真正做到从 0 到 1；另一方面，感情里的事情确实对情绪影响很深，很想我们能好好的，但有些要求当下的我或许还做不到。</p>
+<p>时间大概会慢慢抚平焦虑，只是心底确实希望能有一个确定的未来，尽管此刻看起来还很遥远。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240428">20240428<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240428" class="hash-link" aria-label="Direct link to 20240428" title="Direct link to 20240428" translate="no">​</a></h2>
+<p>今天写代码时照常使用 ChatGPT 辅助开发，结果抽风严重，在生成 XML 代码时频繁卡死，几乎无法正常使用。</p>
+<p>不得不感叹 ChatGPT 实在强大，真心希望服务稳定、不要受限，否则写代码的效率真是大打折扣。好在后续又恢复正常了。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240607-有感">20240607 有感<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240607-%E6%9C%89%E6%84%9F" class="hash-link" aria-label="Direct link to 20240607 有感" title="Direct link to 20240607 有感" translate="no">​</a></h2>
+<p>马上 25 岁了。7 年前走出家门来到北京，再到如今机缘巧合来到上海，诸多事情萦绕身旁，好在都一步步走过来了。</p>
+<p>聊聊目前的技术进展：经过 8 个月对 Android 的系统学习，基础框架已经搭建完毕。虽然还没有经历大量商业项目的洗礼，但核心知识点基本都过了一遍，与年初预期大体一致。</p>
+<p>6 月初，在完成 RN 源码编译和 RN 多实例集成后，我拿着 Android App 思考了一个问题：为什么 Android 开发体验很顺手，但在流畅度和细腻度上，iOS 的表现总是更胜一筹？受够了部分场景下的卡顿感后，我决定把 iOS 也彻底补齐，走完整的大前端/全栈路线：</p>
+<ol>
+<li class="">首选深耕方向：<code>Android</code> / <code>React Native</code> / <code>iOS</code>。</li>
+<li class="">先花 3 个月系统过完 iOS 开发基础，再花 4 个月潜心打磨双端集成 RN 的工程底座（Android 侧现已交付）。</li>
+<li class="">随后花 3 个月主攻 <code>Flutter</code>，争取在次年春天收官。去年写过一个月 <code>SwiftUI</code>，当时对多线程和内存管理还不够熟悉，如今有了 Android 基础打底，希望进度能更快一些。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240704-小记">20240704 小记<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240704-%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="Direct link to 20240704 小记" title="Direct link to 20240704 小记" translate="no">​</a></h2>
+<p>从凌晨开始，感觉心脏有些发闷，像是被什么堵住了一样。长期作息不规律加上熬夜加班，身体发出了预警信号，需要好好调养一段时间了——接下来必须在凌晨 1 点前入睡。</p>
+<p>关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240722">20240722<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240722" class="hash-link" aria-label="Direct link to 20240722" title="Direct link to 20240722" translate="no">​</a></h2>
+<p>今天和往常相似，却又有些不同——仿今日头条 App 终于开发完毕了，我也终于可以腾出手正式切入 AI 领域。相比传统移动互联网的红海，AI 无疑蕴藏着更大的机遇。接下来需要在巩固 Native 开发的同时推进 AI 学习与研究，在两者之间找到平衡。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="202408">202408<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#202408" class="hash-link" aria-label="Direct link to 202408" title="Direct link to 202408" translate="no">​</a></h2>
+<p>8 月是一个燥热的月份，热得让人心慌。以前总觉得把时间往后推，有些问题好像就不会发生；可时间到了，该面对的终归要面对。从春天开始停掉了跑步，很多事情也跟着慢了下来，一时有些迷茫，不知该如何重新找回冲劲。</p>
+<p>在技术层面，8 月的主线是 <code>Flutter</code>。Flutter 可以说是声明式 UI 思想在跨端领域的极佳体现，解决了许多 Native 开发痛点，目前仿网易云音乐项目正在稳步推进。另一件棘手的事是 React Native 的 Tree Shaking 难题——尝试调研了早期的 Metro Tree Shaking 方案，实际收益有限，推进难度很大。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240926">20240926<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20240926" class="hash-link" aria-label="Direct link to 20240926" title="Direct link to 20240926" translate="no">​</a></h2>
+<p>经过近一年的持续投入，从 <code>Android</code> 到 <code>Flutter</code> 再到 <code>React Native</code>，移动端开发总算整体入门了。接下来最重要的是把学到的技术转化为完整的作品，比如“一问 AI 故事”、仿网易云音乐以及配套后端服务。</p>
+<p>与此同时，也是时候正式深入 AI 领域了——深度学习浪潮不过十余年，<code>Transformer</code> 提出也才七年，现在入局依然大有可为。令人惊喜的是，回头看去年 12 月写的项目和配套 <code>Spring Boot</code> 服务，至今依然稳稳运行。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241007">20241007<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20241007" class="hash-link" aria-label="Direct link to 20241007" title="Direct link to 20241007" translate="no">​</a></h2>
+<p>国庆假期结束，正式开启新的学习篇章：<strong>All in AI</strong>。传统技术栈很难再提供破局的杠杆，新的机会一定孕育在新一代技术浪潮之中。</p>
+<p>这个国庆虽然偶有争执，但呆子终于提到了人生第一辆车，真心替她开心，希望往后的日子越来越顺遂。假期里彻底放空休息了几天，接下来重新投入开发，但绝不能再透支身体——必须坚持早睡早起，否则熬夜换来的只是低效消耗。</p>
+<p>回想 2019 年选专业时，还曾觉得人工智能专业遥不可及、难以落地；短短五年过去，以 LLM 为代表的大模型技术已经在重塑整个世界。</p>
+<p>近期主线梳理：</p>
 <ul>
-<li class="">开发<!-- -->
-<ul>
-<li class="">rn</li>
-<li class="">flutter</li>
-<li class="">android</li>
-<li class="">web<!-- -->
-<ul>
-<li class="">nextjs</li>
-<li class="">weapp</li>
+<li class=""><strong>工程开发</strong>：<code>React Native</code>、<code>Flutter</code>、<code>Android</code>、<code>Next.js</code>、小程序</li>
+<li class=""><strong>AI 方向</strong>：机器学习理论基础、大模型原理与微调实践</li>
 </ul>
-</li>
-</ul>
-</li>
-<li class="">ai<!-- -->
-<ul>
-<li class="">大模型微调</li>
-<li class="">机器学习理论基础</li>
-<li class="">ai理论体系</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241020">20241020<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20241020" class="hash-link" aria-label="Direct link to 20241020" title="Direct link to 20241020" translate="no">​</a></h2>
-<p>在今天来说最重要的已经不是专业性学习了，而是积极向上的精神和自律的生活。经过一年多长时间的艰苦修行，对专业性层面的知识已经有所了解。而现在需要换段了，因为黑夜是不那么容易就结束的，所以我们必须要拥有积极向上的精神态度和自律的生活才能走出这片黑夜，否则可能什么都是一场空。</p>
-<p>20241020换段</p>
-<ul>
-<li class="">跑步</li>
-<li class="">自律</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241219">20241219<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_blog#20241219" class="hash-link" aria-label="Direct link to 20241219" title="Direct link to 20241219" translate="no">​</a></h2>
-<p>好久没写日志了，过去半个月，做了一款在nextjs和taro小程序使用的高性能功能极其复杂的日历组件，直到今天，开发终于告一段落了，真的搞死我了，这个事情干完，我觉得我还能多活一段时间，真的太累了。</p>
-<p>终于又可以开心搞ai了，嘿嘿～～</p>]]></content>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241020">20241020<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20241020" class="hash-link" aria-label="Direct link to 20241020" title="Direct link to 20241020" translate="no">​</a></h2>
+<p>走到今天，最重要的已经不只是专业技能本身，而是<strong>积极向上的精神面貌与自律的作息</strong>。经过一年多的埋头苦学，技术版图已初具雏形；想要真正穿越漫长的黑夜，必须靠健康的体魄与规律的生活支撑，否则一切终归是空中楼阁。</p>
+<p>从今天起换挡出发：<strong>坚持跑步，保持自律。</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20241219">20241219<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-blog#20241219" class="hash-link" aria-label="Direct link to 20241219" title="Direct link to 20241219" translate="no">​</a></h2>
+<p>好久没写日志了。过去半个月一直在攻坚一款同时兼容 <code>Next.js</code> 与 <code>Taro</code> 小程序的高性能复杂日历组件，直到今天终于告一段落，着实累得够呛。</p>
+<p>卸下重担，终于又可以开心地投入 AI 研究了！</p>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="随想" term="随想"/>
+        <category label="年度记录" term="年度记录"/>
+        <category label="移动端开发" term="移动端开发"/>
+        <category label="AI" term="AI"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[源码查看翻译插件]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_0712</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_0712"/>
-        <updated>2024-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天在写代码和研究的时候发现，貌似想要提升快一些确实要看源码，如果不看源码，而是嘴上谈一谈，那么确实提升太慢了。]]></summary>
-        <content type="html"><![CDATA[<p>今天在写代码和研究的时候发现，貌似想要提升快一些确实要看源码，如果不看源码，而是嘴上谈一谈，那么确实提升太慢了。</p>
-<p>现在主流开源框架和语言都有详细的注释，所以在看代码的时候遇到问题多读读注释就好了。</p>
-<p>但是在读注释的过程中难免读不懂，因为英文水平有限，所以可以用翻译软件来获取中文版本，即使困难，注释不得不读，否则提升太慢了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="idea中好的翻译软件">idea中好的翻译软件<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_0712#idea%E4%B8%AD%E5%A5%BD%E7%9A%84%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="Direct link to idea中好的翻译软件" title="Direct link to idea中好的翻译软件" translate="no">​</a></h2>
-<p><a href="https://plugins.jetbrains.com/plugin/8579-translation/actions" target="_blank" rel="noopener noreferrer" class="">https://plugins.jetbrains.com/plugin/8579-translation/actions</a></p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="vscode中好的翻译软件">vscode中好的翻译软件<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_0712#vscode%E4%B8%AD%E5%A5%BD%E7%9A%84%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="Direct link to vscode中好的翻译软件" title="Direct link to vscode中好的翻译软件" translate="no">​</a></h2>
-<p><a href="https://marketplace.visualstudio.com/items?itemName=kitiho.chatgpt-comment-translate" target="_blank" rel="noopener noreferrer" class="">https://marketplace.visualstudio.com/items?itemName=kitiho.chatgpt-comment-translate</a></p>
-<p><a href="https://github.com/intellism/vscode-comment-translate?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" class="">https://github.com/intellism/vscode-comment-translate?tab=readme-ov-file</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="vscode使用配置">vscode使用配置<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_0712#vscode%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="Direct link to vscode使用配置" title="Direct link to vscode使用配置" translate="no">​</a></h3>
+        <title type="html"><![CDATA[跨端选型思考：为什么个人 App 开发首选 Flutter 而非 RN]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/flutter-vs-rn</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/flutter-vs-rn"/>
+        <updated>2024-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在 HarmonyOS 成为国内第三极之前，移动端往往只需兼顾 iOS 与 Android 两端，咬咬牙还能控制在可预期的研发成本内；而当三端并存成为常态，在 React Native 与 Flutter 之间选定主力跨端生产力工具就变得势在必行。]]></summary>
+        <content type="html"><![CDATA[<p>在 HarmonyOS 成为国内第三极之前，移动端往往只需兼顾 iOS 与 Android 两端，咬咬牙还能控制在可预期的研发成本内；而当三端并存成为常态，在 React Native 与 Flutter 之间选定主力跨端生产力工具就变得势在必行。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="react-native-的工程代价">React Native 的工程代价<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/flutter-vs-rn#react-native-%E7%9A%84%E5%B7%A5%E7%A8%8B%E4%BB%A3%E4%BB%B7" class="hash-link" aria-label="Direct link to React Native 的工程代价" title="Direct link to React Native 的工程代价" translate="no">​</a></h2>
+<p>深入过 React Native 源码与 Android 原生集成后，对 RN 的实际开发体验颇有感触：</p>
 <ul>
-<li class="">打开 VS Code 设置：<!-- -->
-<ul>
-<li class="">进入 File -&gt; Preferences -&gt; Settings，或按 Ctrl + , 快捷键。</li>
-<li class="">搜索<code>Chatgpt Translate</code></li>
+<li class=""><strong>时刻伴随的性能顾虑</strong>：面对复杂列表或高频手势场景，总要评估是否存在通信与渲染瓶颈，甚至需要手动编写原生组件或 Native Module 兜底。</li>
+<li class=""><strong>重基建依赖</strong>：RN 想要发挥上限，往往离不开完善的工程基建（如拆包方案、Bundle 预加载、热更新动态化等）；缺少基建支撑的裸 RN 开发体验存在不少掣肘。</li>
+<li class=""><strong>多端一致性成本</strong>：加上 HarmonyOS 适配层仍在演进，多端表现差异往往带来额外的兼容适配工作量。</li>
 </ul>
-</li>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="为什么个人项目更适合-flutter">为什么个人项目更适合 Flutter？<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/flutter-vs-rn#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E6%9B%B4%E9%80%82%E5%90%88-flutter" class="hash-link" aria-label="Direct link to 为什么个人项目更适合 Flutter？" title="Direct link to 为什么个人项目更适合 Flutter？" translate="no">​</a></h2>
+<p>回归个人独立开发 App 的真实诉求——我其实并不强依赖 OTA 动态化下发，我真正需要的是<strong>一套开箱即用、高性能、多端高度一致的 UI 生产力框架</strong>：</p>
+<ol>
+<li class=""><strong>开发与调试体验流畅</strong>：无需折腾复杂的拆包基建与历史包袱，专注于业务逻辑本身即可。</li>
+<li class=""><strong>原生级渲染性能</strong>：基于自绘引擎与 Dart AOT 编译，常规业务场景下流畅度极高，甚至在复杂动效与拖拽交互（如内置 Drag &amp; Drop 组件）上寥寥数行代码就能实现 RN 很难做顺滑的效果。</li>
+<li class=""><strong>FFI 原生互操作</strong>：内置成熟的 <code>dart:ffi</code>，可以直接高效调用 C/C++ 高性能底层库。</li>
+</ol>
+<p>参考性能评测对比：</p>
+<ul>
+<li class=""><a href="https://medium.com/swlh/flutter-vs-native-vs-react-native-examining-performance-31338f081980" target="_blank" rel="noopener noreferrer" class="">Flutter vs Native vs React Native: Examining Performance</a></li>
+<li class=""><a href="https://github.com/Hao-yiwen/flutter_study/blob/master/flutter_application/lib/pages/drag/ExampleDragAndDrop.dart" target="_blank" rel="noopener noreferrer" class="">个人 Flutter 拖拽交互练习示例</a></li>
 </ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="Flutter" term="Flutter"/>
+        <category label="React Native" term="React Native"/>
+        <category label="跨端开发" term="跨端开发"/>
+        <category label="HarmonyOS" term="HarmonyOS"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[rn app大小]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size"/>
+        <title type="html"><![CDATA[源码阅读与注释翻译插件推荐]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/comment-translate-plugin</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/comment-translate-plugin"/>
+        <updated>2024-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天在写代码和研究底层实现时愈发觉得，想要快速提升技术深度，确实要多看源码；如果只停留在口头讨论而不深入代码细节，进步终归太慢。]]></summary>
+        <content type="html"><![CDATA[<p>今天在写代码和研究底层实现时愈发觉得，想要快速提升技术深度，确实要多看源码；如果只停留在口头讨论而不深入代码细节，进步终归太慢。</p>
+<p>现在主流开源框架和语言标准库都有非常详尽的英文注释，看源码遇到困惑时，直接阅读源码注释往往是最准确的一手资料。为了降低英文长注释的阅读门槛，可以配合 IDE 翻译插件辅助阅读。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="intellij-idea-翻译插件">IntelliJ IDEA 翻译插件<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/comment-translate-plugin#intellij-idea-%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="Direct link to IntelliJ IDEA 翻译插件" title="Direct link to IntelliJ IDEA 翻译插件" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://plugins.jetbrains.com/plugin/8579-translation" target="_blank" rel="noopener noreferrer" class="">Translation 插件</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="vs-code-翻译插件">VS Code 翻译插件<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/comment-translate-plugin#vs-code-%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="Direct link to VS Code 翻译插件" title="Direct link to VS Code 翻译插件" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://marketplace.visualstudio.com/items?itemName=kitiho.chatgpt-comment-translate" target="_blank" rel="noopener noreferrer" class="">ChatGPT Comment Translate</a></li>
+<li class=""><a href="https://github.com/intellism/vscode-comment-translate" target="_blank" rel="noopener noreferrer" class="">Comment Translate (GitHub)</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="vs-code-使用配置">VS Code 使用配置<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/comment-translate-plugin#vs-code-%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="Direct link to VS Code 使用配置" title="Direct link to VS Code 使用配置" translate="no">​</a></h3>
+<ol>
+<li class="">打开 VS Code 设置：<code>File -&gt; Preferences -&gt; Settings</code>（或快捷键 <code>Cmd/Ctrl + ,</code>）。</li>
+<li class="">搜索 <code>ChatGPT Translate</code> 或 <code>Comment Translate</code>，按需配置翻译源即可。</li>
+</ol>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="VS Code" term="VS Code"/>
+        <category label="IntelliJ IDEA" term="IntelliJ IDEA"/>
+        <category label="开发工具" term="开发工具"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 0.74 Android Release 包体积排查记录]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-app-size</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-app-size"/>
         <updated>2024-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天晚上尝试对一个新创建的rn@0.74.0 android app打release包时发现，打完包后的体积是50mb，我心里咯噔了一下。这也太离谱了把，什么都没有做就50mb了。]]></summary>
-        <content type="html"><![CDATA[<p>今天晚上尝试对一个新创建的<code>rn@0.74.0</code> android app打release包时发现，打完包后的体积是50mb，我心里咯噔了一下。这也太离谱了把，什么都没有做就50mb了。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="0740">0.74.0<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size#0740" class="hash-link" aria-label="Direct link to 0.74.0" title="Direct link to 0.74.0" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[晚上尝试对一个刚初始化的 react-native@0.74.0 空项目打 Android Release 包时，发现生成的 APK 文件显示体积竟然高达 50MB，着实吓了一跳。]]></summary>
+        <content type="html"><![CDATA[<p>晚上尝试对一个刚初始化的 <code>react-native@0.74.0</code> 空项目打 Android Release 包时，发现生成的 APK 文件显示体积竟然高达 50MB，着实吓了一跳。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="0740-打包体积对比">0.74.0 打包体积对比<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-app-size#0740-%E6%89%93%E5%8C%85%E4%BD%93%E7%A7%AF%E5%AF%B9%E6%AF%94" class="hash-link" aria-label="Direct link to 0.74.0 打包体积对比" title="Direct link to 0.74.0 打包体积对比" translate="no">​</a></h2>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/0740_size-388e0471ca8adc3ef0bb1ada5c1651ba.png" width="500">
-<div class="theme-admonition theme-admonition-danger admonition_DnvX alert alert--danger"><div class="admonitionHeading_PGmi"><span class="admonitionIcon_nx2n"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_yTBh"><p>今天在学习android集成rn的时候无意发现，初始化一个0.74.0项目，直接打release包，体积竟然是50mb。我的天那~~</p></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="0725">0.72.5<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size#0725" class="hash-link" aria-label="Direct link to 0.72.5" title="Direct link to 0.72.5" translate="no">​</a></h2>
+<p>对比此前 <code>0.72.5</code> 版本的打包结果：</p>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/0725_size-41fee30b4508828d3a31bb165032ba7e.png" width="500">
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240428">20240428<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size#20240428" class="hash-link" aria-label="Direct link to 20240428" title="Direct link to 20240428" translate="no">​</a></h2>
-<p>此事已提issues，<a href="https://github.com/facebook/react-native/issues/44291#issuecomment-2079889795" target="_blank" rel="noopener noreferrer" class="">issues链接</a></p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="20240428-1">20240428<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_app_size#20240428-1" class="hash-link" aria-label="Direct link to 20240428" title="Direct link to 20240428" translate="no">​</a></h2>
-<p>此事被rn团队成员恢复，android包体积并没有变大，在文件夹中体积变大原因是因为android后续格式无压缩，导致看清来体积较大。</p>
-<p><a href="https://github.com/facebook/react-native/issues/44291#issuecomment-2084952099" target="_blank" rel="noopener noreferrer" class="">issues解答</a></p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[git管理工具fork]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/fork</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/fork"/>
-        <updated>2024-04-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[周六加班的时候同事有推荐使用fork进行代码管理，因为fork用起来不卡，而且有git cherry-picker功能。今天尝试了一下，确实还行。]]></summary>
-        <content type="html"><![CDATA[<p>周六加班的时候同事有推荐使用fork进行代码管理，因为fork用起来不卡，而且有<code>git cherry-picker</code>功能。今天尝试了一下，确实还行。</p>
-<p>百度网盘有破解版本。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[git cherry-pick作用和使用]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/git_cherry_pick</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/git_cherry_pick"/>
-        <updated>2024-04-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[cherry-pick 允许你选择一个或多个提交从其他分支拷贝到当前分支。它在以下场景中非常有用：]]></summary>
-        <content type="html"><![CDATA[<p>cherry-pick 允许你选择一个或多个提交从其他分支拷贝到当前分支。它在以下场景中非常有用：</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="作用">作用<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/git_cherry_pick#%E4%BD%9C%E7%94%A8" class="hash-link" aria-label="Direct link to 作用" title="Direct link to 作用" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="问题追踪与官方解答2024-04-28">问题追踪与官方解答（2024-04-28）<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-app-size#%E9%97%AE%E9%A2%98%E8%BF%BD%E8%B8%AA%E4%B8%8E%E5%AE%98%E6%96%B9%E8%A7%A3%E7%AD%942024-04-28" class="hash-link" aria-label="Direct link to 问题追踪与官方解答（2024-04-28）" title="Direct link to 问题追踪与官方解答（2024-04-28）" translate="no">​</a></h2>
+<p>随后向官方仓库提交了 Issue：<a href="https://github.com/facebook/react-native/issues/44291#issuecomment-2079889795" target="_blank" rel="noopener noreferrer" class="">facebook/react-native#44291</a>。</p>
+<p>React Native 团队成员很快给出了<a href="https://github.com/facebook/react-native/issues/44291#issuecomment-2084952099" target="_blank" rel="noopener noreferrer" class="">详细解答</a>：</p>
 <ul>
-<li class="">选择性合并：如果你只想将特定的提交从一个分支引入到当前分支，而不是整个分支的更改，cherry-pick 是完美的工具。</li>
-<li class="">修复和调整：在一些复杂的分支策略中，特定的修复可能只需要应用到某些分支上。cherry-pick 可以帮助你实现这一点，而无需进行完整的分支合并。</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="使用">使用<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/git_cherry_pick#%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="Direct link to 使用" title="Direct link to 使用" translate="no">​</a></h2>
-<p>使用fork应用来使用<code>git cherry-pick</code>体验极好，可以将commit从其他分支检出到自己分支。</p>]]></content>
+<li class=""><strong>原因</strong>：从 Android Gradle Plugin 新规范开始，<code>extractNativeLibs=false</code> 默认将 <code>.so</code> 原生库以<strong>未压缩对齐</strong>方式直接打包进 APK，以便系统直接通过 <code>mmap</code> 从 APK 中读取而无需安装后二次解压，从而减少用户手机上的实际安装占用空间并加快启动速度。</li>
+<li class=""><strong>实际分发体积</strong>：本地看到的通用 APK 体积变大只是因为未压缩且包含了全部 CPU 架构（<code>arm64-v8a</code>、<code>armeabi-v7a</code>、<code>x86</code>、<code>x86_64</code>）；在通过 AAB（Android App Bundle）上架应用商店或开启 ABI 分包与传输压缩后，用户实际下载体积并未增大。</li>
+</ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="React Native" term="React Native"/>
+        <category label="Android" term="Android"/>
+        <category label="性能优化" term="性能优化"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Medium]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/medium</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/medium"/>
+        <title type="html"><![CDATA[React Native 新旧架构演进读后笔记]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-new-architecture</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-new-architecture"/>
         <updated>2024-04-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[介绍]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="介绍">介绍<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/medium#%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to 介绍" title="Direct link to 介绍" translate="no">​</a></h2>
-<p>Medium是一个在线发布平台，于2012年由Twitter的共同创始人Evan Williams创建。它被设计为一个简洁的博客平台，旨在鼓励用户撰写和分享各种长度的文章。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="背景">背景<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/medium#%E8%83%8C%E6%99%AF" class="hash-link" aria-label="Direct link to 背景" title="Direct link to 背景" translate="no">​</a></h2>
-<p>2024年4月12日晚上，我在看一篇介绍rn新架构和旧架构的文章，我刚开始觉得写的还行，后面越看越吃惊，因为个人感觉真的写的让人通俗易懂，很多耳熟能详但是很少有文章写到这种程度，于是我选择medium作为我的一个阅读板块，并抽时间进行学习和阅读。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="入坑文章">入坑文章<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/medium#%E5%85%A5%E5%9D%91%E6%96%87%E7%AB%A0" class="hash-link" aria-label="Direct link to 入坑文章" title="Direct link to 入坑文章" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[晚上在 Medium 读到一篇剖析 React Native 新旧架构演进的长文，把耳熟能详却少有人讲透的底层痛点梳理得非常通透，特此整理核心脉络。]]></summary>
+        <content type="html"><![CDATA[<p>晚上在 Medium 读到一篇剖析 React Native 新旧架构演进的长文，把耳熟能详却少有人讲透的底层痛点梳理得非常通透，特此整理核心脉络。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="原文链接">原文链接<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-new-architecture#%E5%8E%9F%E6%96%87%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="Direct link to 原文链接" title="Direct link to 原文链接" translate="no">​</a></h2>
 <ul>
-<li class=""><a href="https://medium.com/@under_the_hook/react-native-the-new-architecture-c4ba8ed8b452" target="_blank" rel="noopener noreferrer" class="">rn架构演化</a></li>
+<li class=""><a href="https://medium.com/@under_the_hook/react-native-the-new-architecture-c4ba8ed8b452" target="_blank" rel="noopener noreferrer" class="">React Native: The New Architecture (Medium)</a></li>
 </ul>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="旧架构bridge-架构核心瓶颈">旧架构（Bridge 架构）核心瓶颈<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-new-architecture#%E6%97%A7%E6%9E%B6%E6%9E%84bridge-%E6%9E%B6%E6%9E%84%E6%A0%B8%E5%BF%83%E7%93%B6%E9%A2%88" class="hash-link" aria-label="Direct link to 旧架构（Bridge 架构）核心瓶颈" title="Direct link to 旧架构（Bridge 架构）核心瓶颈" translate="no">​</a></h2>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/rn_old-9d2553617403de9ed3ced1240974b9e4.webp" width="800">
 <ul>
-<li class="">旧架构<!-- -->
-<ul>
-<li class="">旧架构依赖于bridge和json异步消息队列的方式传递数据</li>
-<li class="">因为是异步消息队列，所以js端和native互相不可知，导致维护两颗虚拟树，有巨大内存损耗</li>
-<li class="">bridge是单线程，导致如果异步消息队列中数据量过大时候会白屏</li>
-<li class="">因为是异步消息队列，在list中滑动会有白屏现象，因为数据异步同步</li>
-<li class="">因为是异步消息队列，所以native侧在app启动时候需要加载全部模块，因为native和js完全不透明</li>
+<li class=""><strong>异步序列化通信</strong>：强依赖 Bridge 通过 JSON 字符串异步消息队列传递数据，序列化/反序列化开销大。</li>
+<li class=""><strong>双端隔离与内存冗余</strong>：由于异步隔离，JS 侧和 Native 侧彼此不可见，不得不各自维护视图状态树并异步同步，带来额外内存开销。</li>
+<li class=""><strong>单线程拥堵</strong>：Bridge 通道负载过高时容易阻塞，导致交互卡顿。</li>
+<li class=""><strong>长列表滑动白屏</strong>：快速滚动列表时，JS 异步计算与跨桥渲染无法在同一帧内同步完成，容易出现短暂白屏。</li>
+<li class=""><strong>启动全量加载</strong>：App 启动阶段需要预先初始化全部 Native Modules，拖慢首屏启动时间。</li>
 </ul>
-</li>
-</ul>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="新架构jsi--fabric--turbomodules">新架构（JSI + Fabric + TurboModules）<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-new-architecture#%E6%96%B0%E6%9E%B6%E6%9E%84jsi--fabric--turbomodules" class="hash-link" aria-label="Direct link to 新架构（JSI + Fabric + TurboModules）" title="Direct link to 新架构（JSI + Fabric + TurboModules）" translate="no">​</a></h2>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/rn_new-b611adb1c3a4c98e98a0a88e3e95e7fb.webp" width="800">
 <ul>
-<li class="">新架构<!-- -->
-<ul>
-<li class="">使用c++的jsi作为抽象层，模拟web浏览器中js直接调用c++底层逻辑</li>
-<li class="">js和native都为互操作层，数据实时传输</li>
-<li class="">无需维护两颗虚拟树并异步同步，减少内存损耗</li>
-<li class="">因为js和native直接调用操作，所以应用可以懒加载所需模块</li>
-<li class="">jsi提供了接口规范和类型安全，提高代码质量和减少了app崩溃率</li>
-</ul>
-</li>
+<li class=""><strong>JSI（JavaScript Interface）</strong>：基于 C++ 实现轻量通用互操作层，让 JS 可以持有 C++ HostObject 引用并直接同步或异步调用 Native 方法，彻底告别 JSON Bridge。</li>
+<li class=""><strong>同步与实时互操作</strong>：支持高优先级交互（如手势、滚动布局）同步渲染，消除异步延迟导致的白屏闪烁。</li>
+<li class=""><strong>共享 C++ 阴影树（Fabric）</strong>：C++ 层统一维护 Shadow Tree，大幅减少跨层复制与内存损耗。</li>
+<li class=""><strong>按需懒加载（TurboModules）</strong>：Native 模块只在真正被 JS 调用时才按需初始化，显著缩短冷启动耗时。</li>
+<li class=""><strong>Codegen 静态类型安全</strong>：通过 TypeScript / Flow 规范在构建期自动生成跨语言接口胶水代码，提升类型安全并降低运行时崩溃率。</li>
 </ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="React Native" term="React Native"/>
+        <category label="移动端架构" term="移动端架构"/>
+        <category label="JSI" term="JSI"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RN调试问题]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_debugg</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_debugg"/>
+        <title type="html"><![CDATA[React Native 0.73.6 调试体验修复记录]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-debugger</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-debugger"/>
         <updated>2024-04-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[在经过0.72.x和0.73.0版本后，在2024年4.1日在(RN0.73.6)[https://github.com/facebook/react-native/tree/v0.73.6]尝试使用新型调试工具或者hermes debugger时已经能够流畅运行了。]]></summary>
-        <content type="html"><![CDATA[<p>在经过0.72.x和0.73.0版本后，在2024年4.1日在(RN0.73.6)[<a href="https://github.com/facebook/react-native/tree/v0.73.6%5D%E5%B0%9D%E8%AF%95%E4%BD%BF%E7%94%A8%E6%96%B0%E5%9E%8B%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%E6%88%96%E8%80%85hermes" target="_blank" rel="noopener noreferrer" class="">https://github.com/facebook/react-native/tree/v0.73.6]尝试使用新型调试工具或者hermes</a> debugger时已经能够流畅运行了。</p>
-<p>一个不能调试的RN项目真的会恶心死人，感谢RN官方，终于对此问题进行了定位和修复，未来开发RN终于不用那么恶心了。</p>
-<p>而且这次调试更新后，重新刷新页面不会导致debugger失效。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="注意事项">注意事项<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn_debugg#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="Direct link to 注意事项" title="Direct link to 注意事项" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[经历了 0.72.x 和 0.73.0 版本的调试折磨后，在 2024 年 4 月 1 日升级到 RN 0.73.6 尝试新版调试工具与 Hermes Debugger 时，终于能够流畅运行了。]]></summary>
+        <content type="html"><![CDATA[<p>经历了 <code>0.72.x</code> 和 <code>0.73.0</code> 版本的调试折磨后，在 2024 年 4 月 1 日升级到 <a href="https://github.com/facebook/react-native/tree/v0.73.6" target="_blank" rel="noopener noreferrer" class="">RN 0.73.6</a> 尝试新版调试工具与 Hermes Debugger 时，终于能够流畅运行了。</p>
+<p>一个无法正常断点调试的 React Native 项目实在让人崩溃。好在官方终于对这个问题进行了定位和修复，后续开发体验改善了很多。而且这次更新后，重新刷新页面也不会再导致 Debugger 连接失效。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="注意事项">注意事项<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/rn-debugger#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="Direct link to 注意事项" title="Direct link to 注意事项" translate="no">​</a></h2>
 <ul>
-<li class="">如果退出此RN App,那么重新进入的时候，需要重新打开调试工具，此时Map不再是原来map，此时顺序为先在app中打开RN页面，然后打开调试工具，这个时候map就能正常链接了</li>
+<li class="">如果完全退出 App 后重新进入，需要重新连接调试工具，因为此时的 Source Map 实例已经更新。推荐操作顺序：先在 App 中打开对应的 RN 页面，再打开调试工具，这样 Source Map 就能正常映射连接。</li>
 </ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="React Native" term="React Native"/>
+        <category label="调试" term="调试"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[charles使用]]></title>
+        <title type="html"><![CDATA[Charles 移动端抓包配置指南]]></title>
         <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles</id>
         <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles"/>
         <updated>2024-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天在开发android，在开发过程中在思考一个问题，如果是从0开始，并没有完善的基建，那么如何知晓接口返回的情况那，于是打算重新熟悉charles进行抓包]]></summary>
-        <content type="html"><![CDATA[<p>今天在开发android，在开发过程中在思考一个问题，如果是从0开始，并没有完善的基建，那么如何知晓接口返回的情况那，于是打算重新熟悉charles进行抓包</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="安装charles">安装charles<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles#%E5%AE%89%E8%A3%85charles" class="hash-link" aria-label="Direct link to 安装charles" title="Direct link to 安装charles" translate="no">​</a></h2>
-<p><a href="https://www.charlesproxy.com/download/latest-release/" target="_blank" rel="noopener noreferrer" class="">https://www.charlesproxy.com/download/latest-release/</a></p>
+        <summary type="html"><![CDATA[在从零开始开发 Android 项目、尚未接入完善网络调试基建时，如何直观查看接口请求与响应情况？重新梳理了一遍使用 Charles 进行移动端抓包的完整配置流程。]]></summary>
+        <content type="html"><![CDATA[<p>在从零开始开发 Android 项目、尚未接入完善网络调试基建时，如何直观查看接口请求与响应情况？重新梳理了一遍使用 Charles 进行移动端抓包的完整配置流程。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="安装-charles">安装 Charles<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles#%E5%AE%89%E8%A3%85-charles" class="hash-link" aria-label="Direct link to 安装 Charles" title="Direct link to 安装 Charles" translate="no">​</a></h2>
+<p>前往官网下载安装包：<a href="https://www.charlesproxy.com/download/latest-release/" target="_blank" rel="noopener noreferrer" class="">Charles Download</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_dyCm" id="设置代理">设置代理<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles#%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86" class="hash-link" aria-label="Direct link to 设置代理" title="Direct link to 设置代理" translate="no">​</a></h2>
-<ul>
-<li class="">点击<code>proxy-&gt; proxy setting</code>来创建代理端口，点击<code>enable transparent http proxying</code></li>
-<li class="">点击<code>proxy-&gt; ssl proxy setting</code>来容许所有流量流入</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="下载根证书到android手机">下载根证书到android手机<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles#%E4%B8%8B%E8%BD%BD%E6%A0%B9%E8%AF%81%E4%B9%A6%E5%88%B0android%E6%89%8B%E6%9C%BA" class="hash-link" aria-label="Direct link to 下载根证书到android手机" title="Direct link to 下载根证书到android手机" translate="no">​</a></h2>
-<ul>
-<li class="">
-<p>查看根证书在本地的位置，并导出证书为cer文件</p>
-</li>
-<li class="">
-<p>将cer文件转化为pem文件</p>
-</li>
-</ul>
+<ol>
+<li class="">点击 <code>Proxy -&gt; Proxy Settings</code> 配置代理端口，并勾选 <code>Enable transparent HTTP proxying</code>。</li>
+<li class="">点击 <code>Proxy -&gt; SSL Proxying Settings</code>，启用 SSL 代理并添加需要解析的域名（或 <code>*:*</code>）。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="安装根证书到-android-设备">安装根证书到 Android 设备<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/charles#%E5%AE%89%E8%A3%85%E6%A0%B9%E8%AF%81%E4%B9%A6%E5%88%B0-android-%E8%AE%BE%E5%A4%87" class="hash-link" aria-label="Direct link to 安装根证书到 Android 设备" title="Direct link to 安装根证书到 Android 设备" translate="no">​</a></h2>
+<ol>
+<li class="">在 Charles 中点击 <code>Help -&gt; SSL Proxying -&gt; Save Charles Root Certificate...</code>，将根证书导出为 <code>.cer</code> 文件。</li>
+<li class="">将 <code>.cer</code> 证书转换为 <code>.pem</code> 格式（可选，视系统要求）：</li>
+</ol>
 <div class="language-bash codeBlockContainer_lrxP theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_zzL8"><pre tabindex="0" class="prism-code language-bash codeBlock_WQv5 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_uosW"><div class="token-line" style="color:#393A34"><span class="token plain">openssl x509 </span><span class="token parameter variable" style="color:#36acaa">-inform</span><span class="token plain"> der </span><span class="token parameter variable" style="color:#36acaa">-in</span><span class="token plain"> android.cer </span><span class="token parameter variable" style="color:#36acaa">-out</span><span class="token plain"> android.pem</span><br></div></code></pre></div></div>
-<ul>
-<li class="">将pem文件传输到手机</li>
-</ul>
+<ol start="3">
+<li class="">将证书推送到手机存储：</li>
+</ol>
 <div class="language-bash codeBlockContainer_lrxP theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_zzL8"><pre tabindex="0" class="prism-code language-bash codeBlock_WQv5 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_uosW"><div class="token-line" style="color:#393A34"><span class="token plain">adb push android.pem /sdcard/</span><br></div></code></pre></div></div>
-<ul>
-<li class="">安装证书</li>
-</ul>
-<p>接着就可以开始抓包了。</p>]]></content>
+<ol start="4">
+<li class="">在手机系统设置中从存储设备安装该证书，并将 Wi-Fi 代理指向电脑局域网 IP 与 Charles 监听端口，即可开始抓包。</li>
+</ol>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="Charles" term="Charles"/>
+        <category label="Android" term="Android"/>
+        <category label="抓包" term="抓包"/>
+        <category label="调试" term="调试"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024龙年春节有感]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_spring_frial</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_spring_frial"/>
+        <title type="html"><![CDATA[2024 龙年春节有感]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-spring-festival</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-spring-festival"/>
         <updated>2024-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[老家]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="老家">老家<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_spring_frial#%E8%80%81%E5%AE%B6" class="hash-link" aria-label="Direct link to 老家" title="Direct link to 老家" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[家有枣树，吾十岁栽之，今年岁已二十有四。再回首，时光如流水，往事如云烟。]]></summary>
+        <content type="html"><![CDATA[<p>家有枣树，吾十岁栽之，今年岁已二十有四。再回首，时光如流水，往事如云烟。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="老家">老家<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-spring-festival#%E8%80%81%E5%AE%B6" class="hash-link" aria-label="Direct link to 老家" title="Direct link to 老家" translate="no">​</a></h2>
 <img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/tree-bc5171b837ae29a8c2c2df129f274841.jpeg" width="300">
-<p>家有枣树 吾十岁栽之 今年岁已二十有四 再回首 时光如流水 往事如云烟。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="小记">小记<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_spring_frial#%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="Direct link to 小记" title="Direct link to 小记" translate="no">​</a></h2>
-<p>20240211晚上输了1000， 第一次输钱1000，以此纪念。思绪万千，但化作言语，却也只是寥寥数语。</p>
-<p>20240212晚上赢了960，又回本了。</p>
-<p>20240213赢了1400，第一次赢大钱。</p>
-<p>20240216晚上因与呆的关系产生问题，陷入深深的难过，故再回首往日走过时光，思绪万千。</p>
-<p>20240218晚抵达上海，2024年春节结束。。。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="故乡山川">故乡山川<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_spring_frial#%E6%95%85%E4%B9%A1%E5%B1%B1%E5%B7%9D" class="hash-link" aria-label="Direct link to 故乡山川" title="Direct link to 故乡山川" translate="no">​</a></h2>
-<p>故土难忘却 归途情更深</p>
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_1-7d435c128cd48dbe33f80efaa557ee1e.jpeg" width="500">
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_2-23ce68fdf1aa30be2689627d1cd7f6a6.jpeg" width="500">
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_3-fff588e04a585c156de2b23835f07203.jpeg" width="500">
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_4-3d7550d009b5483f9e102b26593beecb.jpeg" width="500">
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_5-ec996aab5cdc9ee51e5cff601c1a57bf.jpeg" width="500">
-<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festfrial_6-f2336c86fef0c8f2e1c2e3cad55ad332.jpeg" width="500">]]></content>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="小记">小记<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-spring-festival#%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="Direct link to 小记" title="Direct link to 小记" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>2024-02-11</strong>：晚上输了 1000，第一次输这么多，以此纪念。思绪万千，化作言语，却也只是寥寥数语。</li>
+<li class=""><strong>2024-02-12</strong>：晚上赢了 960，又回本了。</li>
+<li class=""><strong>2024-02-13</strong>：赢了 1400，第一次赢大钱。</li>
+<li class=""><strong>2024-02-16</strong>：晚上因感情问题陷入深深的难过，回首往日走过的时光，思绪万千。</li>
+<li class=""><strong>2024-02-18</strong>：晚抵达上海，2024 年春节结束。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="故乡山川">故乡山川<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-spring-festival#%E6%95%85%E4%B9%A1%E5%B1%B1%E5%B7%9D" class="hash-link" aria-label="Direct link to 故乡山川" title="Direct link to 故乡山川" translate="no">​</a></h2>
+<p>故土难忘却，归途情更深。</p>
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_1-7d435c128cd48dbe33f80efaa557ee1e.jpeg" width="500">
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_2-23ce68fdf1aa30be2689627d1cd7f6a6.jpeg" width="500">
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_3-fff588e04a585c156de2b23835f07203.jpeg" width="500">
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_4-3d7550d009b5483f9e102b26593beecb.jpeg" width="500">
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_5-ec996aab5cdc9ee51e5cff601c1a57bf.jpeg" width="500">
+<img src="https://hao-yiwen.github.io/yiwen-blog-website/en/assets/images/2024_festival_6-f2336c86fef0c8f2e1c2e3cad55ad332.jpeg" width="500">]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="随想" term="随想"/>
+        <category label="春节" term="春节"/>
+        <category label="生活" term="生活"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[openai 代理]]></title>
+        <title type="html"><![CDATA[使用 Cloudflare AI Gateway 代理 OpenAI 请求]]></title>
         <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare</id>
         <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare"/>
         <updated>2024-02-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[问题]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="问题">问题<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare#%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 问题" title="Direct link to 问题" translate="no">​</a></h2>
-<p>最近在开发的时候遇到一个难题，就是墙的问题，有一个场景就是我把请求发送到 openai 的时候会被墙了，然后这个时候无需要使用魔法解决，但是魔法也不是万能的，也经常会被墙，所以这个时候如果有一个问题定的解决方案是非常好的，而自己维护的无论是代理还是魔法，必然在可靠性和性能侧有一些问题，那么如何解决这个问题那？</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="解决">解决<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare#%E8%A7%A3%E5%86%B3" class="hash-link" aria-label="Direct link to 解决" title="Direct link to 解决" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[在开发 AI 应用时，直接从国内环境向 OpenAI 发起请求往往会遇到网络连接不稳定的问题。自建代理不仅需要额外的服务器运维成本，在稳定性和延迟上也常常难以保障。]]></summary>
+        <content type="html"><![CDATA[<p>在开发 AI 应用时，直接从国内环境向 OpenAI 发起请求往往会遇到网络连接不稳定的问题。自建代理不仅需要额外的服务器运维成本，在稳定性和延迟上也常常难以保障。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="解决方案cloudflare-ai-gateway">解决方案：Cloudflare AI Gateway<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88cloudflare-ai-gateway" class="hash-link" aria-label="Direct link to 解决方案：Cloudflare AI Gateway" title="Direct link to 解决方案：Cloudflare AI Gateway" translate="no">​</a></h2>
+<p>Cloudflare 提供了 <strong>AI Gateway</strong> 服务。借助 Cloudflare 的全球边缘网络，通过 AI Gateway 转发 OpenAI 等大模型 API 请求，不仅接入简单，而且在连接稳定性、缓存控制、请求日志与限流监控方面都比自建反代省心得多。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="参考文档">参考文档<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3" class="hash-link" aria-label="Direct link to 参考文档" title="Direct link to 参考文档" translate="no">​</a></h2>
 <ul>
-<li class="">cloudflare</li>
-</ul>
-<p>cloudflare最近提供了一个AIgateway的服务，因为cloudflare在国内是有服务的，所以使用AIgateway能够做到高性能访问openai。比自己维护的无论在稳定性和性能侧面要好的多，真是一个宝藏选择。</p>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="文档">文档<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/cloudflare#%E6%96%87%E6%A1%A3" class="hash-link" aria-label="Direct link to 文档" title="Direct link to 文档" translate="no">​</a></h2>
-<p><a href="https://developers.cloudflare.com/ai-gateway/get-started/connecting-applications/" target="_blank" rel="noopener noreferrer" class="">AI gateway</a></p>]]></content>
+<li class=""><a href="https://developers.cloudflare.com/ai-gateway/get-started/connecting-applications/" target="_blank" rel="noopener noreferrer" class="">Cloudflare AI Gateway 官方文档</a></li>
+</ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="Cloudflare" term="Cloudflare"/>
+        <category label="OpenAI" term="OpenAI"/>
+        <category label="AI" term="AI"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024展望]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview"/>
+        <title type="html"><![CDATA[2024 年技术与生活展望]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview"/>
         <updated>2024-01-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[年度感悟]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="年度感悟">年度感悟<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E5%B9%B4%E5%BA%A6%E6%84%9F%E6%82%9F" class="hash-link" aria-label="Direct link to 年度感悟" title="Direct link to 年度感悟" translate="no">​</a></h2>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="目标">目标<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="Direct link to 目标" title="Direct link to 目标" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[2024 年是沉淀的一年，心无旁骛，专心研究技术。不是所有时间都是顺风的，在不顺风的时候积蓄力量更为重要。]]></summary>
+        <content type="html"><![CDATA[<p>2024 年是沉淀的一年，心无旁骛，专心研究技术。不是所有时间都是顺风的，在不顺风的时候积蓄力量更为重要。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="年度目标">年度目标<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E5%B9%B4%E5%BA%A6%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="Direct link to 年度目标" title="Direct link to 年度目标" translate="no">​</a></h2>
 <ul>
-<li class="">IOS开发</li>
-<li class=""><del>Android开发</del></li>
-<li class="">一问AI故事</li>
-<li class="">每天前进5公里</li>
+<li class="">iOS 开发</li>
+<li class=""><del>Android 开发</del></li>
+<li class="">一问 AI 故事</li>
+<li class="">每天前进 5 公里</li>
 <li class=""><del>一问系列视频账号</del></li>
-<li class=""><del>每日目标app开发</del></li>
+<li class=""><del>每日目标 App 开发</del></li>
 <li class="">英语学习</li>
 <li class="">人工智能入门</li>
-<li class=""><del>flutter学习</del></li>
-<li class=""><del>今日头条android app</del></li>
+<li class=""><del>Flutter 学习</del></li>
+<li class=""><del>仿今日头条 Android App</del></li>
 <li class="">仿网易云音乐</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="一月">一月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E4%B8%80%E6%9C%88" class="hash-link" aria-label="Direct link to 一月" title="Direct link to 一月" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="阶段小记">阶段小记<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E9%98%B6%E6%AE%B5%E5%B0%8F%E8%AE%B0" class="hash-link" aria-label="Direct link to 阶段小记" title="Direct link to 阶段小记" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="一月">一月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E4%B8%80%E6%9C%88" class="hash-link" aria-label="Direct link to 一月" title="Direct link to 一月" translate="no">​</a></h3>
 <ul>
-<li class="">2024年是沉淀的一年，心无旁骛，专心研究技术，不是所有时间都是顺风的，在不顺风的时候积蓄力量更为重要。</li>
-<li class="">当一个人知道的太多，但拥有的太少的时候，未免也是一种悲哀。</li>
-<li class="">20240120在开发一问ai故事的时候既没有办法改造userdetails,也没有办法调试rn项目，太难了。</li>
+<li class="">2024 年是沉淀的一年，心无旁骛，专心研究技术。不是所有时间都是顺风的，在不顺风的时候积蓄力量更为重要。</li>
+<li class="">当一个人知道得太多、拥有的太少时，未免也是一种无奈。</li>
+<li class=""><strong>2024-01-20</strong>：在开发“一问 AI 故事”时，既受限于接口改造又遇到 RN 调试问题，推进颇为艰难。</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="二月">二月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E4%BA%8C%E6%9C%88" class="hash-link" aria-label="Direct link to 二月" title="Direct link to 二月" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="二月">二月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E4%BA%8C%E6%9C%88" class="hash-link" aria-label="Direct link to 二月" title="Direct link to 二月" translate="no">​</a></h3>
 <ul>
-<li class="">过年</li>
-<li class="">新年目标展望</li>
-<li class="">当你不重视一件事情的时候，那么很快，她也会从你身边走过，有时候我们太用心用力往前走了，而不怎么回头瞧一瞧，殊不知我们往前走到底是为了什么</li>
-<li class="">贫穷真的是可怕，因为它不仅仅会吸干人的骨髓，而且还会将各种不幸降临到你的身上，可能你会抱头痛哭投降，但是并没有什么用处，这一切依然会在你身上发生</li>
-<li class=""><del>曾经有一份真挚的爱情摆在我的面前，但我没有珍惜，今天时过境迁，我后悔万分，但是貌似都没有用</del></li>
+<li class="">回家过年，梳理新年目标展望。</li>
+<li class="">当你不重视一件事情的时候，很快它也会从你身边溜走。有时候我们太用力往前赶路，却忘了回头瞧一瞧——我们往前走到底是为了什么。</li>
+<li class=""><del>曾经有一份真挚的爱情摆在我的面前，但我没有珍惜。</del></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="三月">三月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E4%B8%89%E6%9C%88" class="hash-link" aria-label="Direct link to 三月" title="Direct link to 三月" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="三月">三月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E4%B8%89%E6%9C%88" class="hash-link" aria-label="Direct link to 三月" title="Direct link to 三月" translate="no">​</a></h3>
 <ul>
-<li class="">一问AI故事</li>
-<li class=""><del>Android开发学习</del></li>
-<li class=""><del>head_first_java学习</del></li>
-<li class=""><del>买车</del>
+<li class="">推进“一问 AI 故事”</li>
+<li class=""><del>Android 开发学习</del></li>
+<li class=""><del>《Head First Java》学习</del></li>
+<li class=""><del>买车（驱逐舰 05）</del></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_dyCm" id="六月">六月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024-preview#%E5%85%AD%E6%9C%88" class="hash-link" aria-label="Direct link to 六月" title="Direct link to 六月" translate="no">​</a></h3>
 <ul>
-<li class=""><del>驱逐舰05</del></li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="六月">六月<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/2024_preview#%E5%85%AD%E6%9C%88" class="hash-link" aria-label="Direct link to 六月" title="Direct link to 六月" translate="no">​</a></h2>
-<p><del>目前进展发生偏差，今年目标就是搞跨端 RN + Android + IOS</del>. - ios就不搞了</p>]]></content>
+<li class=""><del>原计划主攻跨端 RN + Android + iOS</del>，阶段性收敛重心，先把 Android 与跨端吃透。</li>
+</ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="年度计划" term="年度计划"/>
+        <category label="随想" term="随想"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[vscode调试]]></title>
-        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/vs_debugger</id>
-        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/vs_debugger"/>
+        <title type="html"><![CDATA[VS Code 断点调试 npm 脚本与第三方依赖]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/vscode-debugger</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/vscode-debugger"/>
         <updated>2024-01-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天在调试项目的时候想着尝试用一下vscode debugger，本来没抱有什么期望，但是在使用后，感觉就是调试能力很强大，终于感觉vscode是个强大的ide了。]]></summary>
-        <content type="html"><![CDATA[<p>今天在调试项目的时候想着尝试用一下<code>vscode debugger</code>，本来没抱有什么期望，但是在使用后，感觉就是调试能力很强大，终于感觉<code>vscode</code>是个强大的<code>ide</code>了。</p>
-<p>今天调试的任务是<code>npm run start</code>,然后在启动的时候有个三方包从其他地方<code>tsc</code>到<code>node_moduels</code>中，然后我再三方包中打断点调试，这个<code>launch.json</code>如下:</p>
-<div class="language-json codeBlockContainer_lrxP theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_zzL8"><pre tabindex="0" class="prism-code language-json codeBlock_WQv5 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_uosW"><div class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"version"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"0.2.0"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"configurations"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Launch via NPM"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"node"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"request"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"launch"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"runtimeExecutable"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"npm"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"runtimeArgs"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                </span><span class="token string" style="color:#e3116c">"run-script"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                </span><span class="token string" style="color:#e3116c">"start:crn"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"skipFiles"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                </span><span class="token string" style="color:#e3116c">"&lt;node_internals&gt;/**"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"cwd"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"${workspaceFolder}/xtaro-demo1"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// 设置当前工作目录为 xtaro-demo1</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"outFiles"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"${workspaceFolder}/xtaro-demo1/node_modules/**/*.js"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>]]></content>
+        <summary type="html"><![CDATA[调试复杂脚手架项目时尝试配置了 VS Code Debugger，发现其源码映射与断点追踪能力非常强大，即便是编译进 node_modules 的第三方包也能精准命中断点。]]></summary>
+        <content type="html"><![CDATA[<p>调试复杂脚手架项目时尝试配置了 <code>VS Code Debugger</code>，发现其源码映射与断点追踪能力非常强大，即便是编译进 <code>node_modules</code> 的第三方包也能精准命中断点。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="场景与配置">场景与配置<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/vscode-debugger#%E5%9C%BA%E6%99%AF%E4%B8%8E%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="Direct link to 场景与配置" title="Direct link to 场景与配置" translate="no">​</a></h2>
+<p>调试场景：通过 <code>npm run start:crn</code> 启动子目录工程，其中某个本地联调的第三方包通过 <code>tsc</code> 编译输出到 <code>node_modules</code> 中，需要在该包源码/产物中打断点单步跟踪。</p>
+<p>对应的 <code>.vscode/launch.json</code> 配置如下：</p>
+<div class="language-json codeBlockContainer_lrxP theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_pGzN">.vscode/launch.json</div><div class="codeBlockContent_zzL8"><pre tabindex="0" class="prism-code language-json codeBlock_WQv5 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_uosW"><div class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"version"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"0.2.0"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"configurations"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Launch via NPM"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"node"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"request"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"launch"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"runtimeExecutable"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"npm"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"runtimeArgs"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"run-script"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"start:crn"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"skipFiles"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"&lt;node_internals&gt;/**"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"cwd"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"${workspaceFolder}/xtaro-demo1"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"outFiles"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"${workspaceFolder}/xtaro-demo1/node_modules/**/*.js"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="VS Code" term="VS Code"/>
+        <category label="Node.js" term="Node.js"/>
+        <category label="调试" term="调试"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker 镜像仓库迁移至阿里云 ACR]]></title>
+        <id>https://hao-yiwen.github.io/yiwen-blog-website/en/blog/docker-registry-migrate</id>
+        <link href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/docker-registry-migrate"/>
+        <updated>2024-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记录通过 GitHub Actions 自动构建 Docker 镜像并推送至阿里云容器镜像服务（ACR）的配置流程，解决国内服务器拉取 Docker Hub 镜像缓慢或超时的问题。]]></summary>
+        <content type="html"><![CDATA[<p>记录通过 GitHub Actions 自动构建 Docker 镜像并推送至阿里云容器镜像服务（ACR）的配置流程，解决国内服务器拉取 Docker Hub 镜像缓慢或超时的问题。</p>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="前置条件">前置条件<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/docker-registry-migrate#%E5%89%8D%E7%BD%AE%E6%9D%A1%E4%BB%B6" class="hash-link" aria-label="Direct link to 前置条件" title="Direct link to 前置条件" translate="no">​</a></h2>
+<ol>
+<li class="">开通<a href="https://cr.console.aliyun.com/cn-shanghai/instance/repositories" target="_blank" rel="noopener noreferrer" class="">阿里云容器镜像服务（ACR）</a>并创建命名空间与镜像仓库。</li>
+<li class="">在 GitHub 仓库的 <code>Settings -&gt; Secrets and variables -&gt; Actions</code> 中配置：<!-- -->
+<ul>
+<li class=""><code>ALIYUN_CONTAINER_REGISTRY_USERNAME</code></li>
+<li class=""><code>ALIYUN_CONTAINER_REGISTRY_PASSWORD</code></li>
+<li class=""><code>ALIYUN_CONTAINER_REGISTRY_NAMESPACE</code></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="github-actions-工作流配置">GitHub Actions 工作流配置<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/docker-registry-migrate#github-actions-%E5%B7%A5%E4%BD%9C%E6%B5%81%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="Direct link to GitHub Actions 工作流配置" title="Direct link to GitHub Actions 工作流配置" translate="no">​</a></h2>
+<div class="language-yaml codeBlockContainer_lrxP theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_pGzN">.github/workflows/docker-build-and-push.yml</div><div class="codeBlockContent_zzL8"><pre tabindex="0" class="prism-code language-yaml codeBlock_WQv5 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_uosW"><div class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">name</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Docker Build and Push to Aliyun</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">on</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">push</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token key atrule" style="color:#00a4db">tags</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'v*'</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># 推送 v* 格式标签时触发</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">jobs</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">build-and-push</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token key atrule" style="color:#00a4db">runs-on</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> ubuntu</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">latest</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token key atrule" style="color:#00a4db">steps</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token key atrule" style="color:#00a4db">name</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Checkout Code</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">              </span><span class="token key atrule" style="color:#00a4db">uses</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> actions/checkout@v4</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">              </span><span class="token key atrule" style="color:#00a4db">with</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                  </span><span class="token key atrule" style="color:#00a4db">fetch-depth</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token key atrule" style="color:#00a4db">name</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Login to Aliyun Container Registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">              </span><span class="token key atrule" style="color:#00a4db">run</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">|</span><span class="token scalar string" style="color:#e3116c"></span><br></div><div class="token-line" style="color:#393A34"><span class="token scalar string" style="color:#e3116c">                  echo "${{ secrets.ALIYUN_CONTAINER_REGISTRY_PASSWORD }}" | docker login \</span><br></div><div class="token-line" style="color:#393A34"><span class="token scalar string" style="color:#e3116c">                    --username "${{ secrets.ALIYUN_CONTAINER_REGISTRY_USERNAME }}" \</span><br></div><div class="token-line" style="color:#393A34"><span class="token scalar string" style="color:#e3116c">                    --password-stdin registry.cn-shanghai.aliyuncs.com</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token key atrule" style="color:#00a4db">name</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Build and Push Docker Image</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">              </span><span class="token key atrule" style="color:#00a4db">env</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                  </span><span class="token key atrule" style="color:#00a4db">IMAGE</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> registry.cn</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">shanghai.aliyuncs.com/$</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> secrets.ALIYUN_CONTAINER_REGISTRY_NAMESPACE </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain">/yiwen</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">blog</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">website</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain">$</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> github.ref_name </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">              </span><span class="token key atrule" style="color:#00a4db">run</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">|</span><span class="token scalar string" style="color:#e3116c"></span><br></div><div class="token-line" style="color:#393A34"><span class="token scalar string" style="color:#e3116c">                  docker build --platform linux/amd64 -t "$IMAGE" .</span><br></div><div class="token-line" style="color:#393A34"><span class="token scalar string" style="color:#e3116c">                  docker push "$IMAGE"</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_dyCm" id="说明">说明<a href="https://hao-yiwen.github.io/yiwen-blog-website/en/blog/docker-registry-migrate#%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 说明" title="Direct link to 说明" translate="no">​</a></h2>
+<ul>
+<li class="">镜像版本直接采用触发构建的 Git Tag（<code>${{ github.ref_name }}</code>）动态标记，避免硬编码版本号。</li>
+<li class="">指定 <code>--platform linux/amd64</code> 确保在云端 <code>x86_64</code> 服务器上正常运行。</li>
+</ul>]]></content>
+        <author>
+            <name>Hao Yiwen</name>
+            <uri>https://github.com/Hao-yiwen</uri>
+        </author>
+        <category label="Docker" term="Docker"/>
+        <category label="GitHub Actions" term="GitHub Actions"/>
+        <category label="CI/CD" term="CI/CD"/>
+        <category label="阿里云" term="阿里云"/>
     </entry>
 </feed>
