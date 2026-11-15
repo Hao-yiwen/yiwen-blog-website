@@ -1,4 +1,5 @@
 ---
+title: Platform
 sidebar_position: 2
 ---
 

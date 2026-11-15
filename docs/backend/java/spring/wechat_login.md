@@ -1,4 +1,5 @@
 ---
+title: 微信扫码登录
 sidebar_position: 8
 ---
 

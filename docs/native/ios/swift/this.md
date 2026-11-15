@@ -1,8 +1,9 @@
 ---
+title: Swift 中的 self 与 Self
 sidebar_position: 3
 ---
 
-# swift中self介绍
+# Swift 中的 self 与 Self
 
 ## Swift
 

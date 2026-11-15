@@ -1,8 +1,9 @@
 ---
+title: UIKit 基本示例
 sidebar_position: 2
 ---
 
-# UIkit基本示例
+# UIKit 基本示例
 
 ```swift
 // 纯代码实现形式

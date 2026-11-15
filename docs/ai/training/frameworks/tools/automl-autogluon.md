@@ -1,3 +1,7 @@
+---
+title: AutoML 与 AutoGluon 入门
+---
+
 # AutoML 与 AutoGluon 入门
 
 ## AutoML 简介

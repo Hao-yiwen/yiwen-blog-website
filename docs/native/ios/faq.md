@@ -1,20 +1,22 @@
 ---
-title: FAQ
+title: Xcode 构建常见问题（FAQ）
 sidebar_label: FAQ
 date: 2024-06-25
 last_update:
   date: 2024-06-25
 ---
 
-# FAQ
+# Xcode 构建常见问题（FAQ）
 
-## QA1
+## Xcode 15+ 报错 `Sandbox: rsync.samba deny(1) file-write-create`
 
-```bash
-Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Alamofire.ihLdr1
+### 报错日志
 
-Sandbox: rsync.samba(12698) deny(1) file-write-create /Users/shrek/Library/Developer/Xcode/DerivedData/PhotoPC-dejmlgrmwbxazrgvfwpxvhadwsuy/Build/Products/Debug-iphonesimulator/PhotoPC.app/Frameworks/Alamofire.framework/.Info.plist.vn2fty
-![]("https://developer.apple.com/forums/content/attachment/fb5c4e33-9603-4c87-9f39-aab81475dbf9" "title=Screenshot 2023-06-07 at 00.48.08.png;width=1429;height=232")
+```text
+Sandbox: rsync.samba(12698) deny(1) file-write-create .../DerivedData/.../Frameworks/Alamofire.framework/.Alamofire.ihLdr1
+Sandbox: rsync.samba(12698) deny(1) file-write-create .../DerivedData/.../Frameworks/Alamofire.framework/.Info.plist.vn2fty
 ```
 
-Check that `ENABLE_USER_SCRIPT_SANDBOXING` is disabled in the project's build settings.
+### 解决方案
+
+Xcode 15 起默认开启了用户脚本沙盒限制，导致 CocoaPods 资源与 Framework 拷贝脚本被拦截。前往主 Target 的 **`Build Settings`** 搜索 **`User Script Sandboxing`**（即 `ENABLE_USER_SCRIPT_SANDBOXING`），将其设置为 **`No`** 即可解决。

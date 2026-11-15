@@ -1,8 +1,7 @@
 {
-    "label": "Js",
+    "label": "JavaScript / TypeScript",
     "position": 4,
     "link": {
-        "type": "generated-index",
-        "description": "Js"
+        "type": "generated-index"
     }
 }

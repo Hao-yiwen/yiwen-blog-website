@@ -13,6 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Mermaid（流程图）
 - Giscus（GitHub Discussions 评论系统）
 - `@easyops-cn/docusaurus-search-local`（本地搜索，中英文）
+- `@docusaurus/plugin-client-redirects`（历史路径自动重定向）
 
 **系统要求:** Node.js >= 22.13，包管理器 **pnpm**（版本见 `package.json` 的 `packageManager`）
 
@@ -98,7 +99,7 @@ pnpm clear           # 清除 Docusaurus 缓存
 ```
 
 ### 代码高亮
-额外支持语言: `swift`, `java`, `bash`, `dart`, `go`, `sql`, `objectivec`, `cpp`, `ruby`, `kotlin`
+额外支持语言: `swift`, `java`, `bash`, `dart`, `go`, `sql`, `objectivec`, `cpp`, `ruby`, `kotlin`, `nginx`, `ini`
 
 ### 代码质量工具
 - **Prettier** - 格式化 (tabWidth: 4, singleQuote: true, semi: true)
@@ -165,7 +166,7 @@ test: 添加测试
    ```json
    { "label": "Redis", "position": 3, "link": { "type": "generated-index" } }
    ```
-5. **不要随意重命名/移动已有文档**：URL 会变化，Giscus 按 pathname 关联评论，旧评论会丢失关联
+5. **重命名/合并文档时同步配置重定向**：若修改或合并已有文档/博客路径，需在 `docusaurus.config.js` 的 `REDIRECTS` 列表中补充旧路径到新路径的映射（Giscus 按 pathname 关联评论，尽量保持稳定命名规范：统一使用 `kebab-case`）
 
 ### 添加博客
 在 `blog/` 目录创建文件:

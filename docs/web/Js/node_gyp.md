@@ -1,4 +1,5 @@
 ---
+title: "node-gyp"
 sidebar_position: 6
 ---
 

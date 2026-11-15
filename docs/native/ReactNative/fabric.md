@@ -1,4 +1,5 @@
 ---
+title: Fabric新架构
 sidebar_position: 6
 ---
 

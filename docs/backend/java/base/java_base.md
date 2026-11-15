@@ -1,4 +1,5 @@
 ---
+title: Java语言组成部分
 sidebar_position: 2
 ---
 

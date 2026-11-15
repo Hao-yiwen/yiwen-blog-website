@@ -1,3 +1,7 @@
+---
+title: "PyTorch: cat vs stack 张量拼接"
+---
+
 # PyTorch: cat vs stack 张量拼接
 
 ## 核心区别

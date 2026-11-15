@@ -1,3 +1,7 @@
+---
+title: ResNet 残差网络详解
+---
+
 # ResNet 残差网络详解
 
 ResNet(Residual Network,残差网络)是2015年由微软研究院的何恺明等人提出的深度卷积神经网络架构,在ImageNet竞赛中取得了突破性成果。

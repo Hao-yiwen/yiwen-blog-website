@@ -1,3 +1,7 @@
+---
+title: "PyTorch: view vs reshape 与连续性"
+---
+
 # PyTorch: view vs reshape 与连续性
 
 ## 1. 什么是连续性（Contiguous）

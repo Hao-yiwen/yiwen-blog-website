@@ -1,4 +1,5 @@
 ---
+title: nacos配置
 sidebar_position: 2
 ---
 

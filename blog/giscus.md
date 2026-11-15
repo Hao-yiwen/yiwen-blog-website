@@ -1,231 +1,115 @@
 ---
-sidebar_position: 1
+title: Docusaurus 集成 Giscus 评论系统
+authors: [yiwen]
+tags: [Docusaurus, Giscus, React]
 date: 2023-09-12
 ---
 
-# Docusaurus 添加评论
+记录为 Docusaurus 3 博客与文档站点接入基于 GitHub Discussions 的 Giscus 评论系统的完整实现方案。
 
 <!-- truncate -->
 
 ## 前置条件
 
-1. `Docusaurus`: `2.4.1`
-2. `@giscus/react`: `2.3.0`
+1. 仓库为 GitHub **公开仓库（Public）**
+2. 在仓库 `Settings -> General -> Features` 中开启 **Discussions**
+3. 安装 [giscus GitHub App](https://github.com/apps/giscus) 并授权对应仓库
+4. 前往 [giscus 官网](https://giscus.app/zh-CN) 生成 `repoId` 与 `categoryId`
 
-## 开通 giscus
+## 封装 Comment 组件
 
-[giscus官网](https://giscus.app/)
-:::note
-
-1. 公共仓库
-2. 开启`discussions`
-3. 下载`giscus app`
-
-:::
-
-## 封装 Comment
-
-1. 安装 `@giscus/react`
+1. 安装依赖：
 
 ```bash
-npm i @giscus/react
+pnpm add @giscus/react
 ```
 
-2. 封装 Comment
+2. 创建 `src/components/Comment.tsx`，自动跟随站点的明暗主题与语言切换：
 
-```tsx title="Comment.tsx"
-import React from 'react';
+```tsx title="src/components/Comment.tsx"
+import React, { type ReactNode } from 'react';
 import Giscus from '@giscus/react';
+import { useColorMode } from '@docusaurus/theme-common';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-export const Comment = () => {
+export default function Comment(): ReactNode {
+    const { colorMode } = useColorMode();
+    const {
+        i18n: { currentLocale },
+    } = useDocusaurusContext();
+
     return (
         <div style={{ paddingTop: 50 }}>
             <Giscus
                 id="comments"
-                // highlight-warn-start
-                // 这部分填写你自己的
-                repo="3Alan/site"
-                repoId=""
+                repo="your-org/your-repo"
+                repoId="YOUR_REPO_ID"
                 category="Announcements"
-                categoryId=""
-                // highlight-warn-end
-                mapping="title"
-                strict="1"
-                term="Welcome to @giscus/react component!"
+                categoryId="YOUR_CATEGORY_ID"
+                mapping="pathname"
+                strict="0"
                 reactionsEnabled="1"
                 emitMetadata="0"
                 inputPosition="bottom"
-                theme="dark_dimmed"
-                lang="zh-CN"
+                theme={colorMode === 'dark' ? 'dark' : 'light'}
+                lang={currentLocale === 'zh' ? 'zh-CN' : 'en'}
                 loading="lazy"
             />
         </div>
     );
-};
-
-export default Comment;
-```
-
-## Swizzling Docusaurus
-
-### Swizzling 文档页面
-
-```bash
-yarn run swizzle @docusaurus/theme-classic DocItem/Layout -- --eject --typescript
-```
-
-```tsx title="src/theme/DocItem/Layout/index.tsx"
-import React from 'react';
-import clsx from 'clsx';
-import { useWindowSize } from '@docusaurus/theme-common';
-// @ts-ignore
-import { useDoc } from '@docusaurus/theme-common/internal';
-import DocItemPaginator from '@theme/DocItem/Paginator';
-import DocVersionBanner from '@theme/DocVersionBanner';
-import DocVersionBadge from '@theme/DocVersionBadge';
-import DocItemFooter from '@theme/DocItem/Footer';
-import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile';
-import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
-import DocItemContent from '@theme/DocItem/Content';
-import DocBreadcrumbs from '@theme/DocBreadcrumbs';
-import type { Props } from '@theme/DocItem/Layout';
-
-import styles from './styles.module.css';
-// highlight-add-line
-import Comment from '../../../components/comment';
-/**
- * Decide if the toc should be rendered, on mobile or desktop viewports
- */
-function useDocTOC() {
-    const { frontMatter, toc } = useDoc();
-    const windowSize = useWindowSize();
-
-    const hidden = frontMatter.hide_table_of_contents;
-    const canRender = !hidden && toc.length > 0;
-
-    const mobile = canRender ? <DocItemTOCMobile /> : undefined;
-
-    const desktop =
-        canRender && (windowSize === 'desktop' || windowSize === 'ssr') ? (
-            <DocItemTOCDesktop />
-        ) : undefined;
-
-    return {
-        hidden,
-        mobile,
-        desktop,
-    };
-}
-
-export default function DocItemLayout({ children }: Props): JSX.Element {
-    const docTOC = useDocTOC();
-    return (
-        <div className="row">
-            <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
-                <DocVersionBanner />
-                <div className={styles.docItemContainer}>
-                    <article>
-                        <DocBreadcrumbs />
-                        <DocVersionBadge />
-                        {docTOC.mobile}
-                        <DocItemContent>{children}</DocItemContent>
-                        <DocItemFooter />
-                    </article>
-                    <DocItemPaginator />
-                </div>
-                // highlight-add-line
-                <Comment />
-            </div>
-            {docTOC.desktop && (
-                <div className="col col--3">{docTOC.desktop}</div>
-            )}
-        </div>
-    );
 }
 ```
 
-### Swizzling 博客页面
+## 使用 Wrap Swizzle 挂载评论区
+
+相比 `--eject` 完整复制上游源码，推荐使用 `--wrap` 方式包裹翻页导航组件，这样未来升级 Docusaurus 时无需手动同步内部代码：
+
+### 1. 文档页挂载
 
 ```bash
-yarn run swizzle @docusaurus/theme-classic BlogPostPage -- --eject --typescript
+pnpm swizzle @docusaurus/theme-classic DocItem/Paginator --wrap --typescript
 ```
 
-```tsx title="src/theme/BlogPostPage/index.tsx"
+```tsx title="src/theme/DocItem/Paginator/index.tsx"
 import React, { type ReactNode } from 'react';
-import clsx from 'clsx';
-import {
-    HtmlClassNameProvider,
-    ThemeClassNames,
-} from '@docusaurus/theme-common';
+import Paginator from '@theme-original/DocItem/Paginator';
+import type PaginatorType from '@theme/DocItem/Paginator';
+import type { WrapperProps } from '@docusaurus/types';
+import Comment from '@site/src/components/Comment';
 
-import {
-    BlogPostProvider,
-    useBlogPost,
-    // @ts-ignore
-} from '@docusaurus/theme-common/internal';
-import BlogLayout from '@theme/BlogLayout';
-import BlogPostItem from '@theme/BlogPostItem';
-import BlogPostPaginator from '@theme/BlogPostPaginator';
-import BlogPostPageMetadata from '@theme/BlogPostPage/Metadata';
-import TOC from '@theme/TOC';
-import type { Props } from '@theme/BlogPostPage';
-import type { BlogSidebar } from '@docusaurus/plugin-content-blog';
-// highlight-add-line
-import Comment from '../../components/comment';
+type Props = WrapperProps<typeof PaginatorType>;
 
-function BlogPostPageContent({
-    sidebar,
-    children,
-}: {
-    sidebar: BlogSidebar;
-    children: ReactNode;
-}): JSX.Element {
-    const { metadata, toc } = useBlogPost();
-    const { nextItem, prevItem, frontMatter } = metadata;
-    const {
-        hide_table_of_contents: hideTableOfContents,
-        toc_min_heading_level: tocMinHeadingLevel,
-        toc_max_heading_level: tocMaxHeadingLevel,
-    } = frontMatter;
+export default function PaginatorWrapper(props: Props): ReactNode {
     return (
-        <BlogLayout
-            sidebar={sidebar}
-            toc={
-                !hideTableOfContents && toc.length > 0 ? (
-                    <TOC
-                        toc={toc}
-                        minHeadingLevel={tocMinHeadingLevel}
-                        maxHeadingLevel={tocMaxHeadingLevel}
-                    />
-                ) : undefined
-            }
-        >
-            <BlogPostItem>{children}</BlogPostItem>
-            {(nextItem || prevItem) && (
-                <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
-            )}
-            // highlight-add-line
+        <>
+            <Paginator {...props} />
             <Comment />
-        </BlogLayout>
+        </>
     );
 }
+```
 
-export default function BlogPostPage(props: Props): JSX.Element {
-    const BlogPostContent = props.content;
+### 2. 博客详情页挂载
+
+```bash
+pnpm swizzle @docusaurus/theme-classic BlogPostPaginator --wrap --typescript
+```
+
+```tsx title="src/theme/BlogPostPaginator/index.tsx"
+import React, { type ReactNode } from 'react';
+import Paginator from '@theme-original/BlogPostPaginator';
+import type PaginatorType from '@theme/BlogPostPaginator';
+import type { WrapperProps } from '@docusaurus/types';
+import Comment from '@site/src/components/Comment';
+
+type Props = WrapperProps<typeof PaginatorType>;
+
+export default function PaginatorWrapper(props: Props): ReactNode {
     return (
-        <BlogPostProvider content={props.content} isBlogPostPage>
-            <HtmlClassNameProvider
-                className={clsx(
-                    ThemeClassNames.wrapper.blogPages,
-                    ThemeClassNames.page.blogPostPage
-                )}
-            >
-                <BlogPostPageMetadata />
-                <BlogPostPageContent sidebar={props.sidebar}>
-                    <BlogPostContent />
-                </BlogPostPageContent>
-            </HtmlClassNameProvider>
-        </BlogPostProvider>
+        <>
+            <Paginator {...props} />
+            <Comment />
+        </>
     );
 }
 ```

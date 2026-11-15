@@ -1,8 +1,9 @@
 ---
+title: Java 中的类
 sidebar_position: 10
 ---
 
-# java中的类
+# Java 中的类
 
 ## 普通类（Regular Class）
 
