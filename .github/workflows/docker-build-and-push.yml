@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # 镜像内构建同样需要完整 git 历史来生成文档「最后更新时间」
           fetch-depth: 0

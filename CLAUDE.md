@@ -8,14 +8,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **技术栈:**
 - Docusaurus 3.10（启用 Docusaurus Faster：Rspack + SWC + Lightning CSS）
-- React 18 + TypeScript 5
+- React 19 + TypeScript 5
 - KaTeX（数学公式，样式随站点打包，不走 CDN）
 - Mermaid（流程图）
 - Giscus（GitHub Discussions 评论系统）
 - `@easyops-cn/docusaurus-search-local`（本地搜索，中英文）
 - `@docusaurus/plugin-client-redirects`（历史路径自动重定向）
 
-**系统要求:** Node.js >= 22.13，包管理器 **pnpm**（版本见 `package.json` 的 `packageManager`）
+**系统要求:** Node.js >= 22.22.2，包管理器 **pnpm**（版本见 `package.json` 的 `packageManager`）
 
 ## 项目结构
 
