@@ -2,7 +2,7 @@
 FROM node:22-alpine AS builder
 
 # git：文档「最后更新时间」需要读取 git 历史（Docusaurus Faster 在无 git 时会构建失败）
-RUN apk add --no-cache git && npm install -g pnpm@11.9.0
+RUN apk add --no-cache git && npm install -g pnpm@12.21.0
 
 # 镜像内不需要安装 git hooks
 ENV HUSKY=0

@@ -18,30 +18,42 @@
 ## 技术栈
 
 - [Docusaurus 3](https://docusaurus.io/)（启用 Docusaurus Faster：Rspack + SWC）
-- React 18 + TypeScript
+- React 19 + TypeScript 5
 - KaTeX 数学公式、Mermaid 图表
 - Giscus 评论（GitHub Discussions）
 - GitHub Pages 部署
 
+## 环境要求
+
+- Node.js >= 22.22.2（推荐使用 Node.js 22 LTS）
+- 包管理器：[pnpm](https://pnpm.io/) 12（版本以 `package.json` 的 `packageManager` 字段为准；可用 Corepack：`corepack enable`）
+
 ## 本地开发
 
-需要 Node.js >= 22.13（pnpm 11 的要求）和 [pnpm](https://pnpm.io/)。
-
 ```bash
-# 安装依赖（同时会安装 git hooks）
+# 启用 Corepack 并安装依赖（同时会安装 git hooks）
+corepack enable
 pnpm install
 
-# 启动开发服务器
+# 启动开发服务器（默认仅 zh locale，http://localhost:3000）
 pnpm start
 
-# 构建 / 本地预览构建产物
+# 生产构建 / 本地预览构建产物
 pnpm build
 pnpm serve
+
+# 仅构建中文 locale（本地验证更快）
+pnpm build --locale zh
 
 # 类型检查 / CSS 检查
 pnpm typecheck
 pnpm lint:css
 ```
+
+## 部署说明
+
+- 推送到 `master` 后，GitHub Actions 会构建并通过 `gh-pages` 分支发布到 GitHub Pages
+- 推送 `v*` 标签时，会构建 Docker 镜像并推送到阿里云容器镜像服务
 
 ## 许可证
 
