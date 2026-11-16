@@ -18,14 +18,14 @@
 ## 技术栈
 
 - [Docusaurus 3](https://docusaurus.io/)（启用 Docusaurus Faster：Rspack + SWC）
-- React 18 + TypeScript
+- React 19 + TypeScript
 - KaTeX 数学公式、Mermaid 图表
 - Giscus 评论（GitHub Discussions）
 - GitHub Pages 部署
 
 ## 本地开发
 
-需要 Node.js >= 22.13（pnpm 11 的要求）和 [pnpm](https://pnpm.io/)。
+需要 Node.js >= 22.22.2 和 [pnpm](https://pnpm.io/)（版本见 `package.json` 的 `packageManager`）。
 
 ```bash
 # 安装依赖（同时会安装 git hooks）
