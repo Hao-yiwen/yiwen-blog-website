@@ -2,7 +2,9 @@
     // 仅用于编辑器提示和 `pnpm typecheck`，不参与站点编译
     "extends": "@docusaurus/tsconfig",
     "compilerOptions": {
-        "baseUrl": "."
+        "baseUrl": ".",
+        // TypeScript 6 将 baseUrl 标为废弃。Docusaurus 3.10 的 tsconfig 仍依赖它做 @site/* 路径映射，7.0 才会移除该选项。
+        "ignoreDeprecations": "6.0"
     },
     "exclude": [".docusaurus", "build", "node_modules"]
 }

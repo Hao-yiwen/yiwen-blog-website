@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "homepage": "https://hao-yiwen.github.io/yiwen-blog-website/",
-    "packageManager": "pnpm@11.9.0",
+    "packageManager": "pnpm@12.21.0",
     "scripts": {
         "docusaurus": "docusaurus",
         "start": "docusaurus start",
@@ -25,29 +25,29 @@
         "@docusaurus/preset-classic": "^3.10.2",
         "@docusaurus/theme-common": "^3.10.2",
         "@docusaurus/theme-mermaid": "^3.10.2",
-        "@easyops-cn/docusaurus-search-local": "^0.52.1",
-        "@giscus/react": "^2.3.0",
+        "@easyops-cn/docusaurus-search-local": "^0.55.3",
+        "@giscus/react": "^3.1.0",
         "@mdx-js/react": "^3.0.0",
         "katex": "^0.16.47",
         "prism-react-renderer": "^2.3.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
+        "react": "^19.3.1",
+        "react-dom": "^19.3.1",
         "rehype-katex": "^7.0.0",
         "remark-math": "^6.0.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.7.1",
-        "@commitlint/config-conventional": "^17.7.0",
+        "@commitlint/cli": "^21.2.4",
+        "@commitlint/config-conventional": "^21.2.4",
         "@docusaurus/module-type-aliases": "^3.10.2",
         "@docusaurus/tsconfig": "^3.10.2",
         "@docusaurus/types": "^3.10.2",
-        "@types/react": "^18.3.31",
+        "@types/react": "^19.3.0",
         "husky": "^9.1.7",
-        "lint-staged": "^14.0.1",
+        "lint-staged": "^17.6.0",
         "prettier": "^3.0.3",
-        "stylelint": "^15.10.3",
-        "stylelint-config-recommended": "^13.0.0",
-        "typescript": "^5.1.0"
+        "stylelint": "^18.0.0",
+        "stylelint-config-recommended": "^19.0.0",
+        "typescript": "^6.0.3"
     },
     "browserslist": {
         "production": [
@@ -66,6 +66,6 @@
         "src/**/*.css": "stylelint"
     },
     "engines": {
-        "node": ">=22.13"
+        "node": ">=22.22.2"
     }
 }
